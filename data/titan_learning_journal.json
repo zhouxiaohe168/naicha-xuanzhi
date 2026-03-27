@@ -1,0 +1,315 @@
+{
+  "journal": [
+    {
+      "time": "2026-02-15 12:04:34",
+      "type": "llm_deep_reflection",
+      "insight": "1) 当前系统最大的弱点（一句话）\n- ML 模块表现极差且被过度依赖：训练样本不足、标签/特征不稳、预测置信度未校准，导致模型输出误导交易决策。\n\n2) 哪个市场环境下系统表现最差？为什么？\n- 极端恐慌/高波动环境（当前 FNG=8，极度恐惧）：\n  - 原因：尾部样本稀少（训练集中此类状态不足）、市场非平稳（信号切换快）、流动性/滑点变大使规则和 ML 特征失效；系统未实现 regime-switching（环境识别）和降级策略。\n\n3) 具体参数调整建议（可直接下发到配置）\n- ML 权重与启用\n  - 临时禁用：当 rolling_accuracy_30d < 0.30 时，设置 ML_weight = 0（不使用 ML 预测，改用规则/动量基线）。\n  - 逐步恢复：若 rolling_accuracy_30d ≥ 0.45 且样本量增加到 ≥ 2000，则将 ML_weight 设为 0.1；当 rolling_accuracy_30d ≥ 0.60 且样本量 ≥ 5000 时 ML_weight→0.3。\n- 决策置信度门槛\n  - 全局：仅对 system_confidence ≥ 0.70 的信号开仓；低于 0.70 的信号标记为“监视”。\n  - ML 特殊：若启用，require predicted_prob ≥ 0.80 且与规则信号一致才执行。\n- 风险/仓位管理（基于 FNG & 波动）\n  - 环境判定：若 FNG ≤ 20 或 ATR(14)/price ≥ 0.02（高波动），进入“保守模式”。\n  - 保守模式参数：position_size = base_size * 0.5；max_portfolio_exposure = 0.10（原为 0.20）；max_concurrent_trades = 1。\n  - 正常模式：position_size = base_size；max_portfolio_exposure = 0.20；max_concurrent_trades = 3。\n- 止损/止盈（ATR 自适应）\n  - 止损 = entry_price ± 1.5 * ATR(14)；止盈 = entry_price ± 1.0 * ATR(14)（多头/空头符号相反）。\n  - 若处于保守模式，止损系数 → 2.0 * ATR，止盈系数 → 1.0 * ATR（减少频繁出入）。\n- 数据/样本阈值\n  - 不足样本保护：对于任何新策略/模型，单类样本数 must ≥ 1000，整体训练集 must ≥ 2000 才允许上线交易决策。\n- 监控与自动降级\n  - 实时监控指标：rolling_accuracy (7/30/90d)、ROC-AUC、prediction_calibration（Brier score）、feature_PSI。\n  - 若任一关键指标触及告警阈值（如 30d accuracy <30%、AUC<0.55、PSI>0.2），触发自动降级：关闭 ML、减仓50%、延后非必要开仓 1 小时。\n\n4) 下一步优先学习/改进（按优先级，逐条可执行）\n- 优先1：标签和样本量审计\n  - 检查 label 定义（是否含未来信息/泄露），补采少数环境（极端恐慌）样本或使用数据增强（合成波动段）。\n- 优先2：建立 regime classifier（简单规则+ML）\n  - 基于 FNG、ATR、交易量、bid-ask spread 构建 3 类（calm / normal / stressed）识别器，做策略切换。\n- 优先3：简化基线与对照组\n  - 实现并持续对照一个简单规则基线（如 ATR+momentum），在每次回测/实时都与 ML 输出比较，若 ML 不显著优于基线则禁用 ML。\n- 优先4：校准与终端监控\n  - 实施概率校准（Platt 或 isotonic），并部署 rolling calibration 报表（7/30/90 天）。\n- 优先5：模型安全策略与上线门槛\n  - 制定“上线清单”：数据量、回测胜率、最大回撤门限、滑点敏感性测试、过拟合检测。未满足不允许自动交易。\n- 优先6：快速迭代实验\n  - 先做 A/B：在历史测试上验证“禁用 ML” vs “当前系统” 的 P&L、最大回撤、win rate；如果禁用 ML 更稳健，保留禁用直到问题修复。\n\n补充（监控/告警示例，直接可配）\n- 每日运行：compute rolling_accuracy_{7,30,90}, AUC_30d, Brier_30d, sample_count_per_regime。\n- 报警规则例子：if rolling_accuracy_30d < 0.30 OR sample_count_total < 2000 → send alert + auto_disable_ML.\n\n总结一句话：\n立即把 ML 输出降为非决定性输入（ideally 禁用），优先修补数据/标签与建立 regime 识别，然后用严格的样本与性能门槛逐步恢复 ML。",
+      "trigger": "scheduled"
+    },
+    {
+      "time": "2026-02-15 14:28:20",
+      "type": "llm_deep_reflection",
+      "insight": "1) 当前系统最大的弱点（一句话）\n- 对ML子系统过度依赖且未做有效的置信度校准与环境分层：ML实际预测精度极低（多次报告5%/0%），但系统没有自动降权/切换到规则化备份，导致在分布漂移或极端情绪（FNG=8）下被反复打败。\n\n2) 哪个市场环境下系统表现最差？为什么？\n- 极端恐惧/高波动环境（FNG ≤ 20，当前FNG=8）表现最差。原因：\n  - 数据分布明显偏离训练集（情绪、波动性剧增），ML模型发生概念漂移、精度崩溃；\n  - 缺乏针对高波动的仓位缩放和更严格的入场/止损准入条件；\n  - 没有环境判断器来自动切换到更鲁棒的规则化策略或降低暴露。\n\n3) 具体的、可执行的参数调整建议（直接可部署的规则）\n- ML权重与准入\n  - 实施按精度映射的ML权重：if ML_accuracy > 0.6 → ML_weight = 0.6; if 0.4–0.6 → 0.3; if < 0.4 → 0.05。当前（≈5%）立即把 ML_weight 设为 0.05。\n  - ML信号必须满足：predicted_prob ≥ 0.8 且与至少一个非ML信号（规则/动量/宏观）一致，才可作为入场触发。\n- 仓位与风险控制（按环境分层）\n  - 定义情绪分层：Normal (FNG > 50)、Fear (20 ≤ FNG ≤ 50)、Extreme (FNG < 20)。当前属于 Extreme。\n  - Extreme 环境立即生效的规则：\n    - 总敞口上限设为正常的 50%（即 exposure_scale = 0.5）。\n    - 单笔仓位上限 = 正常单笔的 50%。\n    - 日内最大回撤止损阈值（账户级）设为 0.8%（触及停止一切新开仓，评估修复）。\n    - 止损按 ATR 缩放：stop_loss = 1.5 × ATR(14)（防止被噪声扫出）且强制最小止损不超过上述仓位限制下的损失上限。\n- 决策门槛与冗余\n  - 强制双重信号门槛：任意开仓必须满足至少 2 个独立信号来源（一条可以是低权重ML，另一条必须是规则/指标/宏观）。\n  - 若 ML_weight ≤ 0.05，系统应自动把决策权转给规则引擎：rule_based_weight = 0.8，momentum/mean-reversion策略权重分别重新分配。\n- 校准与触发策略维护\n  - 置信度校准：把模型输出经过每周/每次回测的 Platt scaling 或 isotonic 回归校准；若校正后的平均置信度 < 0.6，禁止以概率驱动的加仓/缩仓策略。\n  - 重训练与回退规则：若最近 30 天 ML 精度较上期下降 > 10% 或绝对值 < 40%，触发：\n    - 立即把 ML_weight 下调至 0.05；\n    - 启动回滚到上次稳定模型或直接停用ML模块并发出警报。\n- 监控阈值（自动化告警）\n  - ML accuracy < 40% → 告警并自动降权；\n  - FNG < 20 或 14d realized vol 上升 > 50% → 切换到 Extreme 模式；\n  - 日内账户回撤 ≥ 0.8% → 触发暂停新仓。\n\n4) 下一步优先学习与开发（按优先级）\n- 优先级 1：建立“环境识别器 + 分层策略路由”\n  - 快速开发一个基于 FNG、历史波动、深度流动性指标的实时环境分类器，用于决定是否启用ML、缩小仓位或切换到规则化策略。\n- 优先级 2：置信度校准与概念漂移检测\n  - 实施概率校准（Platt/isotonic）并加入概念漂移检测（Page-Hinkley 或 ADWIN）。检测到漂移即触发降权/回退/重训练流程。\n- 优先级 3：完善回测/在线监控指标\n  - 按环境记录胜率/盈亏/夏普，确保每笔交易都带上环境标签（FNG、vol、liquidity）。没有环境级别的绩效数据前不要信任ML。\n- 优先级 4：构建简洁的规则化备份策略\n  - 开发一套基于动量/均值回归的高鲁棒规则做为ML失效时的主导策略（规则简单、易解释、低参数灵敏度）。\n- 优先级 5：缩小研究目标\n  - 先解决 calibration + environment gating 再做模型架构改进；避免同时尝试多条大工程路线。\n\n简短总结（可直接立刻执行的前三项）\n1. 立即把 ML_weight 降到 0.05 并强制要求 ML_prob ≥ 0.8 且与规则信号一致才能交易。  \n2. 把系统切入 “Extreme” 模式（FNG<20）：总敞口与单笔仓位各降 50%，日回撤触发阈设 0.8%，止损设为 1.5×ATR(14)。  \n3. 部署环境识别器与概念漂移检测，若检测到漂移自动降权并触发重训练/回退。\n\n以上建议可直接编码成规则并优先部署以阻止当前ML崩溃导致的资金耗损。",
+      "trigger": "scheduled"
+    },
+    {
+      "time": "2026-02-17 20:03:43",
+      "type": "llm_deep_reflection",
+      "insight": "1. **当前系统最大的弱点**是置信度校准过低（0.3），导致决策信心不足，可能错失有利交易机会或过早退出有盈利的交易。\n\n2. **系统表现最差的市场环境**是数据积累不足的情况下。这可能是因为缺乏足够的历史数据来进行有效的模型训练，导致预测精度低。\n\n3. **具体的参数调整建议**：\n   - 提高**数据馈送频率**，加强对市场动态的实时监测，以便积累更多数据。\n   - 调整**置信度阈值**：在未积累足够数据的环境下，降低置信度阈值（如提高到0.5），以便在敏感市场环境下提前产生信号。\n   - 在当前的市场环境（如BTC价格高且FNG低）中，略加大风险偏好，以捕捉潜在利润。\n\n4. **下一步应该优先学习**是如何在数据稀缺情况下进行有效的状态估计和模型训练，特别是在各种市场条件下改善置信度校准的方法。",
+      "trigger": "scheduled"
+    },
+    {
+      "time": "2026-02-18 00:02:55",
+      "type": "llm_deep_reflection",
+      "insight": "1. **当前系统最大的弱点**: 数据积累不足，导致置信度校准低至0.3，无法提供准确的交易信号和决策支持。\n\n2. **哪个市场环境下系统表现最差？为什么？**: 当前未提供具体的环境胜率数据，但在极端市场环境（如市场恐慌期，FNG指数低于15）时，系统可能表现较差，因为缺乏足够的数据以应对快速波动和非线性市场行为。\n\n3. **具体的参数调整建议**:\n   - 提高数据积累阈值，优先收集高波动性市场的实时数据。\n   - 在市场情绪极端（FNG低于10）时，降低交易频率，增加风险防控措施，以缓解风险。\n   - 调整置信度校准机制，对于新收集的数据给予更高的权重，提升置信度计算的可靠性。\n\n4. **下一步应该优先学习什么？**: 优先学习机器学习算法，特别是时序分析和情绪分析，以增强对市场动态的识别能力，并提升决策模型的准确性。",
+      "trigger": "scheduled"
+    },
+    {
+      "time": "2026-02-18 04:03:08",
+      "type": "llm_deep_reflection",
+      "insight": "1. **当前系统最大的弱点**：\n   - 置信度校准低（0.3），表明系统对预测的信心不足，可能导致决策不果断，影响交易效果。\n\n2. **哪个市场环境下系统表现最差？为什么**：\n   - 在极度恐慌的市场环境下（如FNG为8），系统可能表现最差。此时市场波动剧烈，容易造成错误信号，且数据积累不足加剧不确定性。\n\n3. **具体的参数调整建议**：\n   - 建议在极度恐慌的环境下（FNG < 10）提高止损阈值，以防止在短期波动中误判而平仓。\n   - 增加对市场趋势的观察周期，例如将数据积累时间延长至3个月，以增强长期趋势的识别能力。\n   - 调整置信度阈值，根据历史胜率重新校准，建议设定在0.5以上以增强决策的确定性。\n\n4. **下一步应该优先学习什么**：\n   - 优先学习市场行为分析，特别是在极端市场情绪下的行为模式，以便在不同环境中制定相应的策略和决策规则。\n   - 研究如何提高置信度校准的方法，探索不同模型组合或数据增强技术。",
+      "trigger": "scheduled"
+    },
+    {
+      "time": "2026-02-18 20:02:21",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"current_weakness\": \"系统在数据积累方面存在明显不足，影响了模型的学习效率和信号生成能力。\",\n  \"worst_environment\": \"当前极端恐惧环境(FNG:8)下表现最差，可能由于数据样本不足导致信号不够可靠。\",\n  \"parameter_adjustment\": {\n    \"suggestions\": [\n      {\n        \"parameter\": \"signal_quality_threshold\",\n        \"action\": \"提高\",\n        \"value\": 75,\n        \"justification\": \"在极端恐惧环境中，信号质量阈值提高可以过滤掉更多噪音信号。\"\n      },\n      {\n        \"parameter\": \"ml_confidence_threshold\",\n        \"action\": \"提高\",\n        \"value\": 45,\n        \"justification\": \"以提高在低信号环境下的交易可靠性。\"\n      }\n    ]\n  },\n  \"next_learning_priority\": \"优先收集并分析在极端恐惧和市场底部的交易数据，以提高模型在此类环境下的适应性。\"\n}",
+      "trigger": "scheduled"
+    },
+    {
+      "time": "2026-02-19 08:04:05",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"current_weakness\": \"数据积累不足导致信号生成与决策的准确性低，影响系统整体表现。\",\n  \"worst_environment\": {\n    \"environment\": \"极端恐惧(FNG<10)\",\n    \"reason\": \"市场情绪低迷时，系统缺乏有效的交易信号，导致胜率下降。\"\n  },\n  \"parameter_adjustments\": {\n    \"FNG_threshold\": \"建议在FNG<10时，提高信号门槛至75分，减少低质量信号影响。\",\n    \"minimum_samples\": \"在各市场环境中，增加信号门的样本要求从10条到20条，提升模型的稳定性。\"\n  },\n  \"next_learning_priority\": \"优先学习如何在低数据积累情况下优化信号生成策略，尤其是在市场情绪极端时的应对机制。\"\n}",
+      "trigger": "scheduled"
+    },
+    {
+      "time": "2026-02-19 12:03:22",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"current_weakness\": \"数据积累不足导致信号生成能力下降，缺乏有效的市场适应性。\",\n  \"worst_environment\": \"极度恐惧（FNG<10），因为系统缺乏在这一环境下的高胜率策略。\",\n  \"parameter_adjustments\": {\n    \"increase_threshold\": {\n      \"信号质量评分\": 70,\n      \"仓位风险\": 3\n    },\n    \"decrease_threshold\": {\n      \"ML置信度\": 25\n    }\n  },\n  \"next_learning_priority\": \"针对极端市场情绪（如FNG<10）进行数据扩展，并开发适应性策略以提高系统在此环境下的胜率。\"\n}",
+      "trigger": "scheduled"
+    },
+    {
+      "time": "2026-02-19 16:03:29",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"current_weakness\": \"系统在缺乏数据积累的情况下，进行决策和交易信号生成。\",\n  \"worst_environment\": {\n    \"regime\": \"unknown\",\n    \"reason\": \"在极端恐惧情绪下，系统未能有效适应市场变化，导致胜率下降。\"\n  },\n  \"parameter_adjustments\": {\n    \"FNG_threshold\": {\n      \"current\": 20,\n      \"suggested\": 15,\n      \"reason\": \"在极端恐惧时提高做多信号的触发频率，以抓住市场反弹机会。\"\n    },\n    \"signal_quality_min\": {\n      \"current\": 65,\n      \"suggested\": 60,\n      \"reason\": \"降低信号质量阈值以促进更多交易信号生成，弥补数据积累不足的短板。\"\n    }\n  },\n  \"next_learning_priority\": \"集中收集和分析近期市场数据，特别是在FNG低于20时的市场反应，以丰富模型训练数据。\"\n}",
+      "trigger": "scheduled"
+    },
+    {
+      "time": "2026-02-20 00:04:00",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"current_weakness\": \"数据积累不足，导致信号质量和决策基础薄弱。\",\n  \"worst_environment\": \"极端恐惧环境(FNG<20)，因为系统在此条件下缺乏有效的市场适应性。\",\n  \"parameter_adjustments\": {\n    \"signal_quality_threshold\": \"建议将信号质量阈值从65提高至75，以过滤掉低效信号。\",\n    \"position_size\": \"在FNG<20时，建议将平均仓位从3%提高至5%，增强系统在极端市场的影响力。\"\n  },\n  \"next_learning_priority\": \"优先学习和适应低流动性市场条件下的信号生成与风险控制策略，特别是如何在数据不足的情况下进行有效决策。\"\n}",
+      "trigger": "scheduled"
+    },
+    {
+      "time": "2026-02-20 04:05:41",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"weakness\": \"当前系统在数据积累方面严重不足，无法有效评估和验证信号的准确性。\",\n  \"worst_environment\": \"在极端恐惧环境（FNG<10）下表现最差，可能由于缺乏足够数据导致决策质量下降。\",\n  \"parameter_adjustments\": {\n    \"建议提高\": {\n      \"信号质量阈值\": \"从65提高到70\",\n      \"仓位风险阈值\": \"从2%提高到3%\"\n    },\n    \"建议降低\": {\n      \"ML置信度阈值\": \"从35降低到30\"\n    }\n  },\n  \"next_learning_priority\": \"优先学习如何在极端市场环境中快速适应，尤其是关于提高信号准确性和仓位管理的策略。\"\n}",
+      "trigger": "scheduled"
+    },
+    {
+      "time": "2026-02-20 08:05:34",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"current_weakness\": \"数据积累不足导致策略适应性不足，难以应对快速变化的市场环境。\",\n  \"worst_environment\": \"极端恐惧(FNG<20)下系统表现最差，因为缺乏足够的数据支持决策，导致信号质量低。\",\n  \"parameter_adjustment\": {\n    \"signal_quality_threshold\": \"建议在极端恐惧时将信号质量阈值降低至60分，以允许更早的交易操作。\",\n    \"ml_confidence\": \"建议在FNG<10时，提高ML置信度要求至40%来过滤低质量信号。\",\n    \"position_size\": \"在极端恐惧情况下，目前平均仓位过小，建议提高至5%以捕捉潜在的反弹机会。\"\n  },\n  \"next_learning_priority\": \"优先学习极端市场行为下的动态策略调整，特别是基于低数据背景下的信号生成和风险控制。\"\n}",
+      "trigger": "scheduled"
+    },
+    {
+      "time": "2026-02-20 12:05:31",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"current_weakness\": \"系统在数据积累方面明显不足，导致信号生成和模型评估的准确性下降。\",\n  \"worst_market_environment\": \"未知环境下表现最差，原因在于缺乏明确的市场信号和策略适配，导致决策混乱。\",\n  \"parameter_adjustment_suggestions\": [\n    {\n      \"parameter\": \"signal_quality_threshold\",\n      \"action\": \"提高\",\n      \"new_value\": 75,\n      \"justification\": \"在极端恐惧环境下，信号质量要求提高可以减少低效交易。\"\n    },\n    {\n      \"parameter\": \"ml_confidence_threshold\",\n      \"action\": \"降低\",\n      \"new_value\": 30,\n      \"justification\": \"为了应对当前数据积累不足的情况，适度降低机器学习置信度以增加信号接受率。\"\n    }\n  ],\n  \"next_learning_priority\": \"聚焦于低FNG值(如7)的市场信号识别与模型优化，提升系统在极端情绪环境下的反应能力。\"\n}",
+      "trigger": "scheduled"
+    },
+    {
+      "time": "2026-02-20 20:05:46",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"current_weakness\": \"数据积累不足导致决策信号不稳定，缺乏强有力的交易依据。\",\n  \"worst_environment\": \"极端恐惧环境 (FNG<10)，因为系统在此环境中的信号质量和胜率均未得到验证。\",\n  \"parameter_adjustments\": {\n    \"signal_quality_threshold\": \"建议提高至70分以过滤低质量信号。\",\n    \"ml_confidence_threshold\": \"建议在极端恐惧时降低至30%以增强应对市场波动的灵活性。\",\n    \"position_size\": \"在FNG<10时可考虑适度放大仓位至5%以把握反弹机会。\"\n  },\n  \"next_learning_priority\": \"优先学习极端恐惧环境下的价格行为模式，补充相关的历史数据以增强系统的反馈和适应性。\"\n}",
+      "trigger": "scheduled"
+    },
+    {
+      "time": "2026-02-21 00:05:55",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"current_weakness\": \"系统在数据积累方面表现不足，信号质量无法保证。\",\n  \"worst_environment\": \"极度恐惧环境 (FNG<10)，因为系统缺乏足够的学习样本导致反应迟缓。\",\n  \"parameter_adjustments\": {\n    \"threshold_increase\": {\n      \"信号质量门槛\": 75,\n      \"ML置信度\": 40\n    },\n    \"threshold_decrease\": {\n      \"单笔风险\": 1.5\n    }\n  },\n  \"next_learning_priority\": \"聚焦于极度恐惧市场中的历史数据收集与分析，识别潜在的盈利信号。\"\n}",
+      "trigger": "scheduled"
+    },
+    {
+      "time": "2026-02-21 16:07:26",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"current_weakness\": \"当前系统最大的弱点是数据积累不足，导致系统在做出决策时缺乏足够的历史依据，影响了胜率和整体表现。\",\n  \"worst_market_env\": \"在FNG<20的市场环境下系统表现最差。因为当前FNG值为8，处于较低恐惧水平，系统在极端恐惧时的做多胜率较高，但在当前环境下，系统仓位过小，平均仓位仅为3%，导致收益潜力受限。\",\n  \"parameter_adjustment\": \"建议在FNG<20的市场环境下适度放大仓位到5%，以提高收益潜力。\",\n  \"next_learning_focus\": \"下一步应该优先学习在不同恐惧水平下的市场行为模式，特别是FNG值在20至30之间的市场环境，以提高系统在这些环境下的适应性和胜率。\"\n}",
+      "trigger": "scheduled"
+    },
+    {
+      "time": "2026-02-23 04:05:13",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"weakness\": \"当前系统在极端恐惧环境（FNG<20）下未能充分放大仓位，导致盈利能力不足。\",\n  \"worst_environment\": {\n    \"regime\": \"unknown\",\n    \"reason\": \"市场在极端恐惧状态下，信号门过于保守，导致无法捕捉反弹机会，且仓位普遍过小。\"\n  },\n  \"parameter_adjustment_suggestion\": {\n    \"increase_threshold\": {\n      \"signal_gate_score\": \"提升到70分\",\n      \"position_size\": \"从平均3%提升到5%\"\n    },\n    \"decrease_threshold\": {\n      \"risk_aversion\": \"在极端恐惧环境下适度降低以增加仓位吸引力\"\n    }\n  },\n  \"next_learning_priority\": \"针对极端恐惧情绪状态下的市场反弹模式进行深度学习，以增强系统的适应能力和提高获利能力。\"\n}",
+      "trigger": "scheduled"
+    },
+    {
+      "time": "2026-02-24 04:05:24",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"weakness\": \"系统在极端恐惧环境下的仓位不足，导致收益潜力未被充分利用。\",\n  \"worst_environment\": \"极端恐惧环境(FNG<20)表现最差，缺乏足够的仓位使得高胜率信号无法有效转化为实际收益。\",\n  \"parameter_adjustments\": {\n    \"threshhold_increase\": {\n      \"environment\": \"极端恐惧\",\n      \"suggestion\": \"仓位建议从3%提高到5%\"\n    },\n    \"ml_weight_increase\": {\n      \"current\": \"35%\",\n      \"suggestion\": \"可提高到45%以利用ML较高的准确率\"\n    }\n  },\n  \"next_learning_priority\": \"加强在极端市场情境下的策略配置和仓位管理能力，以优化应对极端波动的能力\"\n}",
+      "trigger": "scheduled"
+    },
+    {
+      "time": "2026-02-25 04:04:10",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"weakness\": \"系统对极端情绪环境下的交易策略适应性不足，可能导致信号失真。\", \n  \"worst_environment\": {\n    \"environment\": \"极端恐惧(FNG<20)\", \n    \"reason\": \"在此环境下，系统依赖于高信号质量的策略，但当前存在情绪与趋势确认的逻辑缺陷，导致策略效果不佳。\"\n  }, \n  \"parameter_adjustments\": {\n    \"FNG_threshold\": {\n      \"current\": 15,\n      \"suggestion\": \"建议降低至10，以增强对极端恐惧的逆向交易反应能力。\"\n    },\n    \"ML_confidence\": {\n      \"current\": 70,\n      \"suggestion\": \"建议在极端情绪环境下提高ML置信度下限至60，以提升信号接纳的灵活性。\"\n    }\n  }, \n  \"learning_priority\": \"应优先学习如何在高波动和极端情绪情况下调整风险管理策略，确保信号质量与风险承受能力的平衡。\"\n}",
+      "trigger": "scheduled"
+    },
+    {
+      "time": "2026-02-27 04:04:06",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"current_weakness\": \"数据积累不足导致信号质量不稳定，难以做出有效决策。\",\n  \"worst_environment\": \"极端恐惧（FNG<15）下表现最差，原因在于缺乏足够的历史数据来支持逆向操作。\",\n  \"parameter_adjustments\": {\n    \"increase_threshold\": {\n      \"信号质量评分\": 70,\n      \"ML置信度\": 40\n    },\n    \"lower_threshold\": {\n      \"仓位控制\": 3\n    }\n  },\n  \"next_learning_focus\": \"提升在极端市场情绪下的信号识别和策略适应能力，尤其是如何有效利用情绪指标与趋势确认结合。\"\n}",
+      "trigger": "scheduled",
+      "status": "pending",
+      "adopted_at": null,
+      "quality_score": null
+    },
+    {
+      "time": "2026-02-27 16:05:20",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"current_weakness\": \"目前系统在数据积累方面明显不足，导致信号生成的有效性和准确性可能受到影响。\",\n  \"worst_market_environment\": \"在极端恐惧（FNG<15）时，系统表现可能较差，因为此时倚重的逆向信号和趋势确认可能出现不一致，导致决策失误。\",\n  \"parameter_adjustment_suggestion\": \"在Phase 1时，可以考虑建立一个监控机制，记录极端情绪情况下信号的胜率变化，为后续决策提供数据支持。\",\n  \"next_step_learning_priority\": \"优先学习和积累在当前市场环境（尤其是FNG<15）下的历史交易数据，以增强系统在极端情绪下的决策能力。\"\n}",
+      "trigger": "scheduled",
+      "status": "pending",
+      "adopted_at": null,
+      "quality_score": null
+    },
+    {
+      "time": "2026-02-27 20:05:24",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"weakness\": \"当前系统缺乏足够的交易数据，导致方向准确率和盈利因子低于预期。\",\n  \"worst_environment\": {\n    \"regime\": \"unknown\",\n    \"reason\": \"在不确定的市场环境下，系统无法明确判断方向，导致信号质量下降。\"\n  },\n  \"parameter_adjustment_suggestion\": \"在Phase 1阶段，建议监测信号门槛与实际胜率的对应关系，以备后续调整提供数据支持。\",\n  \"next_learning_priority\": \"优先学习如何在FNG<15的极端恐惧情况下，合理评估趋势与波动，以提升策略执行效果。\"\n}",
+      "trigger": "scheduled",
+      "status": "pending",
+      "adopted_at": null,
+      "quality_score": null
+    },
+    {
+      "time": "2026-02-28 00:04:45",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"current_weakness\": \"当前系统最大的弱点是信号质量与实际表现之间的差距，导致方向准确率低于预期。\",\n  \"worst_environment\": \"系统在极端恐惧环境（如FNG<15）下表现最差，因为信号门槛和策略不适应市场过度恐慌的情绪。\",\n  \"parameter_adjustment_suggestion\": \"在未来的极端恐惧情境下，建议观察信号质量是否有提升，如果信号质量持续低迷，应该考虑在Phase 1阶段加强对极端恐惧情境下信号的过滤和验证。\",\n  \"next_learning_priority\": \"下一步应优先学习如何在低胜率的极端情绪市场中改进信号生成机制，尤其是在FNG低于15时，致力于提高信号的准确性和可靠性。\"\n}",
+      "trigger": "scheduled",
+      "status": "pending",
+      "adopted_at": null,
+      "quality_score": null
+    },
+    {
+      "time": "2026-02-28 16:04:52",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"当前系统最大的弱点\": \"系统在数据积累和方向准确率上仍显不足，无法迅速适应市场变化。\",\n  \"哪个市场环境下系统表现最差\": \"在FNG<15的极端恐惧环境下，由于信号过滤机制过于严格，导致未能有效把握反弹机会。\",\n  \"具体的参数调整建议\": \"在下一阶段(Phase 1)中，建议考虑为FNG<15时的信号门槛进行动态调整，以便更好地捕捉潜在的买入机会。\",\n  \"下一步应该优先学习什么\": \"优先学习如何从每笔交易中提取更多的有效信息，以提高方向准确率，增加系统的自我修正能力。\"\n}",
+      "trigger": "scheduled",
+      "status": "pending",
+      "adopted_at": null,
+      "quality_score": null
+    },
+    {
+      "time": "2026-03-01 12:04:03",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"current_weakness\": \"当前系统最大的弱点是数据积累不足，导致信号生成的准确率和胜率尚未稳定，无法充分验证策略的有效性。\",\n  \"worst_market_environment\": {\n    \"environment\": \"trending\",\n    \"reason\": \"在趋势行情下，系统可能会受到仓位控制和信号门槛的限制，无法有效把握市场机会，尤其是在信号质量未达到预期时。\"\n  },\n  \"parameter_adjustment_suggestion\": \"由于当前禁止修改任何策略参数，因此不建议进行具体的阈值调整。可以考虑未来在观察期结束后分析在trend环境下的信号表现。\",\n  \"next_learning_focus\": \"下一步应优先学习如何通过数据记录和分析提高信号生成的准确率，特别是关注FNG与市场表现的关联性，积累更多有效数据。\"\n}",
+      "trigger": "scheduled",
+      "status": "pending",
+      "adopted_at": null,
+      "quality_score": null
+    },
+    {
+      "time": "2026-03-01 16:04:21",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"最大弱点\": \"当前系统缺乏足够的数据积累，导致方向准确率低于设定的55%目标，无法有效评估和调整策略。\",\n  \"最差市场环境\": \"震荡市场，因为系统在FNG<15且市场处于震荡区间时未能释放足够的交易信号，造成系统交易机会稀缺。\",\n  \"参数调整建议\": \"在震荡市场环境下，建议记录和分析信号质量分布，以便于后续阶段一调整策略时参考。并关注历史数据中震荡行情下信号的表现。\",\n  \"优先学习方向\": \"建议优先学习如何在震荡市场中识别更有效的交易机会，集中于信号生成过程中的低质量信号识别，并考虑潜在的策略组合优化。\"\n}",
+      "trigger": "scheduled",
+      "status": "pending",
+      "adopted_at": null,
+      "quality_score": null
+    },
+    {
+      "time": "2026-03-01 20:04:39",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"最大弱点\": \"当前系统缺乏足够的历史交易数据支持，导致对市场环境的适应性不足和信号质量不稳定。\",\n  \"市场环境表现最差\": \"未知市场环境下，系统表现最差，因为没有明确信号和策略指引，导致决策难以有效执行。\",\n  \"参数调整建议\": \"目前处于观察期，禁止建议调整任何参数；建议在未来Phase 1考虑针对不确定环境提高信号质量门槛。\",\n  \"优先学习\": \"集中关注如何在极端恐惧(FNG<15)情况下的交易表现，以便在该环境下建立更强的信号生成策略。\"\n}",
+      "trigger": "scheduled",
+      "status": "pending",
+      "adopted_at": null,
+      "quality_score": null
+    },
+    {
+      "time": "2026-03-02 00:03:52",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"weakness\": \"当前系统在信号质量的识别上仍然较为薄弱，特别是在高风控要求下过于依赖信号门槛，导致可交易信号数量不足。\",\n  \"worst_environment\": {\n    \"regime\": \"trending\",\n    \"reason\": \"在趋势强烈的市场环境中，系统的信号生成主要受限于高信号门槛，导致错失了顺势交易的机会。\"\n  },\n  \"parameters_adjustment\": {\n    \"suggestion\": \"在trending环境中，可以考虑观察信号门槛的动态调整是否有利于适度放宽，从而提升信号质量与数量的比例，但需在实际数据验证后进行。\",\n    \"thresholds\": \"保持FNG<15的高质量信号门槛，但在确保风险控制的前提下，观察是否可以通过数据驱动的方式灵活微调信号生成过程。\"\n  },\n  \"next_learning_focus\": \"优先学习提升信号生成模块在不同市场环境中的适应性，特别是trend环境中的信号评估机制，以便在趋势强烈的情况下也能生成有效信号。\"\n}",
+      "trigger": "scheduled",
+      "status": "pending",
+      "adopted_at": null,
+      "quality_score": null
+    },
+    {
+      "time": "2026-03-02 04:04:35",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"weakness\": \"当前系统在趋势确认和市场适应性方面的灵活性不足，未能有效利用极端情绪（如FNG<15）下的机会。\",\n  \"worst_environment\": {\n    \"environment\": \"trending\",\n    \"reason\": \"在趋势明显的市场环境中，系统未能把握追随长势的机会，导致信号质量不足，胜率低于预期。\"\n  },\n  \"parameter_adjustment_suggestion\": {\n    \"suggestions\": [\n      {\n        \"condition\": \"FNG<15\",\n        \"action\": \"在极端恐惧时，考虑潜在的加仓和止损调整策略，以提高在快速反弹中的灵活性。\"\n      }\n    ]\n  },\n  \"next_learning_priority\": \"优先学习并总结在FNG<15及BTC上涨趋势下的信号表现，以便建立更强的趋势确认机制。\"\n}",
+      "trigger": "scheduled",
+      "status": "pending",
+      "adopted_at": null,
+      "quality_score": null
+    },
+    {
+      "time": "2026-03-02 08:04:29",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"weakness\": \"当前系统在信号生成的灵活性和适应性上存在不足，尤其是在极端市场情绪下的交易策略缺乏有效响应。\",\n  \"worst_environment\": {\n    \"environment\": \"极端恐惧 (FNG<15)\",\n    \"reason\": \"在极端恐惧状态下，系统信号质量难以保证，导致不良交易决策的概率上升。\"\n  },\n  \"parameter_adjustments\": \"在极端恐惧环境中，建议暂时记录信号生成过程中的虚假信号情况，以便后续分析，不修改任何阈值。加强对此环境下信号质量的跟踪。\",\n  \"learning_priority\": \"下一步应优先学习在极端情绪下的市场结构，以提高系统对市场变化的反应能力。\"\n}",
+      "trigger": "scheduled",
+      "status": "pending",
+      "adopted_at": null,
+      "quality_score": null
+    },
+    {
+      "time": "2026-03-02 16:04:51",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"current_weakness\": \"当前系统最大的弱点是数据积累不足，导致历史胜率和策略有效性无法全面评估。\",\n  \"worst_market_environment\": \"当前市场环境为极端恐惧（FNG: 10），系统表现最差的原因可能是信号门槛过高（73分）导致良好信号被过滤，从而错失潜在的交易机会。\",\n  \"parameter_adjustment_suggestion\": \"建议在极端恐惧环境下考虑记录信号质量评分，并在Phase 1中针对低分信号进行复审，而不是直接调整参数。\",\n  \"next_learning_priority\": \"下一步应优先学习在极端情绪环境下的市场行为，以识别高质量信号并提高策略适应性。\"\n}",
+      "trigger": "scheduled",
+      "status": "pending",
+      "adopted_at": null,
+      "quality_score": null
+    },
+    {
+      "time": "2026-03-06 12:04:44",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"weakness\": \"当前系统的弱点在于缺乏足够的高质量信号数据支持，导致信号的准确率和胜率较低，影响整体交易效果。\",\n  \"worst_environment\": \"在极端恐惧环境（FNG值极低，如18）下，系统表现最差。因为此时市场情绪对交易方向的影响较大，而系统可能无法有效捕捉趋势变化，导致判断错误。\",\n  \"parameter_adjustment_suggestion\": \"在极端恐惧环境下，建议尝试将信号门槛提高至75分，以提高筛选出高质量信号的概率。\",\n  \"next_learning_focus\": \"下一步应优先学习如何在极端情绪下生成可靠的交易信号，并针对市场环境变化调整交易策略的灵活性。\"\n}",
+      "trigger": "scheduled",
+      "status": "pending",
+      "adopted_at": null,
+      "quality_score": null
+    },
+    {
+      "time": "2026-03-11 04:05:21",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"当前系统最大的弱点\": \"系统在数据积累初期阶段，胜率未达到预期水平，主要依赖修复后信号的有效性和持续观察。\",\n  \"哪个市场环境下系统表现最差\": \"在FNG高于80的极端恐惧环境下表现最差，主要是由于信号质量不足，以及过热策略导致的误判。\",\n  \"具体的参数调整建议\": \"在FNG<15的极端恐惧环境下，考虑放宽信号阈值，可以暂时将信号门槛降至71分，以捕捉潜在的反弹机会。\",\n  \"下一步应该优先学习什么\": \"优先学习如何在持仓时间大于12小时的情况下增强策略，与此同时，观察信号质量的变化，优化在极端情绪下的风险决策能力。\"\n}",
+      "trigger": "scheduled",
+      "status": "pending",
+      "adopted_at": null,
+      "quality_score": null
+    },
+    {
+      "time": "2026-03-12 08:04:57",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"current_weakness\": \"系统当前最大弱点是数据积累不足，导致准确率和胜率不稳定，无法充分验证ML模型的有效性。\",\n  \"worst_market_environment\": {\n    \"environment\": \"极端恐惧（FNG<15）\",\n    \"reason\": \"在极端恐惧的情况下，系统当前缺乏足够的信号验证，导致信号质量不足，且仓位限制导致无法有效把握短期反弹机会。\"\n  },\n  \"parameter_adjustment_suggestion\": {\n    \"environment\": \"极端恐惧（FNG<15）\",\n    \"action\": \"考虑适度放宽信号质量门槛至70分，以便在信号较弱的情况下仍能进行交易，适应市场反弹。\"\n  },\n  \"next_learning_priority\": \"优先学习持仓时间较长（>12小时）的交易，以提高在此条件下的胜率，因为当前该条件下的胜率达到50%。\"\n}",
+      "trigger": "scheduled",
+      "status": "pending",
+      "adopted_at": null,
+      "quality_score": null
+    },
+    {
+      "time": "2026-03-12 12:04:47",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"当前系统最大的弱点\": \"数据积累不足，导致模型和策略的验证能力弱，难以得出准确的决策能力。\",\n  \"哪个市场环境下系统表现最差\": \"持仓时间小于2小时的交易胜率仅为13%，这表明在短期交易中，系统表现不佳，可能是因为缺乏足够的数据支持和策略优化。\",\n  \"具体的参数调整建议\": \"在极端恐惧（FNG<15）情况下，考虑适度放大仓位（可提高到5%），以利用在当前环境中相对较高的胜率。同时，保持信号门槛在73分，确保信号质量。\",\n  \"下一步应该优先学习什么\": \"优先关注持仓时间超过12小时的交易样本，探索其成功的潜在因素，并积累足够的数据以验证持仓时间与胜率之间的关系。\"\n}",
+      "trigger": "scheduled",
+      "status": "pending",
+      "adopted_at": null,
+      "quality_score": null
+    },
+    {
+      "time": "2026-03-12 16:04:48",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"current_weakness\": \"数据积累不足，导致对当前市场环境的决策能力较弱，无法有效验证和改善系统模型。\",\n  \"worst_market_environment\": \"volatile regime，胜率最低，当市场剧烈波动时，系统可能未能迅速适应，导致盈利幅度下降。\",\n  \"parameter_adjustment_suggestion\": \"在volatile环境下，建议考虑提高信号门槛至75分，以过滤掉低质量信号，从而提高整体交易质量和胜率。\",\n  \"next_learning_priority\": \"优先学习如何提高系统对不同市场环境的适应性，尤其是在volatile情况下的风控策略和信号生成精度。\"\n}",
+      "trigger": "scheduled",
+      "status": "pending",
+      "adopted_at": null,
+      "quality_score": null
+    },
+    {
+      "time": "2026-03-14 20:06:20",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"current_issues\": [\n    {\n      \"issue\": \"趋势策略胜率低\",\n      \"root_cause\": \"当前趋势策略的胜率仅为27.8%，可能是由于市场环境不利所致，且未能充分捕捉到主要的趋势信号。此外，趋势策略难以应对震荡行情，可能导致系统整体表现低迷。\",\n      \"improvement_suggestion\": \"建议进行趋势策略的信号过滤优化，例如引入次级信号确认机制，确保在市场有明显趋势时再进行交易。同时，考虑增强对趋势反转信号的识别能力，以减少亏损。\",\n      \"learning_priority\": \"应优先学习趋势判断指标，尤其是ADX等动量指标，以增强对当前市场动力的理解和适应性。\"\n    },\n    {\n      \"issue\": \"区间策略全部失利\",\n      \"root_cause\": \"区间策略的胜率为0%，这表明当前市场环境中缺乏明显的震荡区间，相关买卖信号未能有效执行，导致系统未能利用好震荡机会。\",\n      \"improvement_suggestion\": \"建议增加对市场震荡环境的敏感性，重新评估并优化区间策略的信号生成规则。例如，可考虑在BTC明显趋稳时主动进入区间交易，或提升下单频率。\",\n      \"learning_priority\": \"需要学习并分析不同市场环境下的区间交易表现，进一步细化震荡行情的进出策略。\"\n    },\n    {\n      \"issue\": \"整体亏损未能有效控制\",\n      \"root_cause\": \"总体PNL为-$191.79，显示了风险控制不严，导致亏损未能及时止损或调整策略。当前风险管理框架可能在动态市场变化时不够灵活。\",\n      \"improvement_suggestion\": \"建议强化风险管理方面的训练，尤其是在止损触发和仓位调整的灵活性上，确保能够及时响应市场变化。可以增强信号门槛的弹性，借助实时监测调整风险承受能力。\",\n      \"learning_priority\": \"应优先研究历史亏损案例的复盘, 识别哪些交易导致重大损失，并探索更有效的风险控制策略。\"\n    }\n  ]\n}",
+      "trigger": "scheduled",
+      "status": "pending",
+      "adopted_at": null,
+      "quality_score": null
+    },
+    {
+      "time": "2026-03-17 06:37:46",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"当前系统最大问题\": [\n    {\n      \"问题\": \"趋势策略胜率低\",\n      \"根因分析\": \"趋势策略的胜率仅为24.6%，这表明在捕捉市场趋势时存在重大失误。可能的原因包括市场环境不适合趋势策略，或者信号生成和确认逻辑不足以支持有效决策。\",\n      \"改进建议\": \"考虑根据当前市场环境动态调整趋势策略的使用频率，例如在FNG较低时减少趋势策略的持仓。此外，重新评估趋势信号的确认条件，确保在进场时有足够的支持从而提高成功率。\"\n    },\n    {\n      \"问题\": \"范围策略表现不佳\",\n      \"根因分析\": \"范围策略的胜率为0.0%，这表明在震荡市场条件下没有有效把握短周期反转机会。可能的原因是缺乏有效支撑和阻力位的识别，从而未能实现利润。\",\n      \"改进建议\": \"建议加强对市场波动的监测，加入更多的支撑和阻力侦测机制，有助于识别更适合实行范围策略的震荡波段。此外，可以探索历史数据中成功的震荡交易信号，以优化范围策略的设计。\"\n    },\n    {\n      \"问题\": \"ML模型准确率偏低\",\n      \"根因分析\": \"当前ML模型准确率仅为43.0%，低于随机水平，表明模型在预测市场走势方面失效。这可能源于训练数据的选择不当，或者模型架构未能有效捕捉到市场特征。\",\n      \"改进建议\": \"建议定期重新审视和清理训练数据集中用于训练的样本，确保它们能准确反映市场特征。使用交叉验证的方式选择最有效的模型架构，也可以考虑引入新的特征来提升预测准确性。\"\n    }\n  ],\n  \"下一步优先学习内容\": \"应优先关注市场环境对不同策略的影响，特别是在波动性市场中如何有效运用Range策略和Trend策略。此外，深入研究ML模型的训练方法，补充多样化的特征以提升预测准确性，将有助于全面提升系统的交易能力。\"\n}",
+      "trigger": "daily_scheduled"
+    },
+    {
+      "time": "2026-03-17 08:05:00",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"当前系统最大的3个问题\": [\n    {\n      \"问题\": \"趋势策略胜率低\",\n      \"根因分析\": \"趋势策略（trend）的胜率仅为27.9%，说明当前市场条件下，顺势做多的成功率显著低于预期，特别是在市场波动较大的环境中。这可能与当前的市场情绪、趋势信号质量低下有关。\",\n      \"具体改进建议\": \"建议加强对趋势信号的过滤，结合4小时方向过滤，确保仅在合适的市场条件下触发趋势策略。同时，可以考虑对趋势策略参数进行微调，以适应当前的市场波动性。\"\n    },\n    {\n      \"问题\": \"范围策略完全失效\",\n      \"根因分析\": \"范围策略（range）目前胜率为0%，说明其听从当前市场条件的能力不足，可能错误地在无趋势的环境中激活。系统未能有效识别无趋势信号下的交易机会，导致策略完全失效。\",\n      \"具体改进建议\": \"建议实现更严格的市场状态评估，确保仅在明显的范围行情下才激活范围策略。这可以通过将该策略的激活条件改为仅在ranging regime下进行，从而提高其成功率。\"\n    },\n    {\n      \"问题\": \"高置信度ML模型表现差\",\n      \"根因分析\": \"当前的ML模型准确率仅为43.0%，低于随机水平。这表明模型训练存在缺陷或输入特征质量不足，导致信号生成时可靠性极低，从而影响整体交易决策。\",\n      \"具体改进建议\": \"建议对ML模型进行重新评估，考虑更换输入特征以提升模型性能。同时需要对当前信号的标签进行质量审查，并确保训练数据的多样性，以便模型能够更有效地学习市场行为。\"\n    }\n  ],\n  \"下一步应该优先学习的内容\": [\n    \"集中注意力在持仓时间>12小时策略的执行效果上，尤其是观察其在当前市场中是否能够稳定产生正收益。\",\n    \"深入研究当前模型的准确率影响因素，并分析每个输入特征对预测结果的具体贡献，以发现潜在的改进点。\",\n    \"持续跟踪市场环境的变化，特别是如何在不同的FNG状态下调整策略，以适应市场情绪变化引起的影响。\"\n  ]\n}",
+      "trigger": "scheduled",
+      "status": "pending",
+      "adopted_at": null,
+      "quality_score": null
+    },
+    {
+      "time": "2026-03-17 12:05:05",
+      "type": "llm_deep_reflection",
+      "insight": "{\n  \"当前系统最大的3个问题\": [\n    {\n      \"问题\": \"趋势策略的胜率低\",\n      \"根因分析\": \"当前趋势策略（trend）胜率仅为32.9%，主要由于在市场环境不利时的错误激活，导致大部分交易处于亏损状态。具体来说，错误的信号生成和动态仓位管理导致了止损频繁，并未能充分把握较强的市场趋势。\",\n      \"具体的改进建议\": \"建议强制4H方向过滤，只在顺势情况下激活趋势策略，以提高此策略的执行效率。同时，对历史数据进行细致分析，找出趋势策略在不利环境下的表现，并调整相关信号生成逻辑。\"\n    },\n    {\n      \"问题\": \"范围策略持仓胜率为零\",\n      \"根因分析\": \"范围策略在当前环境中的胜率为0，根本原因是该策略在没有适当的市场环境指引下被错误激活，未能适应当前的市场波动。由于该策略未能抓住任何有效的交易机会，直接导致了该策略的失败。\",\n      \"具体的改进建议\": \"建议将范围策略限制为仅在'震荡'市场环境下激活。同时，根据市场条件，设置合适的仓位控制和信号确认机制，以防止策略错激活导致的全仓损失。\"\n    },\n    {\n      \"问题\": \"连亏次数过高\",\n      \"根因分析\": \"系统触发的连亏保护机制过于频繁，加大了资金利用的波动性，使得资金的回撤限制效果并不显著。部分信号质量未按照实时市场条件进行适时调整，导致多笔交易在相似条件下连续亏损。\",\n      \"具体的改进建议\": \"建议严格评估并优化信号门槛的应用标准，增强连亏的判定逻辑，以确保只有在真正的连续亏损情况下才会触发。同时，考虑在连续亏损后增加评价执行策略的回归测试周期，以便系统学习和适应市场变化。\"\n    }\n  ],\n  \"下一步应该优先学习什么\": \"系统应优先研究出现的高置信度进化提案，尤其是针对范围策略的激活条件和4H方向过滤策略的应用，以确保更高效的信号生成和执行。同时，继续追踪并细化持仓时间与胜率之间的关系，以开发出针对不同持仓时间的优化策略。\"\n}",
+      "trigger": "scheduled",
+      "status": "pending",
+      "adopted_at": null,
+      "quality_score": null
+    }
+  ],
+  "cognitive_state": {
+    "confidence_calibration": 1.4,
+    "risk_appetite": "moderate",
+    "learning_rate": 0.5,
+    "last_reflection": "2026-03-20 03:02:28",
+    "total_reflections": 197,
+    "insight_count": 13
+  },
+  "patterns": {},
+  "improvements": [],
+  "saved_at": "2026-03-26 09:36:25"
+}

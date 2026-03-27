@@ -1,0 +1,77 @@
+entrypoint = "main.py"
+modules = ["python-3.11", "nodejs-20", "postgresql-16"]
+
+[nix]
+channel = "stable-25_05"
+packages = ["glibcLocales", "libgcc", "ocl-icd", "opencl-headers"]
+
+[unitTest]
+language = "python3"
+
+[gitHubImport]
+requiredFiles = [".replit", "replit.nix"]
+
+[deployment]
+run = ["python", "-m", "uvicorn", "server.api:app", "--host", "0.0.0.0", "--port", "5000"]
+deploymentTarget = "vm"
+build = ["bash", "-c", "cd client && npm run build"]
+
+[agent]
+expertMode = true
+integrations = ["python_openai_ai_integrations:1.0.0", "github:1.0.0"]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Titan Dashboard"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Titan API"
+
+[[workflows.workflow]]
+name = "Titan Dashboard"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd /home/runner/workspace/client && npm run dev"
+waitForPort = 5000
+
+[workflows.workflow.metadata]
+outputType = "webview"
+
+[[workflows.workflow]]
+name = "Titan API"
+author = "agent"
+
+[workflows.workflow.metadata]
+outputType = "console"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd /home/runner/workspace && python -m uvicorn server.api:app --host 0.0.0.0 --port 8000"
+waitForPort = 8000
+
+[[ports]]
+localPort = 5000
+externalPort = 80
+
+[[ports]]
+localPort = 5001
+externalPort = 3001
+
+[[ports]]
+localPort = 5904
+externalPort = 3000
+
+[[ports]]
+localPort = 8000
+externalPort = 8000

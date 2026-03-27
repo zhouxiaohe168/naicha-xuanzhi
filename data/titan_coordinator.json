@@ -1,0 +1,1744 @@
+{
+  "module_metrics": {
+    "ml_accuracy": 0.41700000000000004,
+    "ml_win_rate": 0.4666666666666667,
+    "rule_win_rate": 0.4418604651162791,
+    "signal_quality_avg": 0.5,
+    "regime": "volatile",
+    "drawdown_pct": 0.2,
+    "consecutive_losses": 1,
+    "consecutive_wins": 0,
+    "daily_pnl": 0.0,
+    "total_trades": 129,
+    "synapse_rule_count": 0,
+    "frozen_strategies": 0,
+    "capital_utilization": 0.1601,
+    "grid_active": 3,
+    "grid_win_rate": 65.2,
+    "grid_geo_wr": 65.2,
+    "grid_arith_wr": 0.0,
+    "grid_trailing_shifts": 0,
+    "ml_weight": 0.5,
+    "rule_weight": 0.5,
+    "max_drawdown_ever": 0.36,
+    "strategy_budgets": {
+      "trend": {
+        "available": 40151.07,
+        "frozen": false,
+        "drawdown": 0
+      },
+      "range": {
+        "available": 23681.14,
+        "frozen": false,
+        "drawdown": 0
+      },
+      "grid": {
+        "available": 19971.12,
+        "frozen": false,
+        "drawdown": 0
+      }
+    },
+    "active_strategies": [
+      "trend",
+      "range",
+      "grid"
+    ],
+    "equity": 99862.88,
+    "total_pnl": -214.93,
+    "open_positions": 0,
+    "max_dd_pct": 1.2218,
+    "feedback_suggestions": 0,
+    "advisor_actions": "reduce:9, close:1",
+    "ws_profit_factor": 1.24,
+    "ws_expectancy": 0.346,
+    "ws_risk_reward": 1.6,
+    "ws_max_cw": 19,
+    "ws_max_cl": 10,
+    "ws_annualized_return": -1.38,
+    "ws_max_dd": 47.35,
+    "ws_volatility": 163.33,
+    "ws_sharpe": 2.55,
+    "ws_sortino": 2.93,
+    "ws_calmar": -0.03,
+    "current_dd_pct": 1.03
+  },
+  "recommendations": {
+    "size_multiplier": 0.7,
+    "throttle_level": "normal",
+    "regime_bias": "volatile",
+    "risk_level": "standard",
+    "rebalance_advice": {
+      "trend": 0.35,
+      "range": 0.3,
+      "grid": 0.35
+    },
+    "reasoning": "高波动市场, 降低暴露"
+  },
+  "stats": {
+    "total_coordinations": 4277,
+    "total_ai_analyses": 19,
+    "last_coordination": "2026-03-27 07:00:51",
+    "last_ai_analysis": "",
+    "module_sync_count": 4308,
+    "ai_accuracy_score": 0.52,
+    "reflection_count": 43
+  },
+  "coordination_log": [
+    {
+      "time": "2026-03-18 02:58:00",
+      "type": "rule_based",
+      "size_mult": 1.1,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "趋势明确, 可适度增仓"
+      ]
+    },
+    {
+      "time": "2026-03-18 03:02:32",
+      "type": "rule_based",
+      "size_mult": 1.1,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "趋势明确, 可适度增仓"
+      ]
+    },
+    {
+      "time": "2026-03-18 03:03:00",
+      "type": "rule_based",
+      "size_mult": 1.1,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "趋势明确, 可适度增仓"
+      ]
+    },
+    {
+      "time": "2026-03-18 03:08:00",
+      "type": "rule_based",
+      "size_mult": 1.1,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "趋势明确, 可适度增仓"
+      ]
+    },
+    {
+      "time": "2026-03-18 03:13:00",
+      "type": "rule_based",
+      "size_mult": 1.1,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "趋势明确, 可适度增仓"
+      ]
+    },
+    {
+      "time": "2026-03-18 03:18:00",
+      "type": "rule_based",
+      "size_mult": 1.1,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "趋势明确, 可适度增仓"
+      ]
+    },
+    {
+      "time": "2026-03-18 03:23:01",
+      "type": "rule_based",
+      "size_mult": 1.1,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "趋势明确, 可适度增仓"
+      ]
+    },
+    {
+      "time": "2026-03-18 03:28:01",
+      "type": "rule_based",
+      "size_mult": 1.1,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "趋势明确, 可适度增仓"
+      ]
+    },
+    {
+      "time": "2026-03-18 03:33:01",
+      "type": "rule_based",
+      "size_mult": 1.1,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "趋势明确, 可适度增仓"
+      ]
+    },
+    {
+      "time": "2026-03-18 07:23:43",
+      "type": "rule_based",
+      "size_mult": 1.1,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "趋势明确, 可适度增仓"
+      ]
+    },
+    {
+      "time": "2026-03-18 07:28:43",
+      "type": "rule_based",
+      "size_mult": 1.1,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "趋势明确, 可适度增仓"
+      ]
+    },
+    {
+      "time": "2026-03-18 15:00:05",
+      "type": "rule_based",
+      "size_mult": 1.1,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "趋势明确, 可适度增仓"
+      ]
+    },
+    {
+      "time": "2026-03-18 15:04:03",
+      "type": "rule_based",
+      "size_mult": 0.935,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "连亏2笔, 适度缩仓",
+        "趋势明确, 可适度增仓"
+      ]
+    },
+    {
+      "time": "2026-03-18 15:05:05",
+      "type": "rule_based",
+      "size_mult": 0.935,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "连亏2笔, 适度缩仓",
+        "趋势明确, 可适度增仓"
+      ]
+    },
+    {
+      "time": "2026-03-18 15:10:05",
+      "type": "rule_based",
+      "size_mult": 0.935,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "连亏2笔, 适度缩仓",
+        "趋势明确, 可适度增仓"
+      ]
+    },
+    {
+      "time": "2026-03-18 15:15:06",
+      "type": "rule_based",
+      "size_mult": 0.935,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "连亏2笔, 适度缩仓",
+        "趋势明确, 可适度增仓"
+      ]
+    },
+    {
+      "time": "2026-03-18 15:20:06",
+      "type": "rule_based",
+      "size_mult": 0.935,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "连亏2笔, 适度缩仓",
+        "趋势明确, 可适度增仓"
+      ]
+    },
+    {
+      "time": "2026-03-18 15:25:07",
+      "type": "rule_based",
+      "size_mult": 0.935,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "连亏2笔, 适度缩仓",
+        "趋势明确, 可适度增仓"
+      ]
+    },
+    {
+      "time": "2026-03-18 15:30:07",
+      "type": "rule_based",
+      "size_mult": 0.935,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "连亏2笔, 适度缩仓",
+        "趋势明确, 可适度增仓"
+      ]
+    },
+    {
+      "time": "2026-03-18 15:35:08",
+      "type": "rule_based",
+      "size_mult": 0.935,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "连亏2笔, 适度缩仓",
+        "趋势明确, 可适度增仓"
+      ]
+    },
+    {
+      "time": "2026-03-18 15:40:08",
+      "type": "rule_based",
+      "size_mult": 0.935,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "连亏2笔, 适度缩仓",
+        "趋势明确, 可适度增仓"
+      ]
+    },
+    {
+      "time": "2026-03-18 15:45:12",
+      "type": "rule_based",
+      "size_mult": 0.935,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "连亏2笔, 适度缩仓",
+        "趋势明确, 可适度增仓"
+      ]
+    },
+    {
+      "time": "2026-03-18 15:50:13",
+      "type": "rule_based",
+      "size_mult": 1.1,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "趋势明确, 可适度增仓"
+      ]
+    },
+    {
+      "time": "2026-03-18 15:55:13",
+      "type": "rule_based",
+      "size_mult": 1.1,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "趋势明确, 可适度增仓"
+      ]
+    },
+    {
+      "time": "2026-03-18 16:00:13",
+      "type": "rule_based",
+      "size_mult": 1.1,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "趋势明确, 可适度增仓"
+      ]
+    },
+    {
+      "time": "2026-03-20 02:50:28",
+      "type": "rule_based",
+      "size_mult": 0.7,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "高波动市场, 降低暴露"
+      ]
+    },
+    {
+      "time": "2026-03-20 02:55:28",
+      "type": "rule_based",
+      "size_mult": 0.7,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "高波动市场, 降低暴露"
+      ]
+    },
+    {
+      "time": "2026-03-20 03:00:28",
+      "type": "rule_based",
+      "size_mult": 0.7,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "高波动市场, 降低暴露"
+      ]
+    },
+    {
+      "time": "2026-03-20 03:02:25",
+      "type": "rule_based",
+      "size_mult": 0.7,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "高波动市场, 降低暴露"
+      ]
+    },
+    {
+      "time": "2026-03-20 03:05:31",
+      "type": "rule_based",
+      "size_mult": 0.7,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "高波动市场, 降低暴露"
+      ]
+    },
+    {
+      "time": "2026-03-20 17:23:30",
+      "type": "rule_based",
+      "size_mult": 0.7,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "高波动市场, 降低暴露"
+      ]
+    },
+    {
+      "time": "2026-03-20 17:28:30",
+      "type": "rule_based",
+      "size_mult": 0.7,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "高波动市场, 降低暴露"
+      ]
+    },
+    {
+      "time": "2026-03-20 17:33:31",
+      "type": "rule_based",
+      "size_mult": 0.7,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "高波动市场, 降低暴露"
+      ]
+    },
+    {
+      "time": "2026-03-23 02:49:05",
+      "type": "rule_based",
+      "size_mult": 0.7,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "高波动市场, 降低暴露"
+      ]
+    },
+    {
+      "time": "2026-03-23 02:54:05",
+      "type": "rule_based",
+      "size_mult": 0.7,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "高波动市场, 降低暴露"
+      ]
+    },
+    {
+      "time": "2026-03-23 02:59:05",
+      "type": "rule_based",
+      "size_mult": 0.7,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "高波动市场, 降低暴露"
+      ]
+    },
+    {
+      "time": "2026-03-23 03:04:05",
+      "type": "rule_based",
+      "size_mult": 0.7,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "高波动市场, 降低暴露"
+      ]
+    },
+    {
+      "time": "2026-03-23 03:04:26",
+      "type": "rule_based",
+      "size_mult": 0.7,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "高波动市场, 降低暴露"
+      ]
+    },
+    {
+      "time": "2026-03-23 03:09:05",
+      "type": "rule_based",
+      "size_mult": 0.7,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "高波动市场, 降低暴露"
+      ]
+    },
+    {
+      "time": "2026-03-23 03:14:05",
+      "type": "rule_based",
+      "size_mult": 0.7,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "高波动市场, 降低暴露"
+      ]
+    },
+    {
+      "time": "2026-03-26 09:04:02",
+      "type": "rule_based",
+      "size_mult": 0.7,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "高波动市场, 降低暴露"
+      ]
+    },
+    {
+      "time": "2026-03-26 09:09:02",
+      "type": "rule_based",
+      "size_mult": 0.7,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "高波动市场, 降低暴露"
+      ]
+    },
+    {
+      "time": "2026-03-26 09:14:02",
+      "type": "rule_based",
+      "size_mult": 0.7,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "高波动市场, 降低暴露"
+      ]
+    },
+    {
+      "time": "2026-03-26 09:19:03",
+      "type": "rule_based",
+      "size_mult": 0.7,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "高波动市场, 降低暴露"
+      ]
+    },
+    {
+      "time": "2026-03-26 09:24:03",
+      "type": "rule_based",
+      "size_mult": 0.7,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "高波动市场, 降低暴露"
+      ]
+    },
+    {
+      "time": "2026-03-26 09:29:03",
+      "type": "rule_based",
+      "size_mult": 0.7,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "高波动市场, 降低暴露"
+      ]
+    },
+    {
+      "time": "2026-03-26 09:34:03",
+      "type": "rule_based",
+      "size_mult": 0.7,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "高波动市场, 降低暴露"
+      ]
+    },
+    {
+      "time": "2026-03-26 09:39:04",
+      "type": "rule_based",
+      "size_mult": 0.7,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "高波动市场, 降低暴露"
+      ]
+    },
+    {
+      "time": "2026-03-27 06:55:51",
+      "type": "rule_based",
+      "size_mult": 0.7,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "高波动市场, 降低暴露"
+      ]
+    },
+    {
+      "time": "2026-03-27 07:00:51",
+      "type": "rule_based",
+      "size_mult": 0.7,
+      "throttle": "normal",
+      "risk": "standard",
+      "reasons": [
+        "高波动市场, 降低暴露"
+      ]
+    }
+  ],
+  "ai_analysis_history": [
+    {
+      "time": "2026-02-15 10:34:39",
+      "ai_result": {
+        "size_multiplier": 0.7,
+        "throttle_level": "reduced",
+        "risk_level": "elevated",
+        "regime_bias": "defensive",
+        "rebalance_advice": {
+          "trend": 0.4,
+          "range": 0.3,
+          "grid": 0.3
+        },
+        "reasoning": "ML与规则胜率偏低且连亏7笔，信号中性但资金使用率低；市场趋势明显，建议降仓并偏向趋势策略，收紧风控并密切监控。",
+        "confidence": 0.8,
+        "evolution_tips": [
+          "重训练并分层回测ML模型，引入在线学习与置信度门槛以减少低质量信号",
+          "增加动态止损/仓位规则和基于市场结构的策略切换与自动冷却机制"
+        ]
+      },
+      "blended_mult": 0.61,
+      "confidence": 0.8
+    },
+    {
+      "time": "2026-02-15 11:22:34",
+      "ai_result": {
+        "size_multiplier": 1.0,
+        "risk_level": "low",
+        "regime_bias": "neutral",
+        "rebalance_advice": {
+          "trend": 0.5,
+          "range": 0.25,
+          "grid": 0.25
+        },
+        "reasoning": "当前市场趋势明显，但连亏已达7笔，意味着短期执行风险较高。建议保持适度仓位乘数，以降低波动风险。同时，增大趋势策略的资金配置，确保在目前的趋势环境中从中获利。此时依然保持低风险水平是关键。",
+        "confidence": 0.8,
+        "evolution_tips": [
+          "加强对低胜率信号的信号质量评估",
+          "提升网格策略的活跃频率",
+          "优化资金分配策略以提高整体资金使用率"
+        ],
+        "market_outlook": "市场正处于明显的趋势中，适宜顺势操作。",
+        "priority_action": "立即优化资金布局，增加趋势策略的资金比例。"
+      },
+      "blended_mult": 0.796,
+      "confidence": 0.8,
+      "market_outlook": "市场正处于明显的趋势中，适宜顺势操作。",
+      "priority_action": "立即优化资金布局，增加趋势策略的资金比例。",
+      "equity_snapshot": 100000,
+      "pnl_snapshot": 0,
+      "drawdown_snapshot": 0.0
+    },
+    {
+      "time": "2026-02-15 12:00:41",
+      "ai_result": {
+        "size_multiplier": 1.0,
+        "risk_level": "low",
+        "regime_bias": "neutral",
+        "rebalance_advice": {
+          "trend": 0.5,
+          "range": 0.25,
+          "grid": 0.25
+        },
+        "reasoning": "当前连亏7笔需保持警惕，同时市场处于向上趋势。提高趋势策略的资金比例可以更好地跟随市场，但要留意信号质量。保持在1.0的乘数以降低波动风险，避免剧烈波动带来的额外损失。",
+        "confidence": 0.8,
+        "evolution_tips": [
+          "优化信号生成链路，检查数据完整性和信号发生的逻辑",
+          "增强趋势策略信号过滤机制，结合近期市场特征",
+          "开发更灵活的动态风险管理算法，根据连亏情况自动调整资金分配"
+        ],
+        "market_outlook": "市场仍然在上升趋势，继续观察信号质量变化。",
+        "priority_action": "立即调整资金配置，增加趋势策略的资金比例。"
+      },
+      "blended_mult": 0.796,
+      "confidence": 0.8,
+      "market_outlook": "市场仍然在上升趋势，继续观察信号质量变化。",
+      "priority_action": "立即调整资金配置，增加趋势策略的资金比例。",
+      "equity_snapshot": 100000,
+      "pnl_snapshot": 0,
+      "drawdown_snapshot": 0.0
+    },
+    {
+      "time": "2026-02-15 12:15:45",
+      "ai_result": {
+        "size_multiplier": 1.0,
+        "risk_level": "elevated",
+        "regime_bias": "defensive",
+        "rebalance_advice": {
+          "trend": 0.5,
+          "range": 0.25,
+          "grid": 0.25
+        },
+        "reasoning": "当前市场处于向上的趋势中，但连亏7笔说明信号质量不佳，需收缩仓位以降低风险。同时由于市场环境尚在趋势中，适度增加趋势策略的比例可以更好地捕捉收益。保持防御性，以挡住潜在的更大亏损。",
+        "confidence": 0.75,
+        "evolution_tips": [
+          "增加信号质量监控机制，实时调整仓位策略。",
+          "优化ML模型，提升准确率以提高信号质量。",
+          "考虑引入新的风险管理参数，以应对连亏风险。"
+        ],
+        "market_outlook": "市场维持上升趋势，但信号质量较差。",
+        "priority_action": "监控信号质量变化，提升决策依据。"
+      },
+      "blended_mult": 0.796,
+      "confidence": 0.75,
+      "market_outlook": "市场维持上升趋势，但信号质量较差。",
+      "priority_action": "监控信号质量变化，提升决策依据。",
+      "equity_snapshot": 100000,
+      "pnl_snapshot": 0,
+      "drawdown_snapshot": 0.0
+    },
+    {
+      "time": "2026-02-15 12:25:49",
+      "ai_result": {
+        "size_multiplier": 1.0,
+        "risk_level": "elevated",
+        "regime_bias": "neutral",
+        "rebalance_advice": {
+          "trend": 0.5,
+          "range": 0.25,
+          "grid": 0.25
+        },
+        "reasoning": "当前市场环境为上升趋势，但连亏7笔表明信号质量明显不足，需控制风险。保持资金利用率在合理范围内，同时将更多资金分配到趋势策略中，以试图捕捉可能的反弹盈利机会。进一步调配策略比例，使得整体风险保持在可接受范围内。",
+        "confidence": 0.75,
+        "evolution_tips": [
+          "优化信号生成链路，增加对市场环境的动态判断。",
+          "重新评估技术指标的选取，确保反映当前市场状况。",
+          "提升不活跃策略的回测频率，确保在不同市场条件下的有效性。"
+        ],
+        "market_outlook": "市场维持上升趋势，需警惕信号质量不佳。",
+        "priority_action": "立即调整策略资金分配，增加趋势策略的仓位。"
+      },
+      "blended_mult": 0.796,
+      "confidence": 0.75,
+      "market_outlook": "市场维持上升趋势，需警惕信号质量不佳。",
+      "priority_action": "立即调整策略资金分配，增加趋势策略的仓位。",
+      "equity_snapshot": 100000,
+      "pnl_snapshot": 0,
+      "drawdown_snapshot": 0.0
+    },
+    {
+      "time": "2026-02-15 14:11:43",
+      "ai_result": {
+        "size_multiplier": 1.0,
+        "risk_level": "standard",
+        "regime_bias": "aggressive",
+        "rebalance_advice": {
+          "trend": 0.5,
+          "range": 0.2,
+          "grid": 0.3
+        },
+        "reasoning": "尽管当前连亏3笔，市场在上升趋势中，且ML信号质量仍为50%。采用1.0的仓位乘数，维持在合理范围，适度增持趋势策略，以把握反弹机会，同时保留部分仓位用于网格策略应对市场波动。整体风险保持在标准范围。分配中适当增加趋势策略的比例以迎合当前市场方向。",
+        "confidence": 0.8,
+        "evolution_tips": [
+          "持续监控ML信号质量，确保在提高仓位前进行必要的信号验证。",
+          "定期评估持仓顾问的建议，提升对波动率变化的敏感性。",
+          "增加对趋势策略成交时机及入场点的分析，以提高整体胜率。"
+        ],
+        "market_outlook": "预计短期内趋势将继续向上，需关注信号的有效性。",
+        "priority_action": "立即调整资金分配，增加趋势策略的比例，确保保持相应的市场适应性。"
+      },
+      "blended_mult": 0.862,
+      "confidence": 0.8,
+      "market_outlook": "预计短期内趋势将继续向上，需关注信号的有效性。",
+      "priority_action": "立即调整资金分配，增加趋势策略的比例，确保保持相应的市场适应性。",
+      "equity_snapshot": 100000,
+      "pnl_snapshot": 0,
+      "drawdown_snapshot": 0.0
+    },
+    {
+      "time": "2026-02-15 14:27:54",
+      "ai_result": {
+        "size_multiplier": 1.0,
+        "risk_level": "standard",
+        "regime_bias": "aggressive",
+        "rebalance_advice": {
+          "trend": 0.5,
+          "range": 0.25,
+          "grid": 0.25
+        },
+        "reasoning": "当前市场处于持续上升阶段，趋势明显。同时，连亏3笔使得信号质量略显不足，但ML准确率仍在可接受范围。考虑到资金使用率（15.1%）较低，可以适度增持趋势策略（40%），同时保留部分仓位（25%）用于震荡策略，以备不时之需。合理的仓位乘数（1.0）可助于充分参与潜在反弹，同时降低过度风险。整体风险控制维持在标准水平。",
+        "confidence": 0.8,
+        "evolution_tips": [
+          "增加对持仓顾问的信号分析频率，提升决策透明度。",
+          "实时监控ML模型的信号变化，调整策略依据反馈。",
+          "定期进行壳层测试，以验证策略在不同市场环境下的韧性。"
+        ],
+        "market_outlook": "预计短期趋势将持续，需警惕波动加剧。",
+        "priority_action": "应该增加趋势策略的资金配置，抓住短期反弹机会。"
+      },
+      "blended_mult": 0.862,
+      "confidence": 0.8,
+      "market_outlook": "预计短期趋势将持续，需警惕波动加剧。",
+      "priority_action": "应该增加趋势策略的资金配置，抓住短期反弹机会。",
+      "equity_snapshot": 100000,
+      "pnl_snapshot": 0,
+      "drawdown_snapshot": 0.0
+    },
+    {
+      "time": "2026-02-16 12:30:52",
+      "ai_result": {
+        "size_multiplier": 1.0,
+        "risk_level": "low",
+        "regime_bias": "aggressive",
+        "rebalance_advice": {
+          "trend": 0.5,
+          "range": 0.25,
+          "grid": 0.25
+        },
+        "reasoning": "当前处于趋升阶段，连亏7笔表明信号质量需关注，但资金使用率低于20%。考虑到市场趋势，适度提高趋势策略的仓位，以捕捉上涨机会；维持震荡策略和网格策略小额配置以防止潜在波动带来的风险。",
+        "confidence": 0.8,
+        "evolution_tips": [
+          "增加对趋势策略的投入，重点关注趋势线突破",
+          "定期检查持仓顾问的操作建议",
+          "优化波动率自适应止损的配置，提升响应速度"
+        ],
+        "market_outlook": "市场趋势依旧向上，短期看涨信号明显。",
+        "priority_action": "立即调整趋势策略的仓位分配，增加资金投入。"
+      },
+      "blended_mult": 0.796,
+      "confidence": 0.8,
+      "market_outlook": "市场趋势依旧向上，短期看涨信号明显。",
+      "priority_action": "立即调整趋势策略的仓位分配，增加资金投入。",
+      "equity_snapshot": 100000,
+      "pnl_snapshot": 0,
+      "drawdown_snapshot": 0.0
+    },
+    {
+      "time": "2026-02-16 13:10:41",
+      "ai_result": {
+        "size_multiplier": 1.1,
+        "risk_level": "standard",
+        "regime_bias": "neutral",
+        "rebalance_advice": {
+          "trend": 0.5,
+          "range": 0.25,
+          "grid": 0.25
+        },
+        "reasoning": "考虑当前连亏7笔，市场依旧处于趋势向上的状态，信号质量需关注，适度增仓以把握上涨机会，但量力而行。资金利用率低于20%，建议提高趋势策略资金比例，以便更好捕捉市场机会，同时保持其他策略的配置以应对不确定性。",
+        "confidence": 0.8,
+        "evolution_tips": [
+          "针对趋势信号进行回溯分析，确保当前模型参数正确",
+          "定期评估持仓顾问的建议准确性，必要时调整关联指标",
+          "加强对低信号质量时的市场监测，构建风险预警机制"
+        ],
+        "market_outlook": "短期看涨信号明显，保持积极态度。",
+        "priority_action": "增仓趋势策略以捕捉市场上涨机会。"
+      },
+      "blended_mult": 0.836,
+      "confidence": 0.8,
+      "market_outlook": "短期看涨信号明显，保持积极态度。",
+      "priority_action": "增仓趋势策略以捕捉市场上涨机会。",
+      "equity_snapshot": 100000,
+      "pnl_snapshot": 0,
+      "drawdown_snapshot": 0.0
+    },
+    {
+      "time": "2026-02-16 13:23:37",
+      "ai_result": {
+        "size_multiplier": 1.0,
+        "risk_level": "low",
+        "regime_bias": "aggressive",
+        "rebalance_advice": {
+          "trend": 0.5,
+          "range": 0.2,
+          "grid": 0.3
+        },
+        "reasoning": "当前市场环境趋势明显，且资金利用率低于20%。连亏7笔需关注信号质量，但应适度增仓以抓住上涨机会，Trend策略比例可增加至50%，以更好体现市场趋势，范围和网格策略适度保留应对潜在波动。",
+        "confidence": 0.8,
+        "evolution_tips": [
+          "增强信号质量监控机制，定期评估信号准确性。",
+          "根据市场动态调整风险预算与仓位乘数。",
+          "定期回顾持仓顾问建议，确保反映实时市场环境。"
+        ],
+        "market_outlook": "短期看涨信号明显，应积极布局以捕捉机会。",
+        "priority_action": "增加趋势策略投资以把握当前上涨机会。"
+      },
+      "blended_mult": 0.796,
+      "confidence": 0.8,
+      "market_outlook": "短期看涨信号明显，应积极布局以捕捉机会。",
+      "priority_action": "增加趋势策略投资以把握当前上涨机会。",
+      "equity_snapshot": 100000,
+      "pnl_snapshot": 0,
+      "drawdown_snapshot": 0.0
+    },
+    {
+      "time": "2026-02-16 15:50:13",
+      "ai_result": {
+        "size_multiplier": 1.1,
+        "risk_level": "low",
+        "regime_bias": "aggressive",
+        "rebalance_advice": {
+          "trend": 0.5,
+          "range": 0.25,
+          "grid": 0.25
+        },
+        "reasoning": "当前市场趋势明确，尽管连亏1笔，资金利用率仅为19.6%且回撤为0，适合积极布局。加大趋势策略仓位至50%以捕捉潜在上涨机会。同时，适度保留范围和网格策略应对市场波动。连亏未达到显著警戒线，因此可继续持仓并展望收益。",
+        "confidence": 0.85,
+        "evolution_tips": [
+          "优化趋势策略中的信号质量提升机制，以提高总体胜率。",
+          "定期分析和调整波动率自适应止损的算法，确保其准确性。",
+          "增加对市场反转信号的监控，以及时调整仓位分配。"
+        ],
+        "market_outlook": "短期市场趋势强劲，适合积极介入。",
+        "priority_action": "增加趋势策略的资金配置，推动开仓。"
+      },
+      "blended_mult": 1.1,
+      "confidence": 0.85,
+      "market_outlook": "短期市场趋势强劲，适合积极介入。",
+      "priority_action": "增加趋势策略的资金配置，推动开仓。",
+      "equity_snapshot": 100000,
+      "pnl_snapshot": 0,
+      "drawdown_snapshot": 0.0
+    },
+    {
+      "time": "2026-02-16 15:54:55",
+      "ai_result": {
+        "size_multiplier": 1.1,
+        "risk_level": "low",
+        "regime_bias": "aggressive",
+        "rebalance_advice": {
+          "trend": 0.5,
+          "range": 0.25,
+          "grid": 0.25
+        },
+        "reasoning": "当前市场环境为上升趋势，尽管连亏1笔，但回撤仍然为0且资金使用率偏低，趋势策略具备监管上升潜力。建议适度增加趋势策略的资金分配以把握破局机会，同时保持一定的范围和网格策略以应对突发波动，确保风控稳定。",
+        "confidence": 0.85,
+        "evolution_tips": [
+          "增加趋势策略资金分配以捕捉潜在上涨机会，尤其是在当前强势市场中。",
+          "考虑对持仓顾问输出进行精细优化，以提升建议的置信度和有效性。",
+          "建立更精细的市场环境监测机制，以便及时调整策略组合。"
+        ],
+        "market_outlook": "短期市场趋势强劲，回调风险较小。",
+        "priority_action": "调整策略再平衡，增加趋势策略的资金配置。"
+      },
+      "blended_mult": 1.1,
+      "confidence": 0.85,
+      "market_outlook": "短期市场趋势强劲，回调风险较小。",
+      "priority_action": "调整策略再平衡，增加趋势策略的资金配置。",
+      "equity_snapshot": 100000,
+      "pnl_snapshot": 0,
+      "drawdown_snapshot": 0.0
+    },
+    {
+      "time": "2026-02-16 15:59:49",
+      "ai_result": {
+        "size_multiplier": 1.1,
+        "risk_level": "standard",
+        "regime_bias": "aggressive",
+        "rebalance_advice": {
+          "trend": 0.5,
+          "range": 0.25,
+          "grid": 0.25
+        },
+        "reasoning": "目前市场环境为趋势向上，但ML模型准确率仅50%，需谨慎行事。鉴于当前回撤为0且资金使用率较低，建议将趋势策略的资金比例提升至50%，以更加主动地把握市场机会，同时保留足够的范围和网格策略作为防御措施。",
+        "confidence": 0.75,
+        "evolution_tips": [
+          "优化马尔可夫模型参数，以提高趋势策略的适应性。",
+          "增加区间收割策略的规则筛选，提高盈利概率。",
+          "定期审计ML模型，确保实时数据的刷新与模型的适配性。"
+        ],
+        "market_outlook": "短期市场趋势强劲，回调风险较小，适宜积极布局。",
+        "priority_action": "增加趋势策略的资金比例，确保能抓住上涨机会。"
+      },
+      "blended_mult": 1.1,
+      "confidence": 0.75,
+      "market_outlook": "短期市场趋势强劲，回调风险较小，适宜积极布局。",
+      "priority_action": "增加趋势策略的资金比例，确保能抓住上涨机会。",
+      "equity_snapshot": 100000,
+      "pnl_snapshot": 0,
+      "drawdown_snapshot": 0.0
+    },
+    {
+      "time": "2026-02-16 16:13:57",
+      "ai_result": {
+        "size_multiplier": 1.0,
+        "risk_level": "standard",
+        "regime_bias": "neutral",
+        "rebalance_advice": {
+          "trend": 0.5,
+          "range": 0.25,
+          "grid": 0.25
+        },
+        "reasoning": "当前市场处于明确的上升趋势，但ML表现只有50%，存在一定的不确定性。现阶段可适度增加趋势策略资金分配，确保在把握市场机会的同时，维持一定的防御措施，以应对潜在的波动风险。",
+        "confidence": 0.75,
+        "evolution_tips": [
+          "提高趋势策略资金占比至50%，监测短期回调情况",
+          "保持小额的网格策略以应对波动",
+          "定期更新ML模型以提高准确率"
+        ],
+        "market_outlook": "短期市场趋势强劲，适合增仓。",
+        "priority_action": "实施资金再平衡，确保趋势策略有足够的资金把握机会。"
+      },
+      "blended_mult": 1.06,
+      "confidence": 0.75,
+      "market_outlook": "短期市场趋势强劲，适合增仓。",
+      "priority_action": "实施资金再平衡，确保趋势策略有足够的资金把握机会。",
+      "equity_snapshot": 100000,
+      "pnl_snapshot": 0,
+      "drawdown_snapshot": 0.0
+    },
+    {
+      "time": "2026-02-16 16:26:29",
+      "ai_result": {
+        "size_multiplier": 1.1,
+        "risk_level": "standard",
+        "regime_bias": "aggressive",
+        "rebalance_advice": {
+          "trend": 0.5,
+          "range": 0.25,
+          "grid": 0.25
+        },
+        "reasoning": "当前市场处于明显的上升趋势，但ML模型表现较弱(50%)，带来一定的不确定性。因此，建议增加趋势策略的分配，同时保持对震荡策略的适度关注，以应对市场波动带来的风险，确保保持盈利能力。",
+        "confidence": 0.8,
+        "evolution_tips": [
+          "增加对标准波动率模型的监控，提升信号触发确保及时应对市场变动。",
+          "优化持仓顾问系统，提高对平仓信号的及时反馈和决策能力。",
+          "定期审查各策略的表现与风险，确保灵活调整策略权重。"
+        ],
+        "market_outlook": "短期内趋势强劲，适宜积极布局。",
+        "priority_action": "立即调整趋势策略的资金分配至50%并开始执行新仓位。"
+      },
+      "blended_mult": 1.1,
+      "confidence": 0.8,
+      "market_outlook": "短期内趋势强劲，适宜积极布局。",
+      "priority_action": "立即调整趋势策略的资金分配至50%并开始执行新仓位。",
+      "equity_snapshot": 100000,
+      "pnl_snapshot": 0,
+      "drawdown_snapshot": 0.0
+    },
+    {
+      "time": "2026-02-16 16:46:52",
+      "ai_result": {
+        "size_multiplier": 1.1,
+        "risk_level": "low",
+        "regime_bias": "aggressive",
+        "rebalance_advice": {
+          "trend": 0.5,
+          "range": 0.25,
+          "grid": 0.25
+        },
+        "reasoning": "当前市场呈现明显上升趋势，持仓顾问建议持有的分布说明市场暂无明显风险。然而，ML准确率偏低（50%）导致一定不确定性。加强趋势策略的仓位比例可获得更好收益，同时保留一定资金用于震荡策略以应对潜在市场波动和风险。",
+        "confidence": 0.8,
+        "evolution_tips": [
+          "考虑增加对历史趋势数据的分析力度，以提升ML模型的表现。",
+          "优化信号生成链路，提高信号质量标定，以增强策略的有效性。",
+          "对波动率自适应止损策略进行回测，确认其在各种市场环境下的表现。"
+        ],
+        "market_outlook": "当前市场趋势强劲，短期内可能继续走高。",
+        "priority_action": "调整资金分配，增加趋势策略的投资力度。"
+      },
+      "blended_mult": 1.1,
+      "confidence": 0.8,
+      "market_outlook": "当前市场趋势强劲，短期内可能继续走高。",
+      "priority_action": "调整资金分配，增加趋势策略的投资力度。",
+      "equity_snapshot": 100000,
+      "pnl_snapshot": 0,
+      "drawdown_snapshot": 0.0
+    },
+    {
+      "time": "2026-02-16 17:08:44",
+      "ai_result": {
+        "size_multiplier": 1.1,
+        "risk_level": "standard",
+        "regime_bias": "aggressive",
+        "rebalance_advice": {
+          "trend": 0.5,
+          "range": 0.25,
+          "grid": 0.25
+        },
+        "reasoning": "当前市场趋势明显，且回撤极小，表明市场状态良好。市场环境为上升趋势，适合加大趋势策略仓位以抓住上涨机会。虽然ML准确率在50%水平，但持仓顾问建议无明显风险，结合趋势策略的强劲表现，适度增仓是合理选择。",
+        "confidence": 0.8,
+        "evolution_tips": [
+          "增强ML模型训练数据的多样性，提升预测准确率。",
+          "定期评估持仓顾问的建议有效性，及时优化。",
+          "在持续上升期间，保持趋势策略的核心地位，大幅推动资金投入。"
+        ],
+        "market_outlook": "市场仍然显示出强劲的上升动力，短期前景乐观。",
+        "priority_action": "进入趋势策略并加大投资，利用当前市场优势。"
+      },
+      "blended_mult": 1.1,
+      "confidence": 0.8,
+      "market_outlook": "市场仍然显示出强劲的上升动力，短期前景乐观。",
+      "priority_action": "进入趋势策略并加大投资，利用当前市场优势。",
+      "equity_snapshot": 100000,
+      "pnl_snapshot": 0,
+      "drawdown_snapshot": 0.0
+    },
+    {
+      "time": "2026-02-16 17:46:42",
+      "ai_result": {
+        "size_multiplier": 1.1,
+        "risk_level": "standard",
+        "regime_bias": "aggressive",
+        "rebalance_advice": {
+          "trend": 0.5,
+          "range": 0.25,
+          "grid": 0.25
+        },
+        "reasoning": "当前市场处于明显上升趋势，且回撤极小，适合在趋势策略上增持。虽然ML准确率为50%，但趋势环境强劲，具备加仓的合理性。同时，建议适度调整区间及网格策略的资金分配，以备未来震荡市场的可能性。",
+        "confidence": 0.8,
+        "evolution_tips": [
+          "考虑根据技术指标进一步细化趋势策略的进场信号。",
+          "增强风控模型，在波动率上升时适度收紧止损。",
+          "检视持仓顾问的预警机制，确保及时响应市场变化。"
+        ],
+        "market_outlook": "市场显示出强烈的上升动力，短期内前景乐观。",
+        "priority_action": "立即加仓趋势策略以充分利用当前市场动能。"
+      },
+      "blended_mult": 1.1,
+      "confidence": 0.8,
+      "market_outlook": "市场显示出强烈的上升动力，短期内前景乐观。",
+      "priority_action": "立即加仓趋势策略以充分利用当前市场动能。",
+      "equity_snapshot": 100000,
+      "pnl_snapshot": 0,
+      "drawdown_snapshot": 0.0
+    },
+    {
+      "time": "2026-02-17 02:21:37",
+      "ai_result": {
+        "size_multiplier": 1.1,
+        "risk_level": "standard",
+        "regime_bias": "aggressive",
+        "rebalance_advice": {
+          "trend": 0.5,
+          "range": 0.25,
+          "grid": 0.25
+        },
+        "reasoning": "当前市场处于上升趋势，回撤极小，持仓建议为持有状态。资金利用率仅为10%，需要增加趋势策略的资金分配，以利用当前强劲的走势。同时保持对震荡市场的准备，适度分配给区间及网格策略，以防未来的不确定性。",
+        "confidence": 0.8,
+        "evolution_tips": [
+          "增加机器学习模型的调参频率，提升信号准确性",
+          "对区间策略进行动态优化，适应不同市场环境",
+          "监控持仓顾问建议，及时调整策略方案"
+        ],
+        "market_outlook": "当前市场趋势强劲，短期内仍有上升潜力。",
+        "priority_action": "需立即调整趋势策略的资金分配，加大仓位以抓住收益机会。"
+      },
+      "blended_mult": 1.1,
+      "confidence": 0.8,
+      "market_outlook": "当前市场趋势强劲，短期内仍有上升潜力。",
+      "priority_action": "需立即调整趋势策略的资金分配，加大仓位以抓住收益机会。",
+      "equity_snapshot": 100000,
+      "pnl_snapshot": 0,
+      "drawdown_snapshot": 0.0
+    }
+  ],
+  "reflection_log": [
+    {
+      "time": "2026-02-18 12:04:48",
+      "accuracy_score": 0.52,
+      "lessons": [],
+      "per_advice_scores": [
+        0.6,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "equity": 100000,
+      "pnl": 0,
+      "drawdown": 0.0
+    },
+    {
+      "time": "2026-02-18 15:17:02",
+      "accuracy_score": 0.52,
+      "lessons": [],
+      "per_advice_scores": [
+        0.6,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "equity": 100000,
+      "pnl": 0,
+      "drawdown": 0.0
+    },
+    {
+      "time": "2026-02-19 00:04:46",
+      "accuracy_score": 0.52,
+      "lessons": [],
+      "per_advice_scores": [
+        0.6,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "equity": 100000,
+      "pnl": 0,
+      "drawdown": 0.0
+    },
+    {
+      "time": "2026-02-19 12:03:34",
+      "accuracy_score": 0.52,
+      "lessons": [],
+      "per_advice_scores": [
+        0.6,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "equity": 100000,
+      "pnl": 0,
+      "drawdown": 0.0
+    },
+    {
+      "time": "2026-02-19 12:03:37",
+      "accuracy_score": 0.52,
+      "lessons": [],
+      "per_advice_scores": [
+        0.6,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "equity": 100000,
+      "pnl": 0,
+      "drawdown": 0.0
+    },
+    {
+      "time": "2026-02-20 00:04:09",
+      "accuracy_score": 0.52,
+      "lessons": [],
+      "per_advice_scores": [
+        0.6,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "equity": 100000,
+      "pnl": 0,
+      "drawdown": 0.0
+    },
+    {
+      "time": "2026-02-20 00:04:12",
+      "accuracy_score": 0.52,
+      "lessons": [],
+      "per_advice_scores": [
+        0.6,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "equity": 100000,
+      "pnl": 0,
+      "drawdown": 0.0
+    },
+    {
+      "time": "2026-02-20 12:05:43",
+      "accuracy_score": 0.52,
+      "lessons": [],
+      "per_advice_scores": [
+        0.6,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "equity": 100000,
+      "pnl": 0,
+      "drawdown": 0.0
+    },
+    {
+      "time": "2026-02-21 00:06:04",
+      "accuracy_score": 0.52,
+      "lessons": [],
+      "per_advice_scores": [
+        0.6,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "equity": 100000,
+      "pnl": 0,
+      "drawdown": 0.0
+    },
+    {
+      "time": "2026-02-21 00:06:07",
+      "accuracy_score": 0.52,
+      "lessons": [],
+      "per_advice_scores": [
+        0.6,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "equity": 100000,
+      "pnl": 0,
+      "drawdown": 0.0
+    }
+  ],
+  "strategic_directives": {
+    "strategy_preference": "trend",
+    "asset_blacklist": [
+      "MON",
+      "RAVE",
+      "HBAR",
+      "BLUAI",
+      "POWER",
+      "KITE",
+      "USD1",
+      "XAUT",
+      "PAXG",
+      "HNT"
+    ],
+    "asset_whitelist": [],
+    "aggression_mode": "moderate",
+    "max_concurrent_positions": 5,
+    "regime_strategy_map": {
+      "trending": {
+        "trend": 0.5,
+        "range": 0.2,
+        "grid": 0.3
+      },
+      "ranging": {
+        "trend": 0.5,
+        "range": 0.2,
+        "grid": 0.3
+      },
+      "volatile": {
+        "trend": 0.5,
+        "range": 0.2,
+        "grid": 0.3
+      },
+      "unknown": {
+        "trend": 0.35,
+        "range": 0.3,
+        "grid": 0.35
+      }
+    },
+    "min_signal_score": 73,
+    "directives_updated_at": "2026-03-27 07:00:51"
+  },
+  "intelligence_pool": {
+    "reviewer": {
+      "total_reviews": 22,
+      "avg_score": 73.4,
+      "validated_patterns_count": 0,
+      "recent_losing_symbols": [],
+      "total_trades": 129,
+      "win_rate": 44.18604651162791,
+      "total_pnl": -214.93,
+      "equity": 99862.88,
+      "pending_trades": 0,
+      "recent_reviews_detail": [
+        "batch_review: score=100, verdict=良好",
+        "batch_review: score=65, verdict=一般",
+        "batch_review: score=100, verdict=良好",
+        "batch_review: score=55, verdict=需改进",
+        "batch_review: score=47, verdict=需改进"
+      ],
+      "summary": "复盘22笔/129总交易, 均分73, 胜率44.2%, 盈亏$-214.93"
+    },
+    "diagnostic": {
+      "health_score": 35,
+      "severity": "alert",
+      "summary": "当前系统状态不佳，胜率低且回撤存在风险。",
+      "vs_last": "恶化 - 上次健康分40，胜率有所下降且回撤略有增加。",
+      "dimension_scores": {
+        "trading_performance": 30,
+        "ml_model_health": 75,
+        "risk_control": 50,
+        "strategy_allocation": 60,
+        "signal_quality": 48,
+        "capital_efficiency": 50,
+        "evolution_progress": 40
+      },
+      "top_issues": [
+        "[trading_performance] 整体胜率39.0%，未达到40%",
+        "[trading_performance] 年化收益率为-2.24%，未达12%目标",
+        "[trading_performance] 最近10笔交易的胜率80.0%不具代表性，样本不足",
+        "[risk_control] 当前最大回撤0.36%，超过推荐限制",
+        "[risk_control] 连续亏损次数尚未触发但需保持警惕",
+        "[strategy_allocation] 趋势策略有效性较高，胜率41.5%",
+        "[strategy_allocation] 范围策略表现较差，胜率为0%且损失显著",
+        "[signal_quality] 信号总数20502中，优质信号比例不足"
+      ],
+      "top_suggestions": [
+        "[trading_performance] 增加近期表现较好的资产，以提高胜率",
+        "[trading_performance] 关注胜率在40%附近进行监控，评估不同策略表现以便优化",
+        "[risk_control] 持续监控最大回撤，确保不超过0.5%",
+        "[risk_control] 定期评核策略表现，必要时进行冻结以降低风险",
+        "[strategy_allocation] 对范围策略进行全面评估，考虑暂停或调整"
+      ],
+      "total_diagnostics": 214
+    },
+    "return_rate": {
+      "severity": "alert",
+      "annualized_return": -7.15,
+      "current_return_pct": -0.137,
+      "drawdown_pct": 1.11,
+      "recent_win_rate": 60.0,
+      "recent_avg_pnl": 0.36,
+      "data_maturity": "mature",
+      "recommendations_count": 4,
+      "aggression_hint": "moderate",
+      "top_recommendations": [
+        "adjust_ml_weight",
+        "ai_advisory",
+        "ai_advisory"
+      ],
+      "recent_observations": [
+        "年化收益-2.0%未达12%目标, 连续267次检查未达标",
+        "运行40天, 数据已具参考性",
+        "近10笔交易: 胜率60.0%, 平均收益0.36%",
+        "年化收益-2.1%未达12%目标, 连续268次检查未达标",
+        "运行41天, 数据已具参考性"
+      ],
+      "summary": "年化-7.1%, 级别alert, 回撤1.11%"
+    },
+    "synapse": {
+      "best_strategy": "trend",
+      "best_win_rate": 41.4,
+      "worst_strategy": "range",
+      "worst_win_rate": 0.0,
+      "worst_assets": [
+        "MON",
+        "HBAR",
+        "KITE",
+        "XAUT",
+        "HNT"
+      ],
+      "asset_win_rates": {
+        "HBAR": {
+          "win_rate": 0.0,
+          "total": 6
+        },
+        "ATOM": {
+          "win_rate": 1.0,
+          "total": 6
+        },
+        "FIL": {
+          "win_rate": 0.0,
+          "total": 3
+        },
+        "CRV": {
+          "win_rate": 0.0,
+          "total": 3
+        },
+        "IMX": {
+          "win_rate": 0.4,
+          "total": 5
+        },
+        "JASMY": {
+          "win_rate": 0.0,
+          "total": 3
+        },
+        "AR": {
+          "win_rate": 0.0,
+          "total": 3
+        },
+        "HNT": {
+          "win_rate": 0.0,
+          "total": 5
+        },
+        "AVAX": {
+          "win_rate": 0.0,
+          "total": 4
+        },
+        "AAVE": {
+          "win_rate": 1.0,
+          "total": 3
+        },
+        "STABLE": {
+          "win_rate": 0.6666666666666666,
+          "total": 15
+        },
+        "PIPPIN": {
+          "win_rate": 0.7692307692307693,
+          "total": 13
+        },
+        "XAUT": {
+          "win_rate": 0.0,
+          "total": 9
+        },
+        "KITE": {
+          "win_rate": 0.14285714285714285,
+          "total": 21
+        },
+        "H": {
+          "win_rate": 1.0,
+          "total": 3
+        },
+        "ZAMA": {
+          "win_rate": 0.0,
+          "total": 3
+        },
+        "我踏马来了": {
+          "win_rate": 0.0,
+          "total": 3
+        },
+        "USELESS": {
+          "win_rate": 1.0,
+          "total": 3
+        },
+        "XPL": {
+          "win_rate": 0.0,
+          "total": 3
+        },
+        "PYTH": {
+          "win_rate": 0.0,
+          "total": 3
+        },
+        "OM": {
+          "win_rate": 0.0,
+          "total": 3
+        },
+        "COAI": {
+          "win_rate": 0.0,
+          "total": 3
+        },
+        "HYPE": {
+          "win_rate": 0.5,
+          "total": 6
+        },
+        "BCH": {
+          "win_rate": 0.0,
+          "total": 3
+        },
+        "BEAT": {
+          "win_rate": 0.25,
+          "total": 4
+        },
+        "FF": {
+          "win_rate": 1.0,
+          "total": 6
+        },
+        "ASTER": {
+          "win_rate": 0.0,
+          "total": 3
+        },
+        "POWER": {
+          "win_rate": 0.0,
+          "total": 6
+        },
+        "MON": {
+          "win_rate": 0.0,
+          "total": 7
+        },
+        "ZEC": {
+          "win_rate": 1.0,
+          "total": 6
+        },
+        "GPUAI": {
+          "win_rate": 0.0,
+          "total": 3
+        },
+        "COINON": {
+          "win_rate": 0.0,
+          "total": 3
+        },
+        "PAXG": {
+          "win_rate": 0.0,
+          "total": 3
+        },
+        "USD1": {
+          "win_rate": 0.0,
+          "total": 3
+        },
+        "BLUAI": {
+          "win_rate": 0.0,
+          "total": 6
+        },
+        "WLFI": {
+          "win_rate": 0.0,
+          "total": 3
+        },
+        "ADA": {
+          "win_rate": 0.0,
+          "total": 4
+        },
+        "WIF": {
+          "win_rate": 0.0,
+          "total": 3
+        },
+        "ONDO": {
+          "win_rate": 0.0,
+          "total": 3
+        },
+        "POL": {
+          "win_rate": 1.0,
+          "total": 4
+        },
+        "ARC": {
+          "win_rate": 0.6666666666666666,
+          "total": 6
+        },
+        "CYBER": {
+          "win_rate": 0.0,
+          "total": 2
+        },
+        "RAVE": {
+          "win_rate": 0.0,
+          "total": 4
+        },
+        "ENSO": {
+          "win_rate": 0.6666666666666666,
+          "total": 6
+        },
+        "MY": {
+          "win_rate": 0.0,
+          "total": 2
+        },
+        "SIREN": {
+          "win_rate": 1.0,
+          "total": 8
+        },
+        "CAKE": {
+          "win_rate": 0.0,
+          "total": 2
+        },
+        "MNT": {
+          "win_rate": 0.0,
+          "total": 2
+        },
+        "WLD": {
+          "win_rate": 1.0,
+          "total": 4
+        },
+        "DEGO": {
+          "win_rate": 0.75,
+          "total": 4
+        },
+        "BNB": {
+          "win_rate": 0.0,
+          "total": 2
+        },
+        "AKT": {
+          "win_rate": 0.8,
+          "total": 10
+        },
+        "NEAR": {
+          "win_rate": 0.0,
+          "total": 2
+        },
+        "DASH": {
+          "win_rate": 0.5,
+          "total": 2
+        },
+        "ARB": {
+          "win_rate": 0.0,
+          "total": 1
+        },
+        "PENGU": {
+          "win_rate": 0.0,
+          "total": 1
+        },
+        "STRK": {
+          "win_rate": 0.25,
+          "total": 4
+        },
+        "CFG": {
+          "win_rate": 1.0,
+          "total": 1
+        },
+        "FET": {
+          "win_rate": 1.0,
+          "total": 2
+        },
+        "TRX": {
+          "win_rate": 1.0,
+          "total": 7
+        },
+        "IP": {
+          "win_rate": 0.0,
+          "total": 1
+        },
+        "TAO": {
+          "win_rate": 0.0,
+          "total": 1
+        }
+      },
+      "regime_insights": {
+        "trending": "trend",
+        "mixed": "trend",
+        "ranging": "trend",
+        "volatile": "trend",
+        "": null
+      },
+      "active_rules": 50,
+      "summary": "最佳策略trend(41%), 最差range(0%), 规则50条"
+    },
+    "agent_memory": {
+      "ban_rules_count": 11,
+      "banned_symbols": [],
+      "patterns_tracked": 24,
+      "recent_insights": [
+        "{'time': '2026-03-23 03:04', 'insight': '[DeepEvolution] 进化配置（适应度=27.88, 时间=2026",
+        "{'time': '2026-03-23 03:04', 'insight': '[DeepEvolution] 超级回测最优（卡玛比率=20.2827, 代数",
+        "{'time': '2026-03-23 03:04', 'insight': '收益智能体[2026-03-23 03:04:26]: 年化-2.1% | a"
+      ],
+      "summary": "禁用规则11条, 模式24个"
+    },
+    "agi": {
+      "cognitive_state": {
+        "confidence": 1.4,
+        "risk_appetite": "moderate",
+        "learning_rate": 0.5,
+        "total_reflections": 197,
+        "insight_count": 13
+      },
+      "latest_findings": [
+        "实战数据总结: 总交易: 118笔 | 胜率: 39.0% | 总PNL: $-205.70",
+        "距上次交易: 1天",
+        "按策略:",
+        "trend: 78笔 胜率34.6% PNL=$-55.83",
+        "grid_geometric: 22笔 胜率68.2% PNL=$-77.15"
+      ],
+      "latest_recommendations": [
+        {
+          "type": "data_driven_analysis",
+          "reason": "基于DB实战数据生成的分析，非内存模式匹配",
+          "combat_data": "总交易: 118笔 | 胜率: 39.0% | 总PNL: $-205.70\n距上次交易: 1天\n按策略:\n  trend: 78笔 胜率34.6% PNL=$-55.83\n  grid_geometric: 22笔 胜率68.2% PNL=$-77.15\n  grid: 12笔 胜率33.3% PNL=$-33.41\n  range: 6笔 胜率0.0% PNL=$-39.31\n高置信度进化提案(≥0.75):\n  [0.9] range_strategy_regime_gate: range策略0%胜率根因：regime=None时错误激活。修复：仅ranging regime激活range策略。P\n  [0.8500000000000001] symbol_filter:KITE: \n  [0.85] signal_filter: \n  [0.85] signal_filter: \n  [0.85] signal_filter: "
+        }
+      ],
+      "journal_insights": [
+        "{\n  \"当前系统最大问题\": [\n    {\n      \"问题\": \"趋势策略胜率低\",\n      \"根因分析\": \"趋势策略的胜率仅为24.6%，这表明在捕捉市场趋势时存在重大失误。可能的原因包括市场环境不适合趋势策略，或者信号生成和确认逻辑不足以支持有效决策。\",\n      \"改进建议\": \"考虑根据当前市场环境动态调整趋势策略的使用频率，例如在FNG较低时减少趋势策略的持仓。此外，重",
+        "{\n  \"当前系统最大的3个问题\": [\n    {\n      \"问题\": \"趋势策略胜率低\",\n      \"根因分析\": \"趋势策略（trend）的胜率仅为27.9%，说明当前市场条件下，顺势做多的成功率显著低于预期，特别是在市场波动较大的环境中。这可能与当前的市场情绪、趋势信号质量低下有关。\",\n      \"具体改进建议\": \"建议加强对趋势信号的过滤，结合4小时方向过滤，确保仅在合适的",
+        "{\n  \"当前系统最大的3个问题\": [\n    {\n      \"问题\": \"趋势策略的胜率低\",\n      \"根因分析\": \"当前趋势策略（trend）胜率仅为32.9%，主要由于在市场环境不利时的错误激活，导致大部分交易处于亏损状态。具体来说，错误的信号生成和动态仓位管理导致了止损频繁，并未能充分把握较强的市场趋势。\",\n      \"具体的改进建议\": \"建议强制4H方向过滤，只在顺势情"
+      ],
+      "decision_count": 2,
+      "reflection_count": 100,
+      "summary": "信心度140%, 风险偏好moderate, 累计反思197次, 洞察13个"
+    }
+  },
+  "saved_at": "2026-03-27 07:00:51",
+  "last_daily_tasks_date": "2026-03-26",
+  "last_evolution_run": "2026-03-26T08:59:17.490587+00:00",
+  "last_daily_tasks_results": {
+    "strategy_brain": "ok",
+    "memory_consumer": "ok",
+    "proposal_translator": "ok (0 translated)",
+    "auto_adopt": "ok (adopted=0, skipped=14)",
+    "cto_journal": "ok",
+    "evo_to_agi": "ok (10 proposals pushed)",
+    "cto_report": "ok (ok)",
+    "agi_reflection": "ok (956字)",
+    "weekly_backtest": "skipped (not Sunday)"
+  }
+}

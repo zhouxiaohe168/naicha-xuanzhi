@@ -1,0 +1,16 @@
+{
+  "rsi_entry": 36,
+  "tp_atr": 2.0,
+  "sl_atr": 1.31,
+  "adx_threshold": 35,
+  "ma_period": 12,
+  "kelly_fraction": 0.809,
+  "max_risk_per_trade": 0.0134,
+  "max_position_pct": 0.282,
+  "fitness": 27.88,
+  "evolved_at": "2026-03-01 19:03:15",
+  "generations": 8,
+  "population_size": 20,
+  "assets_used": 10,
+  "enabled": true
+}

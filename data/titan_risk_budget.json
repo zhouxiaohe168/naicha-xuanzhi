@@ -1,0 +1,677 @@
+{
+  "total_capital": 99781.47,
+  "strategy_budgets": {
+    "trend": {
+      "base_pct": 0.3,
+      "current_pct": 0.4471,
+      "used": 0,
+      "max_drawdown_pct": 0.03,
+      "current_dd": 351.48,
+      "frozen": false
+    },
+    "range": {
+      "base_pct": 0.35,
+      "current_pct": 0.2637,
+      "used": 0,
+      "max_drawdown_pct": 0.025,
+      "current_dd": 37.22,
+      "frozen": false
+    },
+    "grid": {
+      "base_pct": 0.35,
+      "current_pct": 0.2892,
+      "used": 6000.0,
+      "max_drawdown_pct": 0.02,
+      "current_dd": 80.74,
+      "frozen": false
+    }
+  },
+  "daily_pnl": 0.0,
+  "daily_trades": 0,
+  "peak_capital": 99982.02,
+  "total_drawdown": 0.002,
+  "max_drawdown_ever": 0.0036,
+  "rebalance_count": 592,
+  "last_rebalance": "2026-03-27 06:55:51",
+  "last_daily_reset": "2026-03-27",
+  "history": [
+    {
+      "time": "2026-02-21 14:59:21",
+      "strategy": "range",
+      "pnl_usd": -7.92,
+      "capital": 99910.34,
+      "drawdown": 0.0
+    },
+    {
+      "time": "2026-02-21 15:29:15",
+      "strategy": "range",
+      "pnl_usd": -5.89,
+      "capital": 99904.45,
+      "drawdown": 0.0001
+    },
+    {
+      "time": "2026-02-21 15:33:54",
+      "strategy": "range",
+      "pnl_usd": -6.2,
+      "capital": 99898.25,
+      "drawdown": 0.0001
+    },
+    {
+      "time": "2026-02-21 15:34:02",
+      "strategy": "grid",
+      "pnl_usd": 8.88,
+      "capital": 99907.13,
+      "drawdown": 0.0
+    },
+    {
+      "time": "2026-02-21 16:03:04",
+      "strategy": "range",
+      "pnl_usd": -5.82,
+      "capital": 99901.31,
+      "drawdown": 0.0001
+    },
+    {
+      "time": "2026-02-21 16:03:45",
+      "strategy": "grid",
+      "pnl_usd": 11.8,
+      "capital": 99913.11,
+      "drawdown": 0.0
+    },
+    {
+      "time": "2026-02-22 00:31:34",
+      "strategy": "range",
+      "pnl_usd": -11.39,
+      "capital": 99901.72,
+      "drawdown": 0.0001
+    },
+    {
+      "time": "2026-02-22 10:51:30",
+      "strategy": "trend",
+      "pnl_usd": 10.4,
+      "capital": 99912.12,
+      "drawdown": 0.0
+    },
+    {
+      "time": "2026-02-22 11:19:43",
+      "strategy": "trend",
+      "pnl_usd": 23.62,
+      "capital": 99935.74,
+      "drawdown": 0.0
+    },
+    {
+      "time": "2026-02-22 11:39:56",
+      "strategy": "trend",
+      "pnl_usd": -20.3,
+      "capital": 99915.44,
+      "drawdown": 0.0002
+    },
+    {
+      "time": "2026-02-22 11:50:29",
+      "strategy": "grid",
+      "pnl_usd": 17.72,
+      "capital": 99933.16,
+      "drawdown": 0.0
+    },
+    {
+      "time": "2026-02-22 13:13:19",
+      "strategy": "grid",
+      "pnl_usd": 36.1,
+      "capital": 99969.26,
+      "drawdown": 0.0
+    },
+    {
+      "time": "2026-02-22 13:58:13",
+      "strategy": "trend",
+      "pnl_usd": -87.79,
+      "capital": 99881.47,
+      "drawdown": 0.0009
+    },
+    {
+      "time": "2026-02-23 01:04:43",
+      "strategy": "trend",
+      "pnl_usd": 21.4,
+      "capital": 99902.87,
+      "drawdown": 0.0007
+    },
+    {
+      "time": "2026-02-23 01:07:04",
+      "strategy": "trend",
+      "pnl_usd": -21.87,
+      "capital": 99881.0,
+      "drawdown": 0.0009
+    },
+    {
+      "time": "2026-02-23 02:27:22",
+      "strategy": "trend",
+      "pnl_usd": 28.78,
+      "capital": 99909.78,
+      "drawdown": 0.0006
+    },
+    {
+      "time": "2026-02-23 04:01:57",
+      "strategy": "trend",
+      "pnl_usd": -14.44,
+      "capital": 99895.34,
+      "drawdown": 0.0007
+    },
+    {
+      "time": "2026-02-23 05:43:42",
+      "strategy": "grid",
+      "pnl_usd": -14.39,
+      "capital": 99880.95,
+      "drawdown": 0.0009
+    },
+    {
+      "time": "2026-02-23 08:56:00",
+      "strategy": "trend",
+      "pnl_usd": -16.65,
+      "capital": 99864.3,
+      "drawdown": 0.001
+    },
+    {
+      "time": "2026-02-23 10:12:05",
+      "strategy": "trend",
+      "pnl_usd": 58.67,
+      "capital": 99922.97,
+      "drawdown": 0.0005
+    },
+    {
+      "time": "2026-02-23 10:50:08",
+      "strategy": "grid",
+      "pnl_usd": -6.29,
+      "capital": 99916.68,
+      "drawdown": 0.0005
+    },
+    {
+      "time": "2026-02-23 12:35:24",
+      "strategy": "grid",
+      "pnl_usd": -14.53,
+      "capital": 99902.15,
+      "drawdown": 0.0007
+    },
+    {
+      "time": "2026-02-23 13:29:52",
+      "strategy": "trend",
+      "pnl_usd": 79.87,
+      "capital": 99982.02,
+      "drawdown": 0.0
+    },
+    {
+      "time": "2026-02-23 13:36:11",
+      "strategy": "grid",
+      "pnl_usd": -21.59,
+      "capital": 99960.43,
+      "drawdown": 0.0002
+    },
+    {
+      "time": "2026-02-24 01:02:00",
+      "strategy": "trend",
+      "pnl_usd": -13.63,
+      "capital": 99946.8,
+      "drawdown": 0.0004
+    },
+    {
+      "time": "2026-02-24 01:11:22",
+      "strategy": "trend",
+      "pnl_usd": -9.48,
+      "capital": 99937.32,
+      "drawdown": 0.0004
+    },
+    {
+      "time": "2026-02-24 02:33:31",
+      "strategy": "trend",
+      "pnl_usd": -12.73,
+      "capital": 99924.59,
+      "drawdown": 0.0006
+    },
+    {
+      "time": "2026-02-24 03:18:35",
+      "strategy": "grid",
+      "pnl_usd": -6.45,
+      "capital": 99918.14,
+      "drawdown": 0.0006
+    },
+    {
+      "time": "2026-02-24 11:43:00",
+      "strategy": "trend",
+      "pnl_usd": -295.9,
+      "capital": 99622.24,
+      "drawdown": 0.0036
+    },
+    {
+      "time": "2026-02-24 14:09:31",
+      "strategy": "trend",
+      "pnl_usd": 29.05,
+      "capital": 99651.29,
+      "drawdown": 0.0033
+    },
+    {
+      "time": "2026-02-24 14:49:16",
+      "strategy": "trend",
+      "pnl_usd": 5.14,
+      "capital": 99656.43,
+      "drawdown": 0.0033
+    },
+    {
+      "time": "2026-02-24 15:01:51",
+      "strategy": "trend",
+      "pnl_usd": 75.79,
+      "capital": 99732.22,
+      "drawdown": 0.0025
+    },
+    {
+      "time": "2026-02-24 15:14:15",
+      "strategy": "trend",
+      "pnl_usd": 6.24,
+      "capital": 99738.46,
+      "drawdown": 0.0024
+    },
+    {
+      "time": "2026-02-24 15:35:00",
+      "strategy": "trend",
+      "pnl_usd": 9.67,
+      "capital": 99748.13,
+      "drawdown": 0.0023
+    },
+    {
+      "time": "2026-02-25 02:21:30",
+      "strategy": "trend",
+      "pnl_usd": 2.26,
+      "capital": 99750.39,
+      "drawdown": 0.0023
+    },
+    {
+      "time": "2026-02-25 03:16:52",
+      "strategy": "trend",
+      "pnl_usd": -6.84,
+      "capital": 99743.55,
+      "drawdown": 0.0024
+    },
+    {
+      "time": "2026-02-25 03:43:49",
+      "strategy": "trend",
+      "pnl_usd": -6.07,
+      "capital": 99737.48,
+      "drawdown": 0.0024
+    },
+    {
+      "time": "2026-02-26 02:47:48",
+      "strategy": "trend",
+      "pnl_usd": 3.56,
+      "capital": 99741.04,
+      "drawdown": 0.0024
+    },
+    {
+      "time": "2026-02-26 13:18:46",
+      "strategy": "trend",
+      "pnl_usd": 6.72,
+      "capital": 99747.76,
+      "drawdown": 0.0023
+    },
+    {
+      "time": "2026-03-17 02:02:11",
+      "strategy": "trend",
+      "pnl_usd": 4.6,
+      "capital": 99752.36,
+      "drawdown": 0.0023
+    },
+    {
+      "time": "2026-03-17 02:29:54",
+      "strategy": "trend",
+      "pnl_usd": -0.82,
+      "capital": 99751.54,
+      "drawdown": 0.0023
+    },
+    {
+      "time": "2026-03-17 02:37:05",
+      "strategy": "grid",
+      "pnl_usd": -2.7,
+      "capital": 99748.84,
+      "drawdown": 0.0023
+    },
+    {
+      "time": "2026-03-17 02:43:45",
+      "strategy": "trend",
+      "pnl_usd": 6.82,
+      "capital": 99755.66,
+      "drawdown": 0.0023
+    },
+    {
+      "time": "2026-03-17 02:45:33",
+      "strategy": "trend",
+      "pnl_usd": -1.63,
+      "capital": 99754.03,
+      "drawdown": 0.0023
+    },
+    {
+      "time": "2026-03-17 02:53:47",
+      "strategy": "trend",
+      "pnl_usd": 0.72,
+      "capital": 99754.75,
+      "drawdown": 0.0023
+    },
+    {
+      "time": "2026-03-17 02:58:57",
+      "strategy": "trend",
+      "pnl_usd": -1.3,
+      "capital": 99753.45,
+      "drawdown": 0.0023
+    },
+    {
+      "time": "2026-03-17 03:16:15",
+      "strategy": "trend",
+      "pnl_usd": -1.34,
+      "capital": 99752.11,
+      "drawdown": 0.0023
+    },
+    {
+      "time": "2026-03-17 05:00:26",
+      "strategy": "trend",
+      "pnl_usd": -4.2,
+      "capital": 99747.91,
+      "drawdown": 0.0023
+    },
+    {
+      "time": "2026-03-17 05:00:27",
+      "strategy": "trend",
+      "pnl_usd": -4.06,
+      "capital": 99743.85,
+      "drawdown": 0.0024
+    },
+    {
+      "time": "2026-03-17 05:00:27",
+      "strategy": "trend",
+      "pnl_usd": -2.16,
+      "capital": 99741.69,
+      "drawdown": 0.0024
+    },
+    {
+      "time": "2026-03-17 05:00:27",
+      "strategy": "trend",
+      "pnl_usd": -2.54,
+      "capital": 99739.15,
+      "drawdown": 0.0024
+    },
+    {
+      "time": "2026-03-17 05:00:27",
+      "strategy": "trend",
+      "pnl_usd": -28.92,
+      "capital": 99710.23,
+      "drawdown": 0.0027
+    },
+    {
+      "time": "2026-03-17 05:01:27",
+      "strategy": "grid",
+      "pnl_usd": 0.18,
+      "capital": 99710.41,
+      "drawdown": 0.0027
+    },
+    {
+      "time": "2026-03-17 05:02:42",
+      "strategy": "trend",
+      "pnl_usd": -3.84,
+      "capital": 99706.57,
+      "drawdown": 0.0028
+    },
+    {
+      "time": "2026-03-17 05:09:55",
+      "strategy": "grid",
+      "pnl_usd": 0.19,
+      "capital": 99706.76,
+      "drawdown": 0.0028
+    },
+    {
+      "time": "2026-03-17 05:12:57",
+      "strategy": "trend",
+      "pnl_usd": 0.93,
+      "capital": 99707.69,
+      "drawdown": 0.0027
+    },
+    {
+      "time": "2026-03-17 05:26:20",
+      "strategy": "trend",
+      "pnl_usd": 0.78,
+      "capital": 99708.47,
+      "drawdown": 0.0027
+    },
+    {
+      "time": "2026-03-17 05:46:55",
+      "strategy": "grid",
+      "pnl_usd": -0.04,
+      "capital": 99708.43,
+      "drawdown": 0.0027
+    },
+    {
+      "time": "2026-03-17 06:51:14",
+      "strategy": "trend",
+      "pnl_usd": 1.35,
+      "capital": 99709.78,
+      "drawdown": 0.0027
+    },
+    {
+      "time": "2026-03-17 07:16:22",
+      "strategy": "trend",
+      "pnl_usd": 2.75,
+      "capital": 99712.53,
+      "drawdown": 0.0027
+    },
+    {
+      "time": "2026-03-17 07:20:18",
+      "strategy": "trend",
+      "pnl_usd": 1.73,
+      "capital": 99714.26,
+      "drawdown": 0.0027
+    },
+    {
+      "time": "2026-03-17 07:38:25",
+      "strategy": "trend",
+      "pnl_usd": 1.45,
+      "capital": 99715.71,
+      "drawdown": 0.0027
+    },
+    {
+      "time": "2026-03-17 07:48:58",
+      "strategy": "trend",
+      "pnl_usd": 2.36,
+      "capital": 99718.07,
+      "drawdown": 0.0026
+    },
+    {
+      "time": "2026-03-17 07:49:05",
+      "strategy": "trend",
+      "pnl_usd": 0.37,
+      "capital": 99718.44,
+      "drawdown": 0.0026
+    },
+    {
+      "time": "2026-03-17 07:49:05",
+      "strategy": "trend",
+      "pnl_usd": 0.26,
+      "capital": 99718.7,
+      "drawdown": 0.0026
+    },
+    {
+      "time": "2026-03-17 08:08:33",
+      "strategy": "trend",
+      "pnl_usd": 0.34,
+      "capital": 99719.04,
+      "drawdown": 0.0026
+    },
+    {
+      "time": "2026-03-17 08:09:16",
+      "strategy": "trend",
+      "pnl_usd": 2.99,
+      "capital": 99722.03,
+      "drawdown": 0.0026
+    },
+    {
+      "time": "2026-03-17 08:18:38",
+      "strategy": "trend",
+      "pnl_usd": 1.59,
+      "capital": 99723.62,
+      "drawdown": 0.0026
+    },
+    {
+      "time": "2026-03-17 08:38:29",
+      "strategy": "trend",
+      "pnl_usd": 1.89,
+      "capital": 99725.51,
+      "drawdown": 0.0026
+    },
+    {
+      "time": "2026-03-17 08:59:38",
+      "strategy": "grid",
+      "pnl_usd": 0.25,
+      "capital": 99725.76,
+      "drawdown": 0.0026
+    },
+    {
+      "time": "2026-03-17 08:59:57",
+      "strategy": "grid",
+      "pnl_usd": 0.21,
+      "capital": 99725.97,
+      "drawdown": 0.0026
+    },
+    {
+      "time": "2026-03-17 09:03:28",
+      "strategy": "grid",
+      "pnl_usd": 0.38,
+      "capital": 99726.35,
+      "drawdown": 0.0026
+    },
+    {
+      "time": "2026-03-17 09:15:43",
+      "strategy": "trend",
+      "pnl_usd": 0.06,
+      "capital": 99726.41,
+      "drawdown": 0.0026
+    },
+    {
+      "time": "2026-03-17 09:16:58",
+      "strategy": "trend",
+      "pnl_usd": 0.05,
+      "capital": 99726.46,
+      "drawdown": 0.0026
+    },
+    {
+      "time": "2026-03-17 11:40:01",
+      "strategy": "trend",
+      "pnl_usd": 0.18,
+      "capital": 99726.64,
+      "drawdown": 0.0026
+    },
+    {
+      "time": "2026-03-17 11:49:08",
+      "strategy": "trend",
+      "pnl_usd": 7.74,
+      "capital": 99734.38,
+      "drawdown": 0.0025
+    },
+    {
+      "time": "2026-03-17 12:01:26",
+      "strategy": "trend",
+      "pnl_usd": 12.56,
+      "capital": 99746.94,
+      "drawdown": 0.0024
+    },
+    {
+      "time": "2026-03-17 12:35:54",
+      "strategy": "trend",
+      "pnl_usd": -0.52,
+      "capital": 99746.42,
+      "drawdown": 0.0024
+    },
+    {
+      "time": "2026-03-17 13:10:34",
+      "strategy": "grid",
+      "pnl_usd": 0.28,
+      "capital": 99746.7,
+      "drawdown": 0.0024
+    },
+    {
+      "time": "2026-03-17 16:39:16",
+      "strategy": "grid",
+      "pnl_usd": 0.56,
+      "capital": 99747.26,
+      "drawdown": 0.0023
+    },
+    {
+      "time": "2026-03-17 16:43:36",
+      "strategy": "trend",
+      "pnl_usd": 0.56,
+      "capital": 99747.82,
+      "drawdown": 0.0023
+    },
+    {
+      "time": "2026-03-17 16:59:04",
+      "strategy": "trend",
+      "pnl_usd": 0.44,
+      "capital": 99748.26,
+      "drawdown": 0.0023
+    },
+    {
+      "time": "2026-03-18 00:48:12",
+      "strategy": "grid",
+      "pnl_usd": 0.14,
+      "capital": 99748.4,
+      "drawdown": 0.0023
+    },
+    {
+      "time": "2026-03-18 01:20:49",
+      "strategy": "trend",
+      "pnl_usd": 4.32,
+      "capital": 99752.72,
+      "drawdown": 0.0023
+    },
+    {
+      "time": "2026-03-18 07:25:27",
+      "strategy": "trend",
+      "pnl_usd": 54.29,
+      "capital": 99807.01,
+      "drawdown": 0.0018
+    },
+    {
+      "time": "2026-03-18 14:55:12",
+      "strategy": "grid",
+      "pnl_usd": -15.84,
+      "capital": 99791.17,
+      "drawdown": 0.0019
+    },
+    {
+      "time": "2026-03-18 15:00:24",
+      "strategy": "trend",
+      "pnl_usd": -7.75,
+      "capital": 99783.42,
+      "drawdown": 0.002
+    },
+    {
+      "time": "2026-03-18 15:45:39",
+      "strategy": "trend",
+      "pnl_usd": 7.13,
+      "capital": 99790.55,
+      "drawdown": 0.0019
+    },
+    {
+      "time": "2026-03-20 17:18:34",
+      "strategy": "trend",
+      "pnl_usd": -4.66,
+      "capital": 99785.89,
+      "drawdown": 0.002
+    },
+    {
+      "time": "2026-03-23 02:44:23",
+      "strategy": "trend",
+      "pnl_usd": 0.67,
+      "capital": 99786.56,
+      "drawdown": 0.002
+    },
+    {
+      "time": "2026-03-23 02:44:31",
+      "strategy": "trend",
+      "pnl_usd": -5.09,
+      "capital": 99781.47,
+      "drawdown": 0.002
+    }
+  ],
+  "saved_at": "2026-03-27 07:00:51"
+}

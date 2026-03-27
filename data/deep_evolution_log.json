@@ -1,0 +1,9050 @@
+[
+  {
+    "timestamp": "2026-03-07 10:04:31",
+    "elapsed_seconds": 8.27,
+    "trades_processed": 89,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 89,
+    "signal_quality_records": 89,
+    "insights_generated": 7,
+    "memory_records": 97,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 10,
+      "repeat_losers": 7
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 5,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "BLUAI",
+          "USD1",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 4,
+        "start_idx": 6,
+        "symbols": [
+          "PAXG",
+          "XAUT",
+          "COINON",
+          "GPUAI"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 13,
+        "symbols": [
+          "MON",
+          "POWER",
+          "ASTER"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 17,
+        "symbols": [
+          "BEAT",
+          "BCH",
+          "HYPE",
+          "COAI",
+          "OM",
+          "PYTH",
+          "XPL"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 25,
+        "symbols": [
+          "STABLE",
+          "我踏马来了",
+          "ZAMA"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 29,
+        "symbols": [
+          "KITE",
+          "XAUT",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 36,
+        "symbols": [
+          "AVAX",
+          "HNT",
+          "AR",
+          "JASMY",
+          "IMX",
+          "CRV",
+          "FIL"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 49,
+        "symbols": [
+          "WLFI",
+          "ADA",
+          "WIF"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 66,
+        "symbols": [
+          "RAVE",
+          "KITE",
+          "ENSO"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 73,
+        "symbols": [
+          "KITE",
+          "HNT",
+          "MON",
+          "MON",
+          "KITE",
+          "MY"
+        ]
+      }
+    ],
+    "summary_text": "Deep Evolution Complete (Enhanced): 89 trades → synapse/signal_quality/governor, 23 predictions → feedback_engine, 7 insights, 97 memory records. Patterns: 49 symbols, 10 losing streaks, 7 repeat losers. Trade stats: 34W/55L (38.2% WR), total PnL: 131.88%. AI analysis: ✓. Errors: 0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 3,
+      "recommendations_count": 2,
+      "confidence_score": 0.65
+    }
+  },
+  {
+    "timestamp": "2026-03-07 11:03:31",
+    "elapsed_seconds": 9.33,
+    "trades_processed": 89,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 89,
+    "signal_quality_records": 89,
+    "insights_generated": 8,
+    "memory_records": 100,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 10,
+      "repeat_losers": 7
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 5,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "BLUAI",
+          "USD1",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 4,
+        "start_idx": 6,
+        "symbols": [
+          "PAXG",
+          "XAUT",
+          "COINON",
+          "GPUAI"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 13,
+        "symbols": [
+          "MON",
+          "POWER",
+          "ASTER"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 17,
+        "symbols": [
+          "BEAT",
+          "BCH",
+          "HYPE",
+          "COAI",
+          "OM",
+          "PYTH",
+          "XPL"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 25,
+        "symbols": [
+          "STABLE",
+          "我踏马来了",
+          "ZAMA"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 29,
+        "symbols": [
+          "KITE",
+          "XAUT",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 36,
+        "symbols": [
+          "AVAX",
+          "HNT",
+          "AR",
+          "JASMY",
+          "IMX",
+          "CRV",
+          "FIL"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 49,
+        "symbols": [
+          "WLFI",
+          "ADA",
+          "WIF"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 66,
+        "symbols": [
+          "RAVE",
+          "KITE",
+          "ENSO"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 73,
+        "symbols": [
+          "KITE",
+          "HNT",
+          "MON",
+          "MON",
+          "KITE",
+          "MY"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：89笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，8条洞察，100条记忆记录。模式发现：49个标的，10次连亏，7个重复亏损标的。交易统计：34胜/55负（38.2%胜率），总盈亏：131.88%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 4,
+      "recommendations_count": 3,
+      "confidence_score": 0.65
+    }
+  },
+  {
+    "timestamp": "2026-03-07 13:03:15",
+    "elapsed_seconds": 7.52,
+    "trades_processed": 89,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 89,
+    "signal_quality_records": 89,
+    "insights_generated": 6,
+    "memory_records": 97,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 10,
+      "repeat_losers": 7
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 5,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "BLUAI",
+          "USD1",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 4,
+        "start_idx": 6,
+        "symbols": [
+          "PAXG",
+          "XAUT",
+          "COINON",
+          "GPUAI"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 13,
+        "symbols": [
+          "MON",
+          "POWER",
+          "ASTER"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 17,
+        "symbols": [
+          "BEAT",
+          "BCH",
+          "HYPE",
+          "COAI",
+          "OM",
+          "PYTH",
+          "XPL"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 25,
+        "symbols": [
+          "STABLE",
+          "我踏马来了",
+          "ZAMA"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 29,
+        "symbols": [
+          "KITE",
+          "XAUT",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 36,
+        "symbols": [
+          "AVAX",
+          "HNT",
+          "AR",
+          "JASMY",
+          "IMX",
+          "CRV",
+          "FIL"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 49,
+        "symbols": [
+          "WLFI",
+          "ADA",
+          "WIF"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 66,
+        "symbols": [
+          "RAVE",
+          "KITE",
+          "ENSO"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 73,
+        "symbols": [
+          "KITE",
+          "HNT",
+          "MON",
+          "MON",
+          "KITE",
+          "MY"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：89笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，6条洞察，97条记忆记录。模式发现：49个标的，10次连亏，7个重复亏损标的。交易统计：34胜/55负（38.2%胜率），总盈亏：131.88%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 4,
+      "recommendations_count": 1,
+      "confidence_score": 0.65
+    }
+  },
+  {
+    "timestamp": "2026-03-07 14:04:46",
+    "elapsed_seconds": 9.53,
+    "trades_processed": 89,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 89,
+    "signal_quality_records": 89,
+    "insights_generated": 7,
+    "memory_records": 99,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 10,
+      "repeat_losers": 7
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 5,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "BLUAI",
+          "USD1",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 4,
+        "start_idx": 6,
+        "symbols": [
+          "PAXG",
+          "XAUT",
+          "COINON",
+          "GPUAI"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 13,
+        "symbols": [
+          "MON",
+          "POWER",
+          "ASTER"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 17,
+        "symbols": [
+          "BEAT",
+          "BCH",
+          "HYPE",
+          "COAI",
+          "OM",
+          "PYTH",
+          "XPL"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 25,
+        "symbols": [
+          "STABLE",
+          "我踏马来了",
+          "ZAMA"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 29,
+        "symbols": [
+          "KITE",
+          "XAUT",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 36,
+        "symbols": [
+          "AVAX",
+          "HNT",
+          "AR",
+          "JASMY",
+          "IMX",
+          "CRV",
+          "FIL"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 49,
+        "symbols": [
+          "WLFI",
+          "ADA",
+          "WIF"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 66,
+        "symbols": [
+          "RAVE",
+          "KITE",
+          "ENSO"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 73,
+        "symbols": [
+          "KITE",
+          "HNT",
+          "MON",
+          "MON",
+          "KITE",
+          "MY"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：89笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，7条洞察，99条记忆记录。模式发现：49个标的，10次连亏，7个重复亏损标的。交易统计：34胜/55负（38.2%胜率），总盈亏：131.88%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 5,
+      "recommendations_count": 2,
+      "confidence_score": 0.65
+    }
+  },
+  {
+    "timestamp": "2026-03-08 12:04:20",
+    "elapsed_seconds": 5.94,
+    "trades_processed": 89,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 89,
+    "signal_quality_records": 89,
+    "insights_generated": 4,
+    "memory_records": 94,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 10,
+      "repeat_losers": 7
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 5,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "BLUAI",
+          "USD1",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 4,
+        "start_idx": 6,
+        "symbols": [
+          "PAXG",
+          "XAUT",
+          "COINON",
+          "GPUAI"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 13,
+        "symbols": [
+          "MON",
+          "POWER",
+          "ASTER"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 17,
+        "symbols": [
+          "BEAT",
+          "BCH",
+          "HYPE",
+          "COAI",
+          "OM",
+          "PYTH",
+          "XPL"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 25,
+        "symbols": [
+          "STABLE",
+          "我踏马来了",
+          "ZAMA"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 29,
+        "symbols": [
+          "KITE",
+          "XAUT",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 36,
+        "symbols": [
+          "AVAX",
+          "HNT",
+          "AR",
+          "JASMY",
+          "IMX",
+          "CRV",
+          "FIL"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 49,
+        "symbols": [
+          "WLFI",
+          "ADA",
+          "WIF"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 66,
+        "symbols": [
+          "RAVE",
+          "KITE",
+          "ENSO"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 73,
+        "symbols": [
+          "KITE",
+          "HNT",
+          "MON",
+          "MON",
+          "KITE",
+          "MY"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：89笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，4条洞察，94条记忆记录。模式发现：49个标的，10次连亏，7个重复亏损标的。交易统计：34胜/55负（38.2%胜率），总盈亏：131.88%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 2,
+      "recommendations_count": 0,
+      "confidence_score": 0.85
+    }
+  },
+  {
+    "timestamp": "2026-03-08 13:02:55",
+    "elapsed_seconds": 8.68,
+    "trades_processed": 89,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 89,
+    "signal_quality_records": 89,
+    "insights_generated": 7,
+    "memory_records": 99,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 10,
+      "repeat_losers": 7
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 5,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "BLUAI",
+          "USD1",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 4,
+        "start_idx": 6,
+        "symbols": [
+          "PAXG",
+          "XAUT",
+          "COINON",
+          "GPUAI"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 13,
+        "symbols": [
+          "MON",
+          "POWER",
+          "ASTER"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 17,
+        "symbols": [
+          "BEAT",
+          "BCH",
+          "HYPE",
+          "COAI",
+          "OM",
+          "PYTH",
+          "XPL"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 25,
+        "symbols": [
+          "STABLE",
+          "我踏马来了",
+          "ZAMA"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 29,
+        "symbols": [
+          "KITE",
+          "XAUT",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 36,
+        "symbols": [
+          "AVAX",
+          "HNT",
+          "AR",
+          "JASMY",
+          "IMX",
+          "CRV",
+          "FIL"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 49,
+        "symbols": [
+          "WLFI",
+          "ADA",
+          "WIF"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 66,
+        "symbols": [
+          "RAVE",
+          "KITE",
+          "ENSO"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 73,
+        "symbols": [
+          "KITE",
+          "HNT",
+          "MON",
+          "MON",
+          "KITE",
+          "MY"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：89笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，7条洞察，99条记忆记录。模式发现：49个标的，10次连亏，7个重复亏损标的。交易统计：34胜/55负（38.2%胜率），总盈亏：131.88%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 5,
+      "recommendations_count": 2,
+      "confidence_score": 0.55
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:05:51",
+    "elapsed_seconds": 26.35,
+    "trades_processed": 89,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 89,
+    "signal_quality_records": 89,
+    "insights_generated": 8,
+    "memory_records": 98,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 10,
+      "repeat_losers": 7
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 5,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "BLUAI",
+          "USD1",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 4,
+        "start_idx": 6,
+        "symbols": [
+          "PAXG",
+          "XAUT",
+          "COINON",
+          "GPUAI"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 13,
+        "symbols": [
+          "MON",
+          "POWER",
+          "ASTER"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 17,
+        "symbols": [
+          "BEAT",
+          "BCH",
+          "HYPE",
+          "COAI",
+          "OM",
+          "PYTH",
+          "XPL"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 25,
+        "symbols": [
+          "STABLE",
+          "我踏马来了",
+          "ZAMA"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 29,
+        "symbols": [
+          "KITE",
+          "XAUT",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 36,
+        "symbols": [
+          "AVAX",
+          "HNT",
+          "AR",
+          "JASMY",
+          "IMX",
+          "CRV",
+          "FIL"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 49,
+        "symbols": [
+          "WLFI",
+          "ADA",
+          "WIF"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 66,
+        "symbols": [
+          "RAVE",
+          "KITE",
+          "ENSO"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 73,
+        "symbols": [
+          "KITE",
+          "HNT",
+          "MON",
+          "MON",
+          "KITE",
+          "MY"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：89笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，8条洞察，98条记忆记录。模式发现：49个标的，10次连亏，7个重复亏损标的。交易统计：34胜/55负（38.2%胜率），总盈亏：131.88%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 3,
+      "recommendations_count": 3,
+      "confidence_score": 0.7
+    }
+  },
+  {
+    "timestamp": "2026-03-11 03:04:23",
+    "elapsed_seconds": 10.41,
+    "trades_processed": 89,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 89,
+    "signal_quality_records": 89,
+    "insights_generated": 8,
+    "memory_records": 98,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 10,
+      "repeat_losers": 7
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 5,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "BLUAI",
+          "USD1",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 4,
+        "start_idx": 6,
+        "symbols": [
+          "PAXG",
+          "XAUT",
+          "COINON",
+          "GPUAI"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 13,
+        "symbols": [
+          "MON",
+          "POWER",
+          "ASTER"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 17,
+        "symbols": [
+          "BEAT",
+          "BCH",
+          "HYPE",
+          "COAI",
+          "OM",
+          "PYTH",
+          "XPL"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 25,
+        "symbols": [
+          "STABLE",
+          "我踏马来了",
+          "ZAMA"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 29,
+        "symbols": [
+          "KITE",
+          "XAUT",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 36,
+        "symbols": [
+          "AVAX",
+          "HNT",
+          "AR",
+          "JASMY",
+          "IMX",
+          "CRV",
+          "FIL"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 49,
+        "symbols": [
+          "WLFI",
+          "ADA",
+          "WIF"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 66,
+        "symbols": [
+          "RAVE",
+          "KITE",
+          "ENSO"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 73,
+        "symbols": [
+          "KITE",
+          "HNT",
+          "MON",
+          "MON",
+          "KITE",
+          "MY"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：89笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，8条洞察，98条记忆记录。模式发现：49个标的，10次连亏，7个重复亏损标的。交易统计：34胜/55负（38.2%胜率），总盈亏：131.88%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 3,
+      "recommendations_count": 3,
+      "confidence_score": 0.75
+    }
+  },
+  {
+    "timestamp": "2026-03-11 04:05:06",
+    "elapsed_seconds": 9.48,
+    "trades_processed": 89,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 89,
+    "signal_quality_records": 89,
+    "insights_generated": 8,
+    "memory_records": 98,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 10,
+      "repeat_losers": 7
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 5,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "BLUAI",
+          "USD1",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 4,
+        "start_idx": 6,
+        "symbols": [
+          "PAXG",
+          "XAUT",
+          "COINON",
+          "GPUAI"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 13,
+        "symbols": [
+          "MON",
+          "POWER",
+          "ASTER"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 17,
+        "symbols": [
+          "BEAT",
+          "BCH",
+          "HYPE",
+          "COAI",
+          "OM",
+          "PYTH",
+          "XPL"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 25,
+        "symbols": [
+          "STABLE",
+          "我踏马来了",
+          "ZAMA"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 29,
+        "symbols": [
+          "KITE",
+          "XAUT",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 36,
+        "symbols": [
+          "AVAX",
+          "HNT",
+          "AR",
+          "JASMY",
+          "IMX",
+          "CRV",
+          "FIL"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 49,
+        "symbols": [
+          "WLFI",
+          "ADA",
+          "WIF"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 66,
+        "symbols": [
+          "RAVE",
+          "KITE",
+          "ENSO"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 73,
+        "symbols": [
+          "KITE",
+          "HNT",
+          "MON",
+          "MON",
+          "KITE",
+          "MY"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：89笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，8条洞察，98条记忆记录。模式发现：49个标的，10次连亏，7个重复亏损标的。交易统计：34胜/55负（38.2%胜率），总盈亏：131.88%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 3,
+      "recommendations_count": 3,
+      "confidence_score": 0.75
+    }
+  },
+  {
+    "timestamp": "2026-03-12 05:02:58",
+    "elapsed_seconds": 15.01,
+    "trades_processed": 77,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 77,
+    "signal_quality_records": 77,
+    "insights_generated": 8,
+    "memory_records": 87,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 8,
+      "repeat_losers": 8
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：77笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，8条洞察，87条记忆记录。模式发现：49个标的，8次连亏，8个重复亏损标的。交易统计：22胜/55负（28.6%胜率），总盈亏：23.14%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 4,
+      "recommendations_count": 3,
+      "confidence_score": 0.4
+    }
+  },
+  {
+    "timestamp": "2026-03-12 06:02:43",
+    "elapsed_seconds": 10.45,
+    "trades_processed": 77,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 77,
+    "signal_quality_records": 77,
+    "insights_generated": 7,
+    "memory_records": 86,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 8,
+      "repeat_losers": 8
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：77笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，7条洞察，86条记忆记录。模式发现：49个标的，8次连亏，8个重复亏损标的。交易统计：22胜/55负（28.6%胜率），总盈亏：23.14%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 4,
+      "recommendations_count": 2,
+      "confidence_score": 0.4
+    }
+  },
+  {
+    "timestamp": "2026-03-12 07:02:28",
+    "elapsed_seconds": 8.75,
+    "trades_processed": 77,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 77,
+    "signal_quality_records": 77,
+    "insights_generated": 7,
+    "memory_records": 86,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 8,
+      "repeat_losers": 8
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：77笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，7条洞察，86条记忆记录。模式发现：49个标的，8次连亏，8个重复亏损标的。交易统计：22胜/55负（28.6%胜率），总盈亏：23.14%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 4,
+      "recommendations_count": 2,
+      "confidence_score": 0.55
+    }
+  },
+  {
+    "timestamp": "2026-03-12 08:04:37",
+    "elapsed_seconds": 12.39,
+    "trades_processed": 77,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 77,
+    "signal_quality_records": 77,
+    "insights_generated": 7,
+    "memory_records": 86,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 8,
+      "repeat_losers": 8
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：77笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，7条洞察，86条记忆记录。模式发现：49个标的，8次连亏，8个重复亏损标的。交易统计：22胜/55负（28.6%胜率），总盈亏：23.14%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 4,
+      "recommendations_count": 2,
+      "confidence_score": 0.6
+    }
+  },
+  {
+    "timestamp": "2026-03-12 09:04:18",
+    "elapsed_seconds": 14.34,
+    "trades_processed": 77,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 77,
+    "signal_quality_records": 77,
+    "insights_generated": 8,
+    "memory_records": 87,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 8,
+      "repeat_losers": 8
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：77笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，8条洞察，87条记忆记录。模式发现：49个标的，8次连亏，8个重复亏损标的。交易统计：22胜/55负（28.6%胜率），总盈亏：23.14%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 3,
+      "recommendations_count": 3,
+      "confidence_score": 0.45
+    }
+  },
+  {
+    "timestamp": "2026-03-12 10:04:16",
+    "elapsed_seconds": 10.21,
+    "trades_processed": 77,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 77,
+    "signal_quality_records": 77,
+    "insights_generated": 7,
+    "memory_records": 85,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 8,
+      "repeat_losers": 8
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：77笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，7条洞察，85条记忆记录。模式发现：49个标的，8次连亏，8个重复亏损标的。交易统计：22胜/55负（28.6%胜率），总盈亏：23.14%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 3,
+      "recommendations_count": 2,
+      "confidence_score": 0.35
+    }
+  },
+  {
+    "timestamp": "2026-03-12 11:03:59",
+    "elapsed_seconds": 14.35,
+    "trades_processed": 77,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 77,
+    "signal_quality_records": 77,
+    "insights_generated": 7,
+    "memory_records": 86,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 8,
+      "repeat_losers": 8
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：77笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，7条洞察，86条记忆记录。模式发现：49个标的，8次连亏，8个重复亏损标的。交易统计：22胜/55负（28.6%胜率），总盈亏：23.14%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 3,
+      "recommendations_count": 2,
+      "confidence_score": 0.35
+    }
+  },
+  {
+    "timestamp": "2026-03-12 12:04:27",
+    "elapsed_seconds": 12.22,
+    "trades_processed": 77,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 77,
+    "signal_quality_records": 77,
+    "insights_generated": 7,
+    "memory_records": 87,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 8,
+      "repeat_losers": 8
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：77笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，7条洞察，87条记忆记录。模式发现：49个标的，8次连亏，8个重复亏损标的。交易统计：22胜/55负（28.6%胜率），总盈亏：23.14%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 5,
+      "recommendations_count": 2,
+      "confidence_score": 0.5
+    }
+  },
+  {
+    "timestamp": "2026-03-12 13:04:10",
+    "elapsed_seconds": 10.93,
+    "trades_processed": 77,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 77,
+    "signal_quality_records": 77,
+    "insights_generated": 7,
+    "memory_records": 88,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 8,
+      "repeat_losers": 8
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：77笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，7条洞察，88条记忆记录。模式发现：49个标的，8次连亏，8个重复亏损标的。交易统计：22胜/55负（28.6%胜率），总盈亏：23.14%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 5,
+      "recommendations_count": 2,
+      "confidence_score": 0.5
+    }
+  },
+  {
+    "timestamp": "2026-03-12 14:02:49",
+    "elapsed_seconds": 11.07,
+    "trades_processed": 77,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 77,
+    "signal_quality_records": 77,
+    "insights_generated": 8,
+    "memory_records": 86,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 8,
+      "repeat_losers": 8
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：77笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，8条洞察，86条记忆记录。模式发现：49个标的，8次连亏，8个重复亏损标的。交易统计：22胜/55负（28.6%胜率），总盈亏：23.14%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 3,
+      "recommendations_count": 3,
+      "confidence_score": 0.6
+    }
+  },
+  {
+    "timestamp": "2026-03-12 15:02:34",
+    "elapsed_seconds": 10.68,
+    "trades_processed": 77,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 77,
+    "signal_quality_records": 77,
+    "insights_generated": 7,
+    "memory_records": 85,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 8,
+      "repeat_losers": 8
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：77笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，7条洞察，85条记忆记录。模式发现：49个标的，8次连亏，8个重复亏损标的。交易统计：22胜/55负（28.6%胜率），总盈亏：23.14%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 3,
+      "recommendations_count": 2,
+      "confidence_score": 0.2
+    }
+  },
+  {
+    "timestamp": "2026-03-12 16:04:29",
+    "elapsed_seconds": 8.45,
+    "trades_processed": 77,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 77,
+    "signal_quality_records": 77,
+    "insights_generated": 5,
+    "memory_records": 83,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 8,
+      "repeat_losers": 8
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：77笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，5条洞察，83条记忆记录。模式发现：49个标的，8次连亏，8个重复亏损标的。交易统计：22胜/55负（28.6%胜率），总盈亏：23.14%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 2,
+      "recommendations_count": 1,
+      "confidence_score": 0.25
+    }
+  },
+  {
+    "timestamp": "2026-03-13 13:04:26",
+    "elapsed_seconds": 12.85,
+    "trades_processed": 77,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 77,
+    "signal_quality_records": 77,
+    "insights_generated": 7,
+    "memory_records": 87,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 8,
+      "repeat_losers": 8
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：77笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，7条洞察，87条记忆记录。模式发现：49个标的，8次连亏，8个重复亏损标的。交易统计：22胜/55负（28.6%胜率），总盈亏：23.14%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 5,
+      "recommendations_count": 2,
+      "confidence_score": 0.62
+    }
+  },
+  {
+    "timestamp": "2026-03-13 16:06:05",
+    "elapsed_seconds": 9.17,
+    "trades_processed": 77,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 77,
+    "signal_quality_records": 77,
+    "insights_generated": 8,
+    "memory_records": 87,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 8,
+      "repeat_losers": 8
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：77笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，8条洞察，87条记忆记录。模式发现：49个标的，8次连亏，8个重复亏损标的。交易统计：22胜/55负（28.6%胜率），总盈亏：23.14%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 4,
+      "recommendations_count": 3,
+      "confidence_score": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-03-14 19:06:54",
+    "elapsed_seconds": 20.2,
+    "trades_processed": 77,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 77,
+    "signal_quality_records": 77,
+    "insights_generated": 6,
+    "memory_records": 85,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 8,
+      "repeat_losers": 8
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：77笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，6条洞察，85条记忆记录。模式发现：49个标的，8次连亏，8个重复亏损标的。交易统计：22胜/55负（28.6%胜率），总盈亏：23.14%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 4,
+      "recommendations_count": 1,
+      "confidence_score": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-03-14 20:06:04",
+    "elapsed_seconds": 9.85,
+    "trades_processed": 77,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 77,
+    "signal_quality_records": 77,
+    "insights_generated": 7,
+    "memory_records": 86,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 8,
+      "repeat_losers": 8
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：77笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，7条洞察，86条记忆记录。模式发现：49个标的，8次连亏，8个重复亏损标的。交易统计：22胜/55负（28.6%胜率），总盈亏：23.14%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 3,
+      "recommendations_count": 2,
+      "confidence_score": 0.3
+    }
+  },
+  {
+    "timestamp": "2026-03-14 21:04:10",
+    "elapsed_seconds": 9.93,
+    "trades_processed": 77,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 77,
+    "signal_quality_records": 77,
+    "insights_generated": 8,
+    "memory_records": 88,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 8,
+      "repeat_losers": 8
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：77笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，8条洞察，88条记忆记录。模式发现：49个标的，8次连亏，8个重复亏损标的。交易统计：22胜/55负（28.6%胜率），总盈亏：23.14%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 5,
+      "recommendations_count": 3,
+      "confidence_score": 0.35
+    }
+  },
+  {
+    "timestamp": "2026-03-14 22:02:09",
+    "elapsed_seconds": 7.6,
+    "trades_processed": 77,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 77,
+    "signal_quality_records": 77,
+    "insights_generated": 6,
+    "memory_records": 84,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 8,
+      "repeat_losers": 8
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：77笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，6条洞察，84条记忆记录。模式发现：49个标的，8次连亏，8个重复亏损标的。交易统计：22胜/55负（28.6%胜率），总盈亏：23.14%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 3,
+      "recommendations_count": 1,
+      "confidence_score": 0.25
+    }
+  },
+  {
+    "timestamp": "2026-03-14 23:04:08",
+    "elapsed_seconds": 9.19,
+    "trades_processed": 77,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 77,
+    "signal_quality_records": 77,
+    "insights_generated": 8,
+    "memory_records": 87,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 8,
+      "repeat_losers": 8
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：77笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，8条洞察，87条记忆记录。模式发现：49个标的，8次连亏，8个重复亏损标的。交易统计：22胜/55负（28.6%胜率），总盈亏：23.14%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 4,
+      "recommendations_count": 3,
+      "confidence_score": 0.3
+    }
+  },
+  {
+    "timestamp": "2026-03-15 01:02:42",
+    "elapsed_seconds": 8.7,
+    "trades_processed": 77,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 77,
+    "signal_quality_records": 77,
+    "insights_generated": 7,
+    "memory_records": 85,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 8,
+      "repeat_losers": 8
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：77笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，7条洞察，85条记忆记录。模式发现：49个标的，8次连亏，8个重复亏损标的。交易统计：22胜/55负（28.6%胜率），总盈亏：23.14%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 3,
+      "recommendations_count": 2,
+      "confidence_score": 0.4
+    }
+  },
+  {
+    "timestamp": "2026-03-15 02:04:08",
+    "elapsed_seconds": 7.52,
+    "trades_processed": 77,
+    "predictions_processed": 23,
+    "synapse_broadcasts": 77,
+    "signal_quality_records": 77,
+    "insights_generated": 8,
+    "memory_records": 86,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 8,
+      "repeat_losers": 8
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：77笔交易 → 突触/信号质量/调节器，23条预测 → 反馈引擎，8条洞察，86条记忆记录。模式发现：49个标的，8次连亏，8个重复亏损标的。交易统计：22胜/55负（28.6%胜率），总盈亏：23.14%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 3,
+      "recommendations_count": 3,
+      "confidence_score": 0.5
+    }
+  },
+  {
+    "timestamp": "2026-03-15 09:04:30",
+    "elapsed_seconds": 9.22,
+    "trades_processed": 77,
+    "predictions_processed": 25,
+    "synapse_broadcasts": 77,
+    "signal_quality_records": 77,
+    "insights_generated": 7,
+    "memory_records": 85,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 8,
+      "repeat_losers": 8
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：77笔交易 → 突触/信号质量/调节器，25条预测 → 反馈引擎，7条洞察，85条记忆记录。模式发现：49个标的，8次连亏，8个重复亏损标的。交易统计：22胜/55负（28.6%胜率），总盈亏：23.14%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 2,
+      "recommendations_count": 3,
+      "confidence_score": 0.25
+    }
+  },
+  {
+    "timestamp": "2026-03-16 02:05:28",
+    "elapsed_seconds": 8.7,
+    "trades_processed": 77,
+    "predictions_processed": 25,
+    "synapse_broadcasts": 77,
+    "signal_quality_records": 77,
+    "insights_generated": 8,
+    "memory_records": 88,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 8,
+      "repeat_losers": 8
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：77笔交易 → 突触/信号质量/调节器，25条预测 → 反馈引擎，8条洞察，88条记忆记录。模式发现：49个标的，8次连亏，8个重复亏损标的。交易统计：22胜/55负（28.6%胜率），总盈亏：23.14%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 5,
+      "recommendations_count": 3,
+      "confidence_score": 0.55
+    }
+  },
+  {
+    "timestamp": "2026-03-17 01:07:17",
+    "elapsed_seconds": 36.94,
+    "trades_processed": 77,
+    "predictions_processed": 25,
+    "synapse_broadcasts": 77,
+    "signal_quality_records": 77,
+    "insights_generated": 8,
+    "memory_records": 87,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 49,
+      "losing_streaks": 8,
+      "repeat_losers": 8
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：77笔交易 → 突触/信号质量/调节器，25条预测 → 反馈引擎，8条洞察，87条记忆记录。模式发现：49个标的，8次连亏，8个重复亏损标的。交易统计：22胜/55负（28.6%胜率），总盈亏：23.14%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 4,
+      "recommendations_count": 3,
+      "confidence_score": 0.5
+    }
+  },
+  {
+    "timestamp": "2026-03-17 02:04:33",
+    "elapsed_seconds": 10.48,
+    "trades_processed": 78,
+    "predictions_processed": 25,
+    "synapse_broadcasts": 78,
+    "signal_quality_records": 78,
+    "insights_generated": 7,
+    "memory_records": 87,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 50,
+      "losing_streaks": 8,
+      "repeat_losers": 8
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：78笔交易 → 突触/信号质量/调节器，25条预测 → 反馈引擎，7条洞察，87条记忆记录。模式发现：50个标的，8次连亏，8个重复亏损标的。交易统计：23胜/55负（29.5%胜率），总盈亏：30.80%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 4,
+      "recommendations_count": 2,
+      "confidence_score": 0.4
+    }
+  },
+  {
+    "timestamp": "2026-03-17 05:02:38",
+    "elapsed_seconds": 9.97,
+    "trades_processed": 91,
+    "predictions_processed": 32,
+    "synapse_broadcasts": 91,
+    "signal_quality_records": 91,
+    "insights_generated": 8,
+    "memory_records": 101,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 56,
+      "losing_streaks": 9,
+      "repeat_losers": 11
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "AVAX",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -1.3
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "ADA",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.77
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      },
+      {
+        "symbol": "NEAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.04
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 83,
+        "symbols": [
+          "ARB",
+          "AVAX",
+          "ADA",
+          "DASH",
+          "PENGU",
+          "NEAR",
+          "DEGO"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：91笔交易 → 突触/信号质量/调节器，32条预测 → 反馈引擎，8条洞察，101条记忆记录。模式发现：56个标的，9次连亏，11个重复亏损标的。交易统计：26胜/65负（28.6%胜率），总盈亏：10.11%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 4,
+      "recommendations_count": 3,
+      "confidence_score": 0.85
+    }
+  },
+  {
+    "timestamp": "2026-03-17 06:02:40",
+    "elapsed_seconds": 9.52,
+    "trades_processed": 96,
+    "predictions_processed": 33,
+    "synapse_broadcasts": 96,
+    "signal_quality_records": 96,
+    "insights_generated": 8,
+    "memory_records": 106,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 57,
+      "losing_streaks": 9,
+      "repeat_losers": 11
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "AVAX",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -1.3
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "ADA",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.77
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      },
+      {
+        "symbol": "NEAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.04
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 83,
+        "symbols": [
+          "ARB",
+          "AVAX",
+          "ADA",
+          "DASH",
+          "PENGU",
+          "NEAR",
+          "DEGO"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：96笔交易 → 突触/信号质量/调节器，33条预测 → 反馈引擎，8条洞察，106条记忆记录。模式发现：57个标的，9次连亏，11个重复亏损标的。交易统计：29胜/67负（30.2%胜率），总盈亏：13.15%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 4,
+      "recommendations_count": 3,
+      "confidence_score": 0.5
+    }
+  },
+  {
+    "timestamp": "2026-03-17 07:05:43",
+    "elapsed_seconds": 10.67,
+    "trades_processed": 97,
+    "predictions_processed": 34,
+    "synapse_broadcasts": 97,
+    "signal_quality_records": 97,
+    "insights_generated": 7,
+    "memory_records": 106,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 57,
+      "losing_streaks": 9,
+      "repeat_losers": 11
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "AVAX",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -1.3
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "ADA",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.77
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      },
+      {
+        "symbol": "NEAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.04
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 83,
+        "symbols": [
+          "ARB",
+          "AVAX",
+          "ADA",
+          "DASH",
+          "PENGU",
+          "NEAR",
+          "DEGO"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：97笔交易 → 突触/信号质量/调节器，34条预测 → 反馈引擎，7条洞察，106条记忆记录。模式发现：57个标的，9次连亏，11个重复亏损标的。交易统计：30胜/67负（30.9%胜率），总盈亏：19.28%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 4,
+      "recommendations_count": 2,
+      "confidence_score": 0.68
+    }
+  },
+  {
+    "timestamp": "2026-03-17 08:04:33",
+    "elapsed_seconds": 16.1,
+    "trades_processed": 103,
+    "predictions_processed": 36,
+    "synapse_broadcasts": 103,
+    "signal_quality_records": 103,
+    "insights_generated": 8,
+    "memory_records": 113,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 59,
+      "losing_streaks": 9,
+      "repeat_losers": 11
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "AVAX",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -1.3
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "ADA",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.77
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      },
+      {
+        "symbol": "NEAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.04
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 83,
+        "symbols": [
+          "ARB",
+          "AVAX",
+          "ADA",
+          "DASH",
+          "PENGU",
+          "NEAR",
+          "DEGO"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：103笔交易 → 突触/信号质量/调节器，36条预测 → 反馈引擎，8条洞察，113条记忆记录。模式发现：59个标的，9次连亏，11个重复亏损标的。交易统计：36胜/67负（35.0%胜率），总盈亏：34.91%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 4,
+      "recommendations_count": 3,
+      "confidence_score": 0.65
+    }
+  },
+  {
+    "timestamp": "2026-03-17 09:04:20",
+    "elapsed_seconds": 11.43,
+    "trades_processed": 110,
+    "predictions_processed": 36,
+    "synapse_broadcasts": 110,
+    "signal_quality_records": 110,
+    "insights_generated": 8,
+    "memory_records": 121,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 59,
+      "losing_streaks": 9,
+      "repeat_losers": 11
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "AVAX",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -1.3
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "ADA",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.77
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      },
+      {
+        "symbol": "NEAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.04
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 83,
+        "symbols": [
+          "ARB",
+          "AVAX",
+          "ADA",
+          "DASH",
+          "PENGU",
+          "NEAR",
+          "DEGO"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：110笔交易 → 突触/信号质量/调节器，36条预测 → 反馈引擎，8条洞察，121条记忆记录。模式发现：59个标的，9次连亏，11个重复亏损标的。交易统计：43胜/67负（39.1%胜率），总盈亏：54.58%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 4,
+      "recommendations_count": 3,
+      "confidence_score": 0.74
+    }
+  },
+  {
+    "timestamp": "2026-03-17 10:04:49",
+    "elapsed_seconds": 11.73,
+    "trades_processed": 112,
+    "predictions_processed": 38,
+    "synapse_broadcasts": 112,
+    "signal_quality_records": 112,
+    "insights_generated": 8,
+    "memory_records": 121,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 60,
+      "losing_streaks": 9,
+      "repeat_losers": 11
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "AVAX",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -1.3
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "ADA",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.77
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      },
+      {
+        "symbol": "NEAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.04
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 83,
+        "symbols": [
+          "ARB",
+          "AVAX",
+          "ADA",
+          "DASH",
+          "PENGU",
+          "NEAR",
+          "DEGO"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：112笔交易 → 突触/信号质量/调节器，38条预测 → 反馈引擎，8条洞察，121条记忆记录。模式发现：60个标的，9次连亏，11个重复亏损标的。交易统计：45胜/67负（40.2%胜率），总盈亏：55.23%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 3,
+      "recommendations_count": 3,
+      "confidence_score": 0.75
+    }
+  },
+  {
+    "timestamp": "2026-03-17 11:04:01",
+    "elapsed_seconds": 12.51,
+    "trades_processed": 112,
+    "predictions_processed": 38,
+    "synapse_broadcasts": 112,
+    "signal_quality_records": 112,
+    "insights_generated": 8,
+    "memory_records": 121,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 60,
+      "losing_streaks": 9,
+      "repeat_losers": 11
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "AVAX",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -1.3
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "ADA",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.77
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      },
+      {
+        "symbol": "NEAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.04
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 83,
+        "symbols": [
+          "ARB",
+          "AVAX",
+          "ADA",
+          "DASH",
+          "PENGU",
+          "NEAR",
+          "DEGO"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：112笔交易 → 突触/信号质量/调节器，38条预测 → 反馈引擎，8条洞察，121条记忆记录。模式发现：60个标的，9次连亏，11个重复亏损标的。交易统计：45胜/67负（40.2%胜率），总盈亏：55.23%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 3,
+      "recommendations_count": 3,
+      "confidence_score": 0.65
+    }
+  },
+  {
+    "timestamp": "2026-03-17 12:04:39",
+    "elapsed_seconds": 12.9,
+    "trades_processed": 115,
+    "predictions_processed": 39,
+    "synapse_broadcasts": 115,
+    "signal_quality_records": 115,
+    "insights_generated": 8,
+    "memory_records": 126,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 60,
+      "losing_streaks": 9,
+      "repeat_losers": 11
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "AVAX",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -1.3
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "ADA",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.77
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      },
+      {
+        "symbol": "NEAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.04
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 83,
+        "symbols": [
+          "ARB",
+          "AVAX",
+          "ADA",
+          "DASH",
+          "PENGU",
+          "NEAR",
+          "DEGO"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：115笔交易 → 突触/信号质量/调节器，39条预测 → 反馈引擎，8条洞察，126条记忆记录。模式发现：60个标的，9次连亏，11个重复亏损标的。交易统计：48胜/67负（41.7%胜率），总盈亏：68.96%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 5,
+      "recommendations_count": 3,
+      "confidence_score": 0.74
+    }
+  },
+  {
+    "timestamp": "2026-03-17 13:01:56",
+    "elapsed_seconds": 13.59,
+    "trades_processed": 116,
+    "predictions_processed": 39,
+    "synapse_broadcasts": 116,
+    "signal_quality_records": 116,
+    "insights_generated": 8,
+    "memory_records": 127,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 60,
+      "losing_streaks": 9,
+      "repeat_losers": 12
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "AVAX",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -1.3
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "ADA",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.77
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      },
+      {
+        "symbol": "NEAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.04
+      },
+      {
+        "symbol": "STRK",
+        "losses": 2,
+        "wins": 1,
+        "total_pnl": -1.43
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 83,
+        "symbols": [
+          "ARB",
+          "AVAX",
+          "ADA",
+          "DASH",
+          "PENGU",
+          "NEAR",
+          "DEGO"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：116笔交易 → 突触/信号质量/调节器，39条预测 → 反馈引擎，8条洞察，127条记忆记录。模式发现：60个标的，9次连亏，12个重复亏损标的。交易统计：48胜/68负（41.4%胜率），总盈亏：68.02%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 4,
+      "recommendations_count": 3,
+      "confidence_score": 0.75
+    }
+  },
+  {
+    "timestamp": "2026-03-17 17:01:46",
+    "elapsed_seconds": 13.99,
+    "trades_processed": 120,
+    "predictions_processed": 40,
+    "synapse_broadcasts": 120,
+    "signal_quality_records": 120,
+    "insights_generated": 7,
+    "memory_records": 129,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 60,
+      "losing_streaks": 9,
+      "repeat_losers": 12
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "AVAX",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -1.3
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "ADA",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.77
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      },
+      {
+        "symbol": "NEAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.04
+      },
+      {
+        "symbol": "STRK",
+        "losses": 2,
+        "wins": 1,
+        "total_pnl": -1.43
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 83,
+        "symbols": [
+          "ARB",
+          "AVAX",
+          "ADA",
+          "DASH",
+          "PENGU",
+          "NEAR",
+          "DEGO"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：120笔交易 → 突触/信号质量/调节器，40条预测 → 反馈引擎，7条洞察，129条记忆记录。模式发现：60个标的，9次连亏，12个重复亏损标的。交易统计：52胜/68负（43.3%胜率），总盈亏：76.05%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 4,
+      "recommendations_count": 2,
+      "confidence_score": 0.68
+    }
+  },
+  {
+    "timestamp": "2026-03-18 01:02:55",
+    "elapsed_seconds": 10.32,
+    "trades_processed": 121,
+    "predictions_processed": 40,
+    "synapse_broadcasts": 121,
+    "signal_quality_records": 121,
+    "insights_generated": 7,
+    "memory_records": 131,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 60,
+      "losing_streaks": 9,
+      "repeat_losers": 12
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "AVAX",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -1.3
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "ADA",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.77
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      },
+      {
+        "symbol": "NEAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.04
+      },
+      {
+        "symbol": "STRK",
+        "losses": 2,
+        "wins": 1,
+        "total_pnl": -1.43
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 83,
+        "symbols": [
+          "ARB",
+          "AVAX",
+          "ADA",
+          "DASH",
+          "PENGU",
+          "NEAR",
+          "DEGO"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：121笔交易 → 突触/信号质量/调节器，40条预测 → 反馈引擎，7条洞察，131条记忆记录。模式发现：60个标的，9次连亏，12个重复亏损标的。交易统计：53胜/68负（43.8%胜率），总盈亏：76.62%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 4,
+      "recommendations_count": 2,
+      "confidence_score": 0.75
+    }
+  },
+  {
+    "timestamp": "2026-03-18 02:04:46",
+    "elapsed_seconds": 11.58,
+    "trades_processed": 122,
+    "predictions_processed": 40,
+    "synapse_broadcasts": 122,
+    "signal_quality_records": 122,
+    "insights_generated": 8,
+    "memory_records": 132,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 60,
+      "losing_streaks": 9,
+      "repeat_losers": 12
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "AVAX",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -1.3
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "ADA",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.77
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      },
+      {
+        "symbol": "NEAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.04
+      },
+      {
+        "symbol": "STRK",
+        "losses": 2,
+        "wins": 1,
+        "total_pnl": -1.43
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 83,
+        "symbols": [
+          "ARB",
+          "AVAX",
+          "ADA",
+          "DASH",
+          "PENGU",
+          "NEAR",
+          "DEGO"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：122笔交易 → 突触/信号质量/调节器，40条预测 → 反馈引擎，8条洞察，132条记忆记录。模式发现：60个标的，9次连亏，12个重复亏损标的。交易统计：54胜/68负（44.3%胜率），总盈亏：78.38%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 4,
+      "recommendations_count": 3,
+      "confidence_score": 0.75
+    }
+  },
+  {
+    "timestamp": "2026-03-18 03:02:32",
+    "elapsed_seconds": 13.77,
+    "trades_processed": 122,
+    "predictions_processed": 40,
+    "synapse_broadcasts": 122,
+    "signal_quality_records": 122,
+    "insights_generated": 8,
+    "memory_records": 133,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 60,
+      "losing_streaks": 9,
+      "repeat_losers": 12
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "AVAX",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -1.3
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "ADA",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.77
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      },
+      {
+        "symbol": "NEAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.04
+      },
+      {
+        "symbol": "STRK",
+        "losses": 2,
+        "wins": 1,
+        "total_pnl": -1.43
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 83,
+        "symbols": [
+          "ARB",
+          "AVAX",
+          "ADA",
+          "DASH",
+          "PENGU",
+          "NEAR",
+          "DEGO"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：122笔交易 → 突触/信号质量/调节器，40条预测 → 反馈引擎，8条洞察，133条记忆记录。模式发现：60个标的，9次连亏，12个重复亏损标的。交易统计：54胜/68负（44.3%胜率），总盈亏：78.38%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 4,
+      "recommendations_count": 3,
+      "confidence_score": 0.55
+    }
+  },
+  {
+    "timestamp": "2026-03-18 15:04:03",
+    "elapsed_seconds": 13.06,
+    "trades_processed": 125,
+    "predictions_processed": 41,
+    "synapse_broadcasts": 125,
+    "signal_quality_records": 125,
+    "insights_generated": 8,
+    "memory_records": 134,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 60,
+      "losing_streaks": 9,
+      "repeat_losers": 13
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "AVAX",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -1.3
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "ADA",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.77
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      },
+      {
+        "symbol": "BNB",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -4.28
+      },
+      {
+        "symbol": "NEAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.04
+      },
+      {
+        "symbol": "STRK",
+        "losses": 3,
+        "wins": 1,
+        "total_pnl": -9.35
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 83,
+        "symbols": [
+          "ARB",
+          "AVAX",
+          "ADA",
+          "DASH",
+          "PENGU",
+          "NEAR",
+          "DEGO"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：125笔交易 → 突触/信号质量/调节器，41条预测 → 反馈引擎，8条洞察，134条记忆记录。模式发现：60个标的，9次连亏，13个重复亏损标的。交易统计：55胜/70负（44.0%胜率），总盈亏：77.45%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 3,
+      "recommendations_count": 3,
+      "confidence_score": 0.65
+    }
+  },
+  {
+    "timestamp": "2026-03-20 03:02:25",
+    "elapsed_seconds": 9.82,
+    "trades_processed": 126,
+    "predictions_processed": 41,
+    "synapse_broadcasts": 126,
+    "signal_quality_records": 126,
+    "insights_generated": 8,
+    "memory_records": 136,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 60,
+      "losing_streaks": 9,
+      "repeat_losers": 13
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "AVAX",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -1.3
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "ADA",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.77
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      },
+      {
+        "symbol": "BNB",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -4.28
+      },
+      {
+        "symbol": "NEAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.04
+      },
+      {
+        "symbol": "STRK",
+        "losses": 3,
+        "wins": 1,
+        "total_pnl": -9.35
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 83,
+        "symbols": [
+          "ARB",
+          "AVAX",
+          "ADA",
+          "DASH",
+          "PENGU",
+          "NEAR",
+          "DEGO"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：126笔交易 → 突触/信号质量/调节器，41条预测 → 反馈引擎，8条洞察，136条记忆记录。模式发现：60个标的，9次连亏，13个重复亏损标的。交易统计：56胜/70负（44.4%胜率），总盈亏：89.18%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 4,
+      "recommendations_count": 3,
+      "confidence_score": 0.65
+    }
+  },
+  {
+    "timestamp": "2026-03-23 03:04:26",
+    "elapsed_seconds": 7.25,
+    "trades_processed": 129,
+    "predictions_processed": 41,
+    "synapse_broadcasts": 129,
+    "signal_quality_records": 129,
+    "insights_generated": 7,
+    "memory_records": 137,
+    "patterns": {
+      "strategies": 1,
+      "symbols_analyzed": 62,
+      "losing_streaks": 9,
+      "repeat_losers": 13
+    },
+    "repeat_losers": [
+      {
+        "symbol": "BLUAI",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.92
+      },
+      {
+        "symbol": "POWER",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -15.34
+      },
+      {
+        "symbol": "XAUT",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -0.64
+      },
+      {
+        "symbol": "MON",
+        "losses": 3,
+        "wins": 0,
+        "total_pnl": -6.48
+      },
+      {
+        "symbol": "KITE",
+        "losses": 6,
+        "wins": 1,
+        "total_pnl": -5.43
+      },
+      {
+        "symbol": "HBAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.64
+      },
+      {
+        "symbol": "AVAX",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -1.3
+      },
+      {
+        "symbol": "HNT",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -3.6
+      },
+      {
+        "symbol": "ADA",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.77
+      },
+      {
+        "symbol": "RAVE",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -5.58
+      },
+      {
+        "symbol": "BNB",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -4.28
+      },
+      {
+        "symbol": "NEAR",
+        "losses": 2,
+        "wins": 0,
+        "total_pnl": -2.04
+      },
+      {
+        "symbol": "STRK",
+        "losses": 3,
+        "wins": 1,
+        "total_pnl": -9.35
+      }
+    ],
+    "losing_streaks": [
+      {
+        "length": 8,
+        "start_idx": 0,
+        "symbols": [
+          "BLUAI",
+          "POWER",
+          "XAUT",
+          "BLUAI",
+          "PAXG",
+          "COINON",
+          "XAUT",
+          "XAUT"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 9,
+        "symbols": [
+          "USD1",
+          "我踏马来了",
+          "PIPPIN"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 14,
+        "symbols": [
+          "MON",
+          "GPUAI",
+          "COAI",
+          "POWER",
+          "ZAMA",
+          "BCH"
+        ]
+      },
+      {
+        "length": 5,
+        "start_idx": 22,
+        "symbols": [
+          "ASTER",
+          "HYPE",
+          "BEAT",
+          "PYTH",
+          "OM"
+        ]
+      },
+      {
+        "length": 8,
+        "start_idx": 39,
+        "symbols": [
+          "AR",
+          "CRV",
+          "JASMY",
+          "IMX",
+          "FIL",
+          "AVAX",
+          "HNT",
+          "STABLE"
+        ]
+      },
+      {
+        "length": 3,
+        "start_idx": 48,
+        "symbols": [
+          "ONDO",
+          "WLFI",
+          "HBAR"
+        ]
+      },
+      {
+        "length": 6,
+        "start_idx": 57,
+        "symbols": [
+          "CYBER",
+          "ARC",
+          "RAVE",
+          "RAVE",
+          "ENSO",
+          "KITE"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 66,
+        "symbols": [
+          "KITE",
+          "KITE",
+          "KITE",
+          "HNT",
+          "MON",
+          "MY",
+          "MON"
+        ]
+      },
+      {
+        "length": 7,
+        "start_idx": 83,
+        "symbols": [
+          "ARB",
+          "AVAX",
+          "ADA",
+          "DASH",
+          "PENGU",
+          "NEAR",
+          "DEGO"
+        ]
+      }
+    ],
+    "summary_text": "深度进化完成（增强版）：129笔交易 → 突触/信号质量/调节器，41条预测 → 反馈引擎，7条洞察，137条记忆记录。模式发现：62个标的，9次连亏，13个重复亏损标的。交易统计：57胜/72负（44.2%胜率），总盈亏：79.19%。AI分析：✓。错误：0",
+    "ai_analysis_summary": {
+      "available": true,
+      "core_problems_count": 3,
+      "recommendations_count": 2,
+      "confidence_score": 0.75
+    }
+  }
+]

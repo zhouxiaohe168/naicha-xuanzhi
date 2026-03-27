@@ -1,0 +1,1062 @@
+{
+  "trained_at": "2026-02-17 06:58:01",
+  "initial_capital": 10000.0,
+  "symbols_used": 29,
+  "fixed": {
+    "total_return": 14.84,
+    "final_equity": 11484.22,
+    "max_drawdown": 5.19,
+    "win_rate": 75.0,
+    "total_trades": 16,
+    "wins": 12,
+    "losses": 4,
+    "profit_factor": 5.5,
+    "sharpe_ratio": 3.24,
+    "avg_win": 151.18,
+    "avg_loss": 82.48,
+    "equity_curve": [
+      {
+        "day": 0,
+        "equity": 10000.0
+      },
+      {
+        "day": 1,
+        "equity": 10000.0
+      },
+      {
+        "day": 2,
+        "equity": 10000.0
+      },
+      {
+        "day": 3,
+        "equity": 10000.0
+      },
+      {
+        "day": 4,
+        "equity": 10000.0
+      },
+      {
+        "day": 5,
+        "equity": 10000.0
+      },
+      {
+        "day": 6,
+        "equity": 10000.0
+      },
+      {
+        "day": 7,
+        "equity": 10000.0
+      },
+      {
+        "day": 8,
+        "equity": 10000.0
+      },
+      {
+        "day": 9,
+        "equity": 10000.0
+      },
+      {
+        "day": 10,
+        "equity": 10000.0
+      },
+      {
+        "day": 11,
+        "equity": 10000.0
+      },
+      {
+        "day": 12,
+        "equity": 10000.0
+      },
+      {
+        "day": 13,
+        "equity": 10000.0
+      },
+      {
+        "day": 14,
+        "equity": 10000.0
+      },
+      {
+        "day": 15,
+        "equity": 10000.0
+      },
+      {
+        "day": 16,
+        "equity": 10000.0
+      },
+      {
+        "day": 17,
+        "equity": 10000.0
+      },
+      {
+        "day": 18,
+        "equity": 10000.0
+      },
+      {
+        "day": 19,
+        "equity": 10000.0
+      },
+      {
+        "day": 20,
+        "equity": 10000.0
+      },
+      {
+        "day": 21,
+        "equity": 10000.0
+      },
+      {
+        "day": 22,
+        "equity": 10000.0
+      },
+      {
+        "day": 23,
+        "equity": 10000.0
+      },
+      {
+        "day": 24,
+        "equity": 10000.0
+      },
+      {
+        "day": 25,
+        "equity": 10000.0
+      },
+      {
+        "day": 26,
+        "equity": 10000.0
+      },
+      {
+        "day": 27,
+        "equity": 10000.0
+      },
+      {
+        "day": 28,
+        "equity": 10000.0
+      },
+      {
+        "day": 29,
+        "equity": 10000.0
+      },
+      {
+        "day": 30,
+        "equity": 10000.0
+      },
+      {
+        "day": 31,
+        "equity": 10000.0
+      },
+      {
+        "day": 32,
+        "equity": 10000.0
+      },
+      {
+        "day": 33,
+        "equity": 10000.0
+      },
+      {
+        "day": 34,
+        "equity": 10000.0
+      },
+      {
+        "day": 35,
+        "equity": 10000.0
+      },
+      {
+        "day": 36,
+        "equity": 10000.0
+      },
+      {
+        "day": 37,
+        "equity": 10000.0
+      },
+      {
+        "day": 38,
+        "equity": 10000.0
+      },
+      {
+        "day": 39,
+        "equity": 10000.0
+      },
+      {
+        "day": 40,
+        "equity": 10000.0
+      },
+      {
+        "day": 41,
+        "equity": 10000.0
+      },
+      {
+        "day": 42,
+        "equity": 10000.0
+      },
+      {
+        "day": 43,
+        "equity": 10000.0
+      },
+      {
+        "day": 44,
+        "equity": 10000.0
+      },
+      {
+        "day": 45,
+        "equity": 10000.0
+      },
+      {
+        "day": 46,
+        "equity": 10000.0
+      },
+      {
+        "day": 47,
+        "equity": 10000.0
+      },
+      {
+        "day": 48,
+        "equity": 10000.0
+      },
+      {
+        "day": 49,
+        "equity": 10000.0
+      },
+      {
+        "day": 50,
+        "equity": 10000.0
+      },
+      {
+        "day": 51,
+        "equity": 9982.23
+      },
+      {
+        "day": 52,
+        "equity": 9998.49
+      },
+      {
+        "day": 53,
+        "equity": 10040.94
+      },
+      {
+        "day": 54,
+        "equity": 10040.97
+      },
+      {
+        "day": 55,
+        "equity": 10105.25
+      },
+      {
+        "day": 56,
+        "equity": 9797.59
+      },
+      {
+        "day": 57,
+        "equity": 9836.56
+      },
+      {
+        "day": 58,
+        "equity": 9968.65
+      },
+      {
+        "day": 59,
+        "equity": 9933.85
+      },
+      {
+        "day": 60,
+        "equity": 9850.1
+      },
+      {
+        "day": 61,
+        "equity": 10029.85
+      },
+      {
+        "day": 62,
+        "equity": 10227.67
+      },
+      {
+        "day": 63,
+        "equity": 10349.02
+      },
+      {
+        "day": 64,
+        "equity": 10305.62
+      },
+      {
+        "day": 65,
+        "equity": 10321.72
+      },
+      {
+        "day": 66,
+        "equity": 10315.68
+      },
+      {
+        "day": 67,
+        "equity": 10354.2
+      },
+      {
+        "day": 68,
+        "equity": 10563.1
+      },
+      {
+        "day": 69,
+        "equity": 10394.84
+      },
+      {
+        "day": 70,
+        "equity": 10271.85
+      },
+      {
+        "day": 71,
+        "equity": 10348.1
+      },
+      {
+        "day": 72,
+        "equity": 10601.12
+      },
+      {
+        "day": 73,
+        "equity": 10679.19
+      },
+      {
+        "day": 74,
+        "equity": 10892.29
+      },
+      {
+        "day": 75,
+        "equity": 10885.22
+      },
+      {
+        "day": 76,
+        "equity": 10909.86
+      },
+      {
+        "day": 77,
+        "equity": 11006.0
+      },
+      {
+        "day": 78,
+        "equity": 11112.15
+      },
+      {
+        "day": 79,
+        "equity": 11642.93
+      },
+      {
+        "day": 80,
+        "equity": 11694.74
+      },
+      {
+        "day": 81,
+        "equity": 11752.34
+      },
+      {
+        "day": 82,
+        "equity": 11799.59
+      },
+      {
+        "day": 83,
+        "equity": 11763.07
+      },
+      {
+        "day": 84,
+        "equity": 11893.17
+      },
+      {
+        "day": 85,
+        "equity": 11887.77
+      },
+      {
+        "day": 86,
+        "equity": 11786.9
+      },
+      {
+        "day": 87,
+        "equity": 11532.3
+      },
+      {
+        "day": 88,
+        "equity": 11276.08
+      },
+      {
+        "day": 89,
+        "equity": 11476.58
+      }
+    ],
+    "recent_trades": [
+      {
+        "sym": "ZEC",
+        "entry": 470.01,
+        "exit": 417.0257,
+        "pnl": -82.18,
+        "result": "loss",
+        "strategy": "fixed",
+        "direction": "long"
+      },
+      {
+        "sym": "NEAR",
+        "entry": 1.6862,
+        "exit": 1.8154,
+        "pnl": -50.21,
+        "result": "loss",
+        "strategy": "fixed",
+        "direction": "short"
+      },
+      {
+        "sym": "IMX",
+        "entry": 0.2657,
+        "exit": 0.2964,
+        "pnl": -75.06,
+        "result": "loss",
+        "strategy": "fixed",
+        "direction": "short"
+      },
+      {
+        "sym": "HBAR",
+        "entry": 0.1237,
+        "exit": 0.1033,
+        "pnl": 164.58,
+        "result": "win",
+        "strategy": "fixed",
+        "direction": "short"
+      },
+      {
+        "sym": "SEI",
+        "entry": 0.1245,
+        "exit": 0.1059,
+        "pnl": 134.46,
+        "result": "win",
+        "strategy": "fixed",
+        "direction": "short"
+      },
+      {
+        "sym": "ARB",
+        "entry": 0.2128,
+        "exit": 0.1816,
+        "pnl": 118.6,
+        "result": "win",
+        "strategy": "fixed",
+        "direction": "short"
+      },
+      {
+        "sym": "ADA",
+        "entry": 0.4022,
+        "exit": 0.3297,
+        "pnl": 118.33,
+        "result": "win",
+        "strategy": "fixed",
+        "direction": "short"
+      },
+      {
+        "sym": "INJ",
+        "entry": 4.914,
+        "exit": 3.7761,
+        "pnl": 148.81,
+        "result": "win",
+        "strategy": "fixed",
+        "direction": "short"
+      },
+      {
+        "sym": "UNI",
+        "entry": 4.873,
+        "exit": 4.0251,
+        "pnl": 139.56,
+        "result": "win",
+        "strategy": "fixed",
+        "direction": "short"
+      },
+      {
+        "sym": "HBAR",
+        "entry": 0.1095,
+        "exit": 0.0909,
+        "pnl": 122.75,
+        "result": "win",
+        "strategy": "fixed",
+        "direction": "short"
+      },
+      {
+        "sym": "ZEC",
+        "entry": 365.59,
+        "exit": 267.145,
+        "pnl": 239.96,
+        "result": "win",
+        "strategy": "fixed",
+        "direction": "short"
+      },
+      {
+        "sym": "HBAR",
+        "entry": 0.0932,
+        "exit": 0.0741,
+        "pnl": 202.69,
+        "result": "win",
+        "strategy": "fixed",
+        "direction": "short"
+      },
+      {
+        "sym": "ADA",
+        "entry": 0.2915,
+        "exit": 0.2241,
+        "pnl": 231.0,
+        "result": "win",
+        "strategy": "fixed",
+        "direction": "short"
+      },
+      {
+        "sym": "DOGE",
+        "entry": 0.106,
+        "exit": 0.0835,
+        "pnl": 190.97,
+        "result": "win",
+        "strategy": "fixed",
+        "direction": "short"
+      },
+      {
+        "sym": "ZEC",
+        "entry": 270.72,
+        "exit": 269.9078,
+        "pnl": 2.43,
+        "result": "win",
+        "strategy": "fixed",
+        "direction": "short"
+      },
+      {
+        "sym": "HBAR",
+        "entry": 0.0913,
+        "exit": 0.1041,
+        "pnl": -122.46,
+        "result": "loss",
+        "strategy": "fixed",
+        "direction": "short"
+      }
+    ],
+    "hist_win_rate": 28.5,
+    "hist_payoff_ratio": 0.73,
+    "kelly_fraction": 0.0,
+    "test_days": 90,
+    "train_days": 75
+  },
+  "kelly_atr": {
+    "total_return": 2.65,
+    "final_equity": 10264.74,
+    "max_drawdown": 1.3,
+    "win_rate": 75.0,
+    "total_trades": 16,
+    "wins": 12,
+    "losses": 4,
+    "profit_factor": 4.92,
+    "sharpe_ratio": 2.86,
+    "avg_win": 27.68,
+    "avg_loss": 16.87,
+    "equity_curve": [
+      {
+        "day": 0,
+        "equity": 10000.0
+      },
+      {
+        "day": 1,
+        "equity": 10000.0
+      },
+      {
+        "day": 2,
+        "equity": 10000.0
+      },
+      {
+        "day": 3,
+        "equity": 10000.0
+      },
+      {
+        "day": 4,
+        "equity": 10000.0
+      },
+      {
+        "day": 5,
+        "equity": 10000.0
+      },
+      {
+        "day": 6,
+        "equity": 10000.0
+      },
+      {
+        "day": 7,
+        "equity": 10000.0
+      },
+      {
+        "day": 8,
+        "equity": 10000.0
+      },
+      {
+        "day": 9,
+        "equity": 10000.0
+      },
+      {
+        "day": 10,
+        "equity": 10000.0
+      },
+      {
+        "day": 11,
+        "equity": 10000.0
+      },
+      {
+        "day": 12,
+        "equity": 10000.0
+      },
+      {
+        "day": 13,
+        "equity": 10000.0
+      },
+      {
+        "day": 14,
+        "equity": 10000.0
+      },
+      {
+        "day": 15,
+        "equity": 10000.0
+      },
+      {
+        "day": 16,
+        "equity": 10000.0
+      },
+      {
+        "day": 17,
+        "equity": 10000.0
+      },
+      {
+        "day": 18,
+        "equity": 10000.0
+      },
+      {
+        "day": 19,
+        "equity": 10000.0
+      },
+      {
+        "day": 20,
+        "equity": 10000.0
+      },
+      {
+        "day": 21,
+        "equity": 10000.0
+      },
+      {
+        "day": 22,
+        "equity": 10000.0
+      },
+      {
+        "day": 23,
+        "equity": 10000.0
+      },
+      {
+        "day": 24,
+        "equity": 10000.0
+      },
+      {
+        "day": 25,
+        "equity": 10000.0
+      },
+      {
+        "day": 26,
+        "equity": 10000.0
+      },
+      {
+        "day": 27,
+        "equity": 10000.0
+      },
+      {
+        "day": 28,
+        "equity": 10000.0
+      },
+      {
+        "day": 29,
+        "equity": 10000.0
+      },
+      {
+        "day": 30,
+        "equity": 10000.0
+      },
+      {
+        "day": 31,
+        "equity": 10000.0
+      },
+      {
+        "day": 32,
+        "equity": 10000.0
+      },
+      {
+        "day": 33,
+        "equity": 10000.0
+      },
+      {
+        "day": 34,
+        "equity": 10000.0
+      },
+      {
+        "day": 35,
+        "equity": 10000.0
+      },
+      {
+        "day": 36,
+        "equity": 10000.0
+      },
+      {
+        "day": 37,
+        "equity": 10000.0
+      },
+      {
+        "day": 38,
+        "equity": 10000.0
+      },
+      {
+        "day": 39,
+        "equity": 10000.0
+      },
+      {
+        "day": 40,
+        "equity": 10000.0
+      },
+      {
+        "day": 41,
+        "equity": 10000.0
+      },
+      {
+        "day": 42,
+        "equity": 10000.0
+      },
+      {
+        "day": 43,
+        "equity": 10000.0
+      },
+      {
+        "day": 44,
+        "equity": 10000.0
+      },
+      {
+        "day": 45,
+        "equity": 10000.0
+      },
+      {
+        "day": 46,
+        "equity": 10000.0
+      },
+      {
+        "day": 47,
+        "equity": 10000.0
+      },
+      {
+        "day": 48,
+        "equity": 10000.0
+      },
+      {
+        "day": 49,
+        "equity": 10000.0
+      },
+      {
+        "day": 50,
+        "equity": 10000.0
+      },
+      {
+        "day": 51,
+        "equity": 9985.49
+      },
+      {
+        "day": 52,
+        "equity": 9987.32
+      },
+      {
+        "day": 53,
+        "equity": 9992.18
+      },
+      {
+        "day": 54,
+        "equity": 9991.93
+      },
+      {
+        "day": 55,
+        "equity": 9999.61
+      },
+      {
+        "day": 56,
+        "equity": 9961.5
+      },
+      {
+        "day": 57,
+        "equity": 9966.46
+      },
+      {
+        "day": 58,
+        "equity": 9982.03
+      },
+      {
+        "day": 59,
+        "equity": 9977.08
+      },
+      {
+        "day": 60,
+        "equity": 9965.78
+      },
+      {
+        "day": 61,
+        "equity": 9986.64
+      },
+      {
+        "day": 62,
+        "equity": 10008.96
+      },
+      {
+        "day": 63,
+        "equity": 10025.65
+      },
+      {
+        "day": 64,
+        "equity": 10019.29
+      },
+      {
+        "day": 65,
+        "equity": 10021.65
+      },
+      {
+        "day": 66,
+        "equity": 10020.36
+      },
+      {
+        "day": 67,
+        "equity": 10028.51
+      },
+      {
+        "day": 68,
+        "equity": 10071.88
+      },
+      {
+        "day": 69,
+        "equity": 10036.69
+      },
+      {
+        "day": 70,
+        "equity": 10010.36
+      },
+      {
+        "day": 71,
+        "equity": 10027.23
+      },
+      {
+        "day": 72,
+        "equity": 10078.48
+      },
+      {
+        "day": 73,
+        "equity": 10095.93
+      },
+      {
+        "day": 74,
+        "equity": 10143.78
+      },
+      {
+        "day": 75,
+        "equity": 10142.22
+      },
+      {
+        "day": 76,
+        "equity": 10147.65
+      },
+      {
+        "day": 77,
+        "equity": 10168.32
+      },
+      {
+        "day": 78,
+        "equity": 10191.94
+      },
+      {
+        "day": 79,
+        "equity": 10305.51
+      },
+      {
+        "day": 80,
+        "equity": 10312.74
+      },
+      {
+        "day": 81,
+        "equity": 10325.55
+      },
+      {
+        "day": 82,
+        "equity": 10335.49
+      },
+      {
+        "day": 83,
+        "equity": 10326.62
+      },
+      {
+        "day": 84,
+        "equity": 10354.57
+      },
+      {
+        "day": 85,
+        "equity": 10350.77
+      },
+      {
+        "day": 86,
+        "equity": 10330.41
+      },
+      {
+        "day": 87,
+        "equity": 10273.96
+      },
+      {
+        "day": 88,
+        "equity": 10220.3
+      },
+      {
+        "day": 89,
+        "equity": 10263.67
+      }
+    ],
+    "recent_trades": [
+      {
+        "sym": "ZEC",
+        "entry": 470.01,
+        "exit": 417.0257,
+        "pnl": -21.88,
+        "result": "loss",
+        "strategy": "kelly_atr",
+        "direction": "long"
+      },
+      {
+        "sym": "NEAR",
+        "entry": 1.6862,
+        "exit": 1.8154,
+        "pnl": -7.35,
+        "result": "loss",
+        "strategy": "kelly_atr",
+        "direction": "short"
+      },
+      {
+        "sym": "IMX",
+        "entry": 0.2657,
+        "exit": 0.2964,
+        "pnl": -11.06,
+        "result": "loss",
+        "strategy": "kelly_atr",
+        "direction": "short"
+      },
+      {
+        "sym": "HBAR",
+        "entry": 0.1237,
+        "exit": 0.1033,
+        "pnl": 16.46,
+        "result": "win",
+        "strategy": "kelly_atr",
+        "direction": "short"
+      },
+      {
+        "sym": "SEI",
+        "entry": 0.1245,
+        "exit": 0.1059,
+        "pnl": 14.79,
+        "result": "win",
+        "strategy": "kelly_atr",
+        "direction": "short"
+      },
+      {
+        "sym": "ARB",
+        "entry": 0.2128,
+        "exit": 0.1816,
+        "pnl": 14.35,
+        "result": "win",
+        "strategy": "kelly_atr",
+        "direction": "short"
+      },
+      {
+        "sym": "ADA",
+        "entry": 0.4022,
+        "exit": 0.3297,
+        "pnl": 17.15,
+        "result": "win",
+        "strategy": "kelly_atr",
+        "direction": "short"
+      },
+      {
+        "sym": "INJ",
+        "entry": 4.914,
+        "exit": 3.7761,
+        "pnl": 22.15,
+        "result": "win",
+        "strategy": "kelly_atr",
+        "direction": "short"
+      },
+      {
+        "sym": "UNI",
+        "entry": 4.873,
+        "exit": 4.0251,
+        "pnl": 33.47,
+        "result": "win",
+        "strategy": "kelly_atr",
+        "direction": "short"
+      },
+      {
+        "sym": "HBAR",
+        "entry": 0.1095,
+        "exit": 0.0909,
+        "pnl": 32.06,
+        "result": "win",
+        "strategy": "kelly_atr",
+        "direction": "short"
+      },
+      {
+        "sym": "ZEC",
+        "entry": 365.59,
+        "exit": 267.145,
+        "pnl": 52.86,
+        "result": "win",
+        "strategy": "kelly_atr",
+        "direction": "short"
+      },
+      {
+        "sym": "HBAR",
+        "entry": 0.0932,
+        "exit": 0.0741,
+        "pnl": 40.81,
+        "result": "win",
+        "strategy": "kelly_atr",
+        "direction": "short"
+      },
+      {
+        "sym": "ADA",
+        "entry": 0.2915,
+        "exit": 0.2241,
+        "pnl": 46.06,
+        "result": "win",
+        "strategy": "kelly_atr",
+        "direction": "short"
+      },
+      {
+        "sym": "DOGE",
+        "entry": 0.106,
+        "exit": 0.0835,
+        "pnl": 41.47,
+        "result": "win",
+        "strategy": "kelly_atr",
+        "direction": "short"
+      },
+      {
+        "sym": "ZEC",
+        "entry": 270.72,
+        "exit": 269.9078,
+        "pnl": 0.57,
+        "result": "win",
+        "strategy": "kelly_atr",
+        "direction": "short"
+      },
+      {
+        "sym": "HBAR",
+        "entry": 0.0913,
+        "exit": 0.1041,
+        "pnl": -27.17,
+        "result": "loss",
+        "strategy": "kelly_atr",
+        "direction": "short"
+      }
+    ],
+    "hist_win_rate": 28.5,
+    "hist_payoff_ratio": 0.73,
+    "kelly_fraction": 0.0,
+    "test_days": 90,
+    "train_days": 75
+  },
+  "improvement": {
+    "return_diff": -12.19,
+    "drawdown_diff": 3.89,
+    "sharpe_diff": -0.38
+  }
+}

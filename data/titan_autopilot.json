@@ -1,0 +1,1266 @@
+{
+  "cycle_count": 1375,
+  "running": true,
+  "trading_paused": false,
+  "start_time": 1774594250.5297482,
+  "pending_ceo_decisions": [
+    {
+      "time": "2026-02-17T17:33:43.945724+08:00",
+      "title": "需要决策",
+      "detail": "suggest_retrain: ML准确率50.0%过低",
+      "severity": "medium",
+      "resolved": true,
+      "ceo_action": "dismiss",
+      "ceo_note": "",
+      "resolved_at": "2026-02-17T15:40:21.781426"
+    },
+    {
+      "time": "2026-02-24T19:42:55.311793+08:00",
+      "title": "胜率持续偏低",
+      "detail": "最近胜率仅33.3%，低于38%目标线。建议审查策略参数或暂停高亏损策略。",
+      "severity": "high",
+      "resolved": true,
+      "ceo_action": "dismiss",
+      "ceo_note": "",
+      "resolved_at": "2026-02-24T11:52:08.198880"
+    },
+    {
+      "time": "2026-02-24T11:14:11.751779+08:00",
+      "title": "连续亏损预警",
+      "detail": "已连续亏损4笔，建议观察下一笔交易表现，若继续亏损考虑暂停策略或收紧过滤条件。",
+      "severity": "medium",
+      "resolved": true,
+      "ceo_action": "dismiss",
+      "ceo_note": "",
+      "resolved_at": "2026-02-24T11:52:04.129973"
+    },
+    {
+      "time": "2026-02-24T19:42:55.308568+08:00",
+      "title": "交易警报",
+      "detail": "连续亏损5笔, 建议暂停交易",
+      "severity": "high",
+      "resolved": true,
+      "ceo_action": "dismiss",
+      "ceo_note": "",
+      "resolved_at": "2026-02-24T11:51:55.054926"
+    },
+    {
+      "time": "2026-02-24T22:05:29.992631+08:00",
+      "title": "交易警报",
+      "detail": "连续亏损6笔, 建议暂停交易",
+      "severity": "high",
+      "resolved": true,
+      "ceo_action": "dismiss",
+      "ceo_note": "",
+      "resolved_at": "2026-02-24T16:10:51.923033"
+    },
+    {
+      "time": "2026-02-24T23:59:11.955503+08:00",
+      "title": "胜率持续偏低",
+      "detail": "最近胜率仅36.9%，低于38%目标线。建议审查策略参数或暂停高亏损策略。",
+      "severity": "high",
+      "resolved": true,
+      "ceo_action": "dismiss",
+      "ceo_note": "",
+      "resolved_at": "2026-02-24T16:10:54.248105"
+    },
+    {
+      "time": "2026-02-25T12:23:47.455639+08:00",
+      "title": "胜率持续偏低",
+      "detail": "最近胜率仅36.8%，低于38%目标线。建议审查策略参数或暂停高亏损策略。",
+      "severity": "high",
+      "resolved": true,
+      "ceo_action": "dismiss",
+      "ceo_note": "",
+      "resolved_at": "2026-02-25T04:27:50.497069"
+    },
+    {
+      "time": "2026-02-26T21:18:40.906427+08:00",
+      "title": "胜率持续偏低",
+      "detail": "最近胜率仅37.5%，低于38%目标线。建议审查策略参数或暂停高亏损策略。",
+      "severity": "high",
+      "resolved": true,
+      "ceo_action": "dismiss",
+      "ceo_note": "",
+      "resolved_at": "2026-02-26T13:22:06.776447"
+    },
+    {
+      "time": "2026-03-05T10:03:04.221666+08:00",
+      "title": "模型需要更新",
+      "detail": "ML模型长时间未训练。模型已38小时未训练建议安排云端重训练以适应最新市场变化。",
+      "severity": "medium",
+      "resolved": true,
+      "ceo_action": "dismiss",
+      "ceo_note": "",
+      "resolved_at": "2026-03-07T11:02:59.987525"
+    },
+    {
+      "time": "2026-03-09T23:05:02.721694+08:00",
+      "title": "模型需要更新",
+      "detail": "ML模型长时间未训练。模型已54小时未训练建议安排云端重训练以适应最新市场变化。",
+      "severity": "medium",
+      "resolved": true,
+      "ceo_action": "dismiss",
+      "ceo_note": "",
+      "resolved_at": "2026-03-11T02:55:48.639317"
+    },
+    {
+      "time": "2026-03-17T16:47:29.795965+08:00",
+      "title": "胜率持续偏低",
+      "detail": "最近胜率仅37.4%，低于38%目标线。建议审查策略参数或暂停高亏损策略。",
+      "severity": "high",
+      "resolved": false
+    },
+    {
+      "time": "2026-03-26T16:59:02.417156+08:00",
+      "title": "模型需要更新",
+      "detail": "ML模型长时间未训练。模型已78小时未训练建议安排云端重训练以适应最新市场变化。",
+      "severity": "medium",
+      "resolved": false
+    }
+  ],
+  "last_email_hour": 14,
+  "last_email_date": "2026-03-27",
+  "last_training_hour": 4,
+  "last_training_date": "2026-03-27",
+  "last_proactive_review_date": "2026-03-17",
+  "actions_taken": [
+    {
+      "time": "2026-03-08T18:37:54.284068+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 8:00",
+      "result": "status=already_running"
+    },
+    {
+      "time": "2026-03-08T18:53:34.932352+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 16:00",
+      "result": "status=already_running"
+    },
+    {
+      "time": "2026-03-08T20:08:41.451131+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 20:00",
+      "result": "status=already_running"
+    },
+    {
+      "time": "2026-03-09T23:05:06.211667+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 4:00",
+      "result": "status=submitted"
+    },
+    {
+      "time": "2026-03-09T23:20:23.038864+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 8:00",
+      "result": "status=already_running"
+    },
+    {
+      "time": "2026-03-09T23:23:25.474073+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 16:00",
+      "result": "status=already_running"
+    },
+    {
+      "time": "2026-03-09T23:39:23.310350+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 20:00",
+      "result": "status=already_running"
+    },
+    {
+      "time": "2026-03-10T09:36:12.641872+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 4:00",
+      "result": "status=submitted"
+    },
+    {
+      "time": "2026-03-10T09:51:16.075960+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 8:00",
+      "result": "status=already_running"
+    },
+    {
+      "time": "2026-03-10T10:10:36.171274+08:00",
+      "action": "proactive_review",
+      "reason": "每周主动复盘3笔交易",
+      "result": "success"
+    },
+    {
+      "time": "2026-03-10T23:01:08.239521+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 16:00",
+      "result": "status=submitted"
+    },
+    {
+      "time": "2026-03-10T23:22:34.274334+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 20:00",
+      "result": "status=already_running"
+    },
+    {
+      "time": "2026-03-11T10:15:41.565988+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 4:00",
+      "result": "status=submitted"
+    },
+    {
+      "time": "2026-03-11T10:30:44.228159+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 8:00",
+      "result": "status=already_running"
+    },
+    {
+      "time": "2026-03-12T10:38:28.193790+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 4:00",
+      "result": "status=submitted"
+    },
+    {
+      "time": "2026-03-12T10:38:29.181500+08:00",
+      "action": "proactive_review",
+      "reason": "每周主动复盘3笔交易",
+      "result": "success"
+    },
+    {
+      "time": "2026-03-12T10:59:33.333072+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 8:00",
+      "result": "status=already_running"
+    },
+    {
+      "time": "2026-03-12T16:06:12.915719+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 16:00",
+      "result": "status=submitted"
+    },
+    {
+      "time": "2026-03-12T20:00:56.343735+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 20:00",
+      "result": "status=submitted"
+    },
+    {
+      "time": "2026-03-13T20:37:37.523198+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 4:00",
+      "result": "status=submitted"
+    },
+    {
+      "time": "2026-03-13T21:00:28.092218+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 8:00",
+      "result": "status=already_running"
+    },
+    {
+      "time": "2026-03-13T21:15:28.583282+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 16:00",
+      "result": "status=already_running"
+    },
+    {
+      "time": "2026-03-13T23:45:27.785719+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 20:00",
+      "result": "status=submitted"
+    },
+    {
+      "time": "2026-03-14T08:21:21.579359+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 4:00",
+      "result": "status=submitted"
+    },
+    {
+      "time": "2026-03-14T08:21:23.593019+08:00",
+      "action": "4h_direction_backfill",
+      "reason": "回填1/3笔交易的4h方向",
+      "result": "success"
+    },
+    {
+      "time": "2026-03-14T10:54:54.250883+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 8:00",
+      "result": "status=submitted"
+    },
+    {
+      "time": "2026-03-14T10:54:55.205327+08:00",
+      "action": "proactive_review",
+      "reason": "每周主动复盘3笔交易",
+      "result": "success"
+    },
+    {
+      "time": "2026-03-15T04:00:54.830948+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 4:00",
+      "result": "status=submitted"
+    },
+    {
+      "time": "2026-03-15T08:14:17.258608+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 8:00",
+      "result": "status=submitted"
+    },
+    {
+      "time": "2026-03-15T08:14:14.263729+08:00",
+      "action": "weekly_backtest",
+      "reason": "回测完成: 回测范围：过去30天 | 总交易数：97笔 | 整体胜率：36.1% | 平均PnL：0.27% | 辩论系统：暂无匹配数据 | 最佳条件：hold_long 62.1% | 最差条件：hold_short 21.7% | 自动优化：0项 | 待审核：4项",
+      "result": "success"
+    },
+    {
+      "time": "2026-03-15T16:42:46.567487+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 16:00",
+      "result": "status=submitted"
+    },
+    {
+      "time": "2026-03-16T09:42:45.227215+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 4:00",
+      "result": "status=submitted"
+    },
+    {
+      "time": "2026-03-16T10:04:35.225905+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 8:00",
+      "result": "status=already_running"
+    },
+    {
+      "time": "2026-03-17T08:38:46.056718+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 4:00",
+      "result": "status=submitted"
+    },
+    {
+      "time": "2026-03-17T08:53:47.479951+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 8:00",
+      "result": "status=already_running"
+    },
+    {
+      "time": "2026-03-17T10:08:22.868807+08:00",
+      "action": "proactive_review",
+      "reason": "每周主动复盘3笔交易",
+      "result": "success"
+    },
+    {
+      "time": "2026-03-17T16:09:29.860484+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 16:00",
+      "result": "status=submitted"
+    },
+    {
+      "time": "2026-03-17T20:16:17.360626+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 20:00",
+      "result": "status=submitted"
+    },
+    {
+      "time": "2026-03-18T00:54:17.021456+08:00",
+      "action": "4h_direction_backfill",
+      "reason": "回填12/12笔交易的4h方向",
+      "result": "success"
+    },
+    {
+      "time": "2026-03-18T08:47:54.687617+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 4:00",
+      "result": "status=submitted"
+    },
+    {
+      "time": "2026-03-18T09:08:44.927969+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 8:00",
+      "result": "status=already_running"
+    },
+    {
+      "time": "2026-03-18T22:55:09.030469+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 16:00",
+      "result": "status=submitted"
+    },
+    {
+      "time": "2026-03-18T23:16:13.487487+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 20:00",
+      "result": "status=already_running"
+    },
+    {
+      "time": "2026-03-20T10:45:31.626175+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 4:00",
+      "result": "status=submitted"
+    },
+    {
+      "time": "2026-03-23T10:44:08.485628+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 4:00",
+      "result": "status=submitted"
+    },
+    {
+      "time": "2026-03-23T11:05:29.206847+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 8:00",
+      "result": "status=already_running"
+    },
+    {
+      "time": "2026-03-26T16:59:05.495074+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 4:00",
+      "result": "status=submitted"
+    },
+    {
+      "time": "2026-03-26T17:22:00.794712+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 8:00",
+      "result": "status=already_running"
+    },
+    {
+      "time": "2026-03-26T17:37:00.803388+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 16:00",
+      "result": "status=already_running"
+    },
+    {
+      "time": "2026-03-27T14:50:53.703418+08:00",
+      "action": "auto_cloud_training_deep_all",
+      "reason": "定时训练(Alpha+MM) 4:00",
+      "result": "status=submitted"
+    }
+  ],
+  "blocked_trades": [
+    {
+      "time": "2026-03-11T11:23:32.888230+08:00",
+      "symbol": "BCH",
+      "direction": "long",
+      "reason": "拦截: 信号评分67<73最低门槛",
+      "score": 67,
+      "ml_confidence": 67.3
+    },
+    {
+      "time": "2026-03-11T11:26:22.863619+08:00",
+      "symbol": "TRX",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前68); 拦截: 信号评分68<73最低门槛",
+      "score": 68,
+      "ml_confidence": 93.9
+    },
+    {
+      "time": "2026-03-11T11:40:54.491864+08:00",
+      "symbol": "BNB",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前66); 拦截: 信号评分66<73最低门槛",
+      "score": 66,
+      "ml_confidence": 93.2
+    },
+    {
+      "time": "2026-03-11T11:40:54.502604+08:00",
+      "symbol": "PENDLE",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前68); 拦截: 信号评分68<73最低门槛",
+      "score": 68,
+      "ml_confidence": 93.2
+    },
+    {
+      "time": "2026-03-11T11:40:54.514287+08:00",
+      "symbol": "HYPE",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前69); 拦截: 做多RSI过高(77>72) 追涨风险; 拦截: 信号评分69<73最低门槛",
+      "score": 69,
+      "ml_confidence": 93.2
+    },
+    {
+      "time": "2026-03-11T11:40:54.528397+08:00",
+      "symbol": "PI",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前71); 拦截: 做多RSI过高(73>72) 追涨风险; 拦截: 信号评分71<73最低门槛",
+      "score": 71,
+      "ml_confidence": 79.8
+    },
+    {
+      "time": "2026-03-11T11:40:54.541897+08:00",
+      "symbol": "BEAT",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前68); 拦截: 信号评分68<73最低门槛",
+      "score": 68,
+      "ml_confidence": 79.8
+    },
+    {
+      "time": "2026-03-11T11:40:54.555166+08:00",
+      "symbol": "ARIA",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前68); 拦截: 做多RSI过高(75>72) 追涨风险; 拦截: 信号评分68<73最低门槛",
+      "score": 68,
+      "ml_confidence": 93.2
+    },
+    {
+      "time": "2026-03-11T11:40:54.566236+08:00",
+      "symbol": "CYS",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前68); 拦截: 信号评分68<73最低门槛",
+      "score": 68,
+      "ml_confidence": 93.2
+    },
+    {
+      "time": "2026-03-11T11:55:36.404539+08:00",
+      "symbol": "STRK",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前66); 拦截: 信号评分66<73最低门槛",
+      "score": 66,
+      "ml_confidence": 79.8
+    },
+    {
+      "time": "2026-03-12T01:45:39.094189+08:00",
+      "symbol": "BNB",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前67); 拦截: 信号评分67<73最低门槛",
+      "score": 67,
+      "ml_confidence": 81.2
+    },
+    {
+      "time": "2026-03-12T01:45:39.132224+08:00",
+      "symbol": "ADA",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前67); 拦截: 信号评分67<73最低门槛",
+      "score": 67,
+      "ml_confidence": 81.2
+    },
+    {
+      "time": "2026-03-12T01:45:39.162931+08:00",
+      "symbol": "DOT",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前69); 拦截: 信号评分69<73最低门槛",
+      "score": 69,
+      "ml_confidence": 81.2
+    },
+    {
+      "time": "2026-03-12T01:45:39.179344+08:00",
+      "symbol": "CORE",
+      "direction": "long",
+      "reason": "拦截: 信号评分68<73最低门槛",
+      "score": 68,
+      "ml_confidence": 73.3
+    },
+    {
+      "time": "2026-03-12T01:45:39.222212+08:00",
+      "symbol": "PENDLE",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前67); 拦截: 信号评分67<73最低门槛",
+      "score": 67,
+      "ml_confidence": 81.2
+    },
+    {
+      "time": "2026-03-12T01:45:39.260676+08:00",
+      "symbol": "AKT",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前67); 拦截: 信号评分67<73最低门槛",
+      "score": 67,
+      "ml_confidence": 81.4
+    },
+    {
+      "time": "2026-03-12T01:45:39.294979+08:00",
+      "symbol": "ENA",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前67); 拦截: 信号评分67<73最低门槛",
+      "score": 67,
+      "ml_confidence": 81.2
+    },
+    {
+      "time": "2026-03-12T01:45:39.312974+08:00",
+      "symbol": "IMX",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前69); 拦截: 信号评分69<73最低门槛",
+      "score": 69,
+      "ml_confidence": 81.2
+    },
+    {
+      "time": "2026-03-12T01:45:39.339177+08:00",
+      "symbol": "SAND",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前68); 拦截: 信号评分68<73最低门槛",
+      "score": 68,
+      "ml_confidence": 81.2
+    },
+    {
+      "time": "2026-03-12T01:45:39.364774+08:00",
+      "symbol": "BEAM",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前71); 拦截: 信号评分71<73最低门槛",
+      "score": 71,
+      "ml_confidence": 60.9
+    },
+    {
+      "time": "2026-03-12T01:45:39.419039+08:00",
+      "symbol": "PI",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前71); 拦截: 信号评分71<73最低门槛",
+      "score": 71,
+      "ml_confidence": 91.9
+    },
+    {
+      "time": "2026-03-12T01:45:39.458025+08:00",
+      "symbol": "BEAT",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前70); 拦截: 信号评分70<73最低门槛",
+      "score": 70,
+      "ml_confidence": 63.3
+    },
+    {
+      "time": "2026-03-12T01:45:39.485662+08:00",
+      "symbol": "SIREN",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前70); 拦截: 信号评分70<73最低门槛",
+      "score": 70,
+      "ml_confidence": 82.7
+    },
+    {
+      "time": "2026-03-12T01:45:39.526913+08:00",
+      "symbol": "ARIA",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前69); 拦截: 做多RSI过高(79>72) 追涨风险; 拦截: 信号评分69<73最低门槛",
+      "score": 69,
+      "ml_confidence": 82.7
+    },
+    {
+      "time": "2026-03-12T01:49:42.759286+08:00",
+      "symbol": "TAO",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前67); 拦截: 信号评分67<73最低门槛",
+      "score": 67,
+      "ml_confidence": 97.8
+    },
+    {
+      "time": "2026-03-12T01:49:42.769908+08:00",
+      "symbol": "THETA",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前66); 拦截: 信号评分66<73最低门槛",
+      "score": 66,
+      "ml_confidence": 73.5
+    },
+    {
+      "time": "2026-03-12T01:49:42.779977+08:00",
+      "symbol": "ARB",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前66); 拦截: 信号评分66<73最低门槛",
+      "score": 66,
+      "ml_confidence": 71.4
+    },
+    {
+      "time": "2026-03-12T01:49:42.790851+08:00",
+      "symbol": "LDO",
+      "direction": "long",
+      "reason": "拦截: 信号评分66<73最低门槛",
+      "score": 66,
+      "ml_confidence": 73.5
+    },
+    {
+      "time": "2026-03-12T01:49:42.801823+08:00",
+      "symbol": "PNUT",
+      "direction": "long",
+      "reason": "拦截: 信号评分65<73最低门槛",
+      "score": 65,
+      "ml_confidence": 70.0
+    },
+    {
+      "time": "2026-03-12T01:49:42.812173+08:00",
+      "symbol": "MANA",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前66); 拦截: 信号评分66<73最低门槛",
+      "score": 66,
+      "ml_confidence": 77.1
+    },
+    {
+      "time": "2026-03-12T01:53:58.762332+08:00",
+      "symbol": "EGLD",
+      "direction": "long",
+      "reason": "拦截: 信号评分67<73最低门槛",
+      "score": 67,
+      "ml_confidence": 69.1
+    },
+    {
+      "time": "2026-03-12T01:58:03.726259+08:00",
+      "symbol": "AAVE",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前68); 拦截: 信号评分68<73最低门槛",
+      "score": 68,
+      "ml_confidence": 92.9
+    },
+    {
+      "time": "2026-03-12T02:02:08.079203+08:00",
+      "symbol": "UNI",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前66); 拦截: 信号评分66<73最低门槛",
+      "score": 66,
+      "ml_confidence": 77.1
+    },
+    {
+      "time": "2026-03-12T02:06:19.240834+08:00",
+      "symbol": "BNB",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前67); 拦截: 信号评分67<73最低门槛",
+      "score": 67,
+      "ml_confidence": 89.0
+    },
+    {
+      "time": "2026-03-12T02:06:19.251121+08:00",
+      "symbol": "DOT",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前67); 拦截: 信号评分67<73最低门槛",
+      "score": 67,
+      "ml_confidence": 73.5
+    },
+    {
+      "time": "2026-03-12T02:06:19.262133+08:00",
+      "symbol": "TON",
+      "direction": "long",
+      "reason": "拦截: 信号评分67<73最低门槛",
+      "score": 67,
+      "ml_confidence": 84.2
+    },
+    {
+      "time": "2026-03-12T02:06:19.284299+08:00",
+      "symbol": "PENDLE",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前67); 拦截: 信号评分67<73最低门槛",
+      "score": 67,
+      "ml_confidence": 92.9
+    },
+    {
+      "time": "2026-03-12T02:06:19.295433+08:00",
+      "symbol": "AKT",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前66); 拦截: 信号评分66<73最低门槛",
+      "score": 66,
+      "ml_confidence": 92.9
+    },
+    {
+      "time": "2026-03-12T02:06:19.305848+08:00",
+      "symbol": "ENA",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前67); 拦截: 信号评分67<73最低门槛",
+      "score": 67,
+      "ml_confidence": 89.0
+    },
+    {
+      "time": "2026-03-12T02:06:19.317091+08:00",
+      "symbol": "IMX",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前69); 拦截: 信号评分69<73最低门槛",
+      "score": 69,
+      "ml_confidence": 77.1
+    },
+    {
+      "time": "2026-03-12T02:06:19.327963+08:00",
+      "symbol": "SAND",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前65); 拦截: 信号评分65<73最低门槛",
+      "score": 65,
+      "ml_confidence": 80.2
+    },
+    {
+      "time": "2026-03-12T02:06:19.338808+08:00",
+      "symbol": "PI",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前71); 拦截: 信号评分71<73最低门槛",
+      "score": 71,
+      "ml_confidence": 97.8
+    },
+    {
+      "time": "2026-03-12T02:06:19.350285+08:00",
+      "symbol": "BEAT",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前69); 拦截: 信号评分69<73最低门槛",
+      "score": 69,
+      "ml_confidence": 73.5
+    },
+    {
+      "time": "2026-03-12T02:06:19.361706+08:00",
+      "symbol": "SIREN",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前68); 拦截: 信号评分68<73最低门槛",
+      "score": 68,
+      "ml_confidence": 80.2
+    },
+    {
+      "time": "2026-03-12T02:06:19.373061+08:00",
+      "symbol": "ARIA",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前68); 拦截: 做多RSI过高(79>72) 追涨风险; 拦截: 信号评分68<73最低门槛",
+      "score": 68,
+      "ml_confidence": 92.9
+    },
+    {
+      "time": "2026-03-12T02:10:24.003133+08:00",
+      "symbol": "TAO",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前66); 拦截: 信号评分66<73最低门槛",
+      "score": 66,
+      "ml_confidence": 97.8
+    },
+    {
+      "time": "2026-03-12T02:10:24.013939+08:00",
+      "symbol": "THETA",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前66); 拦截: 信号评分66<73最低门槛",
+      "score": 66,
+      "ml_confidence": 77.1
+    },
+    {
+      "time": "2026-03-12T02:10:24.025471+08:00",
+      "symbol": "LDO",
+      "direction": "long",
+      "reason": "拦截: 信号评分65<73最低门槛",
+      "score": 65,
+      "ml_confidence": 73.5
+    },
+    {
+      "time": "2026-03-12T02:10:24.036103+08:00",
+      "symbol": "PNUT",
+      "direction": "long",
+      "reason": "拦截: 信号评分65<73最低门槛",
+      "score": 65,
+      "ml_confidence": 70.0
+    },
+    {
+      "time": "2026-03-12T02:10:24.046885+08:00",
+      "symbol": "MANA",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前66); 拦截: 信号评分66<73最低门槛",
+      "score": 66,
+      "ml_confidence": 77.1
+    },
+    {
+      "time": "2026-03-12T02:14:25.553477+08:00",
+      "symbol": "EGLD",
+      "direction": "long",
+      "reason": "拦截: 信号评分67<73最低门槛",
+      "score": 67,
+      "ml_confidence": 69.1
+    },
+    {
+      "time": "2026-03-12T02:22:34.499587+08:00",
+      "symbol": "METIS",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前66); 拦截: 信号评分66<73最低门槛",
+      "score": 66,
+      "ml_confidence": 77.1
+    },
+    {
+      "time": "2026-03-12T02:22:34.510531+08:00",
+      "symbol": "UNI",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前66); 拦截: 信号评分66<73最低门槛",
+      "score": 66,
+      "ml_confidence": 77.1
+    },
+    {
+      "time": "2026-03-12T02:22:34.522070+08:00",
+      "symbol": "MASK",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前66); 拦截: 信号评分66<73最低门槛",
+      "score": 66,
+      "ml_confidence": 77.1
+    },
+    {
+      "time": "2026-03-12T02:26:36.832129+08:00",
+      "symbol": "BNB",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前67); 拦截: 信号评分67<73最低门槛",
+      "score": 67,
+      "ml_confidence": 89.0
+    },
+    {
+      "time": "2026-03-12T02:26:36.843022+08:00",
+      "symbol": "DOT",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前68); 拦截: 信号评分68<73最低门槛",
+      "score": 68,
+      "ml_confidence": 77.1
+    },
+    {
+      "time": "2026-03-12T02:26:36.853125+08:00",
+      "symbol": "TON",
+      "direction": "long",
+      "reason": "拦截: 信号评分67<73最低门槛",
+      "score": 67,
+      "ml_confidence": 84.8
+    },
+    {
+      "time": "2026-03-12T02:26:36.863959+08:00",
+      "symbol": "PENDLE",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前67); 拦截: 信号评分67<73最低门槛",
+      "score": 67,
+      "ml_confidence": 92.9
+    },
+    {
+      "time": "2026-03-12T02:26:36.874800+08:00",
+      "symbol": "AKT",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前65); 拦截: 信号评分65<73最低门槛",
+      "score": 65,
+      "ml_confidence": 92.9
+    },
+    {
+      "time": "2026-03-12T02:26:36.885172+08:00",
+      "symbol": "ARB",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前67); 拦截: 信号评分67<73最低门槛",
+      "score": 67,
+      "ml_confidence": 73.5
+    },
+    {
+      "time": "2026-03-12T02:26:36.895994+08:00",
+      "symbol": "ENA",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前67); 拦截: 信号评分67<73最低门槛",
+      "score": 67,
+      "ml_confidence": 89.0
+    },
+    {
+      "time": "2026-03-12T02:26:36.906167+08:00",
+      "symbol": "IMX",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前69); 拦截: 信号评分69<73最低门槛",
+      "score": 69,
+      "ml_confidence": 77.1
+    },
+    {
+      "time": "2026-03-12T02:26:36.917002+08:00",
+      "symbol": "PI",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前70); 拦截: 信号评分70<73最低门槛",
+      "score": 70,
+      "ml_confidence": 97.8
+    },
+    {
+      "time": "2026-03-12T02:26:36.927644+08:00",
+      "symbol": "BEAT",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前68); 拦截: 信号评分68<73最低门槛",
+      "score": 68,
+      "ml_confidence": 73.5
+    },
+    {
+      "time": "2026-03-12T02:26:36.938900+08:00",
+      "symbol": "SIREN",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前68); 拦截: 信号评分68<73最低门槛",
+      "score": 68,
+      "ml_confidence": 80.2
+    },
+    {
+      "time": "2026-03-12T02:30:34.776214+08:00",
+      "symbol": "TAO",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前67); 拦截: 信号评分67<73最低门槛",
+      "score": 67,
+      "ml_confidence": 97.8
+    },
+    {
+      "time": "2026-03-12T02:30:34.788012+08:00",
+      "symbol": "THETA",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前66); 拦截: 信号评分66<73最低门槛",
+      "score": 66,
+      "ml_confidence": 77.1
+    },
+    {
+      "time": "2026-03-12T02:30:34.799675+08:00",
+      "symbol": "LDO",
+      "direction": "long",
+      "reason": "拦截: 信号评分66<73最低门槛",
+      "score": 66,
+      "ml_confidence": 77.1
+    },
+    {
+      "time": "2026-03-12T02:30:34.810826+08:00",
+      "symbol": "PNUT",
+      "direction": "long",
+      "reason": "拦截: 信号评分66<73最低门槛",
+      "score": 66,
+      "ml_confidence": 73.5
+    },
+    {
+      "time": "2026-03-12T02:30:34.822550+08:00",
+      "symbol": "SAND",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前65); 拦截: 信号评分65<73最低门槛",
+      "score": 65,
+      "ml_confidence": 80.2
+    },
+    {
+      "time": "2026-03-12T02:30:34.834340+08:00",
+      "symbol": "MANA",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前67); 拦截: 信号评分67<73最低门槛",
+      "score": 67,
+      "ml_confidence": 77.1
+    },
+    {
+      "time": "2026-03-12T02:38:47.186439+08:00",
+      "symbol": "ADA",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前66); 拦截: 信号评分66<73最低门槛",
+      "score": 66,
+      "ml_confidence": 80.2
+    },
+    {
+      "time": "2026-03-12T02:38:47.197570+08:00",
+      "symbol": "HBAR",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前66); 拦截: 信号评分66<73最低门槛",
+      "score": 66,
+      "ml_confidence": 77.1
+    },
+    {
+      "time": "2026-03-12T10:40:19.774223+08:00",
+      "symbol": "TAO",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前67); 拦截: 信号评分67<73最低门槛",
+      "score": 67,
+      "ml_confidence": 92.9
+    },
+    {
+      "time": "2026-03-12T10:40:19.789904+08:00",
+      "symbol": "BEAT",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前66); 拦截: 信号评分66<73最低门槛",
+      "score": 66,
+      "ml_confidence": 89.0
+    },
+    {
+      "time": "2026-03-12T10:40:19.803044+08:00",
+      "symbol": "DEGO",
+      "direction": "long",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前68); 拦截: 信号评分68<73最低门槛",
+      "score": 68,
+      "ml_confidence": 80.2
+    },
+    {
+      "time": "2026-03-12T10:50:01.699839+08:00",
+      "symbol": "TON",
+      "direction": "long",
+      "reason": "拦截: 信号评分68<73最低门槛",
+      "score": 68,
+      "ml_confidence": 78.2
+    },
+    {
+      "time": "2026-03-13T21:00:10.847948+08:00",
+      "symbol": "CHZ",
+      "direction": "short",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前70); 拦截: 信号评分70<73最低门槛",
+      "score": 70,
+      "ml_confidence": 70.9
+    },
+    {
+      "time": "2026-03-13T21:20:32.940722+08:00",
+      "symbol": "CHZ",
+      "direction": "short",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前71); 拦截: 信号评分71<73最低门槛",
+      "score": 71,
+      "ml_confidence": 70.9
+    },
+    {
+      "time": "2026-03-15T16:49:01.307751+08:00",
+      "symbol": "AKT",
+      "direction": "short",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前71); 拦截: 信号评分71<73最低门槛",
+      "score": 71,
+      "ml_confidence": 70.8
+    },
+    {
+      "time": "2026-03-16T10:16:19.411990+08:00",
+      "symbol": "MOODENG",
+      "direction": "short",
+      "reason": "拦截: 信号评分70<73最低门槛",
+      "score": 70,
+      "ml_confidence": 72.7
+    },
+    {
+      "time": "2026-03-16T10:40:30.221961+08:00",
+      "symbol": "MOODENG",
+      "direction": "short",
+      "reason": "拦截: 信号评分71<73最低门槛",
+      "score": 71,
+      "ml_confidence": 70.8
+    },
+    {
+      "time": "2026-03-17T09:16:07.030679+08:00",
+      "symbol": "BTC",
+      "direction": "long",
+      "reason": "拦截: 做多RSI过高(88>82) 追涨风险",
+      "score": 68,
+      "ml_confidence": 91.3
+    },
+    {
+      "time": "2026-03-17T09:16:07.430336+08:00",
+      "symbol": "ETH",
+      "direction": "long",
+      "reason": "拦截: 做多RSI过高(92>82) 追涨风险",
+      "score": 69,
+      "ml_confidence": 96.9
+    },
+    {
+      "time": "2026-03-17T09:16:07.461609+08:00",
+      "symbol": "SOL",
+      "direction": "long",
+      "reason": "拦截: 做多RSI过高(85>82) 追涨风险",
+      "score": 66,
+      "ml_confidence": 99.0
+    },
+    {
+      "time": "2026-03-17T10:31:16.545043+08:00",
+      "symbol": "XRP",
+      "direction": "long",
+      "reason": "拦截: 做多RSI过高(89>82) 追涨风险",
+      "score": 70,
+      "ml_confidence": 91.3
+    },
+    {
+      "time": "2026-03-17T10:31:16.561397+08:00",
+      "symbol": "XLM",
+      "direction": "long",
+      "reason": "拦截: 做多RSI过高(83>82) 追涨风险",
+      "score": 70,
+      "ml_confidence": 91.3
+    },
+    {
+      "time": "2026-03-17T10:31:16.573399+08:00",
+      "symbol": "FARTCOIN",
+      "direction": "long",
+      "reason": "拦截: 做多RSI过高(85>82) 追涨风险",
+      "score": 70,
+      "ml_confidence": 82.4
+    },
+    {
+      "time": "2026-03-17T10:38:32.966610+08:00",
+      "symbol": "LTC",
+      "direction": "long",
+      "reason": "拦截: 做多RSI过高(92>82) 追涨风险",
+      "score": 70,
+      "ml_confidence": 91.3
+    },
+    {
+      "time": "2026-03-17T10:38:32.988949+08:00",
+      "symbol": "ONDO",
+      "direction": "long",
+      "reason": "拦截: 做多RSI过高(86>82) 追涨风险",
+      "score": 70,
+      "ml_confidence": 91.3
+    },
+    {
+      "time": "2026-03-17T10:38:32.999831+08:00",
+      "symbol": "PENDLE",
+      "direction": "long",
+      "reason": "拦截: 做多RSI过高(94>82) 追涨风险",
+      "score": 70,
+      "ml_confidence": 98.1
+    },
+    {
+      "time": "2026-03-17T10:47:16.472229+08:00",
+      "symbol": "BTC",
+      "direction": "long",
+      "reason": "拦截: 做多RSI过高(88>82) 追涨风险",
+      "score": 70,
+      "ml_confidence": 91.3
+    },
+    {
+      "time": "2026-03-17T11:02:38.803433+08:00",
+      "symbol": "XRP",
+      "direction": "long",
+      "reason": "拦截: 做多RSI过高(90>82) 追涨风险",
+      "score": 70,
+      "ml_confidence": 91.3
+    },
+    {
+      "time": "2026-03-17T11:02:38.814248+08:00",
+      "symbol": "XLM",
+      "direction": "long",
+      "reason": "拦截: 做多RSI过高(84>82) 追涨风险",
+      "score": 70,
+      "ml_confidence": 91.3
+    },
+    {
+      "time": "2026-03-17T11:02:38.825159+08:00",
+      "symbol": "FARTCOIN",
+      "direction": "long",
+      "reason": "拦截: 做多RSI过高(85>82) 追涨风险",
+      "score": 72,
+      "ml_confidence": 78.3
+    },
+    {
+      "time": "2026-03-17T11:09:53.376065+08:00",
+      "symbol": "BTC",
+      "direction": "long",
+      "reason": "拦截: 做多RSI过高(87>82) 追涨风险",
+      "score": 70,
+      "ml_confidence": 91.3
+    },
+    {
+      "time": "2026-03-18T10:30:49.204271+08:00",
+      "symbol": "GLM",
+      "direction": "long",
+      "reason": "拦截: 做多RSI过高(89>82) 追涨风险",
+      "score": 67,
+      "ml_confidence": 60.3
+    },
+    {
+      "time": "2026-03-20T10:47:26.390773+08:00",
+      "symbol": "SOL",
+      "direction": "short",
+      "reason": "拦截: 高波动环境趋势交易要求评分>=73 (当前69); 拦截: 做空RSI过低(27<28) 追空风险",
+      "score": 69,
+      "ml_confidence": 97.0
+    },
+    {
+      "time": "2026-03-26T17:06:36.627800+08:00",
+      "symbol": "SIREN",
+      "direction": "long",
+      "reason": "拦截: 做多RSI过高(76>72) 追涨风险",
+      "score": 68,
+      "ml_confidence": 53.3
+    },
+    {
+      "time": "2026-03-26T17:28:41.305761+08:00",
+      "symbol": "SIREN",
+      "direction": "long",
+      "reason": "拦截: 做多RSI过高(76>72) 追涨风险",
+      "score": 68,
+      "ml_confidence": 53.3
+    }
+  ],
+  "training_status": {
+    "running": false,
+    "iteration": 2,
+    "results": [
+      {
+        "iteration": 1,
+        "timestamp": "2026-02-17T00:42:35.502949",
+        "elapsed_hours": 0.0
+      },
+      {
+        "iteration": 2,
+        "timestamp": "2026-02-17T00:43:05.547866",
+        "elapsed_hours": 0.01
+      }
+    ],
+    "start_time": 1771288955.2016127,
+    "end_time": 1771289015.601977
+  },
+  "module_reports": [
+    {
+      "cycle": 1375,
+      "time": "2026-03-27T14:50:50.640549+08:00",
+      "summary": {
+        "risk": "ok",
+        "ml": "ok",
+        "trades": "ok",
+        "signal_quality": "ok",
+        "dispatcher": "ok",
+        "constitution": "ok",
+        "memory": "ok"
+      },
+      "decisions": []
+    }
+  ],
+  "saved_at": "2026-03-27T06:50:54.676219"
+}

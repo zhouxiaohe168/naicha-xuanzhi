@@ -1,0 +1,2072 @@
+{
+  "reports": [
+    {
+      "timestamp": "2026-02-22T01:09:06.878175",
+      "duration_seconds": 0.230711,
+      "inspectors_run": [
+        "logic_auditor",
+        "config_sentinel",
+        "performance_doctor",
+        "anomaly_patrol",
+        "architecture_advisor",
+        "binance_readiness"
+      ],
+      "total_findings": 17,
+      "by_severity": {
+        "critical": 0,
+        "warning": 9,
+        "info": 7,
+        "suggestion": 1
+      },
+      "findings": [
+        {
+          "inspector": "logic_auditor",
+          "severity": "warning",
+          "title": "重复拦截逻辑: volatile+score检查出现2次",
+          "detail": "SignalGate中volatile环境的评分检查存在重复。策略级检查和全局检查同时生效，可能导致同一信号被拦截两次并记录两条blocked_trade记录。",
+          "evidence": "Line 1342: elif regime == \"volatile\" and signal_score < 75:\nLine 1356: if regime == \"volatile\" and signal_score < 75:",
+          "fix_hint": "合并为一次检查，或明确策略级和全局级的不同门槛",
+          "category": "duplicate_logic",
+          "timestamp": "2026-02-22T01:09:06.890393"
+        },
+        {
+          "inspector": "config_sentinel",
+          "severity": "warning",
+          "title": "配置文件近空: titan_ai_coordinator.json (3字节)",
+          "detail": "文件 data/titan_ai_coordinator.json 几乎为空，模块可能无法加载持久化状态",
+          "evidence": "文件大小: 3字节",
+          "fix_hint": "检查该模块是否正确初始化并保存状态",
+          "category": "empty_file",
+          "timestamp": "2026-02-22T01:09:06.895432"
+        },
+        {
+          "inspector": "performance_doctor",
+          "severity": "warning",
+          "title": "低胜率预警: 最近20笔胜率30%",
+          "detail": "胜率低于35%，需关注。最近20笔中6笔盈利。",
+          "evidence": "近20笔: 6胜/14负 = 30.0%",
+          "fix_hint": "",
+          "category": "low_win_rate",
+          "timestamp": "2026-02-22T01:09:06.903385"
+        },
+        {
+          "inspector": "performance_doctor",
+          "severity": "warning",
+          "title": "拦截集中在单一原因: 拦截: 高波动环境要求评分>=75",
+          "detail": "过去3天100个被拦截信号中98个(98%)因同一原因被拦截。可能是某个门槛设置过于严格。",
+          "evidence": "Top原因: 拦截: 高波动环境要求评分>=75 (98/100次)",
+          "fix_hint": "考虑调整该特定拦截规则的阈值",
+          "category": "blocked_pattern",
+          "timestamp": "2026-02-22T01:09:06.904184"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "warning",
+          "title": "网格无成交: BNB 运行119h",
+          "detail": "BNB网格已运行119小时但零成交，网格线可能设置不合理或市场偏离范围",
+          "evidence": "创建: 2026-02-17 01:58, buy_filled=0, sell_filled=0",
+          "fix_hint": "检查BNB网格的价格范围是否覆盖当前价格",
+          "category": "grid_idle",
+          "timestamp": "2026-02-22T01:09:06.913199"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "warning",
+          "title": "网格无成交: SOL 运行96h",
+          "detail": "SOL网格已运行96小时但零成交，网格线可能设置不合理或市场偏离范围",
+          "evidence": "创建: 2026-02-18 01:31, buy_filled=0, sell_filled=0",
+          "fix_hint": "检查SOL网格的价格范围是否覆盖当前价格",
+          "category": "grid_idle",
+          "timestamp": "2026-02-22T01:09:06.913211"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "warning",
+          "title": "网格无成交: ADA 运行75h",
+          "detail": "ADA网格已运行75小时但零成交，网格线可能设置不合理或市场偏离范围",
+          "evidence": "创建: 2026-02-18 21:49, buy_filled=0, sell_filled=0",
+          "fix_hint": "检查ADA网格的价格范围是否覆盖当前价格",
+          "category": "grid_idle",
+          "timestamp": "2026-02-22T01:09:06.913217"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "info",
+          "title": "LLM遥测文件缺失",
+          "detail": "AI调用统计没有持久化，重启后遥测数据丢失",
+          "evidence": "",
+          "fix_hint": "考虑在LLMTelemetry中添加定期持久化",
+          "category": "monitoring_gap",
+          "timestamp": "2026-02-22T01:09:06.916723"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "模块数量过多: 48个Titan文件",
+          "detail": "server/目录下有48个titan_*.py文件，模块数量较多。建议评估是否有可以合并的相似模块。",
+          "evidence": "模块总数: 48",
+          "fix_hint": "考虑将功能相近的模块合并（如多个risk相关模块）",
+          "category": "complexity",
+          "timestamp": "2026-02-22T01:09:06.916811"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "warning",
+          "title": "超大文件: api.py (8822行)",
+          "detail": "文件 server/api.py 有8822行代码，建议拆分以提高可维护性",
+          "evidence": "api.py: 8822 lines",
+          "fix_hint": "将相对独立的类或函数提取到单独模块",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:09:07.071706"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "warning",
+          "title": "超大文件: titan_ml.py (2148行)",
+          "detail": "文件 server/titan_ml.py 有2148行代码，建议拆分以提高可维护性",
+          "evidence": "titan_ml.py: 2148 lines",
+          "fix_hint": "将相对独立的类或函数提取到单独模块",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:09:07.071724"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_external_data.py (1796行)",
+          "detail": "server/titan_external_data.py 超过1000行，关注可维护性",
+          "evidence": "titan_external_data.py: 1796 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:09:07.071728"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_autopilot.py (1387行)",
+          "detail": "server/titan_autopilot.py 超过1000行，关注可维护性",
+          "evidence": "titan_autopilot.py: 1387 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:09:07.071731"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_ai_coordinator.py (1384行)",
+          "detail": "server/titan_ai_coordinator.py 超过1000行，关注可维护性",
+          "evidence": "titan_ai_coordinator.py: 1384 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:09:07.071733"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "info",
+          "title": "币安就绪度评估: 43%",
+          "detail": "就绪: 3项 | 部分就绪: 6项 | 缺失: 5项\n当前系统以纸盘交易为主，已有PaperTrader和OrderEngine基础框架，但缺少币安API直连、WebSocket实时流、限频控制、密钥管理等关键实盘组件。",
+          "evidence": "ready=3 partial=6 missing=5 score=43%",
+          "fix_hint": "",
+          "category": "binance_readiness",
+          "timestamp": "2026-02-22T01:09:07.091652"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "info",
+          "title": "已有交易所相关代码: 4个文件",
+          "detail": "文件: modal_training_app.py, titan_external_data.py, titan_self_inspector.py, api.py",
+          "evidence": "含binance/ccxt引用的文件: ['modal_training_app.py', 'titan_external_data.py', 'titan_self_inspector.py', 'api.py']",
+          "fix_hint": "",
+          "category": "binance_existing",
+          "timestamp": "2026-02-22T01:09:07.108826"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "suggestion",
+          "title": "币安实盘升级路线图",
+          "detail": "Phase 1: API连接层:\n  - 实现BinanceConnector类：REST API封装 + HMAC签名\n  - WebSocket用户数据流：订单更新/余额变动实时推送\n  - API限频管理器：令牌桶算法，遵守1200次/分限制\n\nPhase 2: 订单引擎升级:\n  - PaperTrader→LiveTrader适配：统一接口，可切换模式\n  - 订单类型支持：MARKET/LIMIT/STOP_LOSS_LIMIT/OCO\n  - 部分成交处理 + 订单状态机\n\nPhase 3: 风控加固:\n  - 实盘紧急平仓机制：一键平所有仓\n  - 仓位对账：每分钟与交易所同步真实持仓\n  - 滑点预估和手续费精确计算\n\nPhase 4: 灰度上线:\n  - 影子交易模式：实盘API但不实际下单，对比纸盘结果\n  - 小资金验证：$500起步，逐步扩大\n  - 实盘vs纸盘盈亏差异监控",
+          "evidence": "",
+          "fix_hint": "建议按Phase 1→4顺序实施，每个Phase完成后进行充分测试再进入下一阶段",
+          "category": "binance_roadmap",
+          "timestamp": "2026-02-22T01:09:07.108875"
+        }
+      ],
+      "ai_summary": "尊敬的CEO：\n\n在最近的系统自检中，我们发现了以下几个严重和警告问题，可能影响系统的稳定性和交易表现：\n\n1. **重复拦截逻辑**：[警告] 当前存在相同信号被拦截两次的风险，可能导致信号处理不准确。建议优化拦截逻辑，避免重复检查。\n\n2. **配置文件几乎为空**：[警告] titan_ai_coordinator.json文件仅有3字节，模块可能无法正常加载和工作。需要检查并更新配置，确保其有效性。\n\n3. **低胜率交易表现**：[警告] 最近20笔交易胜率仅为30%，低于业界标准35%。建议重新评估当前交易策略并进行优化。\n\n4. **网格交易无成交**：[警告] BNB、SOL和ADA的网格交易已运行多个小时但没有成交，可能是网格设置不合理。建议调整网格参数以适应市场情况。\n\n5. **超大文件影响可维护性**：[警告] 部分代码文件（如api.py和titan_ml.py）行数超标，需拆分以提升可维护性，降低未来的技术风险。\n\n请对此次自检结果给予重视，并考虑相应的改进措施。感谢您的关注！\n\n敬礼，  \n神盾计划量化系统自检AI团队"
+    },
+    {
+      "timestamp": "2026-02-22T01:17:59.724790",
+      "duration_seconds": 0.11071,
+      "inspectors_run": [
+        "logic_auditor",
+        "config_sentinel",
+        "performance_doctor",
+        "anomaly_patrol",
+        "architecture_advisor",
+        "binance_readiness"
+      ],
+      "total_findings": 17,
+      "by_severity": {
+        "critical": 0,
+        "warning": 9,
+        "info": 7,
+        "suggestion": 1
+      },
+      "findings": [
+        {
+          "inspector": "logic_auditor",
+          "severity": "warning",
+          "title": "重复拦截逻辑: volatile+score检查出现2次",
+          "detail": "SignalGate中volatile环境的评分检查存在重复。策略级检查和全局检查同时生效，可能导致同一信号被拦截两次并记录两条blocked_trade记录。",
+          "evidence": "Line 1342: elif regime == \"volatile\" and signal_score < 75:\nLine 1356: if regime == \"volatile\" and signal_score < 75:",
+          "fix_hint": "合并为一次检查，或明确策略级和全局级的不同门槛",
+          "category": "duplicate_logic",
+          "timestamp": "2026-02-22T01:17:59.733938"
+        },
+        {
+          "inspector": "config_sentinel",
+          "severity": "warning",
+          "title": "配置文件近空: titan_ai_coordinator.json (3字节)",
+          "detail": "文件 data/titan_ai_coordinator.json 几乎为空，模块可能无法加载持久化状态",
+          "evidence": "文件大小: 3字节",
+          "fix_hint": "检查该模块是否正确初始化并保存状态",
+          "category": "empty_file",
+          "timestamp": "2026-02-22T01:17:59.737699"
+        },
+        {
+          "inspector": "performance_doctor",
+          "severity": "warning",
+          "title": "低胜率预警: 最近20笔胜率30%",
+          "detail": "胜率低于35%，需关注。最近20笔中6笔盈利。",
+          "evidence": "近20笔: 6胜/14负 = 30.0%",
+          "fix_hint": "",
+          "category": "low_win_rate",
+          "timestamp": "2026-02-22T01:17:59.747690"
+        },
+        {
+          "inspector": "performance_doctor",
+          "severity": "warning",
+          "title": "拦截集中在单一原因: 拦截: 高波动环境要求评分>=75",
+          "detail": "过去3天100个被拦截信号中98个(98%)因同一原因被拦截。可能是某个门槛设置过于严格。",
+          "evidence": "Top原因: 拦截: 高波动环境要求评分>=75 (98/100次)",
+          "fix_hint": "考虑调整该特定拦截规则的阈值",
+          "category": "blocked_pattern",
+          "timestamp": "2026-02-22T01:17:59.749142"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "warning",
+          "title": "网格无成交: BNB 运行119h",
+          "detail": "BNB网格已运行119小时但零成交，网格线可能设置不合理或市场偏离范围",
+          "evidence": "创建: 2026-02-17 01:58, buy_filled=0, sell_filled=0",
+          "fix_hint": "检查BNB网格的价格范围是否覆盖当前价格",
+          "category": "grid_idle",
+          "timestamp": "2026-02-22T01:17:59.758474"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "warning",
+          "title": "网格无成交: SOL 运行96h",
+          "detail": "SOL网格已运行96小时但零成交，网格线可能设置不合理或市场偏离范围",
+          "evidence": "创建: 2026-02-18 01:31, buy_filled=0, sell_filled=0",
+          "fix_hint": "检查SOL网格的价格范围是否覆盖当前价格",
+          "category": "grid_idle",
+          "timestamp": "2026-02-22T01:17:59.758496"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "warning",
+          "title": "网格无成交: ADA 运行75h",
+          "detail": "ADA网格已运行75小时但零成交，网格线可能设置不合理或市场偏离范围",
+          "evidence": "创建: 2026-02-18 21:49, buy_filled=0, sell_filled=0",
+          "fix_hint": "检查ADA网格的价格范围是否覆盖当前价格",
+          "category": "grid_idle",
+          "timestamp": "2026-02-22T01:17:59.758505"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "info",
+          "title": "LLM遥测文件缺失",
+          "detail": "AI调用统计没有持久化，重启后遥测数据丢失",
+          "evidence": "",
+          "fix_hint": "考虑在LLMTelemetry中添加定期持久化",
+          "category": "monitoring_gap",
+          "timestamp": "2026-02-22T01:17:59.764109"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "模块数量过多: 48个Titan文件",
+          "detail": "server/目录下有48个titan_*.py文件，模块数量较多。建议评估是否有可以合并的相似模块。",
+          "evidence": "模块总数: 48",
+          "fix_hint": "考虑将功能相近的模块合并（如多个risk相关模块）",
+          "category": "complexity",
+          "timestamp": "2026-02-22T01:17:59.764191"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "warning",
+          "title": "超大文件: api.py (8822行)",
+          "detail": "文件 server/api.py 有8822行代码，建议拆分以提高可维护性",
+          "evidence": "api.py: 8822 lines",
+          "fix_hint": "将相对独立的类或函数提取到单独模块",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:17:59.789753"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "warning",
+          "title": "超大文件: titan_ml.py (2148行)",
+          "detail": "文件 server/titan_ml.py 有2148行代码，建议拆分以提高可维护性",
+          "evidence": "titan_ml.py: 2148 lines",
+          "fix_hint": "将相对独立的类或函数提取到单独模块",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:17:59.789772"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_external_data.py (1796行)",
+          "detail": "server/titan_external_data.py 超过1000行，关注可维护性",
+          "evidence": "titan_external_data.py: 1796 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:17:59.789776"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_autopilot.py (1387行)",
+          "detail": "server/titan_autopilot.py 超过1000行，关注可维护性",
+          "evidence": "titan_autopilot.py: 1387 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:17:59.789779"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_ai_coordinator.py (1384行)",
+          "detail": "server/titan_ai_coordinator.py 超过1000行，关注可维护性",
+          "evidence": "titan_ai_coordinator.py: 1384 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:17:59.789782"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "info",
+          "title": "币安就绪度评估: 43%",
+          "detail": "就绪: 3项 | 部分就绪: 6项 | 缺失: 5项\n当前系统以纸盘交易为主，已有PaperTrader和OrderEngine基础框架，但缺少币安API直连、WebSocket实时流、限频控制、密钥管理等关键实盘组件。",
+          "evidence": "ready=3 partial=6 missing=5 score=43%",
+          "fix_hint": "",
+          "category": "binance_readiness",
+          "timestamp": "2026-02-22T01:17:59.816939"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "info",
+          "title": "已有交易所相关代码: 5个文件",
+          "detail": "文件: modal_training_app.py, titan_external_data.py, api.py, titan_prompt_library.py, titan_self_inspector.py",
+          "evidence": "含binance/ccxt引用的文件: ['modal_training_app.py', 'titan_external_data.py', 'api.py', 'titan_prompt_library.py', 'titan_self_inspector.py']",
+          "fix_hint": "",
+          "category": "binance_existing",
+          "timestamp": "2026-02-22T01:17:59.835424"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "suggestion",
+          "title": "币安实盘升级路线图",
+          "detail": "Phase 1: API连接层:\n  - 实现BinanceConnector类：REST API封装 + HMAC签名\n  - WebSocket用户数据流：订单更新/余额变动实时推送\n  - API限频管理器：令牌桶算法，遵守1200次/分限制\n\nPhase 2: 订单引擎升级:\n  - PaperTrader→LiveTrader适配：统一接口，可切换模式\n  - 订单类型支持：MARKET/LIMIT/STOP_LOSS_LIMIT/OCO\n  - 部分成交处理 + 订单状态机\n\nPhase 3: 风控加固:\n  - 实盘紧急平仓机制：一键平所有仓\n  - 仓位对账：每分钟与交易所同步真实持仓\n  - 滑点预估和手续费精确计算\n\nPhase 4: 灰度上线:\n  - 影子交易模式：实盘API但不实际下单，对比纸盘结果\n  - 小资金验证：$500起步，逐步扩大\n  - 实盘vs纸盘盈亏差异监控",
+          "evidence": "",
+          "fix_hint": "建议按Phase 1→4顺序实施，每个Phase完成后进行充分测试再进入下一阶段",
+          "category": "binance_roadmap",
+          "timestamp": "2026-02-22T01:17:59.835488"
+        }
+      ],
+      "ai_summary": "### 自检报告\n\n#### 系统当前健康状态\n**亚健康**：当前系统有多项警告，需关注与改进，但未发现严重风险。\n\n#### 严重问题\n无严重问题。\n\n#### 警告事项\n1. **重复拦截逻辑**：波动环境的评分重复检查，可能导致信号被重复拦截，需合并检查逻辑。\n2. **配置文件近空**：titan_ai_coordinator.json文件几乎为空（3字节），模块可能无法加载状态，请检查文件生成过程。\n3. **低胜率预警**：最近20笔交易胜率仅30%，需调整策略或重新评估信号生成。\n4. **拦截原因高度集中**：98%的拦截因要求高评分而造成，需调整评分标准以降低拦截数量。\n5. **网格无成交**：BNB、SOL和ADA的网格长时间无成交，可能是设置或市场条件不合理。\n6. **超大代码文件**：多个Python文件代码行数过多（如api.py 8822行），建议拆分，提高可维护性。\n7. **模块数量过多**：48个Titan文件，建议评估是否可以合并以提升结构清晰度。\n8. **币安API就绪度**：当前就绪43%，缺失关键组件（如API连接、限频控制），需加速开发。\n\n#### 改进建议\n1. 合并重复的信用检查逻辑，减少信号被重复拦截的风险。\n2. 检查并修复titan_ai_coordinator.json文件生成的问题。\n3. 对于低胜率交易，调整信号筛选或优化策略。\n4. 放宽波动环境下的评分标准，避免过度拦截。\n5. 针对长时间无成交的网格，重新设置参数或调整市场监测。\n6. 拆分超大代码文件，提升可维护性和可读性。\n7. 评估合并部分相似模块，优化代码架构。\n8. 加速开发币安API相关组件，提升实盘交易能力。\n\n#### 趋势判断\n与上次自检相比，虽然系统没有发现严重问题，但存在多个警告，整体状态有所下降，亟需处理以防止潜在风险。",
+      "inspector_analyses": {
+        "logic_auditor": "1. 最紧急问题是重复拦截逻辑，因为它可能导致同一信号被拦截两次，严重影响系统决策的准确性。\n\n2. 问题之间存在关联，重复拦截逻辑的出现是由于策略级和全局级检查标准不一致，导致相同条件被多次评估。\n\n3. 修复优先级应为高，需尽快采取措施合并检查逻辑或明确两者的门槛，以确保系统决策的有效性和一致性。",
+        "config_sentinel": "{\n  \"urgent_issue\": \"titan_ai_coordinator.json配置文件近空问题最紧急。\",\n  \"root_cause_analysis\": \"该问题可能是由于模块初始化失败或状态未正确保存导致的，可能会影响后续AI模块的运行和决策执行。\",\n  \"repair_priority\": \"建议优先检查并修复titan_ai_coordinator.json文件的初始化和保存状态，确保其能正常加载持久化状态，避免影响系统整体功能。\"\n}",
+        "performance_doctor": "{\n  \"emergency\": {\n    \"most_urgent\": \"低胜率预警\",\n    \"reason\": \"胜率低于35%直接影响盈利能力，需立即关注并调整策略。\"\n  },\n  \"correlation\": {\n    \"linked\": true,\n    \"analysis\": \"高波动环境导致信号拦截严格，可能导致可交易信号减少，从而影响胜率。\"\n  },\n  \"repair_priority\": {\n    \"suggestion\": [\n      \"首先调整高波动环境下的拦截阈值，放宽评分标准。\",\n      \"其次，针对低胜率进行策略细化和优化，分析盈亏比。\"\n    ]\n  }\n}",
+        "anomaly_patrol": "1. 最紧急的问题是BNB网格无成交，因为运行时间最长且可能影响资金效率。\n2. 三个网格无成交问题可能由相似原因引起，如市场波动导致价格偏离或网格设置不合理，存在一定关联性。\n3. 修复优先级建议为：首先解决BNB网格的问题，其次是SOL和ADA网格，最后考虑LLM遥测文件缺失问题。对于网格问题，检查价格范围设置；对遥测文件缺失，添加定期持久化以避免数据丢失。",
+        "architecture_advisor": "{\n  \"urgent_issue\": \"api.py 文件过大 (8822行) 是最紧急的问题，影响系统维护和开发效率。\",\n  \"relationship_analysis\": \"模块数量过多与超大文件问题有关，多个模块可能包含相似功能，导致冗余和复杂度增加。\",\n  \"repair_priority\": [\n    {\n      \"issue\": \"api.py\",\n      \"priority\": \"P0\"\n    },\n    {\n      \"issue\": \"titan_ml.py\",\n      \"priority\": \"P1\"\n    },\n    {\n      \"issue\": \"titan_external_data.py\",\n      \"priority\": \"P2\"\n    },\n    {\n      \"issue\": \"titan_autopilot.py\",\n      \"priority\": \"P2\"\n    },\n    {\n      \"issue\": \"titan_ai_coordinator.py\",\n      \"priority\": \"P2\"\n    },\n    {\n      \"issue\": \"模块数量过多\",\n      \"priority\": \"P1\"\n    }\n  ]\n}"
+      }
+    },
+    {
+      "timestamp": "2026-02-22T01:22:14.508529",
+      "duration_seconds": 0.374967,
+      "inspectors_run": [
+        "logic_auditor",
+        "config_sentinel",
+        "performance_doctor",
+        "anomaly_patrol",
+        "architecture_advisor",
+        "binance_readiness"
+      ],
+      "total_findings": 17,
+      "by_severity": {
+        "critical": 0,
+        "warning": 9,
+        "info": 7,
+        "suggestion": 1
+      },
+      "findings": [
+        {
+          "inspector": "logic_auditor",
+          "severity": "warning",
+          "title": "重复拦截逻辑: volatile+score检查出现2次",
+          "detail": "SignalGate中volatile环境的评分检查存在重复。策略级检查和全局检查同时生效，可能导致同一信号被拦截两次并记录两条blocked_trade记录。",
+          "evidence": "Line 1342: elif regime == \"volatile\" and signal_score < 75:\nLine 1356: if regime == \"volatile\" and signal_score < 75:",
+          "fix_hint": "合并为一次检查，或明确策略级和全局级的不同门槛",
+          "category": "duplicate_logic",
+          "timestamp": "2026-02-22T01:22:14.516263"
+        },
+        {
+          "inspector": "config_sentinel",
+          "severity": "warning",
+          "title": "配置文件近空: titan_ai_coordinator.json (3字节)",
+          "detail": "文件 data/titan_ai_coordinator.json 几乎为空，模块可能无法加载持久化状态",
+          "evidence": "文件大小: 3字节",
+          "fix_hint": "检查该模块是否正确初始化并保存状态",
+          "category": "empty_file",
+          "timestamp": "2026-02-22T01:22:14.528680"
+        },
+        {
+          "inspector": "performance_doctor",
+          "severity": "warning",
+          "title": "低胜率预警: 最近20笔胜率30%",
+          "detail": "胜率低于35%，需关注。最近20笔中6笔盈利。",
+          "evidence": "近20笔: 6胜/14负 = 30.0%",
+          "fix_hint": "",
+          "category": "low_win_rate",
+          "timestamp": "2026-02-22T01:22:14.570458"
+        },
+        {
+          "inspector": "performance_doctor",
+          "severity": "warning",
+          "title": "拦截集中在单一原因: 拦截: 高波动环境要求评分>=75",
+          "detail": "过去3天100个被拦截信号中98个(98%)因同一原因被拦截。可能是某个门槛设置过于严格。",
+          "evidence": "Top原因: 拦截: 高波动环境要求评分>=75 (98/100次)",
+          "fix_hint": "考虑调整该特定拦截规则的阈值",
+          "category": "blocked_pattern",
+          "timestamp": "2026-02-22T01:22:14.575704"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "warning",
+          "title": "网格无成交: BNB 运行119h",
+          "detail": "BNB网格已运行119小时但零成交，网格线可能设置不合理或市场偏离范围",
+          "evidence": "创建: 2026-02-17 01:58, buy_filled=0, sell_filled=0",
+          "fix_hint": "检查BNB网格的价格范围是否覆盖当前价格",
+          "category": "grid_idle",
+          "timestamp": "2026-02-22T01:22:14.588948"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "warning",
+          "title": "网格无成交: SOL 运行96h",
+          "detail": "SOL网格已运行96小时但零成交，网格线可能设置不合理或市场偏离范围",
+          "evidence": "创建: 2026-02-18 01:31, buy_filled=0, sell_filled=0",
+          "fix_hint": "检查SOL网格的价格范围是否覆盖当前价格",
+          "category": "grid_idle",
+          "timestamp": "2026-02-22T01:22:14.588963"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "warning",
+          "title": "网格无成交: ADA 运行76h",
+          "detail": "ADA网格已运行76小时但零成交，网格线可能设置不合理或市场偏离范围",
+          "evidence": "创建: 2026-02-18 21:49, buy_filled=0, sell_filled=0",
+          "fix_hint": "检查ADA网格的价格范围是否覆盖当前价格",
+          "category": "grid_idle",
+          "timestamp": "2026-02-22T01:22:14.588969"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "info",
+          "title": "LLM遥测文件缺失",
+          "detail": "AI调用统计没有持久化，重启后遥测数据丢失",
+          "evidence": "",
+          "fix_hint": "考虑在LLMTelemetry中添加定期持久化",
+          "category": "monitoring_gap",
+          "timestamp": "2026-02-22T01:22:14.595216"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "模块数量过多: 48个Titan文件",
+          "detail": "server/目录下有48个titan_*.py文件，模块数量较多。建议评估是否有可以合并的相似模块。",
+          "evidence": "模块总数: 48",
+          "fix_hint": "考虑将功能相近的模块合并（如多个risk相关模块）",
+          "category": "complexity",
+          "timestamp": "2026-02-22T01:22:14.601975"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "warning",
+          "title": "超大文件: api.py (8822行)",
+          "detail": "文件 server/api.py 有8822行代码，建议拆分以提高可维护性",
+          "evidence": "api.py: 8822 lines",
+          "fix_hint": "将相对独立的类或函数提取到单独模块",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:22:14.631083"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "warning",
+          "title": "超大文件: titan_ml.py (2148行)",
+          "detail": "文件 server/titan_ml.py 有2148行代码，建议拆分以提高可维护性",
+          "evidence": "titan_ml.py: 2148 lines",
+          "fix_hint": "将相对独立的类或函数提取到单独模块",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:22:14.631100"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_external_data.py (1796行)",
+          "detail": "server/titan_external_data.py 超过1000行，关注可维护性",
+          "evidence": "titan_external_data.py: 1796 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:22:14.631104"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_autopilot.py (1387行)",
+          "detail": "server/titan_autopilot.py 超过1000行，关注可维护性",
+          "evidence": "titan_autopilot.py: 1387 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:22:14.631107"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_ai_coordinator.py (1384行)",
+          "detail": "server/titan_ai_coordinator.py 超过1000行，关注可维护性",
+          "evidence": "titan_ai_coordinator.py: 1384 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:22:14.631109"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "info",
+          "title": "币安就绪度评估: 43%",
+          "detail": "就绪: 3项 | 部分就绪: 6项 | 缺失: 5项\n当前系统以纸盘交易为主，已有PaperTrader和OrderEngine基础框架，但缺少币安API直连、WebSocket实时流、限频控制、密钥管理等关键实盘组件。",
+          "evidence": "ready=3 partial=6 missing=5 score=43%",
+          "fix_hint": "",
+          "category": "binance_readiness",
+          "timestamp": "2026-02-22T01:22:14.815909"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "info",
+          "title": "已有交易所相关代码: 5个文件",
+          "detail": "文件: modal_training_app.py, titan_external_data.py, api.py, titan_prompt_library.py, titan_self_inspector.py",
+          "evidence": "含binance/ccxt引用的文件: ['modal_training_app.py', 'titan_external_data.py', 'api.py', 'titan_prompt_library.py', 'titan_self_inspector.py']",
+          "fix_hint": "",
+          "category": "binance_existing",
+          "timestamp": "2026-02-22T01:22:14.883428"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "suggestion",
+          "title": "币安实盘升级路线图",
+          "detail": "Phase 1: API连接层:\n  - 实现BinanceConnector类：REST API封装 + HMAC签名\n  - WebSocket用户数据流：订单更新/余额变动实时推送\n  - API限频管理器：令牌桶算法，遵守1200次/分限制\n\nPhase 2: 订单引擎升级:\n  - PaperTrader→LiveTrader适配：统一接口，可切换模式\n  - 订单类型支持：MARKET/LIMIT/STOP_LOSS_LIMIT/OCO\n  - 部分成交处理 + 订单状态机\n\nPhase 3: 风控加固:\n  - 实盘紧急平仓机制：一键平所有仓\n  - 仓位对账：每分钟与交易所同步真实持仓\n  - 滑点预估和手续费精确计算\n\nPhase 4: 灰度上线:\n  - 影子交易模式：实盘API但不实际下单，对比纸盘结果\n  - 小资金验证：$500起步，逐步扩大\n  - 实盘vs纸盘盈亏差异监控",
+          "evidence": "",
+          "fix_hint": "建议按Phase 1→4顺序实施，每个Phase完成后进行充分测试再进入下一阶段",
+          "category": "binance_roadmap",
+          "timestamp": "2026-02-22T01:22:14.883484"
+        }
+      ],
+      "ai_summary": "### 自检结果汇报\n\n**健康状态概括**: 当前系统为亚健康状态，需关注多项警告问题。\n\n**严重问题**: 无\n\n**警告问题**:\n1. **重复拦截逻辑**：在波动市场下信号评分检查存在重复，可能导致信号被重复阻止，并产生多条记录。建议调整逻辑以避免重复拦截。\n2. **配置文件近空**：titan_ai_coordinator.json 文件几乎为空，模块可能无法加载。应立即检查并修复该文件的问题。\n3. **低胜率预警**：最近20笔交易胜率仅为30%，低于目标35%。需优化当前策略。\n4. **拦截集中单一原因**：98%的拦截是因为高波动环境评分过高，建议调整评分标准，防止资源浪费。\n5. **网格无成交问题**：BNB、SOL和ADA网格已长时间未成交，需检查网格参数是否合理。\n6. **超大文件问题**：server/api.py 和 server/titan_ml.py 文件行数超标，建议拆分以提高可维护性。\n7. **币安就绪度评估**：当前就绪度仅43%，缺失关键组件。应加快开发以实现顺利对接。\n\n**信息问题**:\n- LLM遥测文件缺失，需建立持久化机制以保存遥测数据。\n- 代码模块数量过多，应评估是否可以合并部分相似模块。\n- 多个大文件应关注可维护性。\n\n**改进建议**:\n1. 立即调整重复的信号拦截逻辑，合并策略级与全局检查。\n2. 修复配置文件titan_ai_coordinator.json，确保正常加载。\n3. 重新评估交易策略，提升胜率。\n4. 调整信号评分标准，减轻单一原因带来的拦截压力。\n5. 检查网格参数设置，确保设置合理并进行必要调整。\n6. 对超大文件进行拆分，提升系统可维护性。\n7. 完善币安API直连及相关关键组件，以提升就绪度。\n\n**趋势判断**: 与上次自检相比，系统健康状态未见明显改善，需尽快跟进警告问题。",
+      "inspector_analyses": {
+        "logic_auditor": "1. 重复拦截逻辑的问题是最紧急的，因为它可能导致相同信号被重复拦截，影响决策的准确性和统计数据的真实性。\n\n2. 这些问题之间存在关联，重复拦截逻辑的根本原因是策略级和全局级检查未能协调，导致同一信号在不同层级受到相似甚至重复的评估标准。\n\n3. 建议的修复优先级应为高，需尽快合并检查逻辑，以防止信号被误拦截和造成不必要的风险统计失真，确保系统运行的稳定性和可靠性。",
+        "config_sentinel": "{\n  \"最紧急问题\": \"titan_ai_coordinator.json文件近空\",\n  \"根因分析\": \"该文件几乎为空可能是由于初始化错误或状态未正确保存，导致模块无法正常加载和运行。\",\n  \"修复优先级\": \"高优先级，应立即检查该模块的初始化流程和状态保存机制，确保数据完整性与系统稳定性。\"\n}",
+        "performance_doctor": "{\n  \"urgent_problem\": \"低胜率预警\",\n  \"reason_analysis\": \"低胜率可能导致资金持续流失，而集中拦截在单一原因则可能是因环境变化触发更严格的信号门槛。两者间存在关联，高波动环境导致更多信号被拦截，从而影响交易机会。\",\n  \"repair_priority\": [\n    {\n      \"issue\": \"低胜率预警\",\n      \"priority\": 1,\n      \"suggestion\": \"优化策略，提高信号通过率，增强盈利机会\"\n    },\n    {\n      \"issue\": \"拦截集中在单一原因\",\n      \"priority\": 2,\n      \"suggestion\": \"调整高波动环境下的信号拦截阈值，减少不必要拦截\"\n    }\n  ]\n}",
+        "anomaly_patrol": "1. 最紧急的问题是BNB网格无成交，运行119小时零成交，需尽快检查价格范围设置。\n\n2. 三个网格无成交的问题（BNB、SOL、ADA）可能有共同根因：价格范围设置不合理或市场偏离。LLM遥测文件缺失虽然是信息级别，但可能影响后续问题的诊断数据。\n\n3. 修复优先级建议为：首先解决BNB网格无成交问题，其次是SOL和ADA的网格无成交问题，最后处理LLM遥测文件缺失问题。",
+        "architecture_advisor": "{\n  \"紧急问题\": {\n    \"problem\": \"超大文件: api.py (8822行)\",\n    \"reason\": \"该文件过大直接影响可维护性和开发效率，需要立即拆分。\"\n  },\n  \"根因分析\": \"模块数量过多导致部分文件功能复杂，增大了单个文件的代码行数。因此，模块合并和拆分应同步进行，以改善整体架构。大文件和过多模块之间是相互关联的，合并相似模块可减少大文件数量。\",\n  \"修复优先级\": [\n    {\n      \"priority\": \"P0\",\n      \"description\": \"拆分超大文件: api.py\"\n    },\n    {\n      \"priority\": \"P1\",\n      \"description\": \"合并相似模块，降低模块数量\"\n    },\n    {\n      \"priority\": \"P1\",\n      \"description\": \"拆分其他大文件: titan_ml.py, titan_external_data.py, titan_autopilot.py, titan_ai_coordinator.py\"\n    }\n  ]\n}"
+      }
+    },
+    {
+      "timestamp": "2026-02-22T01:22:36.024107",
+      "duration_seconds": 0.304099,
+      "inspectors_run": [
+        "logic_auditor",
+        "config_sentinel",
+        "performance_doctor",
+        "anomaly_patrol",
+        "architecture_advisor",
+        "binance_readiness"
+      ],
+      "total_findings": 17,
+      "by_severity": {
+        "critical": 0,
+        "warning": 9,
+        "info": 7,
+        "suggestion": 1
+      },
+      "findings": [
+        {
+          "inspector": "logic_auditor",
+          "severity": "warning",
+          "title": "重复拦截逻辑: volatile+score检查出现2次",
+          "detail": "SignalGate中volatile环境的评分检查存在重复。策略级检查和全局检查同时生效，可能导致同一信号被拦截两次并记录两条blocked_trade记录。",
+          "evidence": "Line 1342: elif regime == \"volatile\" and signal_score < 75:\nLine 1356: if regime == \"volatile\" and signal_score < 75:",
+          "fix_hint": "合并为一次检查，或明确策略级和全局级的不同门槛",
+          "category": "duplicate_logic",
+          "timestamp": "2026-02-22T01:22:36.030401"
+        },
+        {
+          "inspector": "config_sentinel",
+          "severity": "warning",
+          "title": "配置文件近空: titan_ai_coordinator.json (3字节)",
+          "detail": "文件 data/titan_ai_coordinator.json 几乎为空，模块可能无法加载持久化状态",
+          "evidence": "文件大小: 3字节",
+          "fix_hint": "检查该模块是否正确初始化并保存状态",
+          "category": "empty_file",
+          "timestamp": "2026-02-22T01:22:36.035662"
+        },
+        {
+          "inspector": "performance_doctor",
+          "severity": "warning",
+          "title": "低胜率预警: 最近20笔胜率30%",
+          "detail": "胜率低于35%，需关注。最近20笔中6笔盈利。",
+          "evidence": "近20笔: 6胜/14负 = 30.0%",
+          "fix_hint": "",
+          "category": "low_win_rate",
+          "timestamp": "2026-02-22T01:22:36.065841"
+        },
+        {
+          "inspector": "performance_doctor",
+          "severity": "warning",
+          "title": "拦截集中在单一原因: 拦截: 高波动环境要求评分>=75",
+          "detail": "过去3天100个被拦截信号中98个(98%)因同一原因被拦截。可能是某个门槛设置过于严格。",
+          "evidence": "Top原因: 拦截: 高波动环境要求评分>=75 (98/100次)",
+          "fix_hint": "考虑调整该特定拦截规则的阈值",
+          "category": "blocked_pattern",
+          "timestamp": "2026-02-22T01:22:36.083023"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "warning",
+          "title": "网格无成交: BNB 运行119h",
+          "detail": "BNB网格已运行119小时但零成交，网格线可能设置不合理或市场偏离范围",
+          "evidence": "创建: 2026-02-17 01:58, buy_filled=0, sell_filled=0",
+          "fix_hint": "检查BNB网格的价格范围是否覆盖当前价格",
+          "category": "grid_idle",
+          "timestamp": "2026-02-22T01:22:36.135993"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "warning",
+          "title": "网格无成交: SOL 运行96h",
+          "detail": "SOL网格已运行96小时但零成交，网格线可能设置不合理或市场偏离范围",
+          "evidence": "创建: 2026-02-18 01:31, buy_filled=0, sell_filled=0",
+          "fix_hint": "检查SOL网格的价格范围是否覆盖当前价格",
+          "category": "grid_idle",
+          "timestamp": "2026-02-22T01:22:36.136017"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "warning",
+          "title": "网格无成交: ADA 运行76h",
+          "detail": "ADA网格已运行76小时但零成交，网格线可能设置不合理或市场偏离范围",
+          "evidence": "创建: 2026-02-18 21:49, buy_filled=0, sell_filled=0",
+          "fix_hint": "检查ADA网格的价格范围是否覆盖当前价格",
+          "category": "grid_idle",
+          "timestamp": "2026-02-22T01:22:36.136026"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "info",
+          "title": "LLM遥测文件缺失",
+          "detail": "AI调用统计没有持久化，重启后遥测数据丢失",
+          "evidence": "",
+          "fix_hint": "考虑在LLMTelemetry中添加定期持久化",
+          "category": "monitoring_gap",
+          "timestamp": "2026-02-22T01:22:36.151501"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "模块数量过多: 48个Titan文件",
+          "detail": "server/目录下有48个titan_*.py文件，模块数量较多。建议评估是否有可以合并的相似模块。",
+          "evidence": "模块总数: 48",
+          "fix_hint": "考虑将功能相近的模块合并（如多个risk相关模块）",
+          "category": "complexity",
+          "timestamp": "2026-02-22T01:22:36.152029"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "warning",
+          "title": "超大文件: api.py (8822行)",
+          "detail": "文件 server/api.py 有8822行代码，建议拆分以提高可维护性",
+          "evidence": "api.py: 8822 lines",
+          "fix_hint": "将相对独立的类或函数提取到单独模块",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:22:36.214362"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "warning",
+          "title": "超大文件: titan_ml.py (2148行)",
+          "detail": "文件 server/titan_ml.py 有2148行代码，建议拆分以提高可维护性",
+          "evidence": "titan_ml.py: 2148 lines",
+          "fix_hint": "将相对独立的类或函数提取到单独模块",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:22:36.214378"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_external_data.py (1796行)",
+          "detail": "server/titan_external_data.py 超过1000行，关注可维护性",
+          "evidence": "titan_external_data.py: 1796 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:22:36.214382"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_autopilot.py (1387行)",
+          "detail": "server/titan_autopilot.py 超过1000行，关注可维护性",
+          "evidence": "titan_autopilot.py: 1387 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:22:36.214384"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_ai_coordinator.py (1384行)",
+          "detail": "server/titan_ai_coordinator.py 超过1000行，关注可维护性",
+          "evidence": "titan_ai_coordinator.py: 1384 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:22:36.214387"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "info",
+          "title": "币安就绪度评估: 43%",
+          "detail": "就绪: 3项 | 部分就绪: 6项 | 缺失: 5项\n当前系统以纸盘交易为主，已有PaperTrader和OrderEngine基础框架，但缺少币安API直连、WebSocket实时流、限频控制、密钥管理等关键实盘组件。",
+          "evidence": "ready=3 partial=6 missing=5 score=43%",
+          "fix_hint": "",
+          "category": "binance_readiness",
+          "timestamp": "2026-02-22T01:22:36.261120"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "info",
+          "title": "已有交易所相关代码: 5个文件",
+          "detail": "文件: modal_training_app.py, titan_external_data.py, api.py, titan_prompt_library.py, titan_self_inspector.py",
+          "evidence": "含binance/ccxt引用的文件: ['modal_training_app.py', 'titan_external_data.py', 'api.py', 'titan_prompt_library.py', 'titan_self_inspector.py']",
+          "fix_hint": "",
+          "category": "binance_existing",
+          "timestamp": "2026-02-22T01:22:36.328166"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "suggestion",
+          "title": "币安实盘升级路线图",
+          "detail": "Phase 1: API连接层:\n  - 实现BinanceConnector类：REST API封装 + HMAC签名\n  - WebSocket用户数据流：订单更新/余额变动实时推送\n  - API限频管理器：令牌桶算法，遵守1200次/分限制\n\nPhase 2: 订单引擎升级:\n  - PaperTrader→LiveTrader适配：统一接口，可切换模式\n  - 订单类型支持：MARKET/LIMIT/STOP_LOSS_LIMIT/OCO\n  - 部分成交处理 + 订单状态机\n\nPhase 3: 风控加固:\n  - 实盘紧急平仓机制：一键平所有仓\n  - 仓位对账：每分钟与交易所同步真实持仓\n  - 滑点预估和手续费精确计算\n\nPhase 4: 灰度上线:\n  - 影子交易模式：实盘API但不实际下单，对比纸盘结果\n  - 小资金验证：$500起步，逐步扩大\n  - 实盘vs纸盘盈亏差异监控",
+          "evidence": "",
+          "fix_hint": "建议按Phase 1→4顺序实施，每个Phase完成后进行充分测试再进入下一阶段",
+          "category": "binance_roadmap",
+          "timestamp": "2026-02-22T01:22:36.328199"
+        }
+      ],
+      "ai_summary": "### 汇报给CEO\n\n1. **系统当前健康状态**: 亚健康——存在多个警告，需密切关注。\n\n2. **严重问题**: 暂无严重问题，但发现以下多个警告需提升优先级处理:\n   - **重复拦截逻辑**: 在高波动环境下的信号拦截出现重复，这可能导致信号过度过滤和收益损失。\n   - **配置文件近空**: titan_ai_coordinator.json 文件几乎为空，可能导致模块无法正常加载。\n   - **低胜率预警**: 最近20笔交易胜率仅为30%，低于标准35%。\n   - **网格交易无成交**: 多个币种网格交易运行时间长达数天但未成交，需检查设置合理性。\n   - **超大文件问题**: api.py 和 titan_ml.py 等文件行数过多，影响可维护性。\n\n3. **改进建议**:\n   - 优化信号拦截逻辑，避免重复拦截，提高信号通过率。\n   - 修复titan_ai_coordinator.json 文件，确保其能正常加载完整信息。\n   - 针对低胜率，分析交易策略及其设定，考虑调整参数以提高效果。\n   - 检查无成交网格的设置，调整买入卖出策略以适应市场。\n   - 对超大文件进行拆分，提升代码可维护性和可读性。\n\n4. **趋势判断**: 与上次自检相比，系统整体状态有所恶化，警告数量增加，且包含多个影响交易效率和策略执行的问题。\n\n请结合以上信息，审视系统运行状态及潜在风险，及时采取措施确保系统健康和高效运行。",
+      "inspector_analyses": {
+        "logic_auditor": "1. 重复拦截逻辑是最紧急的问题，因为它导致同一信号被拦截两次，可能影响决策的准确性和统计数据的可靠性。\n2. 该问题与参数飘移和门槛冲突检测有间接关联，若不同模块的阈值不一致，可能导致信号在不同层级重复被拦截。\n3. 建议的修复优先级为高，因为需要立即合并一次检查，以确保信号处理一致性，避免不必要的误判。",
+        "config_sentinel": "{\n  \"紧急问题\": \"titan_ai_coordinator.json文件近空是最紧急的问题，可能导致模块无法加载持久化状态，影响系统运作。\",\n  \"根因分析\": \"该问题可能与模块初始化或状态保存机制不当有关。如果初始化错误，可能导致其他相关配置也未正确生成或更新。\",\n  \"修复优先级\": \"建议优先检查和修复titan_ai_coordinator.json文件的问题，确保该模块能够正常工作，随后再审查其他相关配置，防止系统整体性能受影响。\"\n}",
+        "performance_doctor": "{\n  \"urgent_issue\": \"低胜率预警\",\n  \"analysis\": \"低胜率直接影响整体盈利能力，应优先解决。拦截集中在单一原因反映出信号质量过严，可能导致亏损加剧。\",\n  \"root_cause\": \"低胜率与拦截过于严苛有一定关联，放宽拦截标准有助于提高信号通过率，从而改善胜率。\",\n  \"fix_priority\": [\n    {\n      \"issue\": \"低胜率预警\",\n      \"priority\": 1\n    },\n    {\n      \"issue\": \"拦截集中在单一原因\",\n      \"priority\": 2\n    }\n  ]\n}",
+        "anomaly_patrol": "1. 最紧急的问题是BNB网格无成交，因为其运行时间最长（119小时），可能导致资金效率低下。\n\n2. 问题之间存在关联，多个网格无成交可能是因为市场价格未能覆盖设置的价格范围，导致所有相关网格都未触发成交。\n\n3. 修复优先级建议为：首先检查BNB网格的价格范围，其次是SOL与ADA网格，最后考虑LLM遥测文件持久化的问题。优先解决能直接影响资金效率的网格问题。",
+        "architecture_advisor": "{\n  \"urgent_issue\": \"超大文件: api.py (8822行) 是最紧急的问题，需要立即拆分。\",\n  \"root_cause_analysis\": \"模块数量过多与超大文件相关，api.py的复杂性导致了维护困难，可能是多个功能模块未能有效拆分所致。\",\n  \"fix_priority\": [\n    {\n      \"issue\": \"超大文件: api.py\",\n      \"priority\": \"P0\"\n    },\n    {\n      \"issue\": \"模块数量过多: 48个Titan文件\",\n      \"priority\": \"P1\"\n    },\n    {\n      \"issue\": \"超大文件: titan_ml.py\",\n      \"priority\": \"P1\"\n    },\n    {\n      \"issue\": \"大文件: titan_external_data.py\",\n      \"priority\": \"P2\"\n    },\n    {\n      \"issue\": \"大文件: titan_autopilot.py\",\n      \"priority\": \"P2\"\n    },\n    {\n      \"issue\": \"大文件: titan_ai_coordinator.py\",\n      \"priority\": \"P2\"\n    }\n  ]\n}"
+      }
+    },
+    {
+      "timestamp": "2026-02-22T01:22:55.756764",
+      "duration_seconds": 0.559414,
+      "inspectors_run": [
+        "logic_auditor",
+        "config_sentinel",
+        "performance_doctor",
+        "anomaly_patrol",
+        "architecture_advisor",
+        "binance_readiness"
+      ],
+      "total_findings": 17,
+      "by_severity": {
+        "critical": 0,
+        "warning": 9,
+        "info": 7,
+        "suggestion": 1
+      },
+      "findings": [
+        {
+          "inspector": "logic_auditor",
+          "severity": "warning",
+          "title": "重复拦截逻辑: volatile+score检查出现2次",
+          "detail": "SignalGate中volatile环境的评分检查存在重复。策略级检查和全局检查同时生效，可能导致同一信号被拦截两次并记录两条blocked_trade记录。",
+          "evidence": "Line 1342: elif regime == \"volatile\" and signal_score < 75:\nLine 1356: if regime == \"volatile\" and signal_score < 75:",
+          "fix_hint": "合并为一次检查，或明确策略级和全局级的不同门槛",
+          "category": "duplicate_logic",
+          "timestamp": "2026-02-22T01:22:55.785361"
+        },
+        {
+          "inspector": "config_sentinel",
+          "severity": "warning",
+          "title": "配置文件近空: titan_ai_coordinator.json (3字节)",
+          "detail": "文件 data/titan_ai_coordinator.json 几乎为空，模块可能无法加载持久化状态",
+          "evidence": "文件大小: 3字节",
+          "fix_hint": "检查该模块是否正确初始化并保存状态",
+          "category": "empty_file",
+          "timestamp": "2026-02-22T01:22:55.792643"
+        },
+        {
+          "inspector": "performance_doctor",
+          "severity": "warning",
+          "title": "低胜率预警: 最近20笔胜率30%",
+          "detail": "胜率低于35%，需关注。最近20笔中6笔盈利。",
+          "evidence": "近20笔: 6胜/14负 = 30.0%",
+          "fix_hint": "",
+          "category": "low_win_rate",
+          "timestamp": "2026-02-22T01:22:55.821408"
+        },
+        {
+          "inspector": "performance_doctor",
+          "severity": "warning",
+          "title": "拦截集中在单一原因: 拦截: 高波动环境要求评分>=75",
+          "detail": "过去3天100个被拦截信号中98个(98%)因同一原因被拦截。可能是某个门槛设置过于严格。",
+          "evidence": "Top原因: 拦截: 高波动环境要求评分>=75 (98/100次)",
+          "fix_hint": "考虑调整该特定拦截规则的阈值",
+          "category": "blocked_pattern",
+          "timestamp": "2026-02-22T01:22:55.823149"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "warning",
+          "title": "网格无成交: BNB 运行119h",
+          "detail": "BNB网格已运行119小时但零成交，网格线可能设置不合理或市场偏离范围",
+          "evidence": "创建: 2026-02-17 01:58, buy_filled=0, sell_filled=0",
+          "fix_hint": "检查BNB网格的价格范围是否覆盖当前价格",
+          "category": "grid_idle",
+          "timestamp": "2026-02-22T01:22:55.833370"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "warning",
+          "title": "网格无成交: SOL 运行96h",
+          "detail": "SOL网格已运行96小时但零成交，网格线可能设置不合理或市场偏离范围",
+          "evidence": "创建: 2026-02-18 01:31, buy_filled=0, sell_filled=0",
+          "fix_hint": "检查SOL网格的价格范围是否覆盖当前价格",
+          "category": "grid_idle",
+          "timestamp": "2026-02-22T01:22:55.833383"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "warning",
+          "title": "网格无成交: ADA 运行76h",
+          "detail": "ADA网格已运行76小时但零成交，网格线可能设置不合理或市场偏离范围",
+          "evidence": "创建: 2026-02-18 21:49, buy_filled=0, sell_filled=0",
+          "fix_hint": "检查ADA网格的价格范围是否覆盖当前价格",
+          "category": "grid_idle",
+          "timestamp": "2026-02-22T01:22:55.833388"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "info",
+          "title": "LLM遥测文件缺失",
+          "detail": "AI调用统计没有持久化，重启后遥测数据丢失",
+          "evidence": "",
+          "fix_hint": "考虑在LLMTelemetry中添加定期持久化",
+          "category": "monitoring_gap",
+          "timestamp": "2026-02-22T01:22:55.842943"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "模块数量过多: 48个Titan文件",
+          "detail": "server/目录下有48个titan_*.py文件，模块数量较多。建议评估是否有可以合并的相似模块。",
+          "evidence": "模块总数: 48",
+          "fix_hint": "考虑将功能相近的模块合并（如多个risk相关模块）",
+          "category": "complexity",
+          "timestamp": "2026-02-22T01:22:55.851508"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "warning",
+          "title": "超大文件: api.py (8822行)",
+          "detail": "文件 server/api.py 有8822行代码，建议拆分以提高可维护性",
+          "evidence": "api.py: 8822 lines",
+          "fix_hint": "将相对独立的类或函数提取到单独模块",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:22:55.914137"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "warning",
+          "title": "超大文件: titan_ml.py (2148行)",
+          "detail": "文件 server/titan_ml.py 有2148行代码，建议拆分以提高可维护性",
+          "evidence": "titan_ml.py: 2148 lines",
+          "fix_hint": "将相对独立的类或函数提取到单独模块",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:22:55.914158"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_external_data.py (1796行)",
+          "detail": "server/titan_external_data.py 超过1000行，关注可维护性",
+          "evidence": "titan_external_data.py: 1796 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:22:55.914163"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_autopilot.py (1387行)",
+          "detail": "server/titan_autopilot.py 超过1000行，关注可维护性",
+          "evidence": "titan_autopilot.py: 1387 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:22:55.914167"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_ai_coordinator.py (1384行)",
+          "detail": "server/titan_ai_coordinator.py 超过1000行，关注可维护性",
+          "evidence": "titan_ai_coordinator.py: 1384 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:22:55.914172"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "info",
+          "title": "币安就绪度评估: 43%",
+          "detail": "就绪: 3项 | 部分就绪: 6项 | 缺失: 5项\n当前系统以纸盘交易为主，已有PaperTrader和OrderEngine基础框架，但缺少币安API直连、WebSocket实时流、限频控制、密钥管理等关键实盘组件。",
+          "evidence": "ready=3 partial=6 missing=5 score=43%",
+          "fix_hint": "",
+          "category": "binance_readiness",
+          "timestamp": "2026-02-22T01:22:56.084550"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "info",
+          "title": "已有交易所相关代码: 5个文件",
+          "detail": "文件: modal_training_app.py, titan_external_data.py, api.py, titan_prompt_library.py, titan_self_inspector.py",
+          "evidence": "含binance/ccxt引用的文件: ['modal_training_app.py', 'titan_external_data.py', 'api.py', 'titan_prompt_library.py', 'titan_self_inspector.py']",
+          "fix_hint": "",
+          "category": "binance_existing",
+          "timestamp": "2026-02-22T01:22:56.316140"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "suggestion",
+          "title": "币安实盘升级路线图",
+          "detail": "Phase 1: API连接层:\n  - 实现BinanceConnector类：REST API封装 + HMAC签名\n  - WebSocket用户数据流：订单更新/余额变动实时推送\n  - API限频管理器：令牌桶算法，遵守1200次/分限制\n\nPhase 2: 订单引擎升级:\n  - PaperTrader→LiveTrader适配：统一接口，可切换模式\n  - 订单类型支持：MARKET/LIMIT/STOP_LOSS_LIMIT/OCO\n  - 部分成交处理 + 订单状态机\n\nPhase 3: 风控加固:\n  - 实盘紧急平仓机制：一键平所有仓\n  - 仓位对账：每分钟与交易所同步真实持仓\n  - 滑点预估和手续费精确计算\n\nPhase 4: 灰度上线:\n  - 影子交易模式：实盘API但不实际下单，对比纸盘结果\n  - 小资金验证：$500起步，逐步扩大\n  - 实盘vs纸盘盈亏差异监控",
+          "evidence": "",
+          "fix_hint": "建议按Phase 1→4顺序实施，每个Phase完成后进行充分测试再进入下一阶段",
+          "category": "binance_roadmap",
+          "timestamp": "2026-02-22T01:22:56.316170"
+        }
+      ],
+      "ai_summary": "### 自检汇报\n\n1. **系统当前健康状态**: 亚健康\n2. **严重问题**: 暂无严重问题\n3. **警告问题**:\n   - **重复拦截逻辑**: 由于SignalGate中volatile环境的评分检查重复，可能导致同一信号被重复拦截，需整合验证逻辑以避免记录多次。 \n   - **配置文件近空**: titan_ai_coordinator.json 文件仅有3字节，可能导致模块无法正确加载持久化状态，建议检查与更新。\n   - **低胜率预警**: 最近20笔交易胜率仅为30%，需分析原因并调整策略。\n   - **拦截集中在单一原因**: 98%的信号因高波动环境评分要求被拦截，需调整评分标准以提高信号通过率。\n   - **网格无成交预警**: BNB、SOL和ADA网格分别运行了119h、96h和76h均无成交，需检查网格线设置是否合理。\n4. **信息问题**:\n   - AI调用统计缺失，重启后数据丢失，需确保持续持久化。\n   - 代码模块数量过多，建议评估合并相似模块。\n   - 发现多个超大文件，尤其是api.py和titan_ml.py，建议拆分以提高维护性。\n5. **改进建议**:\n   - **整合重复拦截逻辑**，确保信号只被拦截一次。\n   - **更新空配置文件**，确保模块可以正常工作。\n   - **分析低胜率原因**，必要时调整策略。\n   - **降低高波动环境的评分要求**，提高信号筛选通过率。\n   - **重新审查网格设置**，以确保能在市场条件下有效交易。\n   - **拆分超大代码文件**，提升代码可维护性。\n6. **趋势判断**: 环境健康状况有所下降，有多项预警需关注。\n\n感谢您的关注，我们将按优先级处理以上问题。",
+      "inspector_analyses": {
+        "logic_auditor": "1. 重复拦截逻辑问题最紧急，可能导致信号被重复拦截，影响决策准确性。\n2. 这些问题之间存在关联，重复检查意味着系统在相同情况下产生不一致的拦截结果，影响信号记录的准确性和统计数据的有效性。\n3. 修复优先级应为高，建议优先合并检查逻辑，以消除重复拦截，确保系统逻辑一致性和信号处理的准确性。",
+        "config_sentinel": "{\n  \"urgent_issue\": \"titan_ai_coordinator.json文件近空是最紧急的问题\",\n  \"correlation_analysis\": \"该问题可能导致模块无法加载持久化状态，从而影响系统整体功能，存在直接关联\",\n  \"repair_priority\": \"建议优先检查titan_ai_coordinator.json的初始化与状态保存，确保系统正常运行\"\n}",
+        "performance_doctor": "{\n  \"urgent_issue\": \"低胜率预警\",\n  \"relation_analysis\": \"低胜率可能与拦截集中在高波动环境下评分要求过严有关，高要求导致信号通过率降低，从而影响整体胜率。\",\n  \"repair_priority\": [\n    {\n      \"issue\": \"低胜率预警\",\n      \"priority\": 1,\n      \"recommendation\": \"重点关注并调整交易策略或入场条件，以提高信号质量和胜率。\"\n    },\n    {\n      \"issue\": \"拦截集中在单一原因\",\n      \"priority\": 2,\n      \"recommendation\": \"适度放宽高波动环境下的评分要求，以增加信号通过率，进而提升胜率。\"\n    }\n  ]\n}",
+        "anomaly_patrol": "{\n  \"urgent_issue\": \"网格无成交: BNB 运行119h\",\n  \"correlation_analysis\": \"所有网格无成交的问题可能与市场价格偏离或价格范围设置不合理有关，存在共同根因。\",\n  \"fix_priority\": [\n    {\n      \"issue\": \"网格无成交: BNB 运行119h\",\n      \"priority\": 1\n    },\n    {\n      \"issue\": \"网格无成交: SOL 运行96h\",\n      \"priority\": 2\n    },\n    {\n      \"issue\": \"网格无成交: ADA 运行76h\",\n      \"priority\": 3\n    },\n    {\n      \"issue\": \"LLM遥测文件缺失\",\n      \"priority\": 4\n    }\n  ]\n}",
+        "architecture_advisor": "{\n  \"紧急问题\": {\n    \"文件\": \"api.py\",\n    \"行数\": 8822,\n    \"原因\": \"超大文件严重影响可维护性，需优先拆分\"\n  },\n  \"关联分析\": {\n    \"文件数量与超大文件\": \"过多模块可能导致功能冗余，文件体积增加，api.py等文件行数超标可能因职责不单一\"\n  },\n  \"修复优先级\": [\n    {\n      \"优先级\": \"P0\",\n      \"问题\": \"api.py拆分\"\n    },\n    {\n      \"优先级\": \"P1\",\n      \"问题\": \"titan_ml.py拆分\"\n    },\n    {\n      \"优先级\": \"P1\",\n      \"问题\": \"合并功能相近的模块\"\n    },\n    {\n      \"优先级\": \"P2\",\n      \"问题\": \"关注其他大文件的可维护性\"\n    }\n  ]\n}"
+      }
+    },
+    {
+      "timestamp": "2026-02-22T01:45:18.954737",
+      "duration_seconds": 0.093964,
+      "inspectors_run": [
+        "logic_auditor",
+        "config_sentinel",
+        "performance_doctor",
+        "anomaly_patrol",
+        "architecture_advisor",
+        "binance_readiness"
+      ],
+      "total_findings": 12,
+      "by_severity": {
+        "critical": 0,
+        "warning": 4,
+        "info": 7,
+        "suggestion": 1
+      },
+      "findings": [
+        {
+          "inspector": "performance_doctor",
+          "severity": "warning",
+          "title": "低胜率预警: 最近20笔胜率30%",
+          "detail": "胜率低于35%，需关注。最近20笔中6笔盈利。",
+          "evidence": "近20笔: 6胜/14负 = 30.0%",
+          "fix_hint": "",
+          "category": "low_win_rate",
+          "timestamp": "2026-02-22T01:45:18.979472"
+        },
+        {
+          "inspector": "performance_doctor",
+          "severity": "warning",
+          "title": "拦截集中在单一原因: 拦截: 高波动环境要求评分>=75",
+          "detail": "过去3天100个被拦截信号中97个(97%)因同一原因被拦截。可能是某个门槛设置过于严格。",
+          "evidence": "Top原因: 拦截: 高波动环境要求评分>=75 (97/100次)",
+          "fix_hint": "考虑调整该特定拦截规则的阈值",
+          "category": "blocked_pattern",
+          "timestamp": "2026-02-22T01:45:18.981147"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "info",
+          "title": "LLM遥测文件缺失",
+          "detail": "AI调用统计没有持久化，重启后遥测数据丢失",
+          "evidence": "",
+          "fix_hint": "考虑在LLMTelemetry中添加定期持久化",
+          "category": "monitoring_gap",
+          "timestamp": "2026-02-22T01:45:19.000333"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "模块数量过多: 49个Titan文件",
+          "detail": "server/目录下有49个titan_*.py文件，模块数量较多。建议评估是否有可以合并的相似模块。",
+          "evidence": "模块总数: 49",
+          "fix_hint": "考虑将功能相近的模块合并（如多个risk相关模块）",
+          "category": "complexity",
+          "timestamp": "2026-02-22T01:45:19.000443"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "warning",
+          "title": "超大文件: api.py (7119行)",
+          "detail": "文件 server/api.py 有7119行代码，建议拆分以提高可维护性",
+          "evidence": "api.py: 7119 lines",
+          "fix_hint": "将相对独立的类或函数提取到单独模块",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:45:19.014955"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "warning",
+          "title": "超大文件: titan_ml.py (2148行)",
+          "detail": "文件 server/titan_ml.py 有2148行代码，建议拆分以提高可维护性",
+          "evidence": "titan_ml.py: 2148 lines",
+          "fix_hint": "将相对独立的类或函数提取到单独模块",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:45:19.014970"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_external_data.py (1796行)",
+          "detail": "server/titan_external_data.py 超过1000行，关注可维护性",
+          "evidence": "titan_external_data.py: 1796 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:45:19.014974"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_ai_coordinator.py (1384行)",
+          "detail": "server/titan_ai_coordinator.py 超过1000行，关注可维护性",
+          "evidence": "titan_ai_coordinator.py: 1384 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:45:19.014978"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_autopilot.py (1383行)",
+          "detail": "server/titan_autopilot.py 超过1000行，关注可维护性",
+          "evidence": "titan_autopilot.py: 1383 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:45:19.014982"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "info",
+          "title": "币安就绪度评估: 43%",
+          "detail": "就绪: 3项 | 部分就绪: 6项 | 缺失: 5项\n当前系统以纸盘交易为主，已有PaperTrader和OrderEngine基础框架，但缺少币安API直连、WebSocket实时流、限频控制、密钥管理等关键实盘组件。",
+          "evidence": "ready=3 partial=6 missing=5 score=43%",
+          "fix_hint": "",
+          "category": "binance_readiness",
+          "timestamp": "2026-02-22T01:45:19.036322"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "info",
+          "title": "已有交易所相关代码: 5个文件",
+          "detail": "文件: modal_training_app.py, titan_external_data.py, titan_prompt_library.py, titan_self_inspector.py, api.py",
+          "evidence": "含binance/ccxt引用的文件: ['modal_training_app.py', 'titan_external_data.py', 'titan_prompt_library.py', 'titan_self_inspector.py', 'api.py']",
+          "fix_hint": "",
+          "category": "binance_existing",
+          "timestamp": "2026-02-22T01:45:19.048644"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "suggestion",
+          "title": "币安实盘升级路线图",
+          "detail": "Phase 1: API连接层:\n  - 实现BinanceConnector类：REST API封装 + HMAC签名\n  - WebSocket用户数据流：订单更新/余额变动实时推送\n  - API限频管理器：令牌桶算法，遵守1200次/分限制\n\nPhase 2: 订单引擎升级:\n  - PaperTrader→LiveTrader适配：统一接口，可切换模式\n  - 订单类型支持：MARKET/LIMIT/STOP_LOSS_LIMIT/OCO\n  - 部分成交处理 + 订单状态机\n\nPhase 3: 风控加固:\n  - 实盘紧急平仓机制：一键平所有仓\n  - 仓位对账：每分钟与交易所同步真实持仓\n  - 滑点预估和手续费精确计算\n\nPhase 4: 灰度上线:\n  - 影子交易模式：实盘API但不实际下单，对比纸盘结果\n  - 小资金验证：$500起步，逐步扩大\n  - 实盘vs纸盘盈亏差异监控",
+          "evidence": "",
+          "fix_hint": "建议按Phase 1→4顺序实施，每个Phase完成后进行充分测试再进入下一阶段",
+          "category": "binance_roadmap",
+          "timestamp": "2026-02-22T01:45:19.048690"
+        }
+      ],
+      "ai_summary": "### 系统自检汇报\n\n**当前健康状态**: 亚健康\n\n**严重问题**: \n无\n\n**警告问题**:\n1. **低胜率预警**: 最近20笔交易的胜率仅为30%，低于预设的35%标准。建议对交易策略进行初步审查，尤其是信号生成和拦截机制，确保不会持续影响收益。\n   \n2. **拦截集中在单一原因**: 在过去3天中，有97%的信号因“高波动环境要求评分>=75”被拦截。建议评估并适当调整此门槛设置，以确保在高波动期能捕获有效信号，避免行情机会的浪费。\n\n3. **超大文件**: \n   - `api.py` 文件行数达到7119行，建议拆分为多个模块以提高可维护性。\n   - `titan_ml.py` 文件行数达2148行，同样建议拆分。\n\n4. **模块数量过多**: 目前 `server/` 目录下有49个 Titan 模块，建议审核并合并相似模块，这将有助于提升系统的整体性能和可维护性。\n\n**信息问题**:\n- **LLM遥测文件缺失**: AI调用统计未持久化，重启后数据丢失，长期来看可能影响系统运作。\n  \n- **币安就绪度评估**: 当前就绪度为43%。系统结构已有基础框架，但缺乏关键组件（如Binance API直连、实时流和密钥管理）进行实盘交易，需加紧提升就绪度。\n\n**建议**:\n- **币安实盘升级路线图**: \n  - Phase 1: 实现API连接层，确保API封装、实时数据推送及限频管理机制到位。\n\n**趋势判断**: 与上次自检相比，系统出现了部分新的警告，特别是在交易胜率和拦截策略上需改进，因此整体状态有所下降。\n\n希望可以尽快针对上述问题制定相应计划，确保系统的稳健运行。",
+      "inspector_analyses": {
+        "performance_doctor": "{\n  \"urgent_issue\": \"低胜率预警\",\n  \"association\": \"问题之间存在关联，低胜率可能与高波动环境导致的高拦截率有关，限制了交易机会。\",\n  \"repair_priority\": [\n    {\n      \"issue\": \"低胜率预警\",\n      \"priority\": 1,\n      \"suggestion\": \"需立即关注并优化交易策略，特别是提高信号生成和调整仓位管理。\"\n    },\n    {\n      \"issue\": \"拦截集中在单一原因\",\n      \"priority\": 2,\n      \"suggestion\": \"调整高波动环境中评分要求的阈值，以增加信号通过率。\"\n    }\n  ]\n}",
+        "architecture_advisor": "{\n  \"urgent_issue\": \"超大文件: api.py (7119行)最紧急，影响可维护性与开发效率。\",\n  \"root_cause_analysis\": \"模块数量过多与多个超大文件存在关联，导致复杂性增加和代码审查困难，建议合并相似模块以简化结构。\",\n  \"fix_priority\": [\n    {\n      \"issue\": \"超大文件: api.py\",\n      \"priority\": \"P0\"\n    },\n    {\n      \"issue\": \"超大文件: titan_ml.py\",\n      \"priority\": \"P1\"\n    },\n    {\n      \"issue\": \"模块数量过多: 49个Titan文件\",\n      \"priority\": \"P1\"\n    },\n    {\n      \"issue\": \"大文件: titan_external_data.py\",\n      \"priority\": \"P2\"\n    },\n    {\n      \"issue\": \"大文件: titan_ai_coordinator.py\",\n      \"priority\": \"P2\"\n    },\n    {\n      \"issue\": \"大文件: titan_autopilot.py\",\n      \"priority\": \"P2\"\n    }\n  ]\n}"
+      }
+    },
+    {
+      "timestamp": "2026-02-22T01:48:33.423298",
+      "duration_seconds": 0.228931,
+      "inspectors_run": [
+        "logic_auditor",
+        "config_sentinel",
+        "performance_doctor",
+        "anomaly_patrol",
+        "architecture_advisor",
+        "binance_readiness"
+      ],
+      "total_findings": 12,
+      "by_severity": {
+        "critical": 0,
+        "warning": 4,
+        "info": 7,
+        "suggestion": 1
+      },
+      "findings": [
+        {
+          "inspector": "performance_doctor",
+          "severity": "warning",
+          "title": "低胜率预警: 最近20笔胜率30%",
+          "detail": "胜率低于35%，需关注。最近20笔中6笔盈利。",
+          "evidence": "近20笔: 6胜/14负 = 30.0%",
+          "fix_hint": "",
+          "category": "low_win_rate",
+          "timestamp": "2026-02-22T01:48:33.485059"
+        },
+        {
+          "inspector": "performance_doctor",
+          "severity": "warning",
+          "title": "拦截集中在单一原因: 拦截: 高波动环境要求评分>=75",
+          "detail": "过去3天100个被拦截信号中97个(97%)因同一原因被拦截。可能是某个门槛设置过于严格。",
+          "evidence": "Top原因: 拦截: 高波动环境要求评分>=75 (97/100次)",
+          "fix_hint": "考虑调整该特定拦截规则的阈值",
+          "category": "blocked_pattern",
+          "timestamp": "2026-02-22T01:48:33.490530"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "info",
+          "title": "LLM遥测文件缺失",
+          "detail": "AI调用统计没有持久化，重启后遥测数据丢失",
+          "evidence": "",
+          "fix_hint": "考虑在LLMTelemetry中添加定期持久化",
+          "category": "monitoring_gap",
+          "timestamp": "2026-02-22T01:48:33.513772"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "模块数量过多: 49个Titan文件",
+          "detail": "server/目录下有49个titan_*.py文件，模块数量较多。建议评估是否有可以合并的相似模块。",
+          "evidence": "模块总数: 49",
+          "fix_hint": "考虑将功能相近的模块合并（如多个risk相关模块）",
+          "category": "complexity",
+          "timestamp": "2026-02-22T01:48:33.516859"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "warning",
+          "title": "超大文件: api.py (7119行)",
+          "detail": "文件 server/api.py 有7119行代码，建议拆分以提高可维护性",
+          "evidence": "api.py: 7119 lines",
+          "fix_hint": "将相对独立的类或函数提取到单独模块",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:48:33.545231"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "warning",
+          "title": "超大文件: titan_ml.py (2148行)",
+          "detail": "文件 server/titan_ml.py 有2148行代码，建议拆分以提高可维护性",
+          "evidence": "titan_ml.py: 2148 lines",
+          "fix_hint": "将相对独立的类或函数提取到单独模块",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:48:33.545248"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_external_data.py (1796行)",
+          "detail": "server/titan_external_data.py 超过1000行，关注可维护性",
+          "evidence": "titan_external_data.py: 1796 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:48:33.545251"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_ai_coordinator.py (1384行)",
+          "detail": "server/titan_ai_coordinator.py 超过1000行，关注可维护性",
+          "evidence": "titan_ai_coordinator.py: 1384 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:48:33.545255"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_autopilot.py (1383行)",
+          "detail": "server/titan_autopilot.py 超过1000行，关注可维护性",
+          "evidence": "titan_autopilot.py: 1383 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-02-22T01:48:33.545257"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "info",
+          "title": "币安就绪度评估: 43%",
+          "detail": "就绪: 3项 | 部分就绪: 6项 | 缺失: 5项\n当前系统以纸盘交易为主，已有PaperTrader和OrderEngine基础框架，但缺少币安API直连、WebSocket实时流、限频控制、密钥管理等关键实盘组件。",
+          "evidence": "ready=3 partial=6 missing=5 score=43%",
+          "fix_hint": "",
+          "category": "binance_readiness",
+          "timestamp": "2026-02-22T01:48:33.620437"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "info",
+          "title": "已有交易所相关代码: 5个文件",
+          "detail": "文件: modal_training_app.py, titan_external_data.py, titan_prompt_library.py, titan_self_inspector.py, api.py",
+          "evidence": "含binance/ccxt引用的文件: ['modal_training_app.py', 'titan_external_data.py', 'titan_prompt_library.py', 'titan_self_inspector.py', 'api.py']",
+          "fix_hint": "",
+          "category": "binance_existing",
+          "timestamp": "2026-02-22T01:48:33.652186"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "suggestion",
+          "title": "币安实盘升级路线图",
+          "detail": "Phase 1: API连接层:\n  - 实现BinanceConnector类：REST API封装 + HMAC签名\n  - WebSocket用户数据流：订单更新/余额变动实时推送\n  - API限频管理器：令牌桶算法，遵守1200次/分限制\n\nPhase 2: 订单引擎升级:\n  - PaperTrader→LiveTrader适配：统一接口，可切换模式\n  - 订单类型支持：MARKET/LIMIT/STOP_LOSS_LIMIT/OCO\n  - 部分成交处理 + 订单状态机\n\nPhase 3: 风控加固:\n  - 实盘紧急平仓机制：一键平所有仓\n  - 仓位对账：每分钟与交易所同步真实持仓\n  - 滑点预估和手续费精确计算\n\nPhase 4: 灰度上线:\n  - 影子交易模式：实盘API但不实际下单，对比纸盘结果\n  - 小资金验证：$500起步，逐步扩大\n  - 实盘vs纸盘盈亏差异监控",
+          "evidence": "",
+          "fix_hint": "建议按Phase 1→4顺序实施，每个Phase完成后进行充分测试再进入下一阶段",
+          "category": "binance_roadmap",
+          "timestamp": "2026-02-22T01:48:33.652221"
+        }
+      ],
+      "ai_summary": "### 汇报给CEO\n\n**一、系统当前健康状态**  \n当前系统处于**亚健康**状态，存在一些需要关注的问题。\n\n**二、严重问题**  \n目前没有严重问题，系统安全性得到保证。\n\n**三、重要警告**  \n1. **低胜率预警**：最近20笔交易中胜率仅为30%，低于35%警戒线。共盈利6笔，需调整策略或信号源。如果持续低胜率，将影响整体收益和系统稳定性。\n   \n2. **拦截集中在单一原因**：在高波动环境下，100个被拦截信号中97个因同一原因被拦截，说明某个门槛设置过于严格，影响信号生成效率。\n\n3. **模块与文件管理问题**：当前代码结构较为复杂，部分文件行数超出标准，api.py和titan_ml.py的行数分别为7119和2148，建议拆分以提升可维护性。同时存在49个模块，需评估是否可以合并。\n\n**四、改进建议**  \n1. 针对低胜率，建议调整交易策略或增强数据质量，确保信号生成的可靠性。\n  \n2. 降低拦截率: 考虑调整波动环境下的信号评分标准，确保策略的灵活性。\n  \n3. 针对代码结构，拆分超大文件，并评估模块整合，提升系统性能与可维护性。\n  \n4. 加速币安实盘功能的完善，建立API连接、WebSocket实时流等关键组件。\n\n**五、趋势判断**  \n与上次自检相比，系统在重要警告与信息层面有所增加，因此需加快优化步伐，确保系统健康度回升。\n\n以上是本次自检的详细汇报，感谢您对我的支持与信任！",
+      "inspector_analyses": {
+        "performance_doctor": "{\n  \"urgent_issue\": \"低胜率预警最紧急\",\n  \"correlation_analysis\": \"低胜率可能与拦截集中在高波动环境的要求评分过严有关，导致信号生成不足，从而影响胜率。\",\n  \"repair_priority\": [\n    \"调整高波动环境的评分要求，适度放宽阈值。\",\n    \"分析胜率情况并优化信号生成链路。\"\n  ]\n}",
+        "architecture_advisor": "1. 最紧急的问题是超大文件api.py，因其包含7119行代码，直接影响系统可维护性，必须尽快拆分。\n2. 问题之间存在关联，模块数量过多导致api.py及其他文件中功能重复和混乱，进而形成维护困难的局面。\n3. 修复优先级为P0（必须）针对api.py的拆分，其次为P1（重要）修复titan_ml.py、titan_external_data.py、titan_ai_coordinator.py和titan_autopilot.py。建议先合并相似模块再拆分大文件，提高系统整体架构的可维护性。"
+      }
+    },
+    {
+      "timestamp": "2026-02-22T04:07:33.513721",
+      "duration_seconds": 0.397957,
+      "inspectors_run": [
+        "logic_auditor",
+        "config_sentinel",
+        "performance_doctor",
+        "anomaly_patrol",
+        "architecture_advisor",
+        "binance_readiness"
+      ],
+      "total_findings": 11,
+      "by_severity": {
+        "critical": 0,
+        "warning": 3,
+        "info": 7,
+        "suggestion": 1
+      },
+      "findings": [
+        {
+          "inspector": "performance_doctor",
+          "severity": "warning",
+          "title": "低胜率预警: 最近20笔胜率30%",
+          "detail": "胜率低于35%，需关注。最近20笔中6笔盈利。",
+          "evidence": "近20笔: 6胜/14负 = 30.0%",
+          "fix_hint": "",
+          "category": "low_win_rate",
+          "timestamp": "2026-02-22T04:07:33.581536"
+        },
+        {
+          "inspector": "performance_doctor",
+          "severity": "warning",
+          "title": "拦截集中在单一原因: 拦截: 高波动环境要求评分>=75",
+          "detail": "过去3天100个被拦截信号中97个(97%)因同一原因被拦截。可能是某个门槛设置过于严格。",
+          "evidence": "Top原因: 拦截: 高波动环境要求评分>=75 (97/100次)",
+          "fix_hint": "考虑调整该特定拦截规则的阈值",
+          "category": "blocked_pattern",
+          "timestamp": "2026-02-22T04:07:33.602273"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "模块数量过多: 50个Titan文件",
+          "detail": "server/目录下有50个titan_*.py文件，模块数量较多。建议评估是否有可以合并的相似模块。",
+          "evidence": "模块总数: 50",
+          "fix_hint": "考虑将功能相近的模块合并（如多个risk相关模块）",
+          "category": "complexity",
+          "timestamp": "2026-02-22T04:07:33.637416"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "warning",
+          "title": "超大文件: api.py (4633行)",
+          "detail": "文件 server/api.py 有4633行代码，建议拆分以提高可维护性",
+          "evidence": "api.py: 4633 lines",
+          "fix_hint": "将相对独立的类或函数提取到单独模块",
+          "category": "large_file",
+          "timestamp": "2026-02-22T04:07:33.703581"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_external_data.py (1796行)",
+          "detail": "server/titan_external_data.py 超过1000行，关注可维护性",
+          "evidence": "titan_external_data.py: 1796 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-02-22T04:07:33.703605"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_ai_coordinator.py (1384行)",
+          "detail": "server/titan_ai_coordinator.py 超过1000行，关注可维护性",
+          "evidence": "titan_ai_coordinator.py: 1384 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-02-22T04:07:33.703611"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_autopilot.py (1383行)",
+          "detail": "server/titan_autopilot.py 超过1000行，关注可维护性",
+          "evidence": "titan_autopilot.py: 1383 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-02-22T04:07:33.703616"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_ml.py (1348行)",
+          "detail": "server/titan_ml.py 超过1000行，关注可维护性",
+          "evidence": "titan_ml.py: 1348 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-02-22T04:07:33.703622"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "info",
+          "title": "币安就绪度评估: 43%",
+          "detail": "就绪: 3项 | 部分就绪: 6项 | 缺失: 5项\n当前系统以纸盘交易为主，已有PaperTrader和OrderEngine基础框架，但缺少币安API直连、WebSocket实时流、限频控制、密钥管理等关键实盘组件。",
+          "evidence": "ready=3 partial=6 missing=5 score=43%",
+          "fix_hint": "",
+          "category": "binance_readiness",
+          "timestamp": "2026-02-22T04:07:33.810277"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "info",
+          "title": "已有交易所相关代码: 5个文件",
+          "detail": "文件: modal_training_app.py, titan_external_data.py, titan_prompt_library.py, titan_self_inspector.py, api.py",
+          "evidence": "含binance/ccxt引用的文件: ['modal_training_app.py', 'titan_external_data.py', 'titan_prompt_library.py', 'titan_self_inspector.py', 'api.py']",
+          "fix_hint": "",
+          "category": "binance_existing",
+          "timestamp": "2026-02-22T04:07:33.911632"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "suggestion",
+          "title": "币安实盘升级路线图",
+          "detail": "Phase 1: API连接层:\n  - 实现BinanceConnector类：REST API封装 + HMAC签名\n  - WebSocket用户数据流：订单更新/余额变动实时推送\n  - API限频管理器：令牌桶算法，遵守1200次/分限制\n\nPhase 2: 订单引擎升级:\n  - PaperTrader→LiveTrader适配：统一接口，可切换模式\n  - 订单类型支持：MARKET/LIMIT/STOP_LOSS_LIMIT/OCO\n  - 部分成交处理 + 订单状态机\n\nPhase 3: 风控加固:\n  - 实盘紧急平仓机制：一键平所有仓\n  - 仓位对账：每分钟与交易所同步真实持仓\n  - 滑点预估和手续费精确计算\n\nPhase 4: 灰度上线:\n  - 影子交易模式：实盘API但不实际下单，对比纸盘结果\n  - 小资金验证：$500起步，逐步扩大\n  - 实盘vs纸盘盈亏差异监控",
+          "evidence": "",
+          "fix_hint": "建议按Phase 1→4顺序实施，每个Phase完成后进行充分测试再进入下一阶段",
+          "category": "binance_roadmap",
+          "timestamp": "2026-02-22T04:07:33.911667"
+        }
+      ],
+      "ai_summary": "### 自检报告\n\n1. **系统当前健康状态**: 亚健康\n\n2. **严格问题**:\n   - **低胜率预警**: 最近20笔交易胜率仅为30%，低于35%的警戒线，需立即关注调整策略。分析可知，20笔中仅6笔盈利。\n   - **拦截集中在单一原因**: 过去3天拦截的信号中，97%因高波动环境要求评分>=75而被拦截，可能说明某个门槛过于严格，影响信号生成效果。\n\n3. **改进建议**:\n   - 增强交易策略灵活性，考虑降低高波动环境下的信号拦截门槛，减少因评分过高而导致的信号流失。\n   - 针对低胜率，进行深入分析交易信号和市场环境，调整模型参数和交易策略，以提升胜率至正常水平。\n   - 针对档案处理，考虑合并相似模块以减少数量，特别是超大的代码文件，增强可维护性和清晰性。\n\n4. **趋势判断**: 与上次自检相比，系统略有下降。主要表现在胜率和信号拦截上，需警惕并采取措施修复。\n\n整体来看，系统在多个方面面临优化的需求，尤其是交易成果和性能的健康度。及时响应这些警告将是当前的当务之急。",
+      "inspector_analyses": {
+        "performance_doctor": "{\n  \"urgent_issue\": \"低胜率预警\",\n  \"association_analysis\": \"低胜率可能与拦截集中于高波动环境有关，高波动要求评分过严导致信号生成减少，进一步影响胜率。\",\n  \"fix_priority\": [\n    {\n      \"issue\": \"拦截集中在单一原因\",\n      \"priority\": 1\n    },\n    {\n      \"issue\": \"低胜率预警\",\n      \"priority\": 2\n    }\n  ]\n}",
+        "architecture_advisor": "{\n  \"紧急问题\": {\n    \"描述\": \"超大文件: api.py (4633行) 是最紧急的问题，影响系统的可维护性。\",\n    \"优先级\": \"P0\"\n  },\n  \"根因分析\": {\n    \"模块数量过多\": \"导致文件复杂，不易管理。\",\n    \"超大文件与大文件\": \"几个大文件表明功能未模块化，进一步影响代码可读性与维护性。\"\n  },\n  \"修复优先级\": [\n    {\n      \"问题\": \"超大文件: api.py\",\n      \"优先级\": \"P0\"\n    },\n    {\n      \"问题\": \"模块数量过多: 50个Titan文件\",\n      \"优先级\": \"P1\"\n    },\n    {\n      \"问题\": \"大文件: titan_external_data.py\",\n      \"优先级\": \"P1\"\n    },\n    {\n      \"问题\": \"大文件: titan_ai_coordinator.py\",\n      \"优先级\": \"P1\"\n    },\n    {\n      \"问题\": \"大文件: titan_autopilot.py\",\n      \"优先级\": \"P1\"\n    },\n    {\n      \"问题\": \"大文件: titan_ml.py\",\n      \"优先级\": \"P1\"\n    }\n  ]\n}"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T11:50:30.405262",
+      "duration_seconds": 0.610269,
+      "inspectors_run": [
+        "logic_auditor",
+        "config_sentinel",
+        "performance_doctor",
+        "anomaly_patrol",
+        "architecture_advisor",
+        "binance_readiness"
+      ],
+      "total_findings": 14,
+      "by_severity": {
+        "critical": 4,
+        "warning": 2,
+        "info": 7,
+        "suggestion": 1
+      },
+      "findings": [
+        {
+          "inspector": "config_sentinel",
+          "severity": "critical",
+          "title": "Governor配置偏移: max_positions",
+          "detail": "Governor文件中max_positions=10，但代码期望值=8",
+          "evidence": "文件值: 10; 期望值: 8",
+          "fix_hint": "Governor._sync_system_constants()应在启动时修正此值",
+          "category": "config_drift",
+          "timestamp": "2026-03-01T11:50:30.784359"
+        },
+        {
+          "inspector": "config_sentinel",
+          "severity": "critical",
+          "title": "Governor配置偏移: max_positions_cautious",
+          "detail": "Governor文件中max_positions_cautious=7，但代码期望值=6",
+          "evidence": "文件值: 7; 期望值: 6",
+          "fix_hint": "Governor._sync_system_constants()应在启动时修正此值",
+          "category": "config_drift",
+          "timestamp": "2026-03-01T11:50:30.784372"
+        },
+        {
+          "inspector": "performance_doctor",
+          "severity": "warning",
+          "title": "拦截集中在单一原因: 拦截: 高波动环境趋势交易要求评分>=72",
+          "detail": "过去3天11个被拦截信号中8个(73%)因同一原因被拦截。可能是某个门槛设置过于严格。",
+          "evidence": "Top原因: 拦截: 高波动环境趋势交易要求评分>=72 (8/11次)",
+          "fix_hint": "考虑调整该特定拦截规则的阈值",
+          "category": "blocked_pattern",
+          "timestamp": "2026-03-01T11:50:30.788003"
+        },
+        {
+          "inspector": "performance_doctor",
+          "severity": "critical",
+          "title": "BTC趋势传参断裂: 最近10笔中10笔缺失btc_macro_trend_at_entry",
+          "detail": "情绪维度修复依赖btc_macro_trend传参，10/10笔缺失说明传参链断裂",
+          "evidence": "缺失10/10笔btc_macro_trend_at_entry",
+          "fix_hint": "检查api.py中score()调用是否传入btc_macro_trend参数",
+          "category": "sentiment_btc_trend_param",
+          "timestamp": "2026-03-01T11:50:30.790092"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "critical",
+          "title": "模型过期: MM资金管理模型 (272h未更新)",
+          "detail": "MM资金管理模型上次训练在272小时前。模型可能不反映近期市场状况。",
+          "evidence": "最后更新: 2026-02-18 03:51",
+          "fix_hint": "触发云端重训练或检查Modal训练任务是否正常",
+          "category": "model_stale",
+          "timestamp": "2026-03-01T11:50:30.804337"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "模块数量过多: 50个Titan文件",
+          "detail": "server/目录下有50个titan_*.py文件，模块数量较多。建议评估是否有可以合并的相似模块。",
+          "evidence": "模块总数: 50",
+          "fix_hint": "考虑将功能相近的模块合并（如多个risk相关模块）",
+          "category": "complexity",
+          "timestamp": "2026-03-01T11:50:30.813127"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "warning",
+          "title": "超大文件: api.py (4828行)",
+          "detail": "文件 server/api.py 有4828行代码，建议拆分以提高可维护性",
+          "evidence": "api.py: 4828 lines",
+          "fix_hint": "将相对独立的类或函数提取到单独模块",
+          "category": "large_file",
+          "timestamp": "2026-03-01T11:50:30.908915"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_external_data.py (1810行)",
+          "detail": "server/titan_external_data.py 超过1000行，关注可维护性",
+          "evidence": "titan_external_data.py: 1810 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-03-01T11:50:30.908932"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_ai_coordinator.py (1780行)",
+          "detail": "server/titan_ai_coordinator.py 超过1000行，关注可维护性",
+          "evidence": "titan_ai_coordinator.py: 1780 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-03-01T11:50:30.908937"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_autopilot.py (1633行)",
+          "detail": "server/titan_autopilot.py 超过1000行，关注可维护性",
+          "evidence": "titan_autopilot.py: 1633 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-03-01T11:50:30.908941"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_ml.py (1361行)",
+          "detail": "server/titan_ml.py 超过1000行，关注可维护性",
+          "evidence": "titan_ml.py: 1361 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-03-01T11:50:30.908945"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "info",
+          "title": "币安就绪度评估: 43%",
+          "detail": "就绪: 3项 | 部分就绪: 6项 | 缺失: 5项\n当前系统以纸盘交易为主，已有PaperTrader和OrderEngine基础框架，但缺少币安API直连、WebSocket实时流、限频控制、密钥管理等关键实盘组件。",
+          "evidence": "ready=3 partial=6 missing=5 score=43%",
+          "fix_hint": "",
+          "category": "binance_readiness",
+          "timestamp": "2026-03-01T11:50:30.972470"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "info",
+          "title": "已有交易所相关代码: 7个文件",
+          "detail": "文件: modal_training_app.py, titan_autopilot.py, titan_prompt_library.py, api.py, titan_external_data.py, titan_ai_coordinator.py, titan_self_inspector.py",
+          "evidence": "含binance/ccxt引用的文件: ['modal_training_app.py', 'titan_autopilot.py', 'titan_prompt_library.py', 'api.py', 'titan_external_data.py', 'titan_ai_coordinator.py', 'titan_self_inspector.py']",
+          "fix_hint": "",
+          "category": "binance_existing",
+          "timestamp": "2026-03-01T11:50:31.015487"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "suggestion",
+          "title": "币安实盘升级路线图",
+          "detail": "Phase 1: API连接层:\n  - 实现BinanceConnector类：REST API封装 + HMAC签名\n  - WebSocket用户数据流：订单更新/余额变动实时推送\n  - API限频管理器：令牌桶算法，遵守1200次/分限制\n\nPhase 2: 订单引擎升级:\n  - PaperTrader→LiveTrader适配：统一接口，可切换模式\n  - 订单类型支持：MARKET/LIMIT/STOP_LOSS_LIMIT/OCO\n  - 部分成交处理 + 订单状态机\n\nPhase 3: 风控加固:\n  - 实盘紧急平仓机制：一键平所有仓\n  - 仓位对账：每分钟与交易所同步真实持仓\n  - 滑点预估和手续费精确计算\n\nPhase 4: 灰度上线:\n  - 影子交易模式：实盘API但不实际下单，对比纸盘结果\n  - 小资金验证：$500起步，逐步扩大\n  - 实盘vs纸盘盈亏差异监控",
+          "evidence": "",
+          "fix_hint": "建议按Phase 1→4顺序实施，每个Phase完成后进行充分测试再进入下一阶段",
+          "category": "binance_roadmap",
+          "timestamp": "2026-03-01T11:50:31.015520"
+        }
+      ],
+      "ai_summary": "",
+      "inspector_analyses": {}
+    },
+    {
+      "timestamp": "2026-03-01T11:51:39.495511",
+      "duration_seconds": 0.361622,
+      "inspectors_run": [
+        "logic_auditor",
+        "config_sentinel",
+        "performance_doctor",
+        "anomaly_patrol",
+        "architecture_advisor",
+        "binance_readiness"
+      ],
+      "total_findings": 12,
+      "by_severity": {
+        "critical": 1,
+        "warning": 3,
+        "info": 7,
+        "suggestion": 1
+      },
+      "findings": [
+        {
+          "inspector": "performance_doctor",
+          "severity": "warning",
+          "title": "拦截集中在单一原因: 拦截: 高波动环境趋势交易要求评分>=72",
+          "detail": "过去3天11个被拦截信号中8个(73%)因同一原因被拦截。可能是某个门槛设置过于严格。",
+          "evidence": "Top原因: 拦截: 高波动环境趋势交易要求评分>=72 (8/11次)",
+          "fix_hint": "考虑调整该特定拦截规则的阈值",
+          "category": "blocked_pattern",
+          "timestamp": "2026-03-01T11:51:39.708398"
+        },
+        {
+          "inspector": "performance_doctor",
+          "severity": "warning",
+          "title": "BTC趋势传参部分缺失: 2/10笔",
+          "detail": "少量交易缺失btc_macro_trend_at_entry，可能是旧交易记录",
+          "evidence": "缺失2/10笔",
+          "fix_hint": "",
+          "category": "sentiment_btc_trend_param",
+          "timestamp": "2026-03-01T11:51:39.710103"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "critical",
+          "title": "模型过期: MM资金管理模型 (272h未更新)",
+          "detail": "MM资金管理模型上次训练在272小时前。模型可能不反映近期市场状况。",
+          "evidence": "最后更新: 2026-02-18 03:51",
+          "fix_hint": "触发云端重训练或检查Modal训练任务是否正常",
+          "category": "model_stale",
+          "timestamp": "2026-03-01T11:51:39.721238"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "模块数量过多: 50个Titan文件",
+          "detail": "server/目录下有50个titan_*.py文件，模块数量较多。建议评估是否有可以合并的相似模块。",
+          "evidence": "模块总数: 50",
+          "fix_hint": "考虑将功能相近的模块合并（如多个risk相关模块）",
+          "category": "complexity",
+          "timestamp": "2026-03-01T11:51:39.725482"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "warning",
+          "title": "超大文件: api.py (4828行)",
+          "detail": "文件 server/api.py 有4828行代码，建议拆分以提高可维护性",
+          "evidence": "api.py: 4828 lines",
+          "fix_hint": "将相对独立的类或函数提取到单独模块",
+          "category": "large_file",
+          "timestamp": "2026-03-01T11:51:39.761370"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_external_data.py (1810行)",
+          "detail": "server/titan_external_data.py 超过1000行，关注可维护性",
+          "evidence": "titan_external_data.py: 1810 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-03-01T11:51:39.761380"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_ai_coordinator.py (1780行)",
+          "detail": "server/titan_ai_coordinator.py 超过1000行，关注可维护性",
+          "evidence": "titan_ai_coordinator.py: 1780 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-03-01T11:51:39.761383"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_autopilot.py (1633行)",
+          "detail": "server/titan_autopilot.py 超过1000行，关注可维护性",
+          "evidence": "titan_autopilot.py: 1633 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-03-01T11:51:39.761385"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_ml.py (1361行)",
+          "detail": "server/titan_ml.py 超过1000行，关注可维护性",
+          "evidence": "titan_ml.py: 1361 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-03-01T11:51:39.761388"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "info",
+          "title": "币安就绪度评估: 43%",
+          "detail": "就绪: 3项 | 部分就绪: 6项 | 缺失: 5项\n当前系统以纸盘交易为主，已有PaperTrader和OrderEngine基础框架，但缺少币安API直连、WebSocket实时流、限频控制、密钥管理等关键实盘组件。",
+          "evidence": "ready=3 partial=6 missing=5 score=43%",
+          "fix_hint": "",
+          "category": "binance_readiness",
+          "timestamp": "2026-03-01T11:51:39.813769"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "info",
+          "title": "已有交易所相关代码: 7个文件",
+          "detail": "文件: modal_training_app.py, titan_autopilot.py, titan_prompt_library.py, api.py, titan_external_data.py, titan_ai_coordinator.py, titan_self_inspector.py",
+          "evidence": "含binance/ccxt引用的文件: ['modal_training_app.py', 'titan_autopilot.py', 'titan_prompt_library.py', 'api.py', 'titan_external_data.py', 'titan_ai_coordinator.py', 'titan_self_inspector.py']",
+          "fix_hint": "",
+          "category": "binance_existing",
+          "timestamp": "2026-03-01T11:51:39.857099"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "suggestion",
+          "title": "币安实盘升级路线图",
+          "detail": "Phase 1: API连接层:\n  - 实现BinanceConnector类：REST API封装 + HMAC签名\n  - WebSocket用户数据流：订单更新/余额变动实时推送\n  - API限频管理器：令牌桶算法，遵守1200次/分限制\n\nPhase 2: 订单引擎升级:\n  - PaperTrader→LiveTrader适配：统一接口，可切换模式\n  - 订单类型支持：MARKET/LIMIT/STOP_LOSS_LIMIT/OCO\n  - 部分成交处理 + 订单状态机\n\nPhase 3: 风控加固:\n  - 实盘紧急平仓机制：一键平所有仓\n  - 仓位对账：每分钟与交易所同步真实持仓\n  - 滑点预估和手续费精确计算\n\nPhase 4: 灰度上线:\n  - 影子交易模式：实盘API但不实际下单，对比纸盘结果\n  - 小资金验证：$500起步，逐步扩大\n  - 实盘vs纸盘盈亏差异监控",
+          "evidence": "",
+          "fix_hint": "建议按Phase 1→4顺序实施，每个Phase完成后进行充分测试再进入下一阶段",
+          "category": "binance_roadmap",
+          "timestamp": "2026-03-01T11:51:39.857126"
+        }
+      ],
+      "ai_summary": "",
+      "inspector_analyses": {}
+    },
+    {
+      "timestamp": "2026-03-12T03:30:29.353573",
+      "duration_seconds": 0.064709,
+      "inspectors_run": [
+        "logic_auditor",
+        "config_sentinel",
+        "performance_doctor",
+        "anomaly_patrol",
+        "architecture_advisor",
+        "binance_readiness"
+      ],
+      "total_findings": 14,
+      "by_severity": {
+        "critical": 4,
+        "warning": 2,
+        "info": 7,
+        "suggestion": 1
+      },
+      "findings": [
+        {
+          "inspector": "performance_doctor",
+          "severity": "critical",
+          "title": "严重低胜率: 最近20笔胜率20%",
+          "detail": "胜率远低于45%目标。最近20笔交易中仅4笔盈利。",
+          "evidence": "近20笔: 4胜/16负 = 20.0%",
+          "fix_hint": "检查信号质量、入场时机、止损设置是否需要调整",
+          "category": "low_win_rate",
+          "timestamp": "2026-03-12T03:30:29.370250"
+        },
+        {
+          "inspector": "performance_doctor",
+          "severity": "critical",
+          "title": "信号通过率极低: 0.0%",
+          "detail": "过去7天100个信号中仅0个通过，100个被拦截。可能存在门槛叠加导致的过度过滤。",
+          "evidence": "通过: 0; 拦截: 100; 通过率: 0.0%",
+          "fix_hint": "检查SignalGate、UnifiedDecision、Governor的门槛是否叠加过严",
+          "category": "low_pass_rate",
+          "timestamp": "2026-03-12T03:30:29.370856"
+        },
+        {
+          "inspector": "performance_doctor",
+          "severity": "warning",
+          "title": "拦截集中在单一原因: 拦截: 高波动环境趋势交易要求评分>=73",
+          "detail": "过去3天100个被拦截信号中85个(85%)因同一原因被拦截。可能是某个门槛设置过于严格。",
+          "evidence": "Top原因: 拦截: 高波动环境趋势交易要求评分>=73 (85/100次)",
+          "fix_hint": "考虑调整该特定拦截规则的阈值",
+          "category": "blocked_pattern",
+          "timestamp": "2026-03-12T03:30:29.371193"
+        },
+        {
+          "inspector": "performance_doctor",
+          "severity": "critical",
+          "title": "BTC趋势传参断裂: 最近10笔中8笔缺失btc_macro_trend_at_entry",
+          "detail": "情绪维度修复依赖btc_macro_trend传参，8/10笔缺失说明传参链断裂",
+          "evidence": "缺失8/10笔btc_macro_trend_at_entry",
+          "fix_hint": "检查api.py中score()调用是否传入btc_macro_trend参数",
+          "category": "sentiment_btc_trend_param",
+          "timestamp": "2026-03-12T03:30:29.371864"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "critical",
+          "title": "模型过期: MM资金管理模型 (528h未更新)",
+          "detail": "MM资金管理模型上次训练在528小时前。模型可能不反映近期市场状况。",
+          "evidence": "最后更新: 2026-02-18 03:51",
+          "fix_hint": "触发云端重训练或检查Modal训练任务是否正常",
+          "category": "model_stale",
+          "timestamp": "2026-03-12T03:30:29.377841"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "模块数量过多: 58个Titan文件",
+          "detail": "server/目录下有58个titan_*.py文件，模块数量较多。建议评估是否有可以合并的相似模块。",
+          "evidence": "模块总数: 58",
+          "fix_hint": "考虑将功能相近的模块合并（如多个risk相关模块）",
+          "category": "complexity",
+          "timestamp": "2026-03-12T03:30:29.380935"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "warning",
+          "title": "超大文件: api.py (5056行)",
+          "detail": "文件 server/api.py 有5056行代码，建议拆分以提高可维护性",
+          "evidence": "api.py: 5056 lines",
+          "fix_hint": "将相对独立的类或函数提取到单独模块",
+          "category": "large_file",
+          "timestamp": "2026-03-12T03:30:29.389191"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_external_data.py (1874行)",
+          "detail": "server/titan_external_data.py 超过1000行，关注可维护性",
+          "evidence": "titan_external_data.py: 1874 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-03-12T03:30:29.389206"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_ai_coordinator.py (1872行)",
+          "detail": "server/titan_ai_coordinator.py 超过1000行，关注可维护性",
+          "evidence": "titan_ai_coordinator.py: 1872 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-03-12T03:30:29.389210"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_autopilot.py (1845行)",
+          "detail": "server/titan_autopilot.py 超过1000行，关注可维护性",
+          "evidence": "titan_autopilot.py: 1845 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-03-12T03:30:29.389213"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_ml.py (1382行)",
+          "detail": "server/titan_ml.py 超过1000行，关注可维护性",
+          "evidence": "titan_ml.py: 1382 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-03-12T03:30:29.389215"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "info",
+          "title": "币安就绪度评估: 43%",
+          "detail": "就绪: 3项 | 部分就绪: 6项 | 缺失: 5项\n当前系统以纸盘交易为主，已有PaperTrader和OrderEngine基础框架，但缺少币安API直连、WebSocket实时流、限频控制、密钥管理等关键实盘组件。",
+          "evidence": "ready=3 partial=6 missing=5 score=43%",
+          "fix_hint": "",
+          "category": "binance_readiness",
+          "timestamp": "2026-03-12T03:30:29.404448"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "info",
+          "title": "已有交易所相关代码: 7个文件",
+          "detail": "文件: modal_training_app.py, titan_self_inspector.py, titan_external_data.py, api.py, titan_prompt_library.py, titan_ai_coordinator.py, titan_autopilot.py",
+          "evidence": "含binance/ccxt引用的文件: ['modal_training_app.py', 'titan_self_inspector.py', 'titan_external_data.py', 'api.py', 'titan_prompt_library.py', 'titan_ai_coordinator.py', 'titan_autopilot.py']",
+          "fix_hint": "",
+          "category": "binance_existing",
+          "timestamp": "2026-03-12T03:30:29.418228"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "suggestion",
+          "title": "币安实盘升级路线图",
+          "detail": "Phase 1: API连接层:\n  - 实现BinanceConnector类：REST API封装 + HMAC签名\n  - WebSocket用户数据流：订单更新/余额变动实时推送\n  - API限频管理器：令牌桶算法，遵守1200次/分限制\n\nPhase 2: 订单引擎升级:\n  - PaperTrader→LiveTrader适配：统一接口，可切换模式\n  - 订单类型支持：MARKET/LIMIT/STOP_LOSS_LIMIT/OCO\n  - 部分成交处理 + 订单状态机\n\nPhase 3: 风控加固:\n  - 实盘紧急平仓机制：一键平所有仓\n  - 仓位对账：每分钟与交易所同步真实持仓\n  - 滑点预估和手续费精确计算\n\nPhase 4: 灰度上线:\n  - 影子交易模式：实盘API但不实际下单，对比纸盘结果\n  - 小资金验证：$500起步，逐步扩大\n  - 实盘vs纸盘盈亏差异监控",
+          "evidence": "",
+          "fix_hint": "建议按Phase 1→4顺序实施，每个Phase完成后进行充分测试再进入下一阶段",
+          "category": "binance_roadmap",
+          "timestamp": "2026-03-12T03:30:29.418273"
+        }
+      ],
+      "ai_summary": "### 系统自检汇报\n\n1. **一句话概括:** 系统当前处于“需治疗”状态，存在多项严重问题亟需解决。\n\n2. **严重问题:**\n   - **严重低胜率:** 最近20笔交易仅胜率20%，远低于目标45%。需尽快分析交易策略和市场信号。\n   - **信号通过率极低:** 最近7天内100个信号均未通过，极有可能是门槛设置过于保守导致。\n   - **BTC趋势传参断裂:** 近10笔交易中8笔缺失BTC趋势传参，影响情绪模型准确性。\n   - **模型过期:** MM资金管理模型已528小时未更新，可能不反映最新市场状况。\n\n3. **改进建议:**\n   - 立即审查交易策略和信号生成逻辑，调整门槛设置，以提升信号通过率和胜率。\n   - 检查BTC趋势传参链，修复断裂，确保所有交易都能获取到有效数据。\n   - 尽快更新MM模型，以便适应当前市场环境。\n   - 考虑合并部分模块，简化系统结构并提高可维护性。\n\n4. **趋势判断:** 与上次自检相比，系统状态明显变差，存在多项新的严重问题需立即处理。",
+      "inspector_analyses": {
+        "performance_doctor": "1. 最紧急的问题是信号通过率极低（0.0%），这直接导致策略无法正常运作，所有信号均被拦截。\n\n2. 这些问题之间存在关联。信号通过率低可能与严重低胜率有关，若信号质量受到过度过滤，导致有效信号被拦截，从而影响胜率。同时，BTC趋势传参断裂也可能导致对市场环境判断不足，进一步降低信号通过率和交易成功率。\n\n3. 修复优先级建议为：首先调整信号通过率问题，检查门槛设置（SignalGate等）；其次修复BTC趋势传参的问题，确保数据传递及时准确；最后再分析低胜率的具体原因，优化信号质量和入场时机。",
+        "anomaly_patrol": "{\n  \"最紧急问题\": \"MM资金管理模型过期\",\n  \"关联分析\": \"MM资金管理模型长时间未更新，可能导致决策基于过时的数据，影响资金管理策略的有效性，可能与整体交易表现不佳相关。\",\n  \"修复优先级\": \"高优先级，需立即触发云端重训练，并检查Modal训练任务是否正常，以确保模型反映当前市场状况。\"\n}",
+        "architecture_advisor": "1. 最紧急的问题是超大文件api.py，因其行数超过5000行，严重影响可维护性，必须尽快拆分。\n\n2. 问题之间存在关联，模块数量过多和多个大文件导致代码的复杂性和维护成本增加。api.py的复杂性可能导致多个功能模块未能有效分离，增加了逻辑混乱的风险。\n\n3. 修复优先级建议为P0：优先拆分api.py文件以降低复杂性；P1：合并相似功能的模块，优化模块数量；P2：针对其他大文件进行重构，提取独立功能，提高可维护性。"
+      }
+    },
+    {
+      "timestamp": "2026-03-14T18:39:11.151159",
+      "duration_seconds": 0.071552,
+      "inspectors_run": [
+        "logic_auditor",
+        "config_sentinel",
+        "performance_doctor",
+        "anomaly_patrol",
+        "architecture_advisor",
+        "binance_readiness"
+      ],
+      "total_findings": 15,
+      "by_severity": {
+        "critical": 4,
+        "warning": 3,
+        "info": 7,
+        "suggestion": 1
+      },
+      "findings": [
+        {
+          "inspector": "config_sentinel",
+          "severity": "warning",
+          "title": "数据过期: 反馈引擎",
+          "detail": "data/titan_feedback.json 上次更新在 26.6 小时前（阈值 24h）",
+          "evidence": "最后修改: 2026-03-13 16:05",
+          "fix_hint": "检查反馈引擎模块是否正常运行和保存",
+          "category": "stale_data",
+          "timestamp": "2026-03-14T18:39:11.161358"
+        },
+        {
+          "inspector": "performance_doctor",
+          "severity": "critical",
+          "title": "严重低胜率: 最近20笔胜率20%",
+          "detail": "胜率远低于45%目标。最近20笔交易中仅4笔盈利。",
+          "evidence": "近20笔: 4胜/16负 = 20.0%",
+          "fix_hint": "检查信号质量、入场时机、止损设置是否需要调整",
+          "category": "low_win_rate",
+          "timestamp": "2026-03-14T18:39:11.168637"
+        },
+        {
+          "inspector": "performance_doctor",
+          "severity": "critical",
+          "title": "信号通过率极低: 0.0%",
+          "detail": "过去7天100个信号中仅0个通过，100个被拦截。可能存在门槛叠加导致的过度过滤。",
+          "evidence": "通过: 0; 拦截: 100; 通过率: 0.0%",
+          "fix_hint": "检查SignalGate、UnifiedDecision、Governor的门槛是否叠加过严",
+          "category": "low_pass_rate",
+          "timestamp": "2026-03-14T18:39:11.169243"
+        },
+        {
+          "inspector": "performance_doctor",
+          "severity": "warning",
+          "title": "拦截集中在单一原因: 拦截: 高波动环境趋势交易要求评分>=73",
+          "detail": "过去3天69个被拦截信号中57个(83%)因同一原因被拦截。可能是某个门槛设置过于严格。",
+          "evidence": "Top原因: 拦截: 高波动环境趋势交易要求评分>=73 (57/69次)",
+          "fix_hint": "考虑调整该特定拦截规则的阈值",
+          "category": "blocked_pattern",
+          "timestamp": "2026-03-14T18:39:11.169624"
+        },
+        {
+          "inspector": "performance_doctor",
+          "severity": "critical",
+          "title": "BTC趋势传参断裂: 最近10笔中8笔缺失btc_macro_trend_at_entry",
+          "detail": "情绪维度修复依赖btc_macro_trend传参，8/10笔缺失说明传参链断裂",
+          "evidence": "缺失8/10笔btc_macro_trend_at_entry",
+          "fix_hint": "检查api.py中score()调用是否传入btc_macro_trend参数",
+          "category": "sentiment_btc_trend_param",
+          "timestamp": "2026-03-14T18:39:11.170226"
+        },
+        {
+          "inspector": "anomaly_patrol",
+          "severity": "critical",
+          "title": "模型过期: MM资金管理模型 (591h未更新)",
+          "detail": "MM资金管理模型上次训练在591小时前。模型可能不反映近期市场状况。",
+          "evidence": "最后更新: 2026-02-18 03:51",
+          "fix_hint": "触发云端重训练或检查Modal训练任务是否正常",
+          "category": "model_stale",
+          "timestamp": "2026-03-14T18:39:11.179490"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "模块数量过多: 58个Titan文件",
+          "detail": "server/目录下有58个titan_*.py文件，模块数量较多。建议评估是否有可以合并的相似模块。",
+          "evidence": "模块总数: 58",
+          "fix_hint": "考虑将功能相近的模块合并（如多个risk相关模块）",
+          "category": "complexity",
+          "timestamp": "2026-03-14T18:39:11.183155"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "warning",
+          "title": "超大文件: api.py (5123行)",
+          "detail": "文件 server/api.py 有5123行代码，建议拆分以提高可维护性",
+          "evidence": "api.py: 5123 lines",
+          "fix_hint": "将相对独立的类或函数提取到单独模块",
+          "category": "large_file",
+          "timestamp": "2026-03-14T18:39:11.191758"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_autopilot.py (1917行)",
+          "detail": "server/titan_autopilot.py 超过1000行，关注可维护性",
+          "evidence": "titan_autopilot.py: 1917 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-03-14T18:39:11.191767"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_external_data.py (1874行)",
+          "detail": "server/titan_external_data.py 超过1000行，关注可维护性",
+          "evidence": "titan_external_data.py: 1874 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-03-14T18:39:11.191770"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_ai_coordinator.py (1874行)",
+          "detail": "server/titan_ai_coordinator.py 超过1000行，关注可维护性",
+          "evidence": "titan_ai_coordinator.py: 1874 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-03-14T18:39:11.191773"
+        },
+        {
+          "inspector": "architecture_advisor",
+          "severity": "info",
+          "title": "大文件: titan_ml.py (1382行)",
+          "detail": "server/titan_ml.py 超过1000行，关注可维护性",
+          "evidence": "titan_ml.py: 1382 lines",
+          "fix_hint": "",
+          "category": "large_file",
+          "timestamp": "2026-03-14T18:39:11.191775"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "info",
+          "title": "币安就绪度评估: 43%",
+          "detail": "就绪: 3项 | 部分就绪: 6项 | 缺失: 5项\n当前系统以纸盘交易为主，已有PaperTrader和OrderEngine基础框架，但缺少币安API直连、WebSocket实时流、限频控制、密钥管理等关键实盘组件。",
+          "evidence": "ready=3 partial=6 missing=5 score=43%",
+          "fix_hint": "",
+          "category": "binance_readiness",
+          "timestamp": "2026-03-14T18:39:11.209352"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "info",
+          "title": "已有交易所相关代码: 7个文件",
+          "detail": "文件: modal_training_app.py, titan_external_data.py, titan_prompt_library.py, titan_ai_coordinator.py, api.py, titan_self_inspector.py, titan_autopilot.py",
+          "evidence": "含binance/ccxt引用的文件: ['modal_training_app.py', 'titan_external_data.py', 'titan_prompt_library.py', 'titan_ai_coordinator.py', 'api.py', 'titan_self_inspector.py', 'titan_autopilot.py']",
+          "fix_hint": "",
+          "category": "binance_existing",
+          "timestamp": "2026-03-14T18:39:11.222688"
+        },
+        {
+          "inspector": "binance_readiness",
+          "severity": "suggestion",
+          "title": "币安实盘升级路线图",
+          "detail": "Phase 1: API连接层:\n  - 实现BinanceConnector类：REST API封装 + HMAC签名\n  - WebSocket用户数据流：订单更新/余额变动实时推送\n  - API限频管理器：令牌桶算法，遵守1200次/分限制\n\nPhase 2: 订单引擎升级:\n  - PaperTrader→LiveTrader适配：统一接口，可切换模式\n  - 订单类型支持：MARKET/LIMIT/STOP_LOSS_LIMIT/OCO\n  - 部分成交处理 + 订单状态机\n\nPhase 3: 风控加固:\n  - 实盘紧急平仓机制：一键平所有仓\n  - 仓位对账：每分钟与交易所同步真实持仓\n  - 滑点预估和手续费精确计算\n\nPhase 4: 灰度上线:\n  - 影子交易模式：实盘API但不实际下单，对比纸盘结果\n  - 小资金验证：$500起步，逐步扩大\n  - 实盘vs纸盘盈亏差异监控",
+          "evidence": "",
+          "fix_hint": "建议按Phase 1→4顺序实施，每个Phase完成后进行充分测试再进入下一阶段",
+          "category": "binance_roadmap",
+          "timestamp": "2026-03-14T18:39:11.222706"
+        }
+      ],
+      "ai_summary": "## 系统自检汇报\n\n### 当前健康状态\n当前系统健康状态：亚健康。这一状态主要源于胜率和信号通过率严重低下，以及部分模型过期和配置未更新等问题。\n\n### 严重问题\n1. **严重低胜率**：最近20笔交易胜率仅为20%，远低于目标的45%。 \n2. **信号通过率极低**：过去7天100个信号中，均未通过，可能存在过度过滤。\n3. **BTC趋势传参断裂**：最近10笔交易中缺失BTC趋势参数的情况严重影响情绪分析。\n4. **模型过期**：MM资金管理模型长达591小时未更新，难以反映市场变化。\n\n### 警告问题\n1. **数据过期**：反馈引擎数据在26.6小时前更新，超过24小时阈值。\n2. **拦截集中在单一原因**：高波动环境下，导致信号拦截的原因较为集中，需调整门槛设置。\n\n### 改进建议\n1. **立即修复低胜率和信号通过率问题**：需重新评估信号过滤门槛，避免造成过度拦截。\n2. **完善BTC趋势行为的参数传递**：确保每笔交易都能获取必要的BTC宏观趋势信息。\n3. **更新过期模型**：立即训练MM资金管理模型，确保其符合当前市场情况。\n4. **定期检查配置文件**：针对过期数据问题，建立定期更新机制。\n\n### 趋势判断\n与上次自检相比，当前系统表现有所恶化，特别是在胜率和通过率方面未见改善。建议加强对模型和配置的管理，以改善整体性能和稳定性。",
+      "inspector_analyses": {
+        "config_sentinel": "1. 数据过期问题最紧急，因为反馈引擎的更新滞后可能导致系统决策基于过时信息，影响交易效果。\n2. 该问题可能与反馈引擎模块的运行状态有关，如果模块异常，可能无法正常保存最新数据。\n3. 修复优先级建议为高，首先检查反馈引擎模块是否正常运行，然后确保其能够成功保存和更新数据，以避免在后续交易中使用陈旧信息。",
+        "performance_doctor": "1. 最紧急的问题是“信号通过率极低”，因为过去7天中100个信号完全没有通过，说明信号质量严重不足，直接影响交易决策。\n\n2. 这些问题之间存在关联。低胜率和信号通过率紧密相连，过于严格的拦截规则（如高波动环境趋势交易要求评分>=73）会导致信号被刷掉，进一步影响盈利能力。而BTC趋势传参断裂可能也是信号质量低的一个原因。\n\n3. 修复优先级建议为：\n   - 首先调整信号门槛，缓解信号通过率问题；\n   - 其次检查和修复BTC趋势传参的调用，以确保趋势传递有效性；\n   - 最后检查信号质量和入场时机，优化整体策略以提升胜率。",
+        "anomaly_patrol": "1. 最紧急的问题是MM资金管理模型过期，已经591小时未更新，可能导致风险管理失效。\n2. 问题之间存在关联，模型未更新可能导致资金管理不适应近期市场变化，影响整体策略执行效果。\n3. 建议的修复优先级为最高，立即触发云端重训练并检查Modal训练任务是否正常，以确保模型及时更新，防止潜在的资金损失风险。",
+        "architecture_advisor": "1. 最紧急的问题是超大文件api.py，因为其行数超过5000行，严重影响了可维护性，必须立即拆分。\n\n2. 问题之间存在关联，模块数量过多和超大文件反映出系统整体架构不够精简，导致重复和冗余。同时，多个大文件说明复杂性增加，使得代码审查和维护变得困难。\n\n3. 修复优先级为P0：api.py拆分。随后处理P1优先级的问题，合并相似模块并关注大文件（如titan_autopilot.py、titan_external_data.py等），以提升整体可维护性。"
+      }
+    }
+  ],
+  "last_updated": "2026-03-14T18:39:23.562506"
+}

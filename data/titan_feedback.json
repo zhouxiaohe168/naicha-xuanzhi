@@ -1,0 +1,4007 @@
+{
+  "accuracy_history": [
+    {
+      "time": 1773734657.8978486,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773734913.715262,
+      "symbol": "STRK",
+      "predicted": "unknown",
+      "actual": "win",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1773734956.7477942,
+      "symbol": "SIREN",
+      "predicted": "unknown",
+      "actual": "win",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1773735518.6093733,
+      "symbol": "IMX",
+      "predicted": "unknown",
+      "actual": "win",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1773736709.670686,
+      "symbol": "HYPE",
+      "predicted": "unknown",
+      "actual": "win",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1773737978.2284496,
+      "symbol": "AKT",
+      "predicted": "unknown",
+      "actual": "win",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1773737997.6821566,
+      "symbol": "AKT",
+      "predicted": "unknown",
+      "actual": "win",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1773738208.446722,
+      "symbol": "AKT",
+      "predicted": "unknown",
+      "actual": "win",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1773738249.2096012,
+      "symbol": "STABLE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773738249.2146053,
+      "symbol": "STABLE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773738249.218585,
+      "symbol": "WLFI",
+      "predicted": "横盘",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773738249.2227955,
+      "symbol": "POL",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773738249.227166,
+      "symbol": "PIPPIN",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773738249.2312615,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773738249.2355394,
+      "symbol": "ARC",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773738249.2401526,
+      "symbol": "CYBER",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773738249.245613,
+      "symbol": "ARC",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773738249.2508218,
+      "symbol": "ENSO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773738249.2551887,
+      "symbol": "SIREN",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773738249.260434,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773738249.264395,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773738249.269055,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773738249.2730098,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773738249.2774537,
+      "symbol": "HNT",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773738249.2819474,
+      "symbol": "MON",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773738249.287752,
+      "symbol": "MY",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773738249.293496,
+      "symbol": "MON",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773738249.2984965,
+      "symbol": "ENSO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773738249.3037477,
+      "symbol": "WLD",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773738249.3081465,
+      "symbol": "CAKE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773738249.312416,
+      "symbol": "MNT",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773738249.3162496,
+      "symbol": "ARIA",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773738249.320939,
+      "symbol": "ARIA",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773738249.3252945,
+      "symbol": "NEAR",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773738249.329421,
+      "symbol": "FET",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773738249.333702,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773738249.337623,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773738249.3420177,
+      "symbol": "NEAR",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773738249.3465412,
+      "symbol": "DEGO",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773738249.3503482,
+      "symbol": "HYPE",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773738249.3548028,
+      "symbol": "DEGO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773738249.3591897,
+      "symbol": "CFG",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773738249.3634071,
+      "symbol": "SIREN",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773738249.381,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773738943.5970058,
+      "symbol": "TRX",
+      "predicted": "unknown",
+      "actual": "win",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1773739018.49683,
+      "symbol": "TRX",
+      "predicted": "unknown",
+      "actual": "win",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1773741879.4037666,
+      "symbol": "STABLE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773741879.4077585,
+      "symbol": "STABLE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773741879.412299,
+      "symbol": "WLFI",
+      "predicted": "横盘",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773741879.4168255,
+      "symbol": "POL",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773741879.4212878,
+      "symbol": "PIPPIN",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773741879.4255407,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773741879.4292798,
+      "symbol": "ARC",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773741879.4341016,
+      "symbol": "CYBER",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773741879.4385338,
+      "symbol": "ARC",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773741879.4431098,
+      "symbol": "ENSO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773741879.4480557,
+      "symbol": "SIREN",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773741879.4614701,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773741879.4658377,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773741879.4703608,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773741879.4747057,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773741879.478374,
+      "symbol": "HNT",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773741879.4825885,
+      "symbol": "MON",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773741879.4869573,
+      "symbol": "MY",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773741879.4906714,
+      "symbol": "MON",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773741879.4944434,
+      "symbol": "ENSO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773741879.4983134,
+      "symbol": "WLD",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773741879.504354,
+      "symbol": "CAKE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773741879.508313,
+      "symbol": "MNT",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773741879.5128646,
+      "symbol": "ARIA",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773741879.5173385,
+      "symbol": "ARIA",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773741879.5222802,
+      "symbol": "NEAR",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773741879.5265436,
+      "symbol": "FET",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773741879.5302794,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773741879.535565,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773741879.5406651,
+      "symbol": "NEAR",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773741879.5461738,
+      "symbol": "DEGO",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773741879.5501943,
+      "symbol": "HYPE",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773741879.554771,
+      "symbol": "DEGO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773741879.6785543,
+      "symbol": "CFG",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773741879.6830823,
+      "symbol": "SIREN",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773741879.6882856,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773741879.6931188,
+      "symbol": "SIREN",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773741879.696948,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773745430.5251203,
+      "symbol": "STABLE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773745430.5292625,
+      "symbol": "STABLE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773745430.543216,
+      "symbol": "WLFI",
+      "predicted": "横盘",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773745430.5587423,
+      "symbol": "POL",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773745430.574675,
+      "symbol": "PIPPIN",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773745430.579427,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773745430.5846481,
+      "symbol": "ARC",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773745430.5911436,
+      "symbol": "CYBER",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773745430.595888,
+      "symbol": "ARC",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773745430.600445,
+      "symbol": "ENSO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773745430.6048017,
+      "symbol": "SIREN",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773745430.6096127,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773745430.6140382,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773745430.6185133,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773745430.6229029,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773745430.6277053,
+      "symbol": "HNT",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773745430.633604,
+      "symbol": "MON",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773745430.6516547,
+      "symbol": "MY",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773745430.6569293,
+      "symbol": "MON",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773745430.6626198,
+      "symbol": "ENSO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773745430.6679926,
+      "symbol": "WLD",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773745430.6738274,
+      "symbol": "CAKE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773745430.6783442,
+      "symbol": "MNT",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773745430.6837459,
+      "symbol": "ARIA",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773745430.6881554,
+      "symbol": "ARIA",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773745430.6926851,
+      "symbol": "NEAR",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773745430.697787,
+      "symbol": "FET",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773745430.7027576,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773745430.70744,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773745430.7126148,
+      "symbol": "NEAR",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773745430.7181015,
+      "symbol": "DEGO",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773745430.7224276,
+      "symbol": "HYPE",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773745430.72741,
+      "symbol": "DEGO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773745430.7326035,
+      "symbol": "CFG",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773745430.7373729,
+      "symbol": "SIREN",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773745430.7426562,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773745430.7473907,
+      "symbol": "SIREN",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773745430.7518818,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773747601.7904902,
+      "symbol": "TRX",
+      "predicted": "unknown",
+      "actual": "win",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1773748148.3226829,
+      "symbol": "SIREN",
+      "predicted": "unknown",
+      "actual": "win",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1773748886.608153,
+      "symbol": "SIREN",
+      "predicted": "unknown",
+      "actual": "win",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1773749068.4488797,
+      "symbol": "STABLE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773749068.4537454,
+      "symbol": "STABLE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773749068.4582193,
+      "symbol": "WLFI",
+      "predicted": "横盘",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773749068.463166,
+      "symbol": "POL",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773749068.4687724,
+      "symbol": "PIPPIN",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773749068.473051,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773749068.4773424,
+      "symbol": "ARC",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773749068.4811845,
+      "symbol": "CYBER",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773749068.4856753,
+      "symbol": "ARC",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773749068.4899402,
+      "symbol": "ENSO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773749068.4942284,
+      "symbol": "SIREN",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773749068.4985306,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773749068.502799,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773749068.507345,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773749068.5110958,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773749068.514758,
+      "symbol": "HNT",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773749068.5188472,
+      "symbol": "MON",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773749068.5233922,
+      "symbol": "MY",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773749068.5272393,
+      "symbol": "MON",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773749068.5310085,
+      "symbol": "ENSO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773749068.5354135,
+      "symbol": "WLD",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773749068.5512123,
+      "symbol": "CAKE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773749068.5550272,
+      "symbol": "MNT",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773749068.5600104,
+      "symbol": "ARIA",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773749068.5638618,
+      "symbol": "ARIA",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773749068.5686855,
+      "symbol": "NEAR",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773749068.5724068,
+      "symbol": "FET",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773749068.5777202,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773749068.581714,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773749068.5856972,
+      "symbol": "NEAR",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773749068.5904891,
+      "symbol": "DEGO",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773749068.5973938,
+      "symbol": "HYPE",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773749068.6014187,
+      "symbol": "DEGO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773749068.6094494,
+      "symbol": "CFG",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773749068.6141427,
+      "symbol": "SIREN",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773749068.6188555,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773749068.6272914,
+      "symbol": "SIREN",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773749068.6310537,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773749068.635849,
+      "symbol": "BEAT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773750954.877282,
+      "symbol": "STRK",
+      "predicted": "unknown",
+      "actual": "loss",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1773752504.8670535,
+      "symbol": "STABLE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773752504.8709247,
+      "symbol": "STABLE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773752504.8780994,
+      "symbol": "WLFI",
+      "predicted": "横盘",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773752504.8820822,
+      "symbol": "POL",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773752504.8870528,
+      "symbol": "PIPPIN",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773752504.891546,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773752504.8961558,
+      "symbol": "ARC",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773752504.901022,
+      "symbol": "CYBER",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773752504.9061465,
+      "symbol": "ARC",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773752504.9102116,
+      "symbol": "ENSO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773752504.9149613,
+      "symbol": "SIREN",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773752504.9193637,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773752504.9235957,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773752504.9284132,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773752504.9330761,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773752504.9368482,
+      "symbol": "HNT",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773752504.9412568,
+      "symbol": "MON",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773752504.9472294,
+      "symbol": "MY",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773752504.9517722,
+      "symbol": "MON",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773752504.956452,
+      "symbol": "ENSO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773752504.9606888,
+      "symbol": "WLD",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773752504.9647505,
+      "symbol": "CAKE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773752504.9705822,
+      "symbol": "MNT",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773752504.974402,
+      "symbol": "ARIA",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773752504.9787734,
+      "symbol": "ARIA",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773752504.983677,
+      "symbol": "NEAR",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773752504.9880211,
+      "symbol": "FET",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773752504.9917502,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773752504.9960341,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773752504.9997883,
+      "symbol": "NEAR",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773752505.0045466,
+      "symbol": "DEGO",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773752505.0094094,
+      "symbol": "HYPE",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773752505.0131934,
+      "symbol": "DEGO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773752505.0173392,
+      "symbol": "CFG",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773752505.021547,
+      "symbol": "SIREN",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773752505.0253139,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773752505.0295932,
+      "symbol": "SIREN",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773752505.0341294,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773752505.0383081,
+      "symbol": "BEAT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773753034.5933967,
+      "symbol": "AKT",
+      "predicted": "unknown",
+      "actual": "win",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1773765556.4247036,
+      "symbol": "AKT",
+      "predicted": "unknown",
+      "actual": "win",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1773765816.1978076,
+      "symbol": "TRX",
+      "predicted": "unknown",
+      "actual": "win",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1773766744.272436,
+      "symbol": "TRX",
+      "predicted": "unknown",
+      "actual": "win",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1773766893.853511,
+      "symbol": "STABLE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773766893.857915,
+      "symbol": "STABLE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773766893.8622222,
+      "symbol": "WLFI",
+      "predicted": "横盘",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773766893.8665144,
+      "symbol": "POL",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773766893.8703468,
+      "symbol": "PIPPIN",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773766893.8750644,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773766893.8795533,
+      "symbol": "ARC",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773766893.8840241,
+      "symbol": "CYBER",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773766893.8884008,
+      "symbol": "ARC",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773766893.8936656,
+      "symbol": "ENSO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773766893.8980656,
+      "symbol": "SIREN",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773766893.9024303,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773766893.9076123,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773766893.9119325,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773766893.916155,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773766894.1741576,
+      "symbol": "HNT",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773766894.1786795,
+      "symbol": "MON",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773766894.1825306,
+      "symbol": "MY",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773766894.1867836,
+      "symbol": "MON",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773766894.1911306,
+      "symbol": "ENSO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773766894.1967695,
+      "symbol": "WLD",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773766894.2010095,
+      "symbol": "CAKE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773766894.2049234,
+      "symbol": "MNT",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773766894.2086656,
+      "symbol": "ARIA",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773766894.2129524,
+      "symbol": "ARIA",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773766894.2180004,
+      "symbol": "NEAR",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773766894.2223492,
+      "symbol": "FET",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773766894.227082,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773766894.2309065,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773766894.2352867,
+      "symbol": "NEAR",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773766894.239697,
+      "symbol": "DEGO",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773766894.244091,
+      "symbol": "HYPE",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773766894.2488327,
+      "symbol": "DEGO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773766894.2531865,
+      "symbol": "CFG",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773766894.3192608,
+      "symbol": "SIREN",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773766894.4171603,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773766894.516688,
+      "symbol": "SIREN",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773766894.526349,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773766894.535946,
+      "symbol": "BEAT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773766894.5403225,
+      "symbol": "SIREN",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773794892.628574,
+      "symbol": "AKT",
+      "predicted": "unknown",
+      "actual": "win",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1773795765.8586833,
+      "symbol": "STABLE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773795765.863171,
+      "symbol": "STABLE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773795765.8671408,
+      "symbol": "WLFI",
+      "predicted": "横盘",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773795765.8713856,
+      "symbol": "POL",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773795765.8755977,
+      "symbol": "PIPPIN",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773795765.879619,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773795765.8842897,
+      "symbol": "ARC",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773795765.8891056,
+      "symbol": "CYBER",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773795765.8936439,
+      "symbol": "ARC",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773795765.898373,
+      "symbol": "ENSO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773795765.903105,
+      "symbol": "SIREN",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773795765.9075935,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773795765.9120336,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773795765.9165282,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773795765.9204624,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773795765.9249344,
+      "symbol": "HNT",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773795765.9292865,
+      "symbol": "MON",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773795765.9336271,
+      "symbol": "MY",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773795765.9376686,
+      "symbol": "MON",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773795765.9424686,
+      "symbol": "ENSO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773795765.9486804,
+      "symbol": "WLD",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773795765.9528759,
+      "symbol": "CAKE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773795765.9584486,
+      "symbol": "MNT",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773795765.962396,
+      "symbol": "ARIA",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773795765.9755235,
+      "symbol": "ARIA",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773795765.981137,
+      "symbol": "NEAR",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773795765.9871657,
+      "symbol": "FET",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773795765.991378,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773795765.9958794,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773795766.0001574,
+      "symbol": "NEAR",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773795766.0049894,
+      "symbol": "DEGO",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773795766.009048,
+      "symbol": "HYPE",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773795766.0135996,
+      "symbol": "DEGO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773795766.0182087,
+      "symbol": "CFG",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773795766.0225573,
+      "symbol": "SIREN",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773795766.0269544,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773795766.0308425,
+      "symbol": "SIREN",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773795766.0353277,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773795766.0403051,
+      "symbol": "BEAT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773795766.0463488,
+      "symbol": "SIREN",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773796849.427983,
+      "symbol": "TRX",
+      "predicted": "unknown",
+      "actual": "win",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1773799475.5534728,
+      "symbol": "STABLE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773799475.559043,
+      "symbol": "STABLE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773799475.5652525,
+      "symbol": "WLFI",
+      "predicted": "横盘",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773799475.5714147,
+      "symbol": "POL",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773799475.5772405,
+      "symbol": "PIPPIN",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773799475.583117,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773799475.5892224,
+      "symbol": "ARC",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773799475.595328,
+      "symbol": "CYBER",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773799475.6001446,
+      "symbol": "ARC",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773799475.6046703,
+      "symbol": "ENSO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773799475.6091733,
+      "symbol": "SIREN",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773799475.6132119,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773799475.6176493,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773799475.6219993,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773799475.6258016,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773799475.692497,
+      "symbol": "HNT",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773799475.7104828,
+      "symbol": "MON",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773799475.7150815,
+      "symbol": "MY",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773799475.7200286,
+      "symbol": "MON",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773799475.7246664,
+      "symbol": "ENSO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773799475.7288015,
+      "symbol": "WLD",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773799475.7331548,
+      "symbol": "CAKE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773799475.7379239,
+      "symbol": "MNT",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773799475.7425408,
+      "symbol": "ARIA",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773799475.747126,
+      "symbol": "ARIA",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773799475.7525833,
+      "symbol": "NEAR",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773799475.7660675,
+      "symbol": "FET",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773799475.7708101,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773799475.774908,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773799475.7797215,
+      "symbol": "NEAR",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773799475.7838047,
+      "symbol": "DEGO",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773799475.788471,
+      "symbol": "HYPE",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773799475.7928934,
+      "symbol": "DEGO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773799475.7974885,
+      "symbol": "CFG",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773799475.8020723,
+      "symbol": "SIREN",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773799475.8062305,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773799475.976022,
+      "symbol": "SIREN",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773799475.9936924,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773799476.007748,
+      "symbol": "BEAT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773799476.0128138,
+      "symbol": "SIREN",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773802939.8995774,
+      "symbol": "STABLE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773802939.9038355,
+      "symbol": "STABLE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773802939.9082868,
+      "symbol": "WLFI",
+      "predicted": "横盘",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773802939.9132588,
+      "symbol": "POL",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773802940.0404186,
+      "symbol": "PIPPIN",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773802940.0460114,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773802940.0510068,
+      "symbol": "ARC",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773802940.0555453,
+      "symbol": "CYBER",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773802940.061492,
+      "symbol": "ARC",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773802940.0667028,
+      "symbol": "ENSO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773802940.0713367,
+      "symbol": "SIREN",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773802940.07637,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773802940.0818448,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773802940.0871677,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773802940.0935726,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773802940.0997725,
+      "symbol": "HNT",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773802940.1055803,
+      "symbol": "MON",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773802940.111868,
+      "symbol": "MY",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773802940.1177313,
+      "symbol": "MON",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773802940.1241765,
+      "symbol": "ENSO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773802940.1300614,
+      "symbol": "WLD",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773802940.1358395,
+      "symbol": "CAKE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773802940.1420546,
+      "symbol": "MNT",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773802940.1482654,
+      "symbol": "ARIA",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773802940.1544724,
+      "symbol": "ARIA",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773802940.1602502,
+      "symbol": "NEAR",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773802940.166052,
+      "symbol": "FET",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773802940.1714013,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773802940.28199,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773802940.2861555,
+      "symbol": "NEAR",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773802940.2899013,
+      "symbol": "DEGO",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773802940.2939909,
+      "symbol": "HYPE",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773802940.2978003,
+      "symbol": "DEGO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773802940.301861,
+      "symbol": "CFG",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773802940.3059542,
+      "symbol": "SIREN",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773802940.3100288,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773802940.314191,
+      "symbol": "SIREN",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773802940.3192954,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773802940.3233776,
+      "symbol": "BEAT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773802940.3957622,
+      "symbol": "SIREN",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773818727.1549804,
+      "symbol": "SIREN",
+      "predicted": "unknown",
+      "actual": "win",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1773845712.8100083,
+      "symbol": "STRK",
+      "predicted": "unknown",
+      "actual": "loss",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1773846024.8517368,
+      "symbol": "BNB",
+      "predicted": "unknown",
+      "actual": "loss",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1773846231.2951944,
+      "symbol": "STABLE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773846231.2998173,
+      "symbol": "STABLE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773846231.304129,
+      "symbol": "WLFI",
+      "predicted": "横盘",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773846231.308713,
+      "symbol": "POL",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773846231.3206391,
+      "symbol": "PIPPIN",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773846231.326752,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773846231.3333848,
+      "symbol": "ARC",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773846231.3381999,
+      "symbol": "CYBER",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773846231.342662,
+      "symbol": "ARC",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773846231.3470237,
+      "symbol": "ENSO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773846231.3536725,
+      "symbol": "SIREN",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773846231.358182,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773846231.3630118,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773846231.3672438,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773846231.3716722,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773846231.3763764,
+      "symbol": "HNT",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773846231.3806343,
+      "symbol": "MON",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773846231.3845153,
+      "symbol": "MY",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773846231.3895478,
+      "symbol": "MON",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773846231.4026093,
+      "symbol": "ENSO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773846231.4150412,
+      "symbol": "WLD",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773846231.4205036,
+      "symbol": "CAKE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773846231.4253063,
+      "symbol": "MNT",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773846231.4381478,
+      "symbol": "ARIA",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773846231.450862,
+      "symbol": "ARIA",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773846231.4631252,
+      "symbol": "NEAR",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773846231.4766653,
+      "symbol": "FET",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773846231.4816566,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773846231.6508496,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773846231.6561835,
+      "symbol": "NEAR",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773846231.6729767,
+      "symbol": "DEGO",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773846231.6860495,
+      "symbol": "HYPE",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773846231.6986673,
+      "symbol": "DEGO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773846231.7115147,
+      "symbol": "CFG",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773846231.7161937,
+      "symbol": "SIREN",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773846231.7292538,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773846231.734532,
+      "symbol": "SIREN",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773846231.86315,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773846231.8684747,
+      "symbol": "BEAT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773846231.92352,
+      "symbol": "SIREN",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773846232.1211782,
+      "symbol": "STRK",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773848739.4188,
+      "symbol": "BEAT",
+      "predicted": "unknown",
+      "actual": "win",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1773975736.2883542,
+      "symbol": "STABLE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773975736.2925208,
+      "symbol": "STABLE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773975736.2967782,
+      "symbol": "WLFI",
+      "predicted": "横盘",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773975736.3016381,
+      "symbol": "POL",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773975736.3058486,
+      "symbol": "PIPPIN",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773975736.3116891,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773975736.3155262,
+      "symbol": "ARC",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773975736.3193858,
+      "symbol": "CYBER",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773975736.323756,
+      "symbol": "ARC",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773975736.3276553,
+      "symbol": "ENSO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773975736.3317978,
+      "symbol": "SIREN",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773975736.3359218,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773975736.3400452,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773975736.3444812,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773975736.505835,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773975736.5100782,
+      "symbol": "HNT",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773975736.5144215,
+      "symbol": "MON",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773975736.5200818,
+      "symbol": "MY",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773975736.5263429,
+      "symbol": "MON",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773975736.532019,
+      "symbol": "ENSO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773975736.536217,
+      "symbol": "WLD",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773975736.5401566,
+      "symbol": "CAKE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773975736.5456884,
+      "symbol": "MNT",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773975736.5507557,
+      "symbol": "ARIA",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773975736.554423,
+      "symbol": "ARIA",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773975736.5585768,
+      "symbol": "NEAR",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773975736.5628126,
+      "symbol": "FET",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773975736.5688477,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773975736.573523,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773975736.5783925,
+      "symbol": "NEAR",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773975736.5911796,
+      "symbol": "DEGO",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773975736.5961065,
+      "symbol": "HYPE",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773975736.6002796,
+      "symbol": "DEGO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773975736.6046095,
+      "symbol": "CFG",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773975736.6088881,
+      "symbol": "SIREN",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773975736.6130512,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773975736.6168966,
+      "symbol": "SIREN",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1773975736.6207688,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773975736.6247556,
+      "symbol": "BEAT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773975736.6288927,
+      "symbol": "SIREN",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1773975736.6330578,
+      "symbol": "STRK",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1774027114.5190234,
+      "symbol": "IP",
+      "predicted": "unknown",
+      "actual": "loss",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1774233863.2138355,
+      "symbol": "TRX",
+      "predicted": "unknown",
+      "actual": "win",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1774233871.1736715,
+      "symbol": "TAO",
+      "predicted": "unknown",
+      "actual": "loss",
+      "correct": false,
+      "direction": "long"
+    },
+    {
+      "time": 1774235059.7082999,
+      "symbol": "STABLE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1774235059.7137988,
+      "symbol": "STABLE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1774235059.726268,
+      "symbol": "WLFI",
+      "predicted": "横盘",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1774235059.7396202,
+      "symbol": "POL",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1774235059.7525,
+      "symbol": "PIPPIN",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1774235059.7646453,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1774235059.777815,
+      "symbol": "ARC",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1774235059.782756,
+      "symbol": "CYBER",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1774235059.7952824,
+      "symbol": "ARC",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1774235059.8077605,
+      "symbol": "ENSO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1774235059.8117507,
+      "symbol": "SIREN",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1774235059.818367,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1774235059.8235447,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1774235059.836237,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1774235059.8415568,
+      "symbol": "KITE",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1774235059.8469093,
+      "symbol": "HNT",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1774235059.8596938,
+      "symbol": "MON",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1774235059.8718784,
+      "symbol": "MY",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1774235059.883874,
+      "symbol": "MON",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1774235059.8889604,
+      "symbol": "ENSO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1774235059.9015393,
+      "symbol": "WLD",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1774235059.9130936,
+      "symbol": "CAKE",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1774235059.9176254,
+      "symbol": "MNT",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1774235059.9231052,
+      "symbol": "ARIA",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1774235059.9378834,
+      "symbol": "ARIA",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1774235059.94436,
+      "symbol": "NEAR",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1774235059.9507377,
+      "symbol": "FET",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1774235059.9631896,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1774235059.9683876,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1774235059.9810624,
+      "symbol": "NEAR",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1774235059.9853368,
+      "symbol": "DEGO",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1774235059.9896607,
+      "symbol": "HYPE",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1774235059.994153,
+      "symbol": "DEGO",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1774235059.999845,
+      "symbol": "CFG",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1774235060.0037687,
+      "symbol": "SIREN",
+      "predicted": "看涨",
+      "actual": "win",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1774235060.007621,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1774235060.0118244,
+      "symbol": "SIREN",
+      "predicted": "看跌",
+      "actual": "loss",
+      "correct": true,
+      "direction": null
+    },
+    {
+      "time": 1774235060.0168207,
+      "symbol": "AKT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1774235060.0214262,
+      "symbol": "BEAT",
+      "predicted": "看涨",
+      "actual": "loss",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1774235060.0275905,
+      "symbol": "SIREN",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    },
+    {
+      "time": 1774235060.033427,
+      "symbol": "STRK",
+      "predicted": "看跌",
+      "actual": "win",
+      "correct": false,
+      "direction": null
+    }
+  ],
+  "threshold_adjustments": {},
+  "last_saved": "2026-03-23 03:04:20",
+  "total_predictions": 500
+}

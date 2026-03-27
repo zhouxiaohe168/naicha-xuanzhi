@@ -1,0 +1,4419 @@
+{
+  "knowledge_base": {
+    "asset_insights": {
+      "HBAR": {
+        "total_trades": 6,
+        "wins": 0,
+        "total_pnl": -7.92,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 4,
+            "pnl": -5.28
+          },
+          "range": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -1.29
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -1.35
+          }
+        }
+      },
+      "ATOM": {
+        "total_trades": 6,
+        "wins": 6,
+        "total_pnl": 19.32,
+        "best_strategy": "trend",
+        "by_strategy": {
+          "trend": {
+            "wins": 4,
+            "losses": 0,
+            "pnl": 12.88
+          },
+          "trend_following": {
+            "wins": 2,
+            "losses": 0,
+            "pnl": 6.44
+          }
+        }
+      },
+      "FIL": {
+        "total_trades": 3,
+        "wins": 0,
+        "total_pnl": -4.17,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -2.78
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -1.39
+          }
+        }
+      },
+      "CRV": {
+        "total_trades": 3,
+        "wins": 0,
+        "total_pnl": -2.49,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -1.66
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -0.83
+          }
+        }
+      },
+      "IMX": {
+        "total_trades": 5,
+        "wins": 2,
+        "total_pnl": 3.81,
+        "best_strategy": "trend",
+        "by_strategy": {
+          "trend": {
+            "wins": 2,
+            "losses": 2,
+            "pnl": 4.99
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -1.18
+          }
+        }
+      },
+      "JASMY": {
+        "total_trades": 3,
+        "wins": 0,
+        "total_pnl": -2.01,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -1.34
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -0.67
+          }
+        }
+      },
+      "AR": {
+        "total_trades": 3,
+        "wins": 0,
+        "total_pnl": -3.39,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -2.26
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -1.13
+          }
+        }
+      },
+      "HNT": {
+        "total_trades": 5,
+        "wins": 0,
+        "total_pnl": -9.4,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 4,
+            "pnl": -7.2
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -2.2
+          }
+        }
+      },
+      "AVAX": {
+        "total_trades": 4,
+        "wins": 0,
+        "total_pnl": -2.56,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 3,
+            "pnl": -1.93
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -0.63
+          }
+        }
+      },
+      "AAVE": {
+        "total_trades": 3,
+        "wins": 3,
+        "total_pnl": 2.91,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 2,
+            "losses": 0,
+            "pnl": 1.94
+          },
+          "trend_following": {
+            "wins": 1,
+            "losses": 0,
+            "pnl": 0.97
+          }
+        }
+      },
+      "STABLE": {
+        "total_trades": 15,
+        "wins": 10,
+        "total_pnl": 125.23,
+        "best_strategy": "trend",
+        "by_strategy": {
+          "trend": {
+            "wins": 8,
+            "losses": 4,
+            "pnl": 93.72
+          },
+          "trend_following": {
+            "wins": 2,
+            "losses": 1,
+            "pnl": 31.51
+          }
+        }
+      },
+      "PIPPIN": {
+        "total_trades": 13,
+        "wins": 10,
+        "total_pnl": 56.35,
+        "best_strategy": "trend",
+        "by_strategy": {
+          "trend": {
+            "wins": 8,
+            "losses": 2,
+            "pnl": 47.24
+          },
+          "grid": {
+            "wins": 1,
+            "losses": 0,
+            "pnl": 7.01
+          },
+          "trend_following": {
+            "wins": 1,
+            "losses": 1,
+            "pnl": 2.1
+          }
+        }
+      },
+      "XAUT": {
+        "total_trades": 9,
+        "wins": 0,
+        "total_pnl": -1.92,
+        "best_strategy": null,
+        "by_strategy": {
+          "range": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -0.56
+          },
+          "trend": {
+            "wins": 0,
+            "losses": 5,
+            "pnl": -0.72
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -0.08
+          },
+          "range_harvester": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -0.56
+          }
+        }
+      },
+      "KITE": {
+        "total_trades": 21,
+        "wins": 3,
+        "total_pnl": -11.66,
+        "best_strategy": "trend",
+        "by_strategy": {
+          "trend": {
+            "wins": 3,
+            "losses": 12,
+            "pnl": 0.07
+          },
+          "grid": {
+            "wins": 0,
+            "losses": 5,
+            "pnl": -8.67
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -3.06
+          }
+        }
+      },
+      "H": {
+        "total_trades": 3,
+        "wins": 3,
+        "total_pnl": 20.7,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 2,
+            "losses": 0,
+            "pnl": 13.8
+          },
+          "trend_following": {
+            "wins": 1,
+            "losses": 0,
+            "pnl": 6.9
+          }
+        }
+      },
+      "ZAMA": {
+        "total_trades": 3,
+        "wins": 0,
+        "total_pnl": -6.45,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -4.3
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -2.15
+          }
+        }
+      },
+      "我踏马来了": {
+        "total_trades": 3,
+        "wins": 0,
+        "total_pnl": -8.85,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -5.9
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -2.95
+          }
+        }
+      },
+      "USELESS": {
+        "total_trades": 3,
+        "wins": 3,
+        "total_pnl": 7.53,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 2,
+            "losses": 0,
+            "pnl": 5.02
+          },
+          "trend_following": {
+            "wins": 1,
+            "losses": 0,
+            "pnl": 2.51
+          }
+        }
+      },
+      "XPL": {
+        "total_trades": 3,
+        "wins": 0,
+        "total_pnl": -0.87,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -0.58
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -0.29
+          }
+        }
+      },
+      "PYTH": {
+        "total_trades": 3,
+        "wins": 0,
+        "total_pnl": -1.14,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -0.76
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -0.38
+          }
+        }
+      },
+      "OM": {
+        "total_trades": 3,
+        "wins": 0,
+        "total_pnl": -13.71,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -9.14
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -4.57
+          }
+        }
+      },
+      "COAI": {
+        "total_trades": 3,
+        "wins": 0,
+        "total_pnl": -32.01,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -21.34
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -10.67
+          }
+        }
+      },
+      "HYPE": {
+        "total_trades": 6,
+        "wins": 3,
+        "total_pnl": -2.57,
+        "best_strategy": "trend",
+        "by_strategy": {
+          "trend": {
+            "wins": 3,
+            "losses": 2,
+            "pnl": 0.04
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -2.61
+          }
+        }
+      },
+      "BCH": {
+        "total_trades": 3,
+        "wins": 0,
+        "total_pnl": -5.13,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -3.42
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -1.71
+          }
+        }
+      },
+      "BEAT": {
+        "total_trades": 4,
+        "wins": 1,
+        "total_pnl": -6.72,
+        "best_strategy": "trend",
+        "by_strategy": {
+          "trend": {
+            "wins": 1,
+            "losses": 2,
+            "pnl": -0.57
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -6.15
+          }
+        }
+      },
+      "FF": {
+        "total_trades": 6,
+        "wins": 6,
+        "total_pnl": 11.01,
+        "best_strategy": "trend",
+        "by_strategy": {
+          "trend": {
+            "wins": 4,
+            "losses": 0,
+            "pnl": 7.34
+          },
+          "trend_following": {
+            "wins": 2,
+            "losses": 0,
+            "pnl": 3.67
+          }
+        }
+      },
+      "ASTER": {
+        "total_trades": 3,
+        "wins": 0,
+        "total_pnl": -7.35,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -4.9
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -2.45
+          }
+        }
+      },
+      "POWER": {
+        "total_trades": 6,
+        "wins": 0,
+        "total_pnl": -46.02,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 4,
+            "pnl": -30.68
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -15.34
+          }
+        }
+      },
+      "MON": {
+        "total_trades": 7,
+        "wins": 0,
+        "total_pnl": -16.83,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 6,
+            "pnl": -12.96
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -3.87
+          }
+        }
+      },
+      "ZEC": {
+        "total_trades": 6,
+        "wins": 6,
+        "total_pnl": 56.49,
+        "best_strategy": "trend",
+        "by_strategy": {
+          "trend": {
+            "wins": 4,
+            "losses": 0,
+            "pnl": 37.66
+          },
+          "trend_following": {
+            "wins": 2,
+            "losses": 0,
+            "pnl": 18.83
+          }
+        }
+      },
+      "GPUAI": {
+        "total_trades": 3,
+        "wins": 0,
+        "total_pnl": -44.76,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -29.84
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -14.92
+          }
+        }
+      },
+      "COINON": {
+        "total_trades": 3,
+        "wins": 0,
+        "total_pnl": -1.74,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -1.16
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -0.58
+          }
+        }
+      },
+      "PAXG": {
+        "total_trades": 3,
+        "wins": 0,
+        "total_pnl": -0.03,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -0.02
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -0.01
+          }
+        }
+      },
+      "USD1": {
+        "total_trades": 3,
+        "wins": 0,
+        "total_pnl": 0.0,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": 0.0
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": 0.0
+          }
+        }
+      },
+      "BLUAI": {
+        "total_trades": 6,
+        "wins": 0,
+        "total_pnl": -8.76,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 4,
+            "pnl": -5.84
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -2.92
+          }
+        }
+      },
+      "WLFI": {
+        "total_trades": 3,
+        "wins": 0,
+        "total_pnl": -2.7,
+        "best_strategy": null,
+        "by_strategy": {
+          "range": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -0.9
+          },
+          "trend": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -1.8
+          }
+        }
+      },
+      "ADA": {
+        "total_trades": 4,
+        "wins": 0,
+        "total_pnl": -4.11,
+        "best_strategy": null,
+        "by_strategy": {
+          "range": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -0.67
+          },
+          "trend": {
+            "wins": 0,
+            "losses": 3,
+            "pnl": -3.44
+          }
+        }
+      },
+      "WIF": {
+        "total_trades": 3,
+        "wins": 0,
+        "total_pnl": -2.13,
+        "best_strategy": null,
+        "by_strategy": {
+          "range": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -0.71
+          },
+          "trend": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -1.42
+          }
+        }
+      },
+      "ONDO": {
+        "total_trades": 3,
+        "wins": 0,
+        "total_pnl": -1.98,
+        "best_strategy": null,
+        "by_strategy": {
+          "range": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -0.66
+          },
+          "trend": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -1.32
+          }
+        }
+      },
+      "POL": {
+        "total_trades": 4,
+        "wins": 4,
+        "total_pnl": 9.03,
+        "best_strategy": "trend",
+        "by_strategy": {
+          "grid": {
+            "wins": 1,
+            "losses": 0,
+            "pnl": 1.9
+          },
+          "trend": {
+            "wins": 3,
+            "losses": 0,
+            "pnl": 7.13
+          }
+        }
+      },
+      "ARC": {
+        "total_trades": 6,
+        "wins": 4,
+        "total_pnl": 19.18,
+        "best_strategy": "trend",
+        "by_strategy": {
+          "trend": {
+            "wins": 4,
+            "losses": 2,
+            "pnl": 19.18
+          }
+        }
+      },
+      "CYBER": {
+        "total_trades": 2,
+        "wins": 0,
+        "total_pnl": -6.24,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -6.24
+          }
+        }
+      },
+      "RAVE": {
+        "total_trades": 4,
+        "wins": 0,
+        "total_pnl": -11.16,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 4,
+            "pnl": -11.16
+          }
+        }
+      },
+      "ENSO": {
+        "total_trades": 6,
+        "wins": 4,
+        "total_pnl": 39.32,
+        "best_strategy": "trend",
+        "by_strategy": {
+          "trend": {
+            "wins": 4,
+            "losses": 2,
+            "pnl": 39.32
+          }
+        }
+      },
+      "MY": {
+        "total_trades": 2,
+        "wins": 0,
+        "total_pnl": -19.44,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -19.44
+          }
+        }
+      },
+      "SIREN": {
+        "total_trades": 8,
+        "wins": 8,
+        "total_pnl": 84.26,
+        "best_strategy": "trend",
+        "by_strategy": {
+          "trend": {
+            "wins": 8,
+            "losses": 0,
+            "pnl": 84.26
+          }
+        }
+      },
+      "CAKE": {
+        "total_trades": 2,
+        "wins": 0,
+        "total_pnl": -1.68,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -1.68
+          }
+        }
+      },
+      "MNT": {
+        "total_trades": 2,
+        "wins": 0,
+        "total_pnl": -1.5,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -1.5
+          }
+        }
+      },
+      "WLD": {
+        "total_trades": 4,
+        "wins": 4,
+        "total_pnl": 26.69,
+        "best_strategy": "trend",
+        "by_strategy": {
+          "trend": {
+            "wins": 4,
+            "losses": 0,
+            "pnl": 26.69
+          }
+        }
+      },
+      "DEGO": {
+        "total_trades": 4,
+        "wins": 3,
+        "total_pnl": 1.17,
+        "best_strategy": "trend",
+        "by_strategy": {
+          "trend": {
+            "wins": 3,
+            "losses": 1,
+            "pnl": 1.17
+          }
+        }
+      },
+      "BNB": {
+        "total_trades": 2,
+        "wins": 0,
+        "total_pnl": -4.28,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -4.28
+          }
+        }
+      },
+      "AKT": {
+        "total_trades": 10,
+        "wins": 8,
+        "total_pnl": 14.39,
+        "best_strategy": "trend",
+        "by_strategy": {
+          "trend": {
+            "wins": 8,
+            "losses": 2,
+            "pnl": 14.39
+          }
+        }
+      },
+      "NEAR": {
+        "total_trades": 2,
+        "wins": 0,
+        "total_pnl": -2.04,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 2,
+            "pnl": -2.04
+          }
+        }
+      },
+      "DASH": {
+        "total_trades": 2,
+        "wins": 1,
+        "total_pnl": -1.7,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 1,
+            "losses": 1,
+            "pnl": -1.7
+          }
+        }
+      },
+      "ARB": {
+        "total_trades": 1,
+        "wins": 0,
+        "total_pnl": -0.65,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -0.65
+          }
+        }
+      },
+      "PENGU": {
+        "total_trades": 1,
+        "wins": 0,
+        "total_pnl": -3.55,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -3.55
+          }
+        }
+      },
+      "STRK": {
+        "total_trades": 4,
+        "wins": 1,
+        "total_pnl": -9.35,
+        "best_strategy": "trend",
+        "by_strategy": {
+          "trend": {
+            "wins": 1,
+            "losses": 3,
+            "pnl": -9.35
+          }
+        }
+      },
+      "CFG": {
+        "total_trades": 1,
+        "wins": 1,
+        "total_pnl": 4.14,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 1,
+            "losses": 0,
+            "pnl": 4.14
+          }
+        }
+      },
+      "FET": {
+        "total_trades": 2,
+        "wins": 2,
+        "total_pnl": 4.57,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 2,
+            "losses": 0,
+            "pnl": 4.57
+          }
+        }
+      },
+      "TRX": {
+        "total_trades": 7,
+        "wins": 7,
+        "total_pnl": 4.05,
+        "best_strategy": "trend",
+        "by_strategy": {
+          "trend": {
+            "wins": 7,
+            "losses": 0,
+            "pnl": 4.05
+          }
+        }
+      },
+      "IP": {
+        "total_trades": 1,
+        "wins": 0,
+        "total_pnl": -7.77,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -7.77
+          }
+        }
+      },
+      "TAO": {
+        "total_trades": 1,
+        "wins": 0,
+        "total_pnl": -2.55,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -2.55
+          }
+        }
+      }
+    },
+    "regime_insights": {
+      "trending": {
+        "total_trades": 78,
+        "wins": 41,
+        "best_strategy": "trend",
+        "by_strategy": {
+          "trend": {
+            "wins": 38,
+            "losses": 26,
+            "pnl": 82.88
+          },
+          "range": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -0.56
+          },
+          "trend_following": {
+            "wins": 3,
+            "losses": 9,
+            "pnl": 14.35
+          },
+          "range_harvester": {
+            "wins": 0,
+            "losses": 1,
+            "pnl": -0.56
+          }
+        }
+      },
+      "mixed": {
+        "total_trades": 22,
+        "wins": 10,
+        "best_strategy": "trend",
+        "by_strategy": {
+          "trend": {
+            "wins": 5,
+            "losses": 6,
+            "pnl": 4.68
+          },
+          "trend_following": {
+            "wins": 5,
+            "losses": 6,
+            "pnl": 4.68
+          }
+        }
+      },
+      "ranging": {
+        "total_trades": 32,
+        "wins": 8,
+        "best_strategy": "trend",
+        "by_strategy": {
+          "trend": {
+            "wins": 4,
+            "losses": 12,
+            "pnl": -21.64
+          },
+          "trend_following": {
+            "wins": 4,
+            "losses": 12,
+            "pnl": -21.64
+          }
+        }
+      },
+      "volatile": {
+        "total_trades": 113,
+        "wins": 36,
+        "best_strategy": "trend",
+        "by_strategy": {
+          "trend": {
+            "wins": 36,
+            "losses": 72,
+            "pnl": 105.57
+          },
+          "trend_following": {
+            "wins": 0,
+            "losses": 5,
+            "pnl": -8.55
+          }
+        }
+      },
+      "": {
+        "total_trades": 1,
+        "wins": 1,
+        "best_strategy": null,
+        "by_strategy": {
+          "trend": {
+            "wins": 1,
+            "losses": 0,
+            "pnl": 14.9
+          }
+        }
+      }
+    },
+    "timing_insights": {
+      "asia": {
+        "total": 176,
+        "wins": 64,
+        "by_strategy": {
+          "trend_following": {
+            "wins": 12,
+            "losses": 32
+          },
+          "range_harvester": {
+            "wins": 0,
+            "losses": 1
+          },
+          "trend": {
+            "wins": 52,
+            "losses": 79
+          }
+        }
+      },
+      "europe": {
+        "total": 16,
+        "wins": 13,
+        "by_strategy": {
+          "trend": {
+            "wins": 13,
+            "losses": 3
+          }
+        }
+      },
+      "us": {
+        "total": 4,
+        "wins": 4,
+        "by_strategy": {
+          "trend": {
+            "wins": 4,
+            "losses": 0
+          }
+        }
+      }
+    },
+    "correlation_map": {}
+  },
+  "broadcast_log": [
+    {
+      "time": "2026-02-16 23:33:30+00:00",
+      "symbol": "HBAR",
+      "strategy": "trend",
+      "pnl": -1.35,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 6.3
+    },
+    {
+      "time": "2026-02-16 21:57:19+00:00",
+      "symbol": "ATOM",
+      "strategy": "trend",
+      "pnl": 2.33,
+      "regime": "mixed",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 4.7
+    },
+    {
+      "time": "2026-02-16 21:23:54+00:00",
+      "symbol": "ATOM",
+      "strategy": "trend",
+      "pnl": 4.11,
+      "regime": "mixed",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 4.1
+    },
+    {
+      "time": "2026-02-16 19:23:35+00:00",
+      "symbol": "FIL",
+      "strategy": "trend",
+      "pnl": -1.39,
+      "regime": "mixed",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 1.9
+    },
+    {
+      "time": "2026-02-16 19:23:35+00:00",
+      "symbol": "CRV",
+      "strategy": "trend",
+      "pnl": -0.83,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 69,
+      "holding_hours": 2.0
+    },
+    {
+      "time": "2026-02-16 19:20:42+00:00",
+      "symbol": "IMX",
+      "strategy": "trend",
+      "pnl": -1.18,
+      "regime": "mixed",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 1.9
+    },
+    {
+      "time": "2026-02-16 19:20:42+00:00",
+      "symbol": "JASMY",
+      "strategy": "trend",
+      "pnl": -0.67,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 68,
+      "holding_hours": 2.0
+    },
+    {
+      "time": "2026-02-16 19:20:42+00:00",
+      "symbol": "AR",
+      "strategy": "trend",
+      "pnl": -1.13,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 60,
+      "holding_hours": 2.0
+    },
+    {
+      "time": "2026-02-16 19:17:33+00:00",
+      "symbol": "HNT",
+      "strategy": "trend",
+      "pnl": -2.2,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 83,
+      "holding_hours": 0.7
+    },
+    {
+      "time": "2026-02-16 18:28:05+00:00",
+      "symbol": "AVAX",
+      "strategy": "trend",
+      "pnl": -0.63,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 69,
+      "holding_hours": 0.8
+    },
+    {
+      "time": "2026-02-16 17:12:30+00:00",
+      "symbol": "AAVE",
+      "strategy": "trend",
+      "pnl": 0.97,
+      "regime": "trending",
+      "direction": "short",
+      "signal_score": 70,
+      "holding_hours": 20.8
+    },
+    {
+      "time": "2026-02-16 14:34:17+00:00",
+      "symbol": "STABLE",
+      "strategy": "trend",
+      "pnl": 18.37,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 80,
+      "holding_hours": 16.4
+    },
+    {
+      "time": "2026-02-16 13:51:57+00:00",
+      "symbol": "STABLE",
+      "strategy": "trend",
+      "pnl": 14.49,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 80,
+      "holding_hours": 15.7
+    },
+    {
+      "time": "2026-02-16 13:51:57+00:00",
+      "symbol": "STABLE",
+      "strategy": "trend",
+      "pnl": 14.49,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 80,
+      "holding_hours": 15.7
+    },
+    {
+      "time": "2026-02-16 10:56:39+00:00",
+      "symbol": "PIPPIN",
+      "strategy": "trend",
+      "pnl": -1.47,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 72,
+      "holding_hours": 33.9
+    },
+    {
+      "time": "2026-02-16 10:56:39+00:00",
+      "symbol": "XAUT",
+      "strategy": "range",
+      "pnl": -0.56,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 83,
+      "holding_hours": 36.6
+    },
+    {
+      "time": "2026-02-16 06:37:56+00:00",
+      "symbol": "KITE",
+      "strategy": "trend",
+      "pnl": -3.06,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 86,
+      "holding_hours": 8.9
+    },
+    {
+      "time": "2026-02-15 23:07:13+00:00",
+      "symbol": "H",
+      "strategy": "trend",
+      "pnl": 6.9,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 69,
+      "holding_hours": 6.5
+    },
+    {
+      "time": "2026-02-15 21:54:49+00:00",
+      "symbol": "ZAMA",
+      "strategy": "trend",
+      "pnl": -2.15,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 74,
+      "holding_hours": 18.8
+    },
+    {
+      "time": "2026-02-15 21:54:49+00:00",
+      "symbol": "我踏马来了",
+      "strategy": "trend",
+      "pnl": -2.95,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 72,
+      "holding_hours": 21.2
+    },
+    {
+      "time": "2026-02-15 21:52:05+00:00",
+      "symbol": "STABLE",
+      "strategy": "trend",
+      "pnl": -1.35,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 83,
+      "holding_hours": 0.3
+    },
+    {
+      "time": "2026-02-15 20:27:39+00:00",
+      "symbol": "USELESS",
+      "strategy": "trend",
+      "pnl": 2.51,
+      "regime": "mixed",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 3.8
+    },
+    {
+      "time": "2026-02-15 17:48:07+00:00",
+      "symbol": "XPL",
+      "strategy": "trend",
+      "pnl": -0.29,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 69,
+      "holding_hours": 1.2
+    },
+    {
+      "time": "2026-02-15 17:48:07+00:00",
+      "symbol": "PYTH",
+      "strategy": "trend",
+      "pnl": -0.38,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 68,
+      "holding_hours": 8.2
+    },
+    {
+      "time": "2026-02-15 17:48:07+00:00",
+      "symbol": "OM",
+      "strategy": "trend",
+      "pnl": -4.57,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 74,
+      "holding_hours": 8.2
+    },
+    {
+      "time": "2026-02-15 17:48:07+00:00",
+      "symbol": "COAI",
+      "strategy": "trend",
+      "pnl": -10.67,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 69,
+      "holding_hours": 16.7
+    },
+    {
+      "time": "2026-02-15 16:33:53+00:00",
+      "symbol": "HYPE",
+      "strategy": "trend",
+      "pnl": -2.61,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 67,
+      "holding_hours": 9.2
+    },
+    {
+      "time": "2026-02-15 16:33:53+00:00",
+      "symbol": "BCH",
+      "strategy": "trend",
+      "pnl": -1.71,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 68,
+      "holding_hours": 13.5
+    },
+    {
+      "time": "2026-02-15 09:43:47+00:00",
+      "symbol": "BEAT",
+      "strategy": "trend",
+      "pnl": -6.15,
+      "regime": "mixed",
+      "direction": "long",
+      "signal_score": 74,
+      "holding_hours": 0.2
+    },
+    {
+      "time": "2026-02-15 09:31:48+00:00",
+      "symbol": "FF",
+      "strategy": "trend",
+      "pnl": 1.49,
+      "regime": "mixed",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 2.1
+    },
+    {
+      "time": "2026-02-15 09:29:33+00:00",
+      "symbol": "ASTER",
+      "strategy": "trend",
+      "pnl": -2.45,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 67,
+      "holding_hours": 2.1
+    },
+    {
+      "time": "2026-02-15 08:50:08+00:00",
+      "symbol": "POWER",
+      "strategy": "trend",
+      "pnl": -13.26,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 69,
+      "holding_hours": 7.7
+    },
+    {
+      "time": "2026-02-15 07:20:59+00:00",
+      "symbol": "MON",
+      "strategy": "trend",
+      "pnl": -3.87,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 71,
+      "holding_hours": 6.3
+    },
+    {
+      "time": "2026-02-15 05:32:10+00:00",
+      "symbol": "FF",
+      "strategy": "trend",
+      "pnl": 2.18,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 69,
+      "holding_hours": 2.4
+    },
+    {
+      "time": "2026-02-15 04:03:02+00:00",
+      "symbol": "ZEC",
+      "strategy": "trend",
+      "pnl": 9.34,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 64,
+      "holding_hours": 3.0
+    },
+    {
+      "time": "2026-02-15 03:48:08+00:00",
+      "symbol": "ZEC",
+      "strategy": "trend",
+      "pnl": 9.49,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 64,
+      "holding_hours": 2.7
+    },
+    {
+      "time": "2026-02-15 03:04:05+00:00",
+      "symbol": "GPUAI",
+      "strategy": "trend",
+      "pnl": -14.92,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 67,
+      "holding_hours": 1.9
+    },
+    {
+      "time": "2026-02-15 01:03:40+00:00",
+      "symbol": "COINON",
+      "strategy": "trend",
+      "pnl": -0.58,
+      "regime": "mixed",
+      "direction": "short",
+      "signal_score": 70,
+      "holding_hours": 3.3
+    },
+    {
+      "time": "2026-02-15 01:03:34+00:00",
+      "symbol": "XAUT",
+      "strategy": "trend",
+      "pnl": -0.05,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 94,
+      "holding_hours": 7.2
+    },
+    {
+      "time": "2026-02-15 01:03:34+00:00",
+      "symbol": "PAXG",
+      "strategy": "trend",
+      "pnl": -0.01,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 94,
+      "holding_hours": 7.0
+    },
+    {
+      "time": "2026-02-15 01:03:30+00:00",
+      "symbol": "PIPPIN",
+      "strategy": "trend",
+      "pnl": 3.57,
+      "regime": "mixed",
+      "direction": "long",
+      "signal_score": 72,
+      "holding_hours": 0.8
+    },
+    {
+      "time": "2026-02-15 01:03:29+00:00",
+      "symbol": "XAUT",
+      "strategy": "trend",
+      "pnl": -0.03,
+      "regime": "mixed",
+      "direction": "long",
+      "signal_score": 83,
+      "holding_hours": 2.7
+    },
+    {
+      "time": "2026-02-15 01:03:26+00:00",
+      "symbol": "USD1",
+      "strategy": "trend",
+      "pnl": 0.0,
+      "regime": "mixed",
+      "direction": "long",
+      "signal_score": 74,
+      "holding_hours": 0.8
+    },
+    {
+      "time": "2026-02-14 18:31:36+00:00",
+      "symbol": "BLUAI",
+      "strategy": "trend",
+      "pnl": -1.64,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 85,
+      "holding_hours": 0.7
+    },
+    {
+      "time": "2026-02-14 12:29:02+00:00",
+      "symbol": "POWER",
+      "strategy": "trend",
+      "pnl": -2.08,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 83,
+      "holding_hours": 0.2
+    },
+    {
+      "time": "2026-02-14 11:51:22+00:00",
+      "symbol": "BLUAI",
+      "strategy": "trend",
+      "pnl": -1.28,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 82,
+      "holding_hours": 0.4
+    },
+    {
+      "time": "2026-02-17 13:09:24+00:00",
+      "symbol": "STABLE",
+      "strategy": "trend",
+      "pnl": -5.05,
+      "regime": "unknown",
+      "direction": "short",
+      "signal_score": 76,
+      "holding_hours": 0.9
+    },
+    {
+      "time": "2026-02-17 14:50:25+00:00",
+      "symbol": "STABLE",
+      "strategy": "trend",
+      "pnl": 7.84,
+      "regime": "unknown",
+      "direction": "short",
+      "signal_score": 76,
+      "holding_hours": 1.6
+    },
+    {
+      "time": "2026-02-21 22:59:21+00:00",
+      "symbol": "WLFI",
+      "strategy": "range",
+      "pnl": -0.9,
+      "regime": "unknown",
+      "direction": "long",
+      "signal_score": 78,
+      "holding_hours": 1.0
+    },
+    {
+      "time": "2026-02-21 23:29:15+00:00",
+      "symbol": "ADA",
+      "strategy": "range",
+      "pnl": -0.67,
+      "regime": "unknown",
+      "direction": "long",
+      "signal_score": 75,
+      "holding_hours": 1.0
+    },
+    {
+      "time": "2026-02-21 23:33:54+00:00",
+      "symbol": "WIF",
+      "strategy": "range",
+      "pnl": -0.71,
+      "regime": "unknown",
+      "direction": "long",
+      "signal_score": 75,
+      "holding_hours": 1.2
+    },
+    {
+      "time": "2026-02-22 00:03:04+00:00",
+      "symbol": "ONDO",
+      "strategy": "range",
+      "pnl": -0.66,
+      "regime": "unknown",
+      "direction": "long",
+      "signal_score": 75,
+      "holding_hours": 2.1
+    },
+    {
+      "time": "2026-02-22 00:03:45+00:00",
+      "symbol": "POL",
+      "strategy": "grid",
+      "pnl": 1.9,
+      "regime": "unknown",
+      "direction": "long",
+      "signal_score": 75,
+      "holding_hours": 1.8
+    },
+    {
+      "time": "2026-02-22 08:31:34+00:00",
+      "symbol": "HBAR",
+      "strategy": "range",
+      "pnl": -1.29,
+      "regime": "unknown",
+      "direction": "long",
+      "signal_score": 75,
+      "holding_hours": 10.5
+    },
+    {
+      "time": "2026-02-22 19:19:42+00:00",
+      "symbol": "ARC",
+      "strategy": "trend",
+      "pnl": 7.39,
+      "regime": "unknown",
+      "direction": "long",
+      "signal_score": 73,
+      "holding_hours": 2.1
+    },
+    {
+      "time": "2026-02-22 19:39:56+00:00",
+      "symbol": "CYBER",
+      "strategy": "trend",
+      "pnl": -3.12,
+      "regime": "unknown",
+      "direction": "long",
+      "signal_score": 78,
+      "holding_hours": 1.0
+    },
+    {
+      "time": "2026-02-22 21:13:19+00:00",
+      "symbol": "PIPPIN",
+      "strategy": "grid",
+      "pnl": 7.01,
+      "regime": "unknown",
+      "direction": "long",
+      "signal_score": 77,
+      "holding_hours": 4.0
+    },
+    {
+      "time": "2026-02-22 21:58:13+00:00",
+      "symbol": "ARC",
+      "strategy": "trend",
+      "pnl": -5.06,
+      "regime": "unknown",
+      "direction": "short",
+      "signal_score": 72,
+      "holding_hours": 0.7
+    },
+    {
+      "time": "2026-02-23 09:07:03+00:00",
+      "symbol": "RAVE",
+      "strategy": "trend",
+      "pnl": -3.35,
+      "regime": "unknown",
+      "direction": "long",
+      "signal_score": 73,
+      "holding_hours": 10.6
+    },
+    {
+      "time": "2026-02-23 10:27:22+00:00",
+      "symbol": "KITE",
+      "strategy": "trend",
+      "pnl": 6.3,
+      "regime": "unknown",
+      "direction": "long",
+      "signal_score": 73,
+      "holding_hours": 17.3
+    },
+    {
+      "time": "2026-02-23 12:01:57+00:00",
+      "symbol": "RAVE",
+      "strategy": "trend",
+      "pnl": -2.23,
+      "regime": "unknown",
+      "direction": "long",
+      "signal_score": 73,
+      "holding_hours": 2.8
+    },
+    {
+      "time": "2026-02-23 13:43:42+00:00",
+      "symbol": "KITE",
+      "strategy": "grid",
+      "pnl": -1.97,
+      "regime": "unknown",
+      "direction": "long",
+      "signal_score": 73,
+      "holding_hours": 1.6
+    },
+    {
+      "time": "2026-02-23 16:56:00+00:00",
+      "symbol": "ENSO",
+      "strategy": "trend",
+      "pnl": -2.56,
+      "regime": "unknown",
+      "direction": "long",
+      "signal_score": 74,
+      "holding_hours": 4.9
+    },
+    {
+      "time": "2026-02-23 18:50:08+00:00",
+      "symbol": "KITE",
+      "strategy": "grid",
+      "pnl": -0.86,
+      "regime": "unknown",
+      "direction": "long",
+      "signal_score": 72,
+      "holding_hours": 5.1
+    },
+    {
+      "time": "2026-02-23 20:35:24+00:00",
+      "symbol": "KITE",
+      "strategy": "grid",
+      "pnl": -1.99,
+      "regime": "unknown",
+      "direction": "long",
+      "signal_score": 72,
+      "holding_hours": 1.7
+    },
+    {
+      "time": "2026-02-23 21:29:52+00:00",
+      "symbol": "PIPPIN",
+      "strategy": "trend",
+      "pnl": 5.65,
+      "regime": "unknown",
+      "direction": "long",
+      "signal_score": 75,
+      "holding_hours": 7.6
+    },
+    {
+      "time": "2026-02-23 21:36:11+00:00",
+      "symbol": "KITE",
+      "strategy": "grid",
+      "pnl": -2.96,
+      "regime": "unknown",
+      "direction": "long",
+      "signal_score": 73,
+      "holding_hours": 1.0
+    },
+    {
+      "time": "2026-02-24 09:02:00+00:00",
+      "symbol": "HNT",
+      "strategy": "trend",
+      "pnl": -1.4,
+      "regime": "unknown",
+      "direction": "long",
+      "signal_score": 72,
+      "holding_hours": 1.2
+    },
+    {
+      "time": "2026-02-24 09:11:22+00:00",
+      "symbol": "MON",
+      "strategy": "trend",
+      "pnl": -0.97,
+      "regime": "unknown",
+      "direction": "long",
+      "signal_score": 72,
+      "holding_hours": 1.2
+    },
+    {
+      "time": "2026-02-24 10:33:31+00:00",
+      "symbol": "MON",
+      "strategy": "trend",
+      "pnl": -1.64,
+      "regime": "unknown",
+      "direction": "long",
+      "signal_score": 73,
+      "holding_hours": 1.0
+    },
+    {
+      "time": "2026-02-24 11:18:35+00:00",
+      "symbol": "KITE",
+      "strategy": "grid",
+      "pnl": -0.89,
+      "regime": "unknown",
+      "direction": "long",
+      "signal_score": 73,
+      "holding_hours": 13.7
+    },
+    {
+      "time": "2026-02-24 19:43:00+00:00",
+      "symbol": "MY",
+      "strategy": "trend",
+      "pnl": -9.72,
+      "regime": "unknown",
+      "direction": "long",
+      "signal_score": 72,
+      "holding_hours": 11.7
+    },
+    {
+      "time": "2026-02-24 23:01:51+00:00",
+      "symbol": "SIREN",
+      "strategy": "trend",
+      "pnl": 16.66,
+      "regime": "unknown",
+      "direction": "long",
+      "signal_score": 74,
+      "holding_hours": 35.0
+    },
+    {
+      "time": "2026-02-24 23:35:00+00:00",
+      "symbol": "ENSO",
+      "strategy": "trend",
+      "pnl": 10.16,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 73,
+      "holding_hours": 1.0
+    },
+    {
+      "time": "2026-02-25 11:16:52+00:00",
+      "symbol": "CAKE",
+      "strategy": "trend",
+      "pnl": -0.84,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 72,
+      "holding_hours": 1.1
+    },
+    {
+      "time": "2026-02-25 11:43:49+00:00",
+      "symbol": "MNT",
+      "strategy": "trend",
+      "pnl": -0.75,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 72,
+      "holding_hours": 1.0
+    },
+    {
+      "time": "2026-02-26 21:18:46+00:00",
+      "symbol": "WLD",
+      "strategy": "trend",
+      "pnl": 7.05,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 72,
+      "holding_hours": 46.4
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "BLUAI",
+      "strategy": "trend_following",
+      "pnl": -1.28,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 82,
+      "holding_hours": 0.4
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "POWER",
+      "strategy": "trend_following",
+      "pnl": -2.08,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 83,
+      "holding_hours": 0.2
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "BLUAI",
+      "strategy": "trend_following",
+      "pnl": -1.64,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 85,
+      "holding_hours": 0.7
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "USD1",
+      "strategy": "trend_following",
+      "pnl": 0.0,
+      "regime": "mixed",
+      "direction": "long",
+      "signal_score": 74,
+      "holding_hours": 0.8
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "XAUT",
+      "strategy": "trend_following",
+      "pnl": -0.03,
+      "regime": "mixed",
+      "direction": "long",
+      "signal_score": 83,
+      "holding_hours": 2.7
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "PIPPIN",
+      "strategy": "trend_following",
+      "pnl": 3.57,
+      "regime": "mixed",
+      "direction": "long",
+      "signal_score": 72,
+      "holding_hours": 0.8
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "PAXG",
+      "strategy": "trend_following",
+      "pnl": -0.01,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 94,
+      "holding_hours": 7.0
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "XAUT",
+      "strategy": "trend_following",
+      "pnl": -0.05,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 94,
+      "holding_hours": 7.2
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "COINON",
+      "strategy": "trend_following",
+      "pnl": -0.58,
+      "regime": "mixed",
+      "direction": "short",
+      "signal_score": 70,
+      "holding_hours": 3.3
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "GPUAI",
+      "strategy": "trend_following",
+      "pnl": -14.92,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 67,
+      "holding_hours": 1.9
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "ZEC",
+      "strategy": "trend_following",
+      "pnl": 9.49,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 64,
+      "holding_hours": 2.7
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "ZEC",
+      "strategy": "trend_following",
+      "pnl": 9.34,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 64,
+      "holding_hours": 3.0
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "FF",
+      "strategy": "trend_following",
+      "pnl": 2.18,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 69,
+      "holding_hours": 2.4
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "MON",
+      "strategy": "trend_following",
+      "pnl": -3.87,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 71,
+      "holding_hours": 6.3
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "POWER",
+      "strategy": "trend_following",
+      "pnl": -13.26,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 69,
+      "holding_hours": 7.7
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "ASTER",
+      "strategy": "trend_following",
+      "pnl": -2.45,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 67,
+      "holding_hours": 2.1
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "FF",
+      "strategy": "trend_following",
+      "pnl": 1.49,
+      "regime": "mixed",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 2.1
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "BEAT",
+      "strategy": "trend_following",
+      "pnl": -6.15,
+      "regime": "mixed",
+      "direction": "long",
+      "signal_score": 74,
+      "holding_hours": 0.2
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "BCH",
+      "strategy": "trend_following",
+      "pnl": -1.71,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 68,
+      "holding_hours": 13.5
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "HYPE",
+      "strategy": "trend_following",
+      "pnl": -2.61,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 67,
+      "holding_hours": 9.2
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "COAI",
+      "strategy": "trend_following",
+      "pnl": -10.67,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 69,
+      "holding_hours": 16.7
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "OM",
+      "strategy": "trend_following",
+      "pnl": -4.57,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 74,
+      "holding_hours": 8.2
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "PYTH",
+      "strategy": "trend_following",
+      "pnl": -0.38,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 68,
+      "holding_hours": 8.2
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "XPL",
+      "strategy": "trend_following",
+      "pnl": -0.29,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 69,
+      "holding_hours": 1.2
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "USELESS",
+      "strategy": "trend_following",
+      "pnl": 2.51,
+      "regime": "mixed",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 3.8
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "STABLE",
+      "strategy": "trend_following",
+      "pnl": -1.35,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 83,
+      "holding_hours": 0.3
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "我踏马来了",
+      "strategy": "trend_following",
+      "pnl": -2.95,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 72,
+      "holding_hours": 21.2
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "ZAMA",
+      "strategy": "trend_following",
+      "pnl": -2.15,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 74,
+      "holding_hours": 18.8
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "H",
+      "strategy": "trend_following",
+      "pnl": 6.9,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 69,
+      "holding_hours": 6.5
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "KITE",
+      "strategy": "trend_following",
+      "pnl": -3.06,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 86,
+      "holding_hours": 8.9
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "XAUT",
+      "strategy": "range_harvester",
+      "pnl": -0.56,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 83,
+      "holding_hours": 36.6
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "PIPPIN",
+      "strategy": "trend_following",
+      "pnl": -1.47,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 72,
+      "holding_hours": 33.9
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "STABLE",
+      "strategy": "trend_following",
+      "pnl": 14.49,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 80,
+      "holding_hours": 15.7
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "STABLE",
+      "strategy": "trend_following",
+      "pnl": 18.37,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 80,
+      "holding_hours": 16.4
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "AAVE",
+      "strategy": "trend_following",
+      "pnl": 0.97,
+      "regime": "trending",
+      "direction": "short",
+      "signal_score": 70,
+      "holding_hours": 20.8
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "AVAX",
+      "strategy": "trend_following",
+      "pnl": -0.63,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 69,
+      "holding_hours": 0.8
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "HNT",
+      "strategy": "trend_following",
+      "pnl": -2.2,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 83,
+      "holding_hours": 0.7
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "AR",
+      "strategy": "trend_following",
+      "pnl": -1.13,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 60,
+      "holding_hours": 2.0
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "JASMY",
+      "strategy": "trend_following",
+      "pnl": -0.67,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 68,
+      "holding_hours": 2.0
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "IMX",
+      "strategy": "trend_following",
+      "pnl": -1.18,
+      "regime": "mixed",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 1.9
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "CRV",
+      "strategy": "trend_following",
+      "pnl": -0.83,
+      "regime": "ranging",
+      "direction": "long",
+      "signal_score": 69,
+      "holding_hours": 2.0
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "FIL",
+      "strategy": "trend_following",
+      "pnl": -1.39,
+      "regime": "mixed",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 1.9
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "ATOM",
+      "strategy": "trend_following",
+      "pnl": 4.11,
+      "regime": "mixed",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 4.1
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "ATOM",
+      "strategy": "trend_following",
+      "pnl": 2.33,
+      "regime": "mixed",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 4.7
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "HBAR",
+      "strategy": "trend_following",
+      "pnl": -1.35,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 6.3
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "STABLE",
+      "strategy": "trend",
+      "pnl": 10.63,
+      "regime": "volatile",
+      "direction": "short",
+      "signal_score": 76,
+      "holding_hours": 1.1
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "WLFI",
+      "strategy": "trend",
+      "pnl": -0.9,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 78,
+      "holding_hours": 1.0
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "ADA",
+      "strategy": "trend",
+      "pnl": -0.67,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 75,
+      "holding_hours": 1.0
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "WIF",
+      "strategy": "trend",
+      "pnl": -0.71,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 75,
+      "holding_hours": 1.2
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "POL",
+      "strategy": "trend",
+      "pnl": 3.33,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 75,
+      "holding_hours": 1.3
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "ONDO",
+      "strategy": "trend",
+      "pnl": -0.66,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 75,
+      "holding_hours": 2.1
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "POL",
+      "strategy": "trend",
+      "pnl": 1.9,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 75,
+      "holding_hours": 1.8
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "HBAR",
+      "strategy": "trend",
+      "pnl": -1.29,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 75,
+      "holding_hours": 10.5
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "ARC",
+      "strategy": "trend",
+      "pnl": 5.32,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 73,
+      "holding_hours": 1.7
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "ARC",
+      "strategy": "trend",
+      "pnl": 9.2,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 73,
+      "holding_hours": 2.1
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "PIPPIN",
+      "strategy": "trend",
+      "pnl": 8.03,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 77,
+      "holding_hours": 2.6
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "PIPPIN",
+      "strategy": "trend",
+      "pnl": 7.01,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 77,
+      "holding_hours": 4.0
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "KITE",
+      "strategy": "trend",
+      "pnl": 10.93,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 73,
+      "holding_hours": 15.9
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "KITE",
+      "strategy": "trend",
+      "pnl": -1.97,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 73,
+      "holding_hours": 1.6
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "PIPPIN",
+      "strategy": "trend",
+      "pnl": 9.69,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 75,
+      "holding_hours": 4.3
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "KITE",
+      "strategy": "trend",
+      "pnl": -0.86,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 72,
+      "holding_hours": 5.1
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "KITE",
+      "strategy": "trend",
+      "pnl": -1.99,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 72,
+      "holding_hours": 1.7
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "KITE",
+      "strategy": "trend",
+      "pnl": -2.96,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 73,
+      "holding_hours": 1.0
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "KITE",
+      "strategy": "trend",
+      "pnl": -0.89,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 73,
+      "holding_hours": 13.7
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "SIREN",
+      "strategy": "trend",
+      "pnl": 14.9,
+      "regime": "",
+      "direction": "long",
+      "signal_score": 74,
+      "holding_hours": 34.1
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "ENSO",
+      "strategy": "trend",
+      "pnl": 8.82,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 73,
+      "holding_hours": 0.2
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "ENSO",
+      "strategy": "trend",
+      "pnl": 15.3,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 73,
+      "holding_hours": 0.7
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "WLD",
+      "strategy": "trend",
+      "pnl": 3.87,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 72,
+      "holding_hours": 11.4
+    },
+    {
+      "time": "2026-03-01 03:03:07",
+      "symbol": "WLD",
+      "strategy": "trend",
+      "pnl": 8.72,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 72,
+      "holding_hours": 35.9
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "BLUAI",
+      "strategy": "trend",
+      "pnl": -1.28,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 82.0,
+      "holding_hours": 0.4
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "POWER",
+      "strategy": "trend",
+      "pnl": -2.08,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 83.0,
+      "holding_hours": 0.2
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "XAUT",
+      "strategy": "trend",
+      "pnl": -0.05,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 94.0,
+      "holding_hours": 7.2
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "BLUAI",
+      "strategy": "trend",
+      "pnl": -1.64,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 85.0,
+      "holding_hours": 0.7
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "PAXG",
+      "strategy": "trend",
+      "pnl": -0.01,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 94.0,
+      "holding_hours": 7.0
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "COINON",
+      "strategy": "trend",
+      "pnl": -0.58,
+      "regime": "volatile",
+      "direction": "short",
+      "signal_score": 70.0,
+      "holding_hours": 3.3
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "XAUT",
+      "strategy": "trend",
+      "pnl": -0.56,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 83.0,
+      "holding_hours": 36.6
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "XAUT",
+      "strategy": "trend",
+      "pnl": -0.03,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 83.0,
+      "holding_hours": 2.7
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "PIPPIN",
+      "strategy": "trend",
+      "pnl": 3.57,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 72.0,
+      "holding_hours": 0.8
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "USD1",
+      "strategy": "trend",
+      "pnl": 0,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 74.0,
+      "holding_hours": 0.8
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "我踏马来了",
+      "strategy": "trend",
+      "pnl": -2.95,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 72.0,
+      "holding_hours": 21.2
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "PIPPIN",
+      "strategy": "trend",
+      "pnl": -1.47,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 72.0,
+      "holding_hours": 33.9
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "ZEC",
+      "strategy": "trend",
+      "pnl": 9.49,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 64.0,
+      "holding_hours": 2.7
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "ZEC",
+      "strategy": "trend",
+      "pnl": 9.34,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 64.0,
+      "holding_hours": 3.0
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "MON",
+      "strategy": "trend",
+      "pnl": -3.87,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 71.0,
+      "holding_hours": 6.3
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "GPUAI",
+      "strategy": "trend",
+      "pnl": -14.92,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 67.0,
+      "holding_hours": 1.9
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "COAI",
+      "strategy": "trend",
+      "pnl": -10.67,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 69.0,
+      "holding_hours": 16.7
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "POWER",
+      "strategy": "trend",
+      "pnl": -13.26,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 69.0,
+      "holding_hours": 7.7
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "ZAMA",
+      "strategy": "trend",
+      "pnl": -2.15,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 74.0,
+      "holding_hours": 18.8
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "BCH",
+      "strategy": "trend",
+      "pnl": -1.71,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 68.0,
+      "holding_hours": 13.5
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "FF",
+      "strategy": "trend",
+      "pnl": 2.18,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 69.0,
+      "holding_hours": 2.4
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "FF",
+      "strategy": "trend",
+      "pnl": 1.49,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 70.0,
+      "holding_hours": 2.1
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "ASTER",
+      "strategy": "trend",
+      "pnl": -2.45,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 67.0,
+      "holding_hours": 2.1
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "HYPE",
+      "strategy": "trend",
+      "pnl": -2.61,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 67.0,
+      "holding_hours": 9.2
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "BEAT",
+      "strategy": "trend",
+      "pnl": -6.15,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 74.0,
+      "holding_hours": 0.2
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "PYTH",
+      "strategy": "trend",
+      "pnl": -0.38,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 68.0,
+      "holding_hours": 8.2
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "OM",
+      "strategy": "trend",
+      "pnl": -4.57,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 74.0,
+      "holding_hours": 8.2
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "USELESS",
+      "strategy": "trend",
+      "pnl": 2.51,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 70.0,
+      "holding_hours": 3.8
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "XPL",
+      "strategy": "trend",
+      "pnl": -0.29,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 69.0,
+      "holding_hours": 1.2
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "H",
+      "strategy": "trend",
+      "pnl": 6.9,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 69.0,
+      "holding_hours": 6.5
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "AAVE",
+      "strategy": "trend",
+      "pnl": 0.97,
+      "regime": "volatile",
+      "direction": "short",
+      "signal_score": 70.0,
+      "holding_hours": 20.8
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "STABLE",
+      "strategy": "trend",
+      "pnl": -1.35,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 83.0,
+      "holding_hours": 0.3
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "KITE",
+      "strategy": "trend",
+      "pnl": -3.06,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 86.0,
+      "holding_hours": 8.9
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "STABLE",
+      "strategy": "trend",
+      "pnl": 18.37,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 80.0,
+      "holding_hours": 16.4
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "STABLE",
+      "strategy": "trend",
+      "pnl": 14.49,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 80.0,
+      "holding_hours": 15.7
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "HBAR",
+      "strategy": "trend",
+      "pnl": -1.35,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 70.0,
+      "holding_hours": 6.3
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "ATOM",
+      "strategy": "trend",
+      "pnl": 2.33,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 70.0,
+      "holding_hours": 4.7
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "ATOM",
+      "strategy": "trend",
+      "pnl": 4.11,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 70.0,
+      "holding_hours": 4.1
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "AR",
+      "strategy": "trend",
+      "pnl": -1.13,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 60.0,
+      "holding_hours": 2.0
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "CRV",
+      "strategy": "trend",
+      "pnl": -0.83,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 69.0,
+      "holding_hours": 2.0
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "JASMY",
+      "strategy": "trend",
+      "pnl": -0.67,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 68.0,
+      "holding_hours": 2.0
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "IMX",
+      "strategy": "trend",
+      "pnl": -1.18,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 70.0,
+      "holding_hours": 1.9
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "FIL",
+      "strategy": "trend",
+      "pnl": -1.39,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 70.0,
+      "holding_hours": 1.9
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "AVAX",
+      "strategy": "trend",
+      "pnl": -0.63,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 69.0,
+      "holding_hours": 0.8
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "HNT",
+      "strategy": "trend",
+      "pnl": -2.2,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 83.0,
+      "holding_hours": 0.7
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "STABLE",
+      "strategy": "trend",
+      "pnl": -5.05,
+      "regime": "volatile",
+      "direction": "short",
+      "signal_score": 76.0,
+      "holding_hours": 0.9
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "STABLE",
+      "strategy": "trend",
+      "pnl": 7.84,
+      "regime": "volatile",
+      "direction": "short",
+      "signal_score": 76.0,
+      "holding_hours": 1.6
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "ONDO",
+      "strategy": "trend",
+      "pnl": -0.66,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 75.0,
+      "holding_hours": 2.1
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "WLFI",
+      "strategy": "trend",
+      "pnl": -0.9,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 78.0,
+      "holding_hours": 1.0
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "HBAR",
+      "strategy": "trend",
+      "pnl": -1.29,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 75.0,
+      "holding_hours": 10.5
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "POL",
+      "strategy": "trend",
+      "pnl": 1.9,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 75.0,
+      "holding_hours": 1.8
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "WIF",
+      "strategy": "trend",
+      "pnl": -0.71,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 75.0,
+      "holding_hours": 1.2
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "ADA",
+      "strategy": "trend",
+      "pnl": -0.67,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 75.0,
+      "holding_hours": 1.0
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "KITE",
+      "strategy": "trend",
+      "pnl": 6.3,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 73.0,
+      "holding_hours": 17.3
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "ARC",
+      "strategy": "trend",
+      "pnl": 7.39,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 73.0,
+      "holding_hours": 2.1
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "PIPPIN",
+      "strategy": "trend",
+      "pnl": 7.01,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 77.0,
+      "holding_hours": 4.0
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "CYBER",
+      "strategy": "trend",
+      "pnl": -3.12,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 78.0,
+      "holding_hours": 1.0
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "ARC",
+      "strategy": "trend",
+      "pnl": -5.06,
+      "regime": "volatile",
+      "direction": "short",
+      "signal_score": 72.0,
+      "holding_hours": 0.7
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "RAVE",
+      "strategy": "trend",
+      "pnl": -3.35,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 73.0,
+      "holding_hours": 10.6
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "RAVE",
+      "strategy": "trend",
+      "pnl": -2.23,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 73.0,
+      "holding_hours": 2.8
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "ENSO",
+      "strategy": "trend",
+      "pnl": -2.56,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 74.0,
+      "holding_hours": 4.9
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "KITE",
+      "strategy": "trend",
+      "pnl": -1.97,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 73.0,
+      "holding_hours": 1.6
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "SIREN",
+      "strategy": "trend",
+      "pnl": 16.66,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 74.0,
+      "holding_hours": 35.0
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "KITE",
+      "strategy": "trend",
+      "pnl": -0.86,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 72.0,
+      "holding_hours": 5.1
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "PIPPIN",
+      "strategy": "trend",
+      "pnl": 5.65,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 75.0,
+      "holding_hours": 7.6
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "KITE",
+      "strategy": "trend",
+      "pnl": -1.99,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 72.0,
+      "holding_hours": 1.7
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "KITE",
+      "strategy": "trend",
+      "pnl": -2.96,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 73.0,
+      "holding_hours": 1.0
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "KITE",
+      "strategy": "trend",
+      "pnl": -0.89,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 73.0,
+      "holding_hours": 13.7
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "HNT",
+      "strategy": "trend",
+      "pnl": -1.4,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 72.0,
+      "holding_hours": 1.2
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "MON",
+      "strategy": "trend",
+      "pnl": -0.97,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 72.0,
+      "holding_hours": 1.2
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "MY",
+      "strategy": "trend",
+      "pnl": -9.72,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 72.0,
+      "holding_hours": 11.7
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "MON",
+      "strategy": "trend",
+      "pnl": -1.64,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 73.0,
+      "holding_hours": 1.0
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "ENSO",
+      "strategy": "trend",
+      "pnl": 10.16,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 73.0,
+      "holding_hours": 1.0
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "WLD",
+      "strategy": "trend",
+      "pnl": 7.05,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 72.0,
+      "holding_hours": 46.4
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "CAKE",
+      "strategy": "trend",
+      "pnl": -0.84,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 72.0,
+      "holding_hours": 1.1
+    },
+    {
+      "time": "2026-03-12 05:02:43",
+      "symbol": "MNT",
+      "strategy": "trend",
+      "pnl": -0.75,
+      "regime": "volatile",
+      "direction": "long",
+      "signal_score": 72.0,
+      "holding_hours": 1.0
+    },
+    {
+      "time": "2026-03-17 02:04:23",
+      "symbol": "DEGO",
+      "strategy": "trend",
+      "pnl": 7.66,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 0.3
+    },
+    {
+      "time": "2026-03-17 05:02:28",
+      "symbol": "BNB",
+      "strategy": "trend",
+      "pnl": -0.41,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 68,
+      "holding_hours": 1.0
+    },
+    {
+      "time": "2026-03-17 05:02:28",
+      "symbol": "AKT",
+      "strategy": "trend",
+      "pnl": -1.35,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 68,
+      "holding_hours": 1.0
+    },
+    {
+      "time": "2026-03-17 05:02:28",
+      "symbol": "DEGO",
+      "strategy": "trend",
+      "pnl": 4.87,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 1.0
+    },
+    {
+      "time": "2026-03-17 05:02:28",
+      "symbol": "NEAR",
+      "strategy": "trend",
+      "pnl": -0.82,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 1.2
+    },
+    {
+      "time": "2026-03-17 05:02:28",
+      "symbol": "DASH",
+      "strategy": "trend",
+      "pnl": 1.2,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 67,
+      "holding_hours": 1.3
+    },
+    {
+      "time": "2026-03-17 05:02:28",
+      "symbol": "ARB",
+      "strategy": "trend",
+      "pnl": -0.65,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 69,
+      "holding_hours": 1.4
+    },
+    {
+      "time": "2026-03-17 05:02:28",
+      "symbol": "AVAX",
+      "strategy": "trend",
+      "pnl": -0.67,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 67,
+      "holding_hours": 1.8
+    },
+    {
+      "time": "2026-03-17 05:02:28",
+      "symbol": "ADA",
+      "strategy": "trend",
+      "pnl": -2.1,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 67,
+      "holding_hours": 3.5
+    },
+    {
+      "time": "2026-03-17 05:02:28",
+      "symbol": "DASH",
+      "strategy": "trend",
+      "pnl": -2.9,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 67,
+      "holding_hours": 3.5
+    },
+    {
+      "time": "2026-03-17 05:02:28",
+      "symbol": "PENGU",
+      "strategy": "trend",
+      "pnl": -3.55,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 2.5
+    },
+    {
+      "time": "2026-03-17 05:02:28",
+      "symbol": "NEAR",
+      "strategy": "trend",
+      "pnl": -1.22,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 2.2
+    },
+    {
+      "time": "2026-03-17 05:02:28",
+      "symbol": "DEGO",
+      "strategy": "trend",
+      "pnl": -14.26,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 71,
+      "holding_hours": 2.2
+    },
+    {
+      "time": "2026-03-17 05:02:28",
+      "symbol": "AKT",
+      "strategy": "trend",
+      "pnl": 1.17,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 2.4
+    },
+    {
+      "time": "2026-03-17 06:02:31",
+      "symbol": "STRK",
+      "strategy": "trend",
+      "pnl": -1.92,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 68,
+      "holding_hours": 3.4
+    },
+    {
+      "time": "2026-03-17 06:02:31",
+      "symbol": "AKT",
+      "strategy": "trend",
+      "pnl": 1.78,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 2.5
+    },
+    {
+      "time": "2026-03-17 06:02:31",
+      "symbol": "HYPE",
+      "strategy": "trend",
+      "pnl": 1.52,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 2.0
+    },
+    {
+      "time": "2026-03-17 06:02:31",
+      "symbol": "HYPE",
+      "strategy": "trend",
+      "pnl": 1.84,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 2.2
+    },
+    {
+      "time": "2026-03-17 06:02:31",
+      "symbol": "AKT",
+      "strategy": "trend",
+      "pnl": -0.18,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 3.1
+    },
+    {
+      "time": "2026-03-17 07:05:33",
+      "symbol": "SIREN",
+      "strategy": "trend",
+      "pnl": 6.13,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 0.7
+    },
+    {
+      "time": "2026-03-17 08:04:17",
+      "symbol": "CFG",
+      "strategy": "trend",
+      "pnl": 4.14,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 2.1
+    },
+    {
+      "time": "2026-03-17 08:04:17",
+      "symbol": "FET",
+      "strategy": "trend",
+      "pnl": 2.89,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 67,
+      "holding_hours": 5.8
+    },
+    {
+      "time": "2026-03-17 08:04:17",
+      "symbol": "DEGO",
+      "strategy": "trend",
+      "pnl": 2.9,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 2.6
+    },
+    {
+      "time": "2026-03-17 08:04:17",
+      "symbol": "FET",
+      "strategy": "trend",
+      "pnl": 1.68,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 67,
+      "holding_hours": 6.3
+    },
+    {
+      "time": "2026-03-17 08:04:17",
+      "symbol": "IMX",
+      "strategy": "trend",
+      "pnl": 2.01,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 2.7
+    },
+    {
+      "time": "2026-03-17 09:04:09",
+      "symbol": "STRK",
+      "strategy": "trend",
+      "pnl": 1.43,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 71,
+      "holding_hours": 2.8
+    },
+    {
+      "time": "2026-03-17 09:04:09",
+      "symbol": "SIREN",
+      "strategy": "trend",
+      "pnl": 5.83,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 2.0
+    },
+    {
+      "time": "2026-03-17 09:04:09",
+      "symbol": "IMX",
+      "strategy": "trend",
+      "pnl": 5.34,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 3.2
+    },
+    {
+      "time": "2026-03-17 09:04:09",
+      "symbol": "HYPE",
+      "strategy": "trend",
+      "pnl": 1.9,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 5.4
+    },
+    {
+      "time": "2026-03-17 09:04:09",
+      "symbol": "AKT",
+      "strategy": "trend",
+      "pnl": 1.66,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 2.7
+    },
+    {
+      "time": "2026-03-17 09:04:09",
+      "symbol": "AKT",
+      "strategy": "trend",
+      "pnl": 1.98,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 2.8
+    },
+    {
+      "time": "2026-03-17 09:04:09",
+      "symbol": "AKT",
+      "strategy": "trend",
+      "pnl": 1.53,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 2.8
+    },
+    {
+      "time": "2026-03-17 10:04:39",
+      "symbol": "TRX",
+      "strategy": "trend",
+      "pnl": 0.31,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 66,
+      "holding_hours": 0.5
+    },
+    {
+      "time": "2026-03-17 10:04:39",
+      "symbol": "TRX",
+      "strategy": "trend",
+      "pnl": 0.34,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 66,
+      "holding_hours": 0.5
+    },
+    {
+      "time": "2026-03-17 12:04:28",
+      "symbol": "TRX",
+      "strategy": "trend",
+      "pnl": 0.51,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 66,
+      "holding_hours": 2.9
+    },
+    {
+      "time": "2026-03-17 12:04:28",
+      "symbol": "SIREN",
+      "strategy": "trend",
+      "pnl": 7.8,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 71,
+      "holding_hours": 3.1
+    },
+    {
+      "time": "2026-03-17 12:04:28",
+      "symbol": "SIREN",
+      "strategy": "trend",
+      "pnl": 5.42,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 71,
+      "holding_hours": 3.3
+    },
+    {
+      "time": "2026-03-17 13:01:44",
+      "symbol": "STRK",
+      "strategy": "trend",
+      "pnl": -0.94,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 71,
+      "holding_hours": 7.3
+    },
+    {
+      "time": "2026-03-17 17:01:33",
+      "symbol": "AKT",
+      "strategy": "trend",
+      "pnl": 1.85,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 65,
+      "holding_hours": 4.1
+    },
+    {
+      "time": "2026-03-17 17:01:33",
+      "symbol": "AKT",
+      "strategy": "trend",
+      "pnl": 5.38,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 65,
+      "holding_hours": 7.6
+    },
+    {
+      "time": "2026-03-17 17:01:33",
+      "symbol": "TRX",
+      "strategy": "trend",
+      "pnl": 0.38,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 67,
+      "holding_hours": 4.7
+    },
+    {
+      "time": "2026-03-17 17:01:33",
+      "symbol": "TRX",
+      "strategy": "trend",
+      "pnl": 0.42,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 67,
+      "holding_hours": 4.9
+    },
+    {
+      "time": "2026-03-18 01:02:45",
+      "symbol": "AKT",
+      "strategy": "trend",
+      "pnl": 0.57,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 65,
+      "holding_hours": 15.7
+    },
+    {
+      "time": "2026-03-18 02:04:35",
+      "symbol": "TRX",
+      "strategy": "trend",
+      "pnl": 1.76,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 67,
+      "holding_hours": 13.3
+    },
+    {
+      "time": "2026-03-18 15:03:51",
+      "symbol": "SIREN",
+      "strategy": "trend",
+      "pnl": 10.86,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 70,
+      "holding_hours": 19.4
+    },
+    {
+      "time": "2026-03-18 15:03:51",
+      "symbol": "STRK",
+      "strategy": "trend",
+      "pnl": -7.92,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 67,
+      "holding_hours": 11.5
+    },
+    {
+      "time": "2026-03-18 15:03:51",
+      "symbol": "BNB",
+      "strategy": "trend",
+      "pnl": -3.87,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 67,
+      "holding_hours": 11.4
+    },
+    {
+      "time": "2026-03-20 03:02:16",
+      "symbol": "BEAT",
+      "strategy": "trend",
+      "pnl": 11.73,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 65,
+      "holding_hours": 29.0
+    },
+    {
+      "time": "2026-03-23 03:04:19",
+      "symbol": "IP",
+      "strategy": "trend",
+      "pnl": -7.77,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 67,
+      "holding_hours": 50.1
+    },
+    {
+      "time": "2026-03-23 03:04:19",
+      "symbol": "TRX",
+      "strategy": "trend",
+      "pnl": 0.33,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 65,
+      "holding_hours": 121.2
+    },
+    {
+      "time": "2026-03-23 03:04:19",
+      "symbol": "TAO",
+      "strategy": "trend",
+      "pnl": -2.55,
+      "regime": "trending",
+      "direction": "long",
+      "signal_score": 68,
+      "holding_hours": 115.2
+    }
+  ],
+  "cross_strategy_rules": [
+    {
+      "type": "asset_avoid",
+      "asset": "XAUT",
+      "reason": "XAUT跨3笔交易胜率0%，所有策略应回避"
+    },
+    {
+      "type": "strategy_asset_ban",
+      "strategy": "grid",
+      "asset": "KITE",
+      "consecutive_losses": 5,
+      "total_trades": 5,
+      "reason": "grid策略在KITE上5笔中亏5笔，暂停该组合"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "MON",
+      "reason": "MON跨3笔交易胜率0%，所有策略应回避"
+    },
+    {
+      "type": "strategy_asset_ban",
+      "strategy": "trend",
+      "asset": "MON",
+      "consecutive_losses": 3,
+      "total_trades": 3,
+      "reason": "trend策略在MON上3笔中亏3笔，暂停该组合"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "BLUAI",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "BLUAI 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "POWER",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "POWER 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "regime_best_strategy",
+      "regime": "ranging",
+      "best_strategy": "trend_following",
+      "win_rate": 60.0,
+      "reason": "ranging市况下trend_following策略表现最佳(胜率60.0%)"
+    },
+    {
+      "type": "asset_prefer_strategy",
+      "asset": "STABLE",
+      "preferred_strategy": "trend",
+      "win_rate": 66.7,
+      "reason": "STABLE 在trend策略下胜率66.7%最优"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "HNT",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "HNT 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "HBAR",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "HBAR 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "asset_prefer_strategy",
+      "asset": "PIPPIN",
+      "preferred_strategy": "trend",
+      "win_rate": 80.0,
+      "reason": "PIPPIN 在trend策略下胜率80.0%最优"
+    },
+    {
+      "type": "asset_prefer_strategy",
+      "asset": "KITE",
+      "preferred_strategy": "trend",
+      "win_rate": 66.7,
+      "reason": "KITE 在trend策略下胜率66.7%最优"
+    },
+    {
+      "type": "strategy_asset_ban",
+      "strategy": "trend",
+      "asset": "KITE",
+      "consecutive_losses": 3,
+      "reason": "trend策略在KITE上连续亏损3次，暂停该组合"
+    },
+    {
+      "type": "strategy_asset_ban",
+      "strategy": "trend",
+      "asset": "BLUAI",
+      "consecutive_losses": 3,
+      "reason": "trend策略在BLUAI上连续亏损3次，暂停该组合"
+    },
+    {
+      "type": "strategy_asset_ban",
+      "strategy": "trend",
+      "asset": "POWER",
+      "consecutive_losses": 3,
+      "reason": "trend策略在POWER上连续亏损3次，暂停该组合"
+    },
+    {
+      "type": "strategy_asset_ban",
+      "strategy": "trend",
+      "asset": "XAUT",
+      "consecutive_losses": 3,
+      "reason": "trend策略在XAUT上连续亏损3次，暂停该组合"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "PAXG",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "PAXG 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "COINON",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "COINON 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "USD1",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "USD1 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "GPUAI",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "GPUAI 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "COAI",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "COAI 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "ZAMA",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "ZAMA 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "BCH",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "BCH 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "ASTER",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "ASTER 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "HYPE",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "HYPE 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "BEAT",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "BEAT 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "PYTH",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "PYTH 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "OM",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "OM 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "XPL",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "XPL 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "strategy_asset_ban",
+      "strategy": "trend",
+      "asset": "STABLE",
+      "consecutive_losses": 3,
+      "reason": "trend策略在STABLE上连续亏损3次，暂停该组合"
+    },
+    {
+      "type": "strategy_asset_ban",
+      "strategy": "trend",
+      "asset": "HBAR",
+      "consecutive_losses": 3,
+      "reason": "trend策略在HBAR上连续亏损3次，暂停该组合"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "AR",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "AR 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "CRV",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "CRV 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "JASMY",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "JASMY 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "IMX",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "IMX 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "FIL",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "FIL 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "AVAX",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "AVAX 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "strategy_asset_ban",
+      "strategy": "trend",
+      "asset": "HNT",
+      "consecutive_losses": 3,
+      "reason": "trend策略在HNT上连续亏损3次，暂停该组合"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "ONDO",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "ONDO 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "WLFI",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "WLFI 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "WIF",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "WIF 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "ADA",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "ADA 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "asset_avoid",
+      "asset": "RAVE",
+      "win_rate": 0.0,
+      "trades": 3,
+      "applies_to": "all",
+      "reason": "RAVE 跨策略胜率仅0.0%，所有策略应回避"
+    },
+    {
+      "type": "strategy_asset_ban",
+      "strategy": "trend",
+      "asset": "RAVE",
+      "consecutive_losses": 3,
+      "reason": "trend策略在RAVE上连续亏损3次，暂停该组合"
+    },
+    {
+      "type": "strategy_asset_ban",
+      "strategy": "trend",
+      "asset": "AVAX",
+      "consecutive_losses": 3,
+      "reason": "trend策略在AVAX上连续亏损3次，暂停该组合"
+    },
+    {
+      "type": "strategy_asset_ban",
+      "strategy": "trend",
+      "asset": "ADA",
+      "consecutive_losses": 3,
+      "reason": "trend策略在ADA上连续亏损3次，暂停该组合"
+    },
+    {
+      "type": "regime_best_strategy",
+      "regime": "trending",
+      "best_strategy": "trend",
+      "win_rate": 55.3,
+      "reason": "trending市况下trend策略表现最佳(胜率55.3%)"
+    },
+    {
+      "type": "asset_prefer_strategy",
+      "asset": "AKT",
+      "preferred_strategy": "trend",
+      "win_rate": 75.0,
+      "reason": "AKT 在trend策略下胜率75.0%最优"
+    },
+    {
+      "type": "asset_prefer_strategy",
+      "asset": "SIREN",
+      "preferred_strategy": "trend",
+      "win_rate": 100.0,
+      "reason": "SIREN 在trend策略下胜率100.0%最优"
+    },
+    {
+      "type": "strategy_asset_ban",
+      "strategy": "trend",
+      "asset": "STRK",
+      "consecutive_losses": 3,
+      "reason": "trend策略在STRK上连续亏损3次，暂停该组合"
+    }
+  ],
+  "strategy_performance": {
+    "trend": {
+      "wins": 89,
+      "losses": 126,
+      "total_pnl": 195.13,
+      "best_regimes": {
+        "trending": {
+          "wins": 38,
+          "losses": 26,
+          "pnl": 82.88
+        },
+        "mixed": {
+          "wins": 5,
+          "losses": 6,
+          "pnl": 4.68
+        },
+        "ranging": {
+          "wins": 4,
+          "losses": 12,
+          "pnl": -21.64
+        },
+        "volatile": {
+          "wins": 36,
+          "losses": 72,
+          "pnl": 105.57
+        },
+        "unknown": {
+          "wins": 5,
+          "losses": 10,
+          "pnl": 8.74
+        },
+        "": {
+          "wins": 1,
+          "losses": 0,
+          "pnl": 14.9
+        }
+      },
+      "worst_assets": {
+        "HBAR": 4,
+        "FIL": 2,
+        "CRV": 2,
+        "IMX": 2,
+        "JASMY": 2,
+        "AR": 2,
+        "HNT": 4,
+        "AVAX": 3,
+        "PIPPIN": 2,
+        "KITE": 12,
+        "ZAMA": 2,
+        "我踏马来了": 2,
+        "STABLE": 4,
+        "XPL": 2,
+        "PYTH": 2,
+        "OM": 2,
+        "COAI": 2,
+        "HYPE": 2,
+        "BCH": 2,
+        "BEAT": 2,
+        "ASTER": 2,
+        "POWER": 4,
+        "MON": 6,
+        "GPUAI": 2,
+        "COINON": 2,
+        "XAUT": 5,
+        "PAXG": 2,
+        "USD1": 2,
+        "BLUAI": 4,
+        "CYBER": 2,
+        "ARC": 2,
+        "RAVE": 4,
+        "ENSO": 2,
+        "MY": 2,
+        "CAKE": 2,
+        "MNT": 2,
+        "WLFI": 2,
+        "ADA": 3,
+        "WIF": 2,
+        "ONDO": 2,
+        "BNB": 2,
+        "AKT": 2,
+        "NEAR": 2,
+        "ARB": 1,
+        "DASH": 1,
+        "PENGU": 1,
+        "DEGO": 1,
+        "STRK": 3,
+        "IP": 1,
+        "TAO": 1
+      }
+    },
+    "range": {
+      "wins": 0,
+      "losses": 6,
+      "total_pnl": -4.79,
+      "best_regimes": {
+        "trending": {
+          "wins": 0,
+          "losses": 1,
+          "pnl": -0.56
+        },
+        "unknown": {
+          "wins": 0,
+          "losses": 5,
+          "pnl": -4.23
+        }
+      },
+      "worst_assets": {
+        "XAUT": 1,
+        "WLFI": 1,
+        "ADA": 1,
+        "WIF": 1,
+        "ONDO": 1,
+        "HBAR": 1
+      }
+    },
+    "grid": {
+      "wins": 2,
+      "losses": 5,
+      "total_pnl": 0.24,
+      "best_regimes": {
+        "unknown": {
+          "wins": 2,
+          "losses": 5,
+          "pnl": 0.24
+        }
+      },
+      "worst_assets": {
+        "KITE": 5
+      }
+    }
+  },
+  "stats": {
+    "total_broadcasts": 273,
+    "rules_generated": 50,
+    "last_sync": "2026-03-23 03:04:19",
+    "rebuilt_from_db": true,
+    "rebuild_time": "2026-03-01T02:07:11.522204"
+  },
+  "saved_at": "2026-03-27 07:00:51"
+}

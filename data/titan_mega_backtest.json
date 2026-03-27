@@ -1,0 +1,98 @@
+{
+  "total_generations": 305,
+  "total_backtests": 1609000,
+  "best_calmar": 20.2827,
+  "best_params": {
+    "rsi_entry": 22,
+    "tp_atr": 2.2055,
+    "sl_atr": 0.8465,
+    "adx_threshold": 27,
+    "ma_period": 41,
+    "kelly_fraction": 0.6197,
+    "max_risk": 0.0162,
+    "max_position": 0.3166
+  },
+  "improvement_history": [
+    {
+      "generation": 1,
+      "calmar": 4.5076,
+      "params": {
+        "rsi_entry": 27,
+        "tp_atr": 2.0469,
+        "sl_atr": 0.6461,
+        "adx_threshold": 21,
+        "ma_period": 22,
+        "kelly_fraction": 0.6637,
+        "max_risk": 0.0168,
+        "max_position": 0.1502
+      },
+      "timestamp": "2026-02-17 06:34:44",
+      "total_backtests": 10000
+    },
+    {
+      "generation": 2,
+      "calmar": 7.5146,
+      "params": {
+        "rsi_entry": 25,
+        "tp_atr": 2.2245,
+        "sl_atr": 0.9294,
+        "adx_threshold": 24,
+        "ma_period": 31,
+        "kelly_fraction": 0.6968,
+        "max_risk": 0.0179,
+        "max_position": 0.2039
+      },
+      "timestamp": "2026-02-17 06:37:55",
+      "total_backtests": 20000
+    },
+    {
+      "generation": 3,
+      "calmar": 15.7414,
+      "params": {
+        "rsi_entry": 22,
+        "tp_atr": 2.2889,
+        "sl_atr": 1.115,
+        "adx_threshold": 28,
+        "ma_period": 39,
+        "kelly_fraction": 0.5813,
+        "max_risk": 0.0132,
+        "max_position": 0.2606
+      },
+      "timestamp": "2026-02-17 06:39:33",
+      "total_backtests": 30000
+    },
+    {
+      "generation": 4,
+      "calmar": 19.2961,
+      "params": {
+        "rsi_entry": 22,
+        "tp_atr": 2.196,
+        "sl_atr": 0.8851,
+        "adx_threshold": 27,
+        "ma_period": 40,
+        "kelly_fraction": 0.7196,
+        "max_risk": 0.0158,
+        "max_position": 0.3356
+      },
+      "timestamp": "2026-02-17 06:41:42",
+      "total_backtests": 40000
+    },
+    {
+      "generation": 5,
+      "calmar": 20.2827,
+      "params": {
+        "rsi_entry": 22,
+        "tp_atr": 2.2055,
+        "sl_atr": 0.8465,
+        "adx_threshold": 27,
+        "ma_period": 41,
+        "kelly_fraction": 0.6197,
+        "max_risk": 0.0162,
+        "max_position": 0.3166
+      },
+      "timestamp": "2026-02-17 06:46:16",
+      "total_backtests": 50000
+    }
+  ],
+  "last_updated": "2026-03-18 15:36:58"
+}

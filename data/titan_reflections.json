@@ -1,0 +1,2122 @@
+[
+  {
+    "time": "2026-02-23 15:02:20",
+    "type": "periodic_review",
+    "findings": [
+      "ML准确率71.0%，表现优秀，可提高ML权重"
+    ],
+    "recommendations": [
+      {
+        "type": "increase_ml_weight",
+        "current_accuracy": 71.0,
+        "suggested_weight": 0.5
+      }
+    ],
+    "confidence_adjustment": 0.1,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.3,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-23 15:02:20",
+      "total_reflections": 98,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-24 02:04:18",
+    "type": "periodic_review",
+    "findings": [
+      "ML准确率67.0%，表现优秀，可提高ML权重"
+    ],
+    "recommendations": [
+      {
+        "type": "increase_ml_weight",
+        "current_accuracy": 67.0,
+        "suggested_weight": 0.5
+      }
+    ],
+    "confidence_adjustment": 0.1,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.4000000000000001,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-24 02:04:18",
+      "total_reflections": 99,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-24 04:05:12",
+    "type": "periodic_review",
+    "findings": [
+      "ML准确率65.0%，表现优秀，可提高ML权重"
+    ],
+    "recommendations": [
+      {
+        "type": "increase_ml_weight",
+        "current_accuracy": 65.0,
+        "suggested_weight": 0.5
+      }
+    ],
+    "confidence_adjustment": 0.1,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-24 04:05:12",
+      "total_reflections": 100,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-24 15:04:34",
+    "type": "periodic_review",
+    "findings": [
+      "ML准确率62.0%，表现优秀，可提高ML权重"
+    ],
+    "recommendations": [
+      {
+        "type": "increase_ml_weight",
+        "current_accuracy": 62.0,
+        "suggested_weight": 0.5
+      }
+    ],
+    "confidence_adjustment": 0.1,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-24 15:04:34",
+      "total_reflections": 101,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-25 01:02:48",
+    "type": "periodic_review",
+    "findings": [
+      "ML准确率61.0%，表现优秀，可提高ML权重"
+    ],
+    "recommendations": [
+      {
+        "type": "increase_ml_weight",
+        "current_accuracy": 61.0,
+        "suggested_weight": 0.5
+      }
+    ],
+    "confidence_adjustment": 0.1,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-25 01:02:48",
+      "total_reflections": 102,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-25 02:03:19",
+    "type": "periodic_review",
+    "findings": [
+      "ML准确率61.0%，表现优秀，可提高ML权重"
+    ],
+    "recommendations": [
+      {
+        "type": "increase_ml_weight",
+        "current_accuracy": 61.0,
+        "suggested_weight": 0.5
+      }
+    ],
+    "confidence_adjustment": 0.1,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-25 02:03:19",
+      "total_reflections": 103,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-25 03:03:28",
+    "type": "periodic_review",
+    "findings": [
+      "ML准确率63.0%，表现优秀，可提高ML权重"
+    ],
+    "recommendations": [
+      {
+        "type": "increase_ml_weight",
+        "current_accuracy": 63.0,
+        "suggested_weight": 0.5
+      }
+    ],
+    "confidence_adjustment": 0.1,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-25 03:03:28",
+      "total_reflections": 104,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-25 04:03:57",
+    "type": "periodic_review",
+    "findings": [
+      "ML准确率62.0%，表现优秀，可提高ML权重"
+    ],
+    "recommendations": [
+      {
+        "type": "increase_ml_weight",
+        "current_accuracy": 62.0,
+        "suggested_weight": 0.5
+      }
+    ],
+    "confidence_adjustment": 0.1,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-25 04:03:57",
+      "total_reflections": 105,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-26 03:02:31",
+    "type": "periodic_review",
+    "findings": [
+      "ML准确率61.0%，表现优秀，可提高ML权重"
+    ],
+    "recommendations": [
+      {
+        "type": "increase_ml_weight",
+        "current_accuracy": 61.0,
+        "suggested_weight": 0.5
+      }
+    ],
+    "confidence_adjustment": 0.1,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-26 03:02:31",
+      "total_reflections": 106,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-26 14:03:15",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-26 14:03:15",
+      "total_reflections": 107,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-26 17:04:18",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-26 17:04:18",
+      "total_reflections": 108,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-27 02:01:51",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-27 02:01:51",
+      "total_reflections": 109,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-27 04:03:55",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-27 04:03:55",
+      "total_reflections": 110,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-27 06:03:08",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-27 06:03:08",
+      "total_reflections": 111,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-27 07:02:14",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-27 07:02:14",
+      "total_reflections": 112,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-27 10:03:19",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-27 10:03:19",
+      "total_reflections": 113,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-27 13:03:04",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-27 13:03:04",
+      "total_reflections": 114,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-27 14:03:30",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-27 14:03:30",
+      "total_reflections": 115,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-27 15:04:20",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-27 15:04:20",
+      "total_reflections": 116,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-27 16:05:08",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-27 16:05:08",
+      "total_reflections": 117,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-27 20:05:10",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-27 20:05:10",
+      "total_reflections": 118,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-27 21:04:46",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-27 21:04:46",
+      "total_reflections": 119,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-27 22:03:13",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-27 22:03:13",
+      "total_reflections": 120,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-27 23:04:48",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-27 23:04:48",
+      "total_reflections": 121,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-28 00:04:35",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-28 00:04:35",
+      "total_reflections": 122,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-28 01:03:32",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-28 01:03:32",
+      "total_reflections": 123,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-28 02:03:35",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-28 02:03:35",
+      "total_reflections": 124,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-28 03:02:54",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-28 03:02:54",
+      "total_reflections": 125,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-28 15:03:24",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-28 15:03:24",
+      "total_reflections": 126,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-28 16:04:41",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-28 16:04:41",
+      "total_reflections": 127,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-02-28 17:04:02",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-02-28 17:04:02",
+      "total_reflections": 128,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-01 03:03:18",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-01 03:03:18",
+      "total_reflections": 129,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-01 12:03:49",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-01 12:03:49",
+      "total_reflections": 130,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-01 16:04:04",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-01 16:04:04",
+      "total_reflections": 131,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-01 17:03:49",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-01 17:03:49",
+      "total_reflections": 132,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-01 18:04:02",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-01 18:04:02",
+      "total_reflections": 133,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-01 19:03:04",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-01 19:03:04",
+      "total_reflections": 134,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-01 20:04:28",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-01 20:04:28",
+      "total_reflections": 135,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-01 21:02:22",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-01 21:02:22",
+      "total_reflections": 136,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-01 22:03:55",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-01 22:03:55",
+      "total_reflections": 137,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-01 23:03:14",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-01 23:03:14",
+      "total_reflections": 138,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-02 00:03:43",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-02 00:03:43",
+      "total_reflections": 139,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-02 01:02:13",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-02 01:02:13",
+      "total_reflections": 140,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-02 02:02:59",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-02 02:02:59",
+      "total_reflections": 141,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-02 03:02:59",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-02 03:02:59",
+      "total_reflections": 142,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-02 04:04:24",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-02 04:04:24",
+      "total_reflections": 143,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-02 05:03:27",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-02 05:03:27",
+      "total_reflections": 144,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-02 06:02:47",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-02 06:02:47",
+      "total_reflections": 145,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-02 07:03:23",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-02 07:03:23",
+      "total_reflections": 146,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-02 08:04:11",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-02 08:04:11",
+      "total_reflections": 147,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-02 09:02:49",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-02 09:02:49",
+      "total_reflections": 148,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-02 11:02:20",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-02 11:02:20",
+      "total_reflections": 149,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-02 16:04:38",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-02 16:04:38",
+      "total_reflections": 150,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-03 03:02:06",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-03 03:02:06",
+      "total_reflections": 151,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-03 05:03:06",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-03 05:03:06",
+      "total_reflections": 152,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-03 07:03:30",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-03 07:03:30",
+      "total_reflections": 153,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-03 11:02:45",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-03 11:02:45",
+      "total_reflections": 154,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-03 13:03:52",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-03 13:03:52",
+      "total_reflections": 155,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-05 03:02:06",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-05 03:02:06",
+      "total_reflections": 156,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-05 06:02:27",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-05 06:02:27",
+      "total_reflections": 157,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-05 07:01:57",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-05 07:01:57",
+      "total_reflections": 158,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-06 05:02:37",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-06 05:02:37",
+      "total_reflections": 159,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-06 06:03:22",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-06 06:03:22",
+      "total_reflections": 160,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-06 07:03:03",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-06 07:03:03",
+      "total_reflections": 161,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-06 10:02:05",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-06 10:02:05",
+      "total_reflections": 162,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-06 12:04:29",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-06 12:04:29",
+      "total_reflections": 163,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-07 11:03:33",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-07 11:03:33",
+      "total_reflections": 164,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-07 13:03:18",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-07 13:03:18",
+      "total_reflections": 165,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-08 13:02:56",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-08 13:02:56",
+      "total_reflections": 166,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-10 15:05:55",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-10 15:05:55",
+      "total_reflections": 167,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-11 04:05:08",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-11 04:05:08",
+      "total_reflections": 168,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-12 05:03:40",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-12 05:03:40",
+      "total_reflections": 169,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-12 06:02:46",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-12 06:02:46",
+      "total_reflections": 170,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-12 07:02:32",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-12 07:02:32",
+      "total_reflections": 171,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-12 08:04:42",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-12 08:04:42",
+      "total_reflections": 172,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-12 11:04:03",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-12 11:04:03",
+      "total_reflections": 173,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-12 12:04:31",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-12 12:04:31",
+      "total_reflections": 174,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-12 13:04:13",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-12 13:04:13",
+      "total_reflections": 175,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-12 14:02:52",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-12 14:02:52",
+      "total_reflections": 176,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-12 15:02:38",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-12 15:02:38",
+      "total_reflections": 177,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-12 16:04:31",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-12 16:04:31",
+      "total_reflections": 178,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-13 13:04:30",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-13 13:04:30",
+      "total_reflections": 179,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-14 18:25:23",
+    "type": "periodic_review",
+    "findings": [
+      "数据积累不足，继续观察中"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-14 18:25:23",
+      "total_reflections": 180,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-14 18:36:07",
+    "type": "periodic_review",
+    "findings": [
+      "系统刚启动，尚无交易数据可分析"
+    ],
+    "recommendations": [],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-14 18:36:07",
+      "total_reflections": 181,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-14 18:38:49",
+    "type": "periodic_review",
+    "findings": [
+      "实战数据总结: 总交易: 87笔 | 胜率: 35.6% | 总PNL: $-191.79",
+      "距上次交易: 0天",
+      "按策略:",
+      "trend: 54笔 胜率27.8% PNL=$-95.08",
+      "grid_geometric: 20笔 胜率70.0% PNL=$-42.05",
+      "grid: 7笔 胜率28.6% PNL=$-15.35",
+      "range: 6笔 胜率0.0% PNL=$-39.31",
+      "高置信度进化提案(≥0.75):",
+      "[0.8500000000000001] symbol_filter:KITE:",
+      "[0.85] signal_filter:",
+      "[0.85] signal_filter:",
+      "[0.85] signal_filter:",
+      "[0.85] signal_filter:"
+    ],
+    "recommendations": [
+      {
+        "type": "data_driven_analysis",
+        "reason": "基于DB实战数据生成的分析，非内存模式匹配",
+        "combat_data": "总交易: 87笔 | 胜率: 35.6% | 总PNL: $-191.79\n距上次交易: 0天\n按策略:\n  trend: 54笔 胜率27.8% PNL=$-95.08\n  grid_geometric: 20笔 胜率70.0% PNL=$-42.05\n  grid: 7笔 胜率28.6% PNL=$-15.35\n  range: 6笔 胜率0.0% PNL=$-39.31\n高置信度进化提案(≥0.75):\n  [0.8500000000000001] symbol_filter:KITE: \n  [0.85] signal_filter: \n  [0.85] signal_filter: \n  [0.85] signal_filter: \n  [0.85] signal_filter: "
+      }
+    ],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-14 18:38:49",
+      "total_reflections": 182,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-14 20:06:06",
+    "type": "periodic_review",
+    "findings": [
+      "实战数据总结: 总交易: 87笔 | 胜率: 35.6% | 总PNL: $-191.79",
+      "距上次交易: 0天",
+      "按策略:",
+      "trend: 54笔 胜率27.8% PNL=$-95.08",
+      "grid_geometric: 20笔 胜率70.0% PNL=$-42.05",
+      "grid: 7笔 胜率28.6% PNL=$-15.35",
+      "range: 6笔 胜率0.0% PNL=$-39.31",
+      "高置信度进化提案(≥0.75):",
+      "[0.8500000000000001] symbol_filter:KITE:",
+      "[0.85] signal_filter:",
+      "[0.85] signal_filter:",
+      "[0.85] signal_filter:",
+      "[0.85] signal_filter:"
+    ],
+    "recommendations": [
+      {
+        "type": "data_driven_analysis",
+        "reason": "基于DB实战数据生成的分析，非内存模式匹配",
+        "combat_data": "总交易: 87笔 | 胜率: 35.6% | 总PNL: $-191.79\n距上次交易: 0天\n按策略:\n  trend: 54笔 胜率27.8% PNL=$-95.08\n  grid_geometric: 20笔 胜率70.0% PNL=$-42.05\n  grid: 7笔 胜率28.6% PNL=$-15.35\n  range: 6笔 胜率0.0% PNL=$-39.31\n高置信度进化提案(≥0.75):\n  [0.8500000000000001] symbol_filter:KITE: \n  [0.85] signal_filter: \n  [0.85] signal_filter: \n  [0.85] signal_filter: \n  [0.85] signal_filter: "
+      }
+    ],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-14 20:06:06",
+      "total_reflections": 183,
+      "insight_count": 13
+    }
+  },
+  {
+    "time": "2026-03-14 22:02:11",
+    "type": "periodic_review",
+    "findings": [
+      "实战数据总结: 总交易: 87笔 | 胜率: 35.6% | 总PNL: $-191.79",
+      "距上次交易: 0天",
+      "按策略:",
+      "trend: 54笔 胜率27.8% PNL=$-95.08",
+      "grid_geometric: 20笔 胜率70.0% PNL=$-42.05",
+      "grid: 7笔 胜率28.6% PNL=$-15.35",
+      "range: 6笔 胜率0.0% PNL=$-39.31",
+      "高置信度进化提案(≥0.75):",
+      "[0.8500000000000001] symbol_filter:KITE:",
+      "[0.85] signal_filter:",
+      "[0.85] signal_filter:",
+      "[0.85] signal_filter:",
+      "[0.85] signal_filter:"
+    ],
+    "recommendations": [
+      {
+        "type": "data_driven_analysis",
+        "reason": "基于DB实战数据生成的分析，非内存模式匹配",
+        "combat_data": "总交易: 87笔 | 胜率: 35.6% | 总PNL: $-191.79\n距上次交易: 0天\n按策略:\n  trend: 54笔 胜率27.8% PNL=$-95.08\n  grid_geometric: 20笔 胜率70.0% PNL=$-42.05\n  grid: 7笔 胜率28.6% PNL=$-15.35\n  range: 6笔 胜率0.0% PNL=$-39.31\n高置信度进化提案(≥0.75):\n  [0.8500000000000001] symbol_filter:KITE: \n  [0.85] signal_filter: \n  [0.85] signal_filter: \n  [0.85] signal_filter: \n  [0.85] signal_filter: "
+      }
+    ],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-14 22:02:11",
+      "total_reflections": 184,
+      "insight_count": 13
+    }
+  },
+  {
+    "time": "2026-03-15 01:02:47",
+    "type": "periodic_review",
+    "findings": [
+      "实战数据总结: 总交易: 87笔 | 胜率: 35.6% | 总PNL: $-191.79",
+      "距上次交易: 0天",
+      "按策略:",
+      "trend: 54笔 胜率27.8% PNL=$-95.08",
+      "grid_geometric: 20笔 胜率70.0% PNL=$-42.05",
+      "grid: 7笔 胜率28.6% PNL=$-15.35",
+      "range: 6笔 胜率0.0% PNL=$-39.31",
+      "高置信度进化提案(≥0.75):",
+      "[0.8500000000000001] symbol_filter:KITE:",
+      "[0.85] signal_filter:",
+      "[0.85] signal_filter:",
+      "[0.85] signal_filter:",
+      "[0.85] signal_filter:"
+    ],
+    "recommendations": [
+      {
+        "type": "data_driven_analysis",
+        "reason": "基于DB实战数据生成的分析，非内存模式匹配",
+        "combat_data": "总交易: 87笔 | 胜率: 35.6% | 总PNL: $-191.79\n距上次交易: 0天\n按策略:\n  trend: 54笔 胜率27.8% PNL=$-95.08\n  grid_geometric: 20笔 胜率70.0% PNL=$-42.05\n  grid: 7笔 胜率28.6% PNL=$-15.35\n  range: 6笔 胜率0.0% PNL=$-39.31\n高置信度进化提案(≥0.75):\n  [0.8500000000000001] symbol_filter:KITE: \n  [0.85] signal_filter: \n  [0.85] signal_filter: \n  [0.85] signal_filter: \n  [0.85] signal_filter: "
+      }
+    ],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-15 01:02:47",
+      "total_reflections": 185,
+      "insight_count": 13
+    }
+  },
+  {
+    "time": "2026-03-17 02:04:35",
+    "type": "periodic_review",
+    "findings": [
+      "实战数据总结: 总交易: 88笔 | 胜率: 36.4% | 总PNL: $-165.53",
+      "距上次交易: 0天",
+      "按策略:",
+      "trend: 54笔 胜率27.8% PNL=$-95.08",
+      "grid_geometric: 21笔 胜率71.4% PNL=$-15.79",
+      "grid: 7笔 胜率28.6% PNL=$-15.35",
+      "range: 6笔 胜率0.0% PNL=$-39.31",
+      "高置信度进化提案(≥0.75):",
+      "[0.8500000000000001] symbol_filter:KITE:",
+      "[0.85] signal_filter:",
+      "[0.85] signal_filter:",
+      "[0.85] signal_filter:",
+      "[0.85] signal_filter:"
+    ],
+    "recommendations": [
+      {
+        "type": "data_driven_analysis",
+        "reason": "基于DB实战数据生成的分析，非内存模式匹配",
+        "combat_data": "总交易: 88笔 | 胜率: 36.4% | 总PNL: $-165.53\n距上次交易: 0天\n按策略:\n  trend: 54笔 胜率27.8% PNL=$-95.08\n  grid_geometric: 21笔 胜率71.4% PNL=$-15.79\n  grid: 7笔 胜率28.6% PNL=$-15.35\n  range: 6笔 胜率0.0% PNL=$-39.31\n高置信度进化提案(≥0.75):\n  [0.8500000000000001] symbol_filter:KITE: \n  [0.85] signal_filter: \n  [0.85] signal_filter: \n  [0.85] signal_filter: \n  [0.85] signal_filter: "
+      }
+    ],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-17 02:04:35",
+      "total_reflections": 186,
+      "insight_count": 13
+    }
+  },
+  {
+    "time": "2026-03-17 05:02:41",
+    "type": "periodic_review",
+    "findings": [
+      "实战数据总结: 总交易: 99笔 | 胜率: 33.3% | 总PNL: $-208.38",
+      "距上次交易: 0天",
+      "按策略:",
+      "trend: 64笔 胜率25.0% PNL=$-135.23",
+      "grid_geometric: 21笔 胜率71.4% PNL=$-15.79",
+      "grid: 8笔 胜率25.0% PNL=$-18.05",
+      "range: 6笔 胜率0.0% PNL=$-39.31",
+      "高置信度进化提案(≥0.75):",
+      "[0.8500000000000001] symbol_filter:KITE:",
+      "[0.85] signal_filter:",
+      "[0.85] signal_filter:",
+      "[0.85] signal_filter:",
+      "[0.85] signal_filter:"
+    ],
+    "recommendations": [
+      {
+        "type": "data_driven_analysis",
+        "reason": "基于DB实战数据生成的分析，非内存模式匹配",
+        "combat_data": "总交易: 99笔 | 胜率: 33.3% | 总PNL: $-208.38\n距上次交易: 0天\n按策略:\n  trend: 64笔 胜率25.0% PNL=$-135.23\n  grid_geometric: 21笔 胜率71.4% PNL=$-15.79\n  grid: 8笔 胜率25.0% PNL=$-18.05\n  range: 6笔 胜率0.0% PNL=$-39.31\n高置信度进化提案(≥0.75):\n  [0.8500000000000001] symbol_filter:KITE: \n  [0.85] signal_filter: \n  [0.85] signal_filter: \n  [0.85] signal_filter: \n  [0.85] signal_filter: "
+      }
+    ],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.5,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-17 05:02:41",
+      "total_reflections": 187,
+      "insight_count": 13
+    }
+  },
+  {
+    "time": "2026-03-17 06:02:43",
+    "type": "periodic_review",
+    "findings": [
+      "ML准确率仅43.0%，低于随机水平，应降低ML权重"
+    ],
+    "recommendations": [
+      {
+        "type": "reduce_ml_weight",
+        "current_accuracy": 43.0,
+        "suggested_weight": 0.15
+      }
+    ],
+    "confidence_adjustment": -0.1,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.4,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-17 06:02:43",
+      "total_reflections": 188,
+      "insight_count": 13
+    }
+  },
+  {
+    "time": "2026-03-17 08:04:36",
+    "type": "periodic_review",
+    "findings": [
+      "实战数据总结: 总交易: 104笔 | 胜率: 34.6% | 总PNL: $-205.70",
+      "距上次交易: 0天",
+      "按策略:",
+      "trend: 68笔 胜率27.9% PNL=$-132.51",
+      "grid_geometric: 21笔 胜率71.4% PNL=$-15.79",
+      "grid: 9笔 胜率22.2% PNL=$-18.09",
+      "range: 6笔 胜率0.0% PNL=$-39.31",
+      "高置信度进化提案(≥0.75):",
+      "[0.9] range_strategy_regime_gate: range策略0%胜率根因：regime=None时错误激活。修复：仅ranging regime激活range策略。P",
+      "[0.8500000000000001] symbol_filter:KITE:",
+      "[0.85] filter_4h_direction: 4H方向过滤：逆势做多胜率0%(14笔)，顺势做多胜率75%(8笔)。已实装，验证中"
+    ],
+    "recommendations": [
+      {
+        "type": "data_driven_analysis",
+        "reason": "基于DB实战数据生成的分析，非内存模式匹配",
+        "combat_data": "总交易: 104笔 | 胜率: 34.6% | 总PNL: $-205.70\n距上次交易: 0天\n按策略:\n  trend: 68笔 胜率27.9% PNL=$-132.51\n  grid_geometric: 21笔 胜率71.4% PNL=$-15.79\n  grid: 9笔 胜率22.2% PNL=$-18.09\n  range: 6笔 胜率0.0% PNL=$-39.31\n高置信度进化提案(≥0.75):\n  [0.9] range_strategy_regime_gate: range策略0%胜率根因：regime=None时错误激活。修复：仅ranging regime激活range策略。P\n  [0.8500000000000001] symbol_filter:KITE: \n  [0.85] filter_4h_direction: 4H方向过滤：逆势做多胜率0%(14笔)，顺势做多胜率75%(8笔)。已实装，验证中"
+      }
+    ],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.4,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-17 08:04:36",
+      "total_reflections": 189,
+      "insight_count": 1
+    }
+  },
+  {
+    "time": "2026-03-17 10:04:52",
+    "type": "periodic_review",
+    "findings": [
+      "实战数据总结: 总交易: 108笔 | 胜率: 37.0% | 总PNL: $-198.85",
+      "距上次交易: 0天",
+      "按策略:",
+      "trend: 71笔 胜率31.0% PNL=$-126.04",
+      "grid_geometric: 21笔 胜率71.4% PNL=$-15.79",
+      "grid: 10笔 胜率30.0% PNL=$-17.71",
+      "range: 6笔 胜率0.0% PNL=$-39.31",
+      "高置信度进化提案(≥0.75):",
+      "[0.9] range_strategy_regime_gate: range策略0%胜率根因：regime=None时错误激活。修复：仅ranging regime激活range策略。P",
+      "[0.8500000000000001] symbol_filter:KITE:",
+      "[0.85] filter_4h_direction: 4H方向过滤：逆势做多胜率0%(14笔)，顺势做多胜率75%(8笔)。已实装，验证中"
+    ],
+    "recommendations": [
+      {
+        "type": "data_driven_analysis",
+        "reason": "基于DB实战数据生成的分析，非内存模式匹配",
+        "combat_data": "总交易: 108笔 | 胜率: 37.0% | 总PNL: $-198.85\n距上次交易: 0天\n按策略:\n  trend: 71笔 胜率31.0% PNL=$-126.04\n  grid_geometric: 21笔 胜率71.4% PNL=$-15.79\n  grid: 10笔 胜率30.0% PNL=$-17.71\n  range: 6笔 胜率0.0% PNL=$-39.31\n高置信度进化提案(≥0.75):\n  [0.9] range_strategy_regime_gate: range策略0%胜率根因：regime=None时错误激活。修复：仅ranging regime激活range策略。P\n  [0.8500000000000001] symbol_filter:KITE: \n  [0.85] filter_4h_direction: 4H方向过滤：逆势做多胜率0%(14笔)，顺势做多胜率75%(8笔)。已实装，验证中"
+      }
+    ],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.4,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-17 10:04:52",
+      "total_reflections": 190,
+      "insight_count": 11
+    }
+  },
+  {
+    "time": "2026-03-17 12:04:44",
+    "type": "periodic_review",
+    "findings": [
+      "实战数据总结: 总交易: 110笔 | 胜率: 38.2% | 总PNL: $-186.11",
+      "距上次交易: 0天",
+      "按策略:",
+      "trend: 73笔 胜率32.9% PNL=$-113.30",
+      "grid_geometric: 21笔 胜率71.4% PNL=$-15.79",
+      "grid: 10笔 胜率30.0% PNL=$-17.71",
+      "range: 6笔 胜率0.0% PNL=$-39.31",
+      "高置信度进化提案(≥0.75):",
+      "[0.9] range_strategy_regime_gate: range策略0%胜率根因：regime=None时错误激活。修复：仅ranging regime激活range策略。P",
+      "[0.8500000000000001] symbol_filter:KITE:",
+      "[0.85] filter_4h_direction: 4H方向过滤：逆势做多胜率0%(14笔)，顺势做多胜率75%(8笔)。已实装，验证中"
+    ],
+    "recommendations": [
+      {
+        "type": "data_driven_analysis",
+        "reason": "基于DB实战数据生成的分析，非内存模式匹配",
+        "combat_data": "总交易: 110笔 | 胜率: 38.2% | 总PNL: $-186.11\n距上次交易: 0天\n按策略:\n  trend: 73笔 胜率32.9% PNL=$-113.30\n  grid_geometric: 21笔 胜率71.4% PNL=$-15.79\n  grid: 10笔 胜率30.0% PNL=$-17.71\n  range: 6笔 胜率0.0% PNL=$-39.31\n高置信度进化提案(≥0.75):\n  [0.9] range_strategy_regime_gate: range策略0%胜率根因：regime=None时错误激活。修复：仅ranging regime激活range策略。P\n  [0.8500000000000001] symbol_filter:KITE: \n  [0.85] filter_4h_direction: 4H方向过滤：逆势做多胜率0%(14笔)，顺势做多胜率75%(8笔)。已实装，验证中"
+      }
+    ],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.4,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-17 12:04:44",
+      "total_reflections": 191,
+      "insight_count": 11
+    }
+  },
+  {
+    "time": "2026-03-17 13:02:00",
+    "type": "periodic_review",
+    "findings": [
+      "实战数据总结: 总交易: 111笔 | 胜率: 37.8% | 总PNL: $-186.63",
+      "距上次交易: 0天",
+      "按策略:",
+      "trend: 74笔 胜率32.4% PNL=$-113.82",
+      "grid_geometric: 21笔 胜率71.4% PNL=$-15.79",
+      "grid: 10笔 胜率30.0% PNL=$-17.71",
+      "range: 6笔 胜率0.0% PNL=$-39.31",
+      "高置信度进化提案(≥0.75):",
+      "[0.9] range_strategy_regime_gate: range策略0%胜率根因：regime=None时错误激活。修复：仅ranging regime激活range策略。P",
+      "[0.8500000000000001] symbol_filter:KITE:",
+      "[0.85] filter_4h_direction: 4H方向过滤：逆势做多胜率0%(14笔)，顺势做多胜率75%(8笔)。已实装，验证中"
+    ],
+    "recommendations": [
+      {
+        "type": "data_driven_analysis",
+        "reason": "基于DB实战数据生成的分析，非内存模式匹配",
+        "combat_data": "总交易: 111笔 | 胜率: 37.8% | 总PNL: $-186.63\n距上次交易: 0天\n按策略:\n  trend: 74笔 胜率32.4% PNL=$-113.82\n  grid_geometric: 21笔 胜率71.4% PNL=$-15.79\n  grid: 10笔 胜率30.0% PNL=$-17.71\n  range: 6笔 胜率0.0% PNL=$-39.31\n高置信度进化提案(≥0.75):\n  [0.9] range_strategy_regime_gate: range策略0%胜率根因：regime=None时错误激活。修复：仅ranging regime激活range策略。P\n  [0.8500000000000001] symbol_filter:KITE: \n  [0.85] filter_4h_direction: 4H方向过滤：逆势做多胜率0%(14笔)，顺势做多胜率75%(8笔)。已实装，验证中"
+      }
+    ],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.4,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-17 13:02:00",
+      "total_reflections": 192,
+      "insight_count": 11
+    }
+  },
+  {
+    "time": "2026-03-17 17:01:49",
+    "type": "periodic_review",
+    "findings": [
+      "实战数据总结: 总交易: 111笔 | 胜率: 37.8% | 总PNL: $-186.63",
+      "距上次交易: 0天",
+      "按策略:",
+      "trend: 74笔 胜率32.4% PNL=$-113.82",
+      "grid_geometric: 21笔 胜率71.4% PNL=$-15.79",
+      "grid: 10笔 胜率30.0% PNL=$-17.71",
+      "range: 6笔 胜率0.0% PNL=$-39.31",
+      "高置信度进化提案(≥0.75):",
+      "[0.9] range_strategy_regime_gate: range策略0%胜率根因：regime=None时错误激活。修复：仅ranging regime激活range策略。P",
+      "[0.8500000000000001] symbol_filter:KITE:",
+      "[0.85] filter_4h_direction: 4H方向过滤：逆势做多胜率0%(14笔)，顺势做多胜率75%(8笔)。已实装，验证中"
+    ],
+    "recommendations": [
+      {
+        "type": "data_driven_analysis",
+        "reason": "基于DB实战数据生成的分析，非内存模式匹配",
+        "combat_data": "总交易: 111笔 | 胜率: 37.8% | 总PNL: $-186.63\n距上次交易: 0天\n按策略:\n  trend: 74笔 胜率32.4% PNL=$-113.82\n  grid_geometric: 21笔 胜率71.4% PNL=$-15.79\n  grid: 10笔 胜率30.0% PNL=$-17.71\n  range: 6笔 胜率0.0% PNL=$-39.31\n高置信度进化提案(≥0.75):\n  [0.9] range_strategy_regime_gate: range策略0%胜率根因：regime=None时错误激活。修复：仅ranging regime激活range策略。P\n  [0.8500000000000001] symbol_filter:KITE: \n  [0.85] filter_4h_direction: 4H方向过滤：逆势做多胜率0%(14笔)，顺势做多胜率75%(8笔)。已实装，验证中"
+      }
+    ],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.4,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-17 17:01:49",
+      "total_reflections": 193,
+      "insight_count": 11
+    }
+  },
+  {
+    "time": "2026-03-18 01:02:57",
+    "type": "periodic_review",
+    "findings": [
+      "实战数据总结: 总交易: 112笔 | 胜率: 38.4% | 总PNL: $-186.49",
+      "距上次交易: 0天",
+      "按策略:",
+      "trend: 74笔 胜率32.4% PNL=$-113.82",
+      "grid_geometric: 21笔 胜率71.4% PNL=$-15.79",
+      "grid: 11笔 胜率36.4% PNL=$-17.57",
+      "range: 6笔 胜率0.0% PNL=$-39.31",
+      "高置信度进化提案(≥0.75):",
+      "[0.9] range_strategy_regime_gate: range策略0%胜率根因：regime=None时错误激活。修复：仅ranging regime激活range策略。P",
+      "[0.8500000000000001] symbol_filter:KITE:",
+      "[0.85] signal_filter:",
+      "[0.85] signal_filter:",
+      "[0.85] filter_4h_direction: 4H方向过滤：逆势做多胜率0%(14笔)，顺势做多胜率75%(8笔)。已实装，验证中"
+    ],
+    "recommendations": [
+      {
+        "type": "data_driven_analysis",
+        "reason": "基于DB实战数据生成的分析，非内存模式匹配",
+        "combat_data": "总交易: 112笔 | 胜率: 38.4% | 总PNL: $-186.49\n距上次交易: 0天\n按策略:\n  trend: 74笔 胜率32.4% PNL=$-113.82\n  grid_geometric: 21笔 胜率71.4% PNL=$-15.79\n  grid: 11笔 胜率36.4% PNL=$-17.57\n  range: 6笔 胜率0.0% PNL=$-39.31\n高置信度进化提案(≥0.75):\n  [0.9] range_strategy_regime_gate: range策略0%胜率根因：regime=None时错误激活。修复：仅ranging regime激活range策略。P\n  [0.8500000000000001] symbol_filter:KITE: \n  [0.85] signal_filter: \n  [0.85] signal_filter: \n  [0.85] filter_4h_direction: 4H方向过滤：逆势做多胜率0%(14笔)，顺势做多胜率75%(8笔)。已实装，验证中"
+      }
+    ],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.4,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-18 01:02:57",
+      "total_reflections": 194,
+      "insight_count": 11
+    }
+  },
+  {
+    "time": "2026-03-18 03:02:35",
+    "type": "periodic_review",
+    "findings": [
+      "实战数据总结: 总交易: 113笔 | 胜率: 38.9% | 总PNL: $-182.17",
+      "距上次交易: 0天",
+      "按策略:",
+      "trend: 75笔 胜率33.3% PNL=$-109.50",
+      "grid_geometric: 21笔 胜率71.4% PNL=$-15.79",
+      "grid: 11笔 胜率36.4% PNL=$-17.57",
+      "range: 6笔 胜率0.0% PNL=$-39.31",
+      "高置信度进化提案(≥0.75):",
+      "[0.9] range_strategy_regime_gate: range策略0%胜率根因：regime=None时错误激活。修复：仅ranging regime激活range策略。P",
+      "[0.8500000000000001] symbol_filter:KITE:",
+      "[0.85] signal_filter:",
+      "[0.85] signal_filter:",
+      "[0.85] filter_4h_direction: 4H方向过滤：逆势做多胜率0%(14笔)，顺势做多胜率75%(8笔)。已实装，验证中"
+    ],
+    "recommendations": [
+      {
+        "type": "data_driven_analysis",
+        "reason": "基于DB实战数据生成的分析，非内存模式匹配",
+        "combat_data": "总交易: 113笔 | 胜率: 38.9% | 总PNL: $-182.17\n距上次交易: 0天\n按策略:\n  trend: 75笔 胜率33.3% PNL=$-109.50\n  grid_geometric: 21笔 胜率71.4% PNL=$-15.79\n  grid: 11笔 胜率36.4% PNL=$-17.57\n  range: 6笔 胜率0.0% PNL=$-39.31\n高置信度进化提案(≥0.75):\n  [0.9] range_strategy_regime_gate: range策略0%胜率根因：regime=None时错误激活。修复：仅ranging regime激活range策略。P\n  [0.8500000000000001] symbol_filter:KITE: \n  [0.85] signal_filter: \n  [0.85] signal_filter: \n  [0.85] filter_4h_direction: 4H方向过滤：逆势做多胜率0%(14笔)，顺势做多胜率75%(8笔)。已实装，验证中"
+      }
+    ],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.4,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-18 03:02:35",
+      "total_reflections": 195,
+      "insight_count": 13
+    }
+  },
+  {
+    "time": "2026-03-18 15:04:07",
+    "type": "periodic_review",
+    "findings": [
+      "实战数据总结: 总交易: 117笔 | 胜率: 38.5% | 总PNL: $-212.83",
+      "距上次交易: 0天",
+      "按策略:",
+      "trend: 77笔 胜率33.8% PNL=$-62.96",
+      "grid_geometric: 22笔 胜率68.2% PNL=$-77.15",
+      "grid: 12笔 胜率33.3% PNL=$-33.41",
+      "range: 6笔 胜率0.0% PNL=$-39.31",
+      "高置信度进化提案(≥0.75):",
+      "[0.9] range_strategy_regime_gate: range策略0%胜率根因：regime=None时错误激活。修复：仅ranging regime激活range策略。P",
+      "[0.8500000000000001] symbol_filter:KITE:",
+      "[0.85] signal_filter:",
+      "[0.85] signal_filter:",
+      "[0.85] filter_4h_direction: 4H方向过滤：逆势做多胜率0%(14笔)，顺势做多胜率75%(8笔)。已实装，验证中"
+    ],
+    "recommendations": [
+      {
+        "type": "data_driven_analysis",
+        "reason": "基于DB实战数据生成的分析，非内存模式匹配",
+        "combat_data": "总交易: 117笔 | 胜率: 38.5% | 总PNL: $-212.83\n距上次交易: 0天\n按策略:\n  trend: 77笔 胜率33.8% PNL=$-62.96\n  grid_geometric: 22笔 胜率68.2% PNL=$-77.15\n  grid: 12笔 胜率33.3% PNL=$-33.41\n  range: 6笔 胜率0.0% PNL=$-39.31\n高置信度进化提案(≥0.75):\n  [0.9] range_strategy_regime_gate: range策略0%胜率根因：regime=None时错误激活。修复：仅ranging regime激活range策略。P\n  [0.8500000000000001] symbol_filter:KITE: \n  [0.85] signal_filter: \n  [0.85] signal_filter: \n  [0.85] filter_4h_direction: 4H方向过滤：逆势做多胜率0%(14笔)，顺势做多胜率75%(8笔)。已实装，验证中"
+      }
+    ],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.4,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-18 15:04:07",
+      "total_reflections": 196,
+      "insight_count": 13
+    }
+  },
+  {
+    "time": "2026-03-20 03:02:28",
+    "type": "periodic_review",
+    "findings": [
+      "实战数据总结: 总交易: 118笔 | 胜率: 39.0% | 总PNL: $-205.70",
+      "距上次交易: 1天",
+      "按策略:",
+      "trend: 78笔 胜率34.6% PNL=$-55.83",
+      "grid_geometric: 22笔 胜率68.2% PNL=$-77.15",
+      "grid: 12笔 胜率33.3% PNL=$-33.41",
+      "range: 6笔 胜率0.0% PNL=$-39.31",
+      "高置信度进化提案(≥0.75):",
+      "[0.9] range_strategy_regime_gate: range策略0%胜率根因：regime=None时错误激活。修复：仅ranging regime激活range策略。P",
+      "[0.8500000000000001] symbol_filter:KITE:",
+      "[0.85] signal_filter:",
+      "[0.85] signal_filter:",
+      "[0.85] signal_filter:"
+    ],
+    "recommendations": [
+      {
+        "type": "data_driven_analysis",
+        "reason": "基于DB实战数据生成的分析，非内存模式匹配",
+        "combat_data": "总交易: 118笔 | 胜率: 39.0% | 总PNL: $-205.70\n距上次交易: 1天\n按策略:\n  trend: 78笔 胜率34.6% PNL=$-55.83\n  grid_geometric: 22笔 胜率68.2% PNL=$-77.15\n  grid: 12笔 胜率33.3% PNL=$-33.41\n  range: 6笔 胜率0.0% PNL=$-39.31\n高置信度进化提案(≥0.75):\n  [0.9] range_strategy_regime_gate: range策略0%胜率根因：regime=None时错误激活。修复：仅ranging regime激活range策略。P\n  [0.8500000000000001] symbol_filter:KITE: \n  [0.85] signal_filter: \n  [0.85] signal_filter: \n  [0.85] signal_filter: "
+      }
+    ],
+    "confidence_adjustment": 0,
+    "regime_performance": {},
+    "cognitive_state": {
+      "confidence_calibration": 1.4,
+      "risk_appetite": "moderate",
+      "learning_rate": 0.5,
+      "last_reflection": "2026-03-20 03:02:28",
+      "total_reflections": 197,
+      "insight_count": 13
+    }
+  }
+]

@@ -1,0 +1,3755 @@
+{
+  "trade_patterns": [
+    {
+      "timestamp": "2026-03-17T07:05:42.406523",
+      "symbol": "BLUAI",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -1.28,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 82.0,
+      "ml_confidence": 0,
+      "holding_hours": 0.4,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.407005",
+      "symbol": "POWER",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -2.08,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 83.0,
+      "ml_confidence": 0,
+      "holding_hours": 0.2,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.407319",
+      "symbol": "XAUT",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -0.05,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 94.0,
+      "ml_confidence": 0,
+      "holding_hours": 7.2,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "manual_close"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.407628",
+      "symbol": "BLUAI",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -1.64,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 85.0,
+      "ml_confidence": 0,
+      "holding_hours": 0.7,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.407854",
+      "symbol": "PAXG",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -0.01,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 94.0,
+      "ml_confidence": 0,
+      "holding_hours": 7.0,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "manual_close"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.408169",
+      "symbol": "COINON",
+      "direction": "short",
+      "result": "loss",
+      "pnl_pct": -0.58,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70.0,
+      "ml_confidence": 0,
+      "holding_hours": 3.3,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "manual_close"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.840581",
+      "symbol": "XAUT",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -0.56,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 83.0,
+      "ml_confidence": 0,
+      "holding_hours": 36.6,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.850370",
+      "symbol": "XAUT",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -0.03,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 83.0,
+      "ml_confidence": 0,
+      "holding_hours": 2.7,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "manual_close"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.850999",
+      "symbol": "PIPPIN",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 3.57,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 72.0,
+      "ml_confidence": 0,
+      "holding_hours": 0.8,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "manual_close"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.851554",
+      "symbol": "USD1",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": 0,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 74.0,
+      "ml_confidence": 0,
+      "holding_hours": 0.8,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "manual_close"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.852121",
+      "symbol": "我踏马来了",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -2.95,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 72.0,
+      "ml_confidence": 0,
+      "holding_hours": 21.2,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.852819",
+      "symbol": "PIPPIN",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -1.47,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 72.0,
+      "ml_confidence": 0,
+      "holding_hours": 33.9,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.853445",
+      "symbol": "ZEC",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 9.49,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 64.0,
+      "ml_confidence": 0,
+      "holding_hours": 2.7,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "partial_tp"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.854071",
+      "symbol": "ZEC",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 9.34,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 64.0,
+      "ml_confidence": 0,
+      "holding_hours": 3.0,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.856154",
+      "symbol": "MON",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -3.87,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 71.0,
+      "ml_confidence": 0,
+      "holding_hours": 6.3,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.867589",
+      "symbol": "GPUAI",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -14.92,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 67.0,
+      "ml_confidence": 0,
+      "holding_hours": 1.9,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.868376",
+      "symbol": "COAI",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -10.67,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 69.0,
+      "ml_confidence": 0,
+      "holding_hours": 16.7,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "over_limit_cleanup"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.880188",
+      "symbol": "POWER",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -13.26,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 69.0,
+      "ml_confidence": 0,
+      "holding_hours": 7.7,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.880971",
+      "symbol": "ZAMA",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -2.15,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 74.0,
+      "ml_confidence": 0,
+      "holding_hours": 18.8,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.881789",
+      "symbol": "BCH",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -1.71,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 68.0,
+      "ml_confidence": 0,
+      "holding_hours": 13.5,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.882772",
+      "symbol": "FF",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 2.18,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 69.0,
+      "ml_confidence": 0,
+      "holding_hours": 2.4,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.895667",
+      "symbol": "FF",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 1.49,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70.0,
+      "ml_confidence": 0,
+      "holding_hours": 2.1,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.896564",
+      "symbol": "ASTER",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -2.45,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 67.0,
+      "ml_confidence": 0,
+      "holding_hours": 2.1,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.897463",
+      "symbol": "HYPE",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -2.61,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 67.0,
+      "ml_confidence": 0,
+      "holding_hours": 9.2,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.907792",
+      "symbol": "BEAT",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -6.15,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 74.0,
+      "ml_confidence": 0,
+      "holding_hours": 0.2,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.918671",
+      "symbol": "PYTH",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -0.38,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 68.0,
+      "ml_confidence": 0,
+      "holding_hours": 8.2,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "over_limit_cleanup"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.919601",
+      "symbol": "OM",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -4.57,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 74.0,
+      "ml_confidence": 0,
+      "holding_hours": 8.2,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "over_limit_cleanup"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.930618",
+      "symbol": "USELESS",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 2.51,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70.0,
+      "ml_confidence": 0,
+      "holding_hours": 3.8,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.931626",
+      "symbol": "XPL",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -0.29,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 69.0,
+      "ml_confidence": 0,
+      "holding_hours": 1.2,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "over_limit_cleanup"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.932600",
+      "symbol": "H",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 6.9,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 69.0,
+      "ml_confidence": 0,
+      "holding_hours": 6.5,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "manual_close"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.933562",
+      "symbol": "AAVE",
+      "direction": "short",
+      "result": "win",
+      "pnl_pct": 0.97,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70.0,
+      "ml_confidence": 0,
+      "holding_hours": 20.8,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.945262",
+      "symbol": "STABLE",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -1.35,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 83.0,
+      "ml_confidence": 0,
+      "holding_hours": 0.3,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.956677",
+      "symbol": "KITE",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -3.06,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 86.0,
+      "ml_confidence": 0,
+      "holding_hours": 8.9,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.968321",
+      "symbol": "STABLE",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 18.37,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 80.0,
+      "ml_confidence": 0,
+      "holding_hours": 16.4,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "tp_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.982592",
+      "symbol": "STABLE",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 14.49,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 80.0,
+      "ml_confidence": 0,
+      "holding_hours": 15.7,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "partial_tp_s2"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.984599",
+      "symbol": "HBAR",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -1.35,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70.0,
+      "ml_confidence": 0,
+      "holding_hours": 6.3,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.985996",
+      "symbol": "ATOM",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 2.33,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70.0,
+      "ml_confidence": 0,
+      "holding_hours": 4.7,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.987519",
+      "symbol": "ATOM",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 4.11,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70.0,
+      "ml_confidence": 0,
+      "holding_hours": 4.1,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "partial_tp_s1"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:42.999074",
+      "symbol": "AR",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -1.13,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 60.0,
+      "ml_confidence": 0,
+      "holding_hours": 2.0,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.010372",
+      "symbol": "CRV",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -0.83,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 69.0,
+      "ml_confidence": 0,
+      "holding_hours": 2.0,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.021174",
+      "symbol": "JASMY",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -0.67,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 68.0,
+      "ml_confidence": 0,
+      "holding_hours": 2.0,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.032760",
+      "symbol": "IMX",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -1.18,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70.0,
+      "ml_confidence": 0,
+      "holding_hours": 1.9,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.034390",
+      "symbol": "FIL",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -1.39,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70.0,
+      "ml_confidence": 0,
+      "holding_hours": 1.9,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.050028",
+      "symbol": "AVAX",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -0.63,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 69.0,
+      "ml_confidence": 0,
+      "holding_hours": 0.8,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.052026",
+      "symbol": "HNT",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -2.2,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 83.0,
+      "ml_confidence": 0,
+      "holding_hours": 0.7,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.054052",
+      "symbol": "STABLE",
+      "direction": "short",
+      "result": "loss",
+      "pnl_pct": -5.05,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 76.0,
+      "ml_confidence": 0,
+      "holding_hours": 0.9,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.055384",
+      "symbol": "STABLE",
+      "direction": "short",
+      "result": "win",
+      "pnl_pct": 7.84,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 76.0,
+      "ml_confidence": 0,
+      "holding_hours": 1.6,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.056666",
+      "symbol": "ONDO",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -0.66,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 75.0,
+      "ml_confidence": 0,
+      "holding_hours": 2.1,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.057926",
+      "symbol": "WLFI",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -0.9,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 78.0,
+      "ml_confidence": 0,
+      "holding_hours": 1.0,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.059156",
+      "symbol": "HBAR",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -1.29,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 75.0,
+      "ml_confidence": 0,
+      "holding_hours": 10.5,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.073115",
+      "symbol": "POL",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 1.9,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 75.0,
+      "ml_confidence": 0,
+      "holding_hours": 1.8,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.075524",
+      "symbol": "WIF",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -0.71,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 75.0,
+      "ml_confidence": 0,
+      "holding_hours": 1.2,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.077785",
+      "symbol": "ADA",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -0.67,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 75.0,
+      "ml_confidence": 0,
+      "holding_hours": 1.0,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.092401",
+      "symbol": "KITE",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 6.3,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 73.0,
+      "ml_confidence": 0,
+      "holding_hours": 17.3,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.104354",
+      "symbol": "ARC",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 7.39,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 73.0,
+      "ml_confidence": 0,
+      "holding_hours": 2.1,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.115684",
+      "symbol": "PIPPIN",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 7.01,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 77.0,
+      "ml_confidence": 0,
+      "holding_hours": 4.0,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.127934",
+      "symbol": "CYBER",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -3.12,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 78.0,
+      "ml_confidence": 0,
+      "holding_hours": 1.0,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.129373",
+      "symbol": "ARC",
+      "direction": "short",
+      "result": "loss",
+      "pnl_pct": -5.06,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 72.0,
+      "ml_confidence": 0,
+      "holding_hours": 0.7,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.130706",
+      "symbol": "RAVE",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -3.35,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 73.0,
+      "ml_confidence": 0,
+      "holding_hours": 10.6,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.132702",
+      "symbol": "RAVE",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -2.23,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 73.0,
+      "ml_confidence": 0,
+      "holding_hours": 2.8,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.134259",
+      "symbol": "ENSO",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -2.56,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 74.0,
+      "ml_confidence": 0,
+      "holding_hours": 4.9,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.135699",
+      "symbol": "KITE",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -1.97,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 73.0,
+      "ml_confidence": 0,
+      "holding_hours": 1.6,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.137282",
+      "symbol": "SIREN",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 16.66,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 74.0,
+      "ml_confidence": 0,
+      "holding_hours": 35.0,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.139365",
+      "symbol": "KITE",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -0.86,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 72.0,
+      "ml_confidence": 0,
+      "holding_hours": 5.1,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.141408",
+      "symbol": "PIPPIN",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 5.65,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 75.0,
+      "ml_confidence": 0,
+      "holding_hours": 7.6,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.142898",
+      "symbol": "KITE",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -1.99,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 72.0,
+      "ml_confidence": 0,
+      "holding_hours": 1.7,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.144589",
+      "symbol": "KITE",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -2.96,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 73.0,
+      "ml_confidence": 0,
+      "holding_hours": 1.0,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.146993",
+      "symbol": "KITE",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -0.89,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 73.0,
+      "ml_confidence": 0,
+      "holding_hours": 13.7,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.158499",
+      "symbol": "HNT",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -1.4,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 72.0,
+      "ml_confidence": 0,
+      "holding_hours": 1.2,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.171439",
+      "symbol": "MON",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -0.97,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 72.0,
+      "ml_confidence": 0,
+      "holding_hours": 1.2,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.173510",
+      "symbol": "MY",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -9.72,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 72.0,
+      "ml_confidence": 0,
+      "holding_hours": 11.7,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.175104",
+      "symbol": "MON",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -1.64,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 73.0,
+      "ml_confidence": 0,
+      "holding_hours": 1.0,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.178742",
+      "symbol": "ENSO",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 10.16,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 73.0,
+      "ml_confidence": 0,
+      "holding_hours": 1.0,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.180469",
+      "symbol": "WLD",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 7.05,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 72.0,
+      "ml_confidence": 0,
+      "holding_hours": 46.4,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.182595",
+      "symbol": "CAKE",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -0.84,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 72.0,
+      "ml_confidence": 0,
+      "holding_hours": 1.1,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.184403",
+      "symbol": "MNT",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -0.75,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 72.0,
+      "ml_confidence": 0,
+      "holding_hours": 1.0,
+      "entry_conditions": {
+        "ai_verdict": "",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.186165",
+      "symbol": "DEGO",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 7.66,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70,
+      "ml_confidence": 91.3,
+      "holding_hours": 0.3,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:70 ML:91%",
+        "reason": "partial_tp_s1"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.188131",
+      "symbol": "BNB",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -0.41,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 68,
+      "ml_confidence": 98.1,
+      "holding_hours": 1.0,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:68 ML:98%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.194118",
+      "symbol": "AKT",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -1.35,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 68,
+      "ml_confidence": 61.5,
+      "holding_hours": 1.0,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:68 ML:62%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.199911",
+      "symbol": "DEGO",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 4.87,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70,
+      "ml_confidence": 91.3,
+      "holding_hours": 1.0,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:70 ML:91%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.225222",
+      "symbol": "NEAR",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -0.82,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70,
+      "ml_confidence": 91.3,
+      "holding_hours": 1.2,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:70 ML:91%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.227890",
+      "symbol": "DASH",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 1.2,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 67,
+      "ml_confidence": 91.3,
+      "holding_hours": 1.3,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:67 ML:91%",
+        "reason": "partial_tp_s1"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.230632",
+      "symbol": "ARB",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -0.65,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 69,
+      "ml_confidence": 91.3,
+      "holding_hours": 1.4,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:69 ML:91%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.233086",
+      "symbol": "AVAX",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -0.67,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 67,
+      "ml_confidence": 96.9,
+      "holding_hours": 1.8,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:67 ML:97%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.234968",
+      "symbol": "ADA",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -2.1,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 67,
+      "ml_confidence": 98.1,
+      "holding_hours": 3.5,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:67 ML:98%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.237825",
+      "symbol": "DASH",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -2.9,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 67,
+      "ml_confidence": 91.3,
+      "holding_hours": 3.5,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:67 ML:91%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.239874",
+      "symbol": "PENGU",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -3.55,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70,
+      "ml_confidence": 96.9,
+      "holding_hours": 2.5,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:70 ML:97%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.241722",
+      "symbol": "NEAR",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -1.22,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70,
+      "ml_confidence": 91.3,
+      "holding_hours": 2.2,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:70 ML:91%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.243710",
+      "symbol": "DEGO",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -14.26,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 71,
+      "ml_confidence": 91.3,
+      "holding_hours": 2.2,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:71 ML:91%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.245717",
+      "symbol": "AKT",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 1.17,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70,
+      "ml_confidence": 66.0,
+      "holding_hours": 2.4,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:70 ML:66%",
+        "reason": "partial_tp_s1"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.248291",
+      "symbol": "STRK",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -1.92,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 68,
+      "ml_confidence": 71.4,
+      "holding_hours": 3.4,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:68 ML:71%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.261548",
+      "symbol": "AKT",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 1.78,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70,
+      "ml_confidence": 66.0,
+      "holding_hours": 2.5,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:70 ML:66%",
+        "reason": "partial_tp_s2"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.273770",
+      "symbol": "HYPE",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 1.52,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70,
+      "ml_confidence": 91.3,
+      "holding_hours": 2.0,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:70 ML:91%",
+        "reason": "partial_tp_s1"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.278173",
+      "symbol": "HYPE",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 1.84,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70,
+      "ml_confidence": 91.3,
+      "holding_hours": 2.2,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:70 ML:91%",
+        "reason": "partial_tp_s2"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.291793",
+      "symbol": "AKT",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -0.18,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70,
+      "ml_confidence": 66.0,
+      "holding_hours": 3.1,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:70 ML:66%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.294538",
+      "symbol": "SIREN",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 6.13,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70,
+      "ml_confidence": 67.4,
+      "holding_hours": 0.7,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:70 ML:67%",
+        "reason": "partial_tp_s1"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T08:04:33.292671",
+      "symbol": "CFG",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 4.14,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70,
+      "ml_confidence": 86.8,
+      "holding_hours": 2.1,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:70 ML:87%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T08:04:33.294938",
+      "symbol": "FET",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 2.89,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 67,
+      "ml_confidence": 96.9,
+      "holding_hours": 5.8,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:67 ML:97%",
+        "reason": "partial_tp_s1"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T08:04:33.297462",
+      "symbol": "DEGO",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 2.9,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70,
+      "ml_confidence": 91.3,
+      "holding_hours": 2.6,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:70 ML:91%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T08:04:33.299903",
+      "symbol": "FET",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 1.68,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 67,
+      "ml_confidence": 96.9,
+      "holding_hours": 6.3,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:67 ML:97%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T08:04:33.302405",
+      "symbol": "IMX",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 2.01,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70,
+      "ml_confidence": 92.5,
+      "holding_hours": 2.7,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:70 ML:92%",
+        "reason": "partial_tp_s1"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T09:04:19.927438",
+      "symbol": "STRK",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 1.43,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 71,
+      "ml_confidence": 61.7,
+      "holding_hours": 2.8,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:71 ML:62%",
+        "reason": "partial_tp_s1"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T09:04:19.929521",
+      "symbol": "SIREN",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 5.83,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70,
+      "ml_confidence": 67.4,
+      "holding_hours": 2.0,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:70 ML:67%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T09:04:19.949340",
+      "symbol": "IMX",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 5.34,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70,
+      "ml_confidence": 92.5,
+      "holding_hours": 3.2,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:70 ML:92%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T09:04:19.951562",
+      "symbol": "HYPE",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 1.9,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70,
+      "ml_confidence": 91.3,
+      "holding_hours": 5.4,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:70 ML:91%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T09:04:19.963735",
+      "symbol": "AKT",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 1.66,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70,
+      "ml_confidence": 56.4,
+      "holding_hours": 2.7,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:70 ML:56%",
+        "reason": "partial_tp_s1"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T09:04:19.975572",
+      "symbol": "AKT",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 1.98,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70,
+      "ml_confidence": 56.4,
+      "holding_hours": 2.8,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:70 ML:56%",
+        "reason": "partial_tp_s2"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T09:04:19.988785",
+      "symbol": "AKT",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 1.53,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70,
+      "ml_confidence": 56.4,
+      "holding_hours": 2.8,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:70 ML:56%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T10:04:49.252439",
+      "symbol": "TRX",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 0.31,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 66,
+      "ml_confidence": 57.0,
+      "holding_hours": 0.5,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:66 ML:57%",
+        "reason": "partial_tp_s1"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T10:04:49.254873",
+      "symbol": "TRX",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 0.34,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 66,
+      "ml_confidence": 57.0,
+      "holding_hours": 0.5,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:66 ML:57%",
+        "reason": "partial_tp_s2"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T12:04:39.142008",
+      "symbol": "TRX",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 0.51,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 66,
+      "ml_confidence": 57.0,
+      "holding_hours": 2.9,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:66 ML:57%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T12:04:39.144967",
+      "symbol": "SIREN",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 7.8,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 71,
+      "ml_confidence": 61.2,
+      "holding_hours": 3.1,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:71 ML:61%",
+        "reason": "partial_tp_s1"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T12:04:39.158598",
+      "symbol": "SIREN",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 5.42,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 71,
+      "ml_confidence": 61.2,
+      "holding_hours": 3.3,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:71 ML:61%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T13:01:56.697000",
+      "symbol": "STRK",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -0.94,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 71,
+      "ml_confidence": 61.7,
+      "holding_hours": 7.3,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:71 ML:62%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T17:01:45.919437",
+      "symbol": "AKT",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 1.85,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 65,
+      "ml_confidence": 72.7,
+      "holding_hours": 4.1,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:65 ML:73%",
+        "reason": "partial_tp_s1"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T17:01:45.923296",
+      "symbol": "AKT",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 5.38,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 65,
+      "ml_confidence": 72.7,
+      "holding_hours": 7.6,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:65 ML:73%",
+        "reason": "partial_tp_s2"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T17:01:45.938332",
+      "symbol": "TRX",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 0.38,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 67,
+      "ml_confidence": 74.5,
+      "holding_hours": 4.7,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:67 ML:74%",
+        "reason": "partial_tp_s1"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-17T17:01:45.952424",
+      "symbol": "TRX",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 0.42,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 67,
+      "ml_confidence": 74.5,
+      "holding_hours": 4.9,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:67 ML:74%",
+        "reason": "partial_tp_s2"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-18T01:02:54.987934",
+      "symbol": "AKT",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 0.57,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 65,
+      "ml_confidence": 72.7,
+      "holding_hours": 15.7,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:65 ML:73%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-18T02:04:46.472794",
+      "symbol": "TRX",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 1.76,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 67,
+      "ml_confidence": 74.5,
+      "holding_hours": 13.3,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:67 ML:74%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-18T15:04:02.695586",
+      "symbol": "SIREN",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 10.86,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 70,
+      "ml_confidence": 72.7,
+      "holding_hours": 19.4,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:70 ML:73%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-18T15:04:02.700274",
+      "symbol": "STRK",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -7.92,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 67,
+      "ml_confidence": 75.0,
+      "holding_hours": 11.5,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:67 ML:75%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-18T15:04:02.706722",
+      "symbol": "BNB",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -3.87,
+      "regime": "trending",
+      "strategy": "trend",
+      "signal_score": 67,
+      "ml_confidence": 68.4,
+      "holding_hours": 11.4,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:67 ML:68%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-20T03:02:25.369779",
+      "symbol": "BEAT",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 11.73,
+      "regime": "volatile",
+      "strategy": "trend",
+      "signal_score": 65,
+      "ml_confidence": 82.1,
+      "holding_hours": 29.0,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:65 ML:82%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-23T03:04:26.552875",
+      "symbol": "IP",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -7.77,
+      "regime": "volatile",
+      "strategy": "trend",
+      "signal_score": 67,
+      "ml_confidence": 70.0,
+      "holding_hours": 50.1,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:67 ML:70%",
+        "reason": "sl_hit"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-23T03:04:26.556674",
+      "symbol": "TRX",
+      "direction": "long",
+      "result": "win",
+      "pnl_pct": 0.33,
+      "regime": "volatile",
+      "strategy": "trend",
+      "signal_score": 65,
+      "ml_confidence": 78.2,
+      "holding_hours": 121.2,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:65 ML:78%",
+        "reason": "time_stop_96h_强制"
+      },
+      "lesson": ""
+    },
+    {
+      "timestamp": "2026-03-23T03:04:26.571432",
+      "symbol": "TAO",
+      "direction": "long",
+      "result": "loss",
+      "pnl_pct": -2.55,
+      "regime": "volatile",
+      "strategy": "trend",
+      "signal_score": 68,
+      "ml_confidence": 65.3,
+      "holding_hours": 115.2,
+      "entry_conditions": {
+        "ai_verdict": "Auto 做多 Score:68 ML:65%",
+        "reason": "time_stop_96h_强制"
+      },
+      "lesson": ""
+    }
+  ],
+  "regime_history": [
+    {
+      "timestamp": "2026-03-20T02:47:22.490630",
+      "from": "trending",
+      "to": "volatile",
+      "context": {
+        "avg_adx": 46.4,
+        "avg_atr_ratio": 0.0374
+      }
+    }
+  ],
+  "insights": [
+    {
+      "timestamp": "2026-03-17T07:05:43.299427",
+      "category": "trade_analysis",
+      "insight": "持仓时间过短导致胜率低。特别是0-1h和1-4h的胜率分别只有21.7%和33.3%。",
+      "confidence": 0.68,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.301929",
+      "category": "trade_analysis",
+      "insight": "高信号质量评分（90-100分）胜率为0%，需要调整高分信号策略以避免追涨陷阱。",
+      "confidence": 0.68,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.303975",
+      "category": "trade_analysis",
+      "insight": "某些币种存在较高的重复亏损记录，需考虑从交易列表中剔除或限制交易频次。",
+      "confidence": 0.68,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.306486",
+      "category": "trade_analysis",
+      "insight": "大部分交易都是多头，但胜率治理偏低，可能需要重新评估做多策略。",
+      "confidence": 0.68,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T08:04:33.306834",
+      "category": "trade_analysis",
+      "insight": "持仓时间过短导致的低胜率，特别是0-1小时内仅21.7%的胜率",
+      "confidence": 0.65,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T08:04:33.308999",
+      "category": "trade_analysis",
+      "insight": "高质量信号（80-89分）胜率较低，指向信号质量未能有效转化为交易成功",
+      "confidence": 0.65,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T08:04:33.311448",
+      "category": "trade_analysis",
+      "insight": "信号评分在90分以上的交易表现极差，表明追高的风险",
+      "confidence": 0.65,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T08:04:33.313612",
+      "category": "trade_analysis",
+      "insight": "重复亏损币种较多，特别是BLUAI和POWER等，暗示特定币种风险高",
+      "confidence": 0.65,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T09:04:20.019677",
+      "category": "trade_analysis",
+      "insight": "低胜率主要集中在短期持仓，持仓时间越短胜率越低",
+      "confidence": 0.74,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T09:04:20.036230",
+      "category": "trade_analysis",
+      "insight": "高信号质量区间(80-100分)的胜率反而较低，可能存在过热追涨陷阱",
+      "confidence": 0.74,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T09:04:20.054075",
+      "category": "trade_analysis",
+      "insight": "多头交易占比过高，导致在市场波动时风险集中",
+      "confidence": 0.74,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T09:04:20.083950",
+      "category": "trade_analysis",
+      "insight": "重复亏损币种呈现出系统性风险，需排查及剔除",
+      "confidence": 0.74,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T10:04:49.284767",
+      "category": "trade_analysis",
+      "insight": "信号质量评分不足导致的大量低胜率交易",
+      "confidence": 0.75,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T10:04:49.302358",
+      "category": "trade_analysis",
+      "insight": "持仓时间管理不当，短期持仓表现差",
+      "confidence": 0.75,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T10:04:49.320424",
+      "category": "trade_analysis",
+      "insight": "高频次亏损的币种未被有效排除",
+      "confidence": 0.75,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T11:04:01.572347",
+      "category": "trade_analysis",
+      "insight": "短期持仓(0-1小时)胜率较低，导致整体盈利能力受到影响。",
+      "confidence": 0.65,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T11:04:01.589512",
+      "category": "trade_analysis",
+      "insight": "高分信号(90-100)完全未能产生盈利，显示出潜在的过热信号问题。",
+      "confidence": 0.65,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T11:04:01.612680",
+      "category": "trade_analysis",
+      "insight": "重复亏损币种较多，特别是BLUAI和POWER，频繁亏损可能影响资金表现。",
+      "confidence": 0.65,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T12:04:39.281086",
+      "category": "trade_analysis",
+      "insight": "在持仓时间为0-1小时及4-12小时的胜率较低，分别为28.0%和33.3%。",
+      "confidence": 0.74,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T12:04:39.298025",
+      "category": "trade_analysis",
+      "insight": "信号质量在80-89和90-100区间的胜率低，尤其是90-100区间胜率为0%。",
+      "confidence": 0.74,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T12:04:39.313310",
+      "category": "trade_analysis",
+      "insight": "低置信度（<50）交易胜率较低，为28.6%。",
+      "confidence": 0.74,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T12:04:39.326676",
+      "category": "trade_analysis",
+      "insight": "存在部分币种重复亏损现象，尤其BLUAI和POWER。",
+      "confidence": 0.74,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T12:04:39.348319",
+      "category": "trade_analysis",
+      "insight": "多次连败导致资金管理风险增加，需关注连亏币种的影响。",
+      "confidence": 0.74,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T13:01:56.716199",
+      "category": "trade_analysis",
+      "insight": "短期持仓(<1h)的胜率较低，且导致小额亏损",
+      "confidence": 0.75,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T13:01:56.729605",
+      "category": "trade_analysis",
+      "insight": "信号评分在80-89之间的表现不佳，显示出过热信号的潜在问题",
+      "confidence": 0.75,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T13:01:56.742534",
+      "category": "trade_analysis",
+      "insight": "高置信度ML信号下仍然留有部分亏损情况，可能存在误判",
+      "confidence": 0.75,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T13:01:56.756938",
+      "category": "trade_analysis",
+      "insight": "重复亏损的币种数量较多，需进一步剔除不具备盈利能力的资产",
+      "confidence": 0.75,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T17:01:45.972613",
+      "category": "trade_analysis",
+      "insight": "短期持仓时间(<1h)表现较差，导致交易失败",
+      "confidence": 0.68,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T17:01:45.988821",
+      "category": "trade_analysis",
+      "insight": "高信号质量区间(90-100)胜率低，显示可能存在过热风险",
+      "confidence": 0.68,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T17:01:46.003288",
+      "category": "trade_analysis",
+      "insight": "重复亏损币种较多，未能有效管理风险",
+      "confidence": 0.68,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T17:01:46.155364",
+      "category": "trade_analysis",
+      "insight": "部分交易由于信号置信度低，导致胜率下降",
+      "confidence": 0.68,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T01:02:55.004085",
+      "category": "trade_analysis",
+      "insight": "在短期持仓(0-1小时)中胜率较低，仅28.0%，可能导致创收能力下降。",
+      "confidence": 0.75,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T01:02:55.018153",
+      "category": "trade_analysis",
+      "insight": "高信号质量(90-100分)的胜率为0%，表明该区间信号存在重大问题，可能导致误判。",
+      "confidence": 0.75,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T01:02:55.030141",
+      "category": "trade_analysis",
+      "insight": "某些交易品种（如BLUAI、POWER、XAUT等）出现持续亏损，重复交易未能提供盈利机会。",
+      "confidence": 0.75,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T01:02:55.042256",
+      "category": "trade_analysis",
+      "insight": "在 ML 置信度低(<50)的情况下，较高的交易量也未能产生正收益，显示出低质量信号的风险。",
+      "confidence": 0.75,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T02:04:46.489394",
+      "category": "trade_analysis",
+      "insight": "持仓时间过短导致低胜率，特别是0-1小时的交易表现不佳。",
+      "confidence": 0.75,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T02:04:46.501713",
+      "category": "trade_analysis",
+      "insight": "高信号评分（80-89）在实际表现中未能达成预期，导致较低的胜率。",
+      "confidence": 0.75,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T02:04:46.513807",
+      "category": "trade_analysis",
+      "insight": "某些币种如BLUAI和POWER连续亏损，需重点关注。",
+      "confidence": 0.75,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T02:04:46.527317",
+      "category": "trade_analysis",
+      "insight": "不同信号质量区间的效果差异，信号质量未有效过滤出高胜率信号。",
+      "confidence": 0.75,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T03:02:32.614923",
+      "category": "trade_analysis",
+      "insight": "持仓时间较短的交易胜率低，尤其是0-1小时的交易明显亏损",
+      "confidence": 0.55,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T03:02:32.630355",
+      "category": "trade_analysis",
+      "insight": "高质量信号的胜率表现较差，85分以上信号未能带来盈利",
+      "confidence": 0.55,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T03:02:32.642545",
+      "category": "trade_analysis",
+      "insight": "低置信度交易（<50）胜率明显低于高置信度交易（70以上），导致整体表现不佳",
+      "confidence": 0.55,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T03:02:32.655590",
+      "category": "trade_analysis",
+      "insight": "部分币种连续亏损，增加了整体回撤风险",
+      "confidence": 0.55,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T15:04:02.841826",
+      "category": "trade_analysis",
+      "insight": "短期持仓时间表现不佳，导致整体胜率下降",
+      "confidence": 0.65,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T15:04:02.846731",
+      "category": "trade_analysis",
+      "insight": "高置信度信号的胜率反而低于中、低置信度信号",
+      "confidence": 0.65,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T15:04:02.956150",
+      "category": "trade_analysis",
+      "insight": "重复亏损币种频繁出现，缺乏有效的止损策略",
+      "confidence": 0.65,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-20T03:02:25.378093",
+      "category": "trade_analysis",
+      "insight": "短期持仓时间(<1h)胜率较低，导致整体绩效下滑",
+      "confidence": 0.65,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-20T03:02:25.382178",
+      "category": "trade_analysis",
+      "insight": "信号质量高的信号(80-89)胜率不佳，可能存在过热惩罚问题",
+      "confidence": 0.65,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-20T03:02:25.385907",
+      "category": "trade_analysis",
+      "insight": "部分币种重复亏损较严重，影响组合稳定性",
+      "confidence": 0.65,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-20T03:02:25.389635",
+      "category": "trade_analysis",
+      "insight": "高波动环境下策略表现欠佳，需调整策略适应性",
+      "confidence": 0.65,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-23T03:04:26.580349",
+      "category": "trade_analysis",
+      "insight": "短期持仓时间(<1小时)胜率较低，反而中长期持仓时间表现较好",
+      "confidence": 0.75,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-23T03:04:26.584862",
+      "category": "trade_analysis",
+      "insight": "高信号质量评分(80-89)胜率不高，且90-100分信号完全失败",
+      "confidence": 0.75,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    },
+    {
+      "timestamp": "2026-03-23T03:04:26.589500",
+      "category": "trade_analysis",
+      "insight": "重复亏损币种导致连亏，需加强风险控制和组合有效性",
+      "confidence": 0.75,
+      "source": "deep_evolution_ai",
+      "validated": false,
+      "validation_count": 0
+    }
+  ],
+  "rules": [
+    {
+      "timestamp": "2026-03-17T07:05:43.308497",
+      "type": "ai_strategy_recommendation",
+      "condition": "评估和限制重复亏损币种的交易",
+      "action": "将重复亏损率高于50%且连续亏损超过3次的币种设置为策略防止交易",
+      "performance": {
+        "priority": "high",
+        "expected_impact": "减少系统性亏损，提升整体利润率"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.321120",
+      "type": "ai_strategy_recommendation",
+      "condition": "增强持仓时间管理，优先持有12小时以上的交易",
+      "action": "调整策略，鼓励交易员在持仓中设置通知或自动合并以延长持仓期。",
+      "performance": {
+        "priority": "medium",
+        "expected_impact": "提升总胜率，优化收益结构"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T08:04:33.315873",
+      "type": "ai_strategy_recommendation",
+      "condition": "优化持仓策略，增加持仓时间至12小时以上",
+      "action": "在信号确认后，延长持仓时间，特别是对于高胜率的信号",
+      "performance": {
+        "priority": "high",
+        "expected_impact": "提高整体胜率和PnL"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T08:04:33.318656",
+      "type": "ai_strategy_recommendation",
+      "condition": "强化信号质量监控，逐步提升信号门槛",
+      "action": "针对信号评分设置动态调整，及时过滤低胜率信号",
+      "performance": {
+        "priority": "medium",
+        "expected_impact": "减少低质量信号带来的损失"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T08:04:33.321147",
+      "type": "ai_strategy_recommendation",
+      "condition": "监控重复亏损币种，撤出资金",
+      "action": "对于连续亏损超过2次的币种进行投资门槛收紧或暂时撤出",
+      "performance": {
+        "priority": "high",
+        "expected_impact": "降低重复亏损带来的风险"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T09:04:20.087712",
+      "type": "ai_strategy_recommendation",
+      "condition": "针对盈利模式在1-4小时加强资金配置",
+      "action": "通过规则引擎调整相应策略参数",
+      "performance": {
+        "priority": "high",
+        "expected_impact": "提升整体胜率和PnL"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T09:04:20.103200",
+      "type": "ai_strategy_recommendation",
+      "condition": "排查并剔除重复亏损币种",
+      "action": "对重复亏损的币种进行监控并设置警报",
+      "performance": {
+        "priority": "medium",
+        "expected_impact": "减少系统性风险影响"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T09:04:20.106976",
+      "type": "ai_strategy_recommendation",
+      "condition": "重新评估高信号质量的使用情况",
+      "action": "收集并分析过去高信号的成交数据",
+      "performance": {
+        "priority": "low",
+        "expected_impact": "避免高风险交易"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T10:04:49.336479",
+      "type": "ai_strategy_recommendation",
+      "condition": "增加对1-4小时持仓和12小时以上持仓的仓位配置",
+      "action": "在策略中调整持仓时间和仓位分配逻辑",
+      "performance": {
+        "priority": "high",
+        "expected_impact": "提升整体胜率和PnL"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T10:04:49.351055",
+      "type": "ai_strategy_recommendation",
+      "condition": "增加对低胜率币种的排除机制和风险监控",
+      "action": "定期筛查并排除重复亏损结果较差的币种",
+      "performance": {
+        "priority": "medium",
+        "expected_impact": "降低因高频亏损币种带来的整体负面影响"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T10:04:49.369198",
+      "type": "ai_strategy_recommendation",
+      "condition": "优化信号门槛和置信度机制的动态调整",
+      "action": "升级信号评定标准被ML模型实时反馈进行调整",
+      "performance": {
+        "priority": "low",
+        "expected_impact": "改善低质量信号下的交易判断"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T11:04:01.630095",
+      "type": "ai_strategy_recommendation",
+      "condition": "建立持仓时间优化策略，限制短期交易频率。",
+      "action": "实施持仓时间分级，增强对低胜率短期交易的审核。",
+      "performance": {
+        "priority": "high",
+        "expected_impact": "提高短期交易的胜率，减少短期亏损。"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T11:04:01.647914",
+      "type": "ai_strategy_recommendation",
+      "condition": "对信号评分进行重新审核，特别是80-89分区间的信号。",
+      "action": "将信号质量评估与历史表现结合，调整信号接受标准。",
+      "performance": {
+        "priority": "medium",
+        "expected_impact": "减少因高分信号导致的错误交易。"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T11:04:01.662416",
+      "type": "ai_strategy_recommendation",
+      "condition": "对频繁亏损的币种进行标记与机制限制。",
+      "action": "建立自动标记系统，对历史表现不佳的币种设定交易限制。",
+      "performance": {
+        "priority": "medium",
+        "expected_impact": "有效识别及避免重复亏损所带来的风险。"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T12:04:39.468008",
+      "type": "ai_strategy_recommendation",
+      "condition": "重点优化持仓时间在1-4小时内的信号策略",
+      "action": "集中资源于此时间框架内的交易信号，减少对0-1小时和4-12小时交易的依赖。",
+      "performance": {
+        "priority": "high",
+        "expected_impact": "提升整体胜率"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T12:04:39.484884",
+      "type": "ai_strategy_recommendation",
+      "condition": "加强低信号质量交易的监控与过滤",
+      "action": "设定信号质量阈值，避免进入信号质量过低的交易。",
+      "performance": {
+        "priority": "medium",
+        "expected_impact": "提高整体胜率，并减少连亏概率"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T12:04:39.507151",
+      "type": "ai_strategy_recommendation",
+      "condition": "对重复亏损的币种进行特别监控与分析",
+      "action": "增加对这些币种的阈值请求，限制其交易频率。",
+      "performance": {
+        "priority": "low",
+        "expected_impact": "减少资金损失"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T13:01:56.778670",
+      "type": "ai_strategy_recommendation",
+      "condition": "剔除重复亏损的币种",
+      "action": "分析重复亏损的资产，设定触及亏损阈值后自动取消该资产交易的规则",
+      "performance": {
+        "priority": "high",
+        "expected_impact": "减少未来潜在的交易亏损"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T13:01:56.797582",
+      "type": "ai_strategy_recommendation",
+      "condition": "进一步验证信号质量在80-89分区间的表现",
+      "action": "进行模拟交易以探索该信号区间的表现，并进行策略优化",
+      "performance": {
+        "priority": "medium",
+        "expected_impact": "确保高评分信号不再造成系统性亏损"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T13:01:56.811573",
+      "type": "ai_strategy_recommendation",
+      "condition": "增强持仓时间为1-4小时策略.",
+      "action": "将1-4小时的成功模式作为主要持仓策略进行推广和优化",
+      "performance": {
+        "priority": "high",
+        "expected_impact": "提高持仓策略的稳定性和胜率"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T17:01:46.170537",
+      "type": "ai_strategy_recommendation",
+      "condition": "加强持仓时间在1-4小时的信号筛选",
+      "action": "定义优化模型，优先考虑1-4小时内的信号",
+      "performance": {
+        "priority": "high",
+        "expected_impact": "提高整体胜率"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-17T17:01:46.188959",
+      "type": "ai_strategy_recommendation",
+      "condition": "分析和剔除重复亏损币种",
+      "action": "持续监控这些币种的表现，设立类别排除标准",
+      "performance": {
+        "priority": "medium",
+        "expected_impact": "减少整体亏损"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T01:02:55.054412",
+      "type": "ai_strategy_recommendation",
+      "condition": "优化持仓时间策略，增强12小时以上的持仓信号",
+      "action": "将策略重心放置于持仓时间在12小时以上的交易，以期提高整体胜率。",
+      "performance": {
+        "priority": "high",
+        "expected_impact": "提升收益，降低短期频繁操作风险"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T01:02:55.067547",
+      "type": "ai_strategy_recommendation",
+      "condition": "执行避免重复亏损币种的智能过滤",
+      "action": "在策略中设定自动停止交易于亏损连续的资产，以优化资源配置。",
+      "performance": {
+        "priority": "medium",
+        "expected_impact": "减少系统负担，保护资金安全"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T02:04:46.539111",
+      "type": "ai_strategy_recommendation",
+      "condition": "增加1-4小时持仓时间的交易比例",
+      "action": "在信号生成的时候优先考虑趋势持仓时间在1-4小时的信号",
+      "performance": {
+        "priority": "high",
+        "expected_impact": "提高整体胜率和PnL表现"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T02:04:46.550876",
+      "type": "ai_strategy_recommendation",
+      "condition": "优化信号生成机制，减少90-100区间信号的使用",
+      "action": "对信号评分高于80的信号重新评估阈值，并增加策略限制",
+      "performance": {
+        "priority": "medium",
+        "expected_impact": "提升信号质量与胜率"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T02:04:46.563801",
+      "type": "ai_strategy_recommendation",
+      "condition": "重新评估低表现币种的交易策略",
+      "action": "对BLUAI、POWER等币种停止交易或设置更高的风险限制",
+      "performance": {
+        "priority": "medium",
+        "expected_impact": "减少亏损，防止重复亏损"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T03:02:32.668521",
+      "type": "ai_strategy_recommendation",
+      "condition": "调整持仓时间策略，重点持有时间较长的交易",
+      "action": "优先选择12小时以上持仓的交易，减少频繁操作",
+      "performance": {
+        "priority": "high",
+        "expected_impact": "通过增加持仓时间提升整体胜率与盈利能力"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T03:02:32.681954",
+      "type": "ai_strategy_recommendation",
+      "condition": "增强对低信号质量的过滤，避免过热信号的使用",
+      "action": "制定针对80分以上信号的使用限制，增加筛选机制",
+      "performance": {
+        "priority": "medium",
+        "expected_impact": "提高形成信号质量与胜率之间的一致性"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T03:02:32.693524",
+      "type": "ai_strategy_recommendation",
+      "condition": "关注并处理亏损币种，设定具体的止损限制",
+      "action": "定期对亏损币种进行回顾与风险控制策略的实施",
+      "performance": {
+        "priority": "high",
+        "expected_impact": "降低连续亏损带来的回撤风险"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T15:04:02.960099",
+      "type": "ai_strategy_recommendation",
+      "condition": "考虑调整持仓时间至4小时以上以提升胜率",
+      "action": "在后续交易中固定持仓时间至少4小时",
+      "performance": {
+        "priority": "high",
+        "expected_impact": "预计胜率可提高至50%以上"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T15:04:02.964938",
+      "type": "ai_strategy_recommendation",
+      "condition": "对重复亏损币种实施预先筛选或停止交易",
+      "action": "将重复亏损的币种列入黑名单，停止交易并记录表现",
+      "performance": {
+        "priority": "medium",
+        "expected_impact": "降低整体亏损风险"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-18T15:04:02.969213",
+      "type": "ai_strategy_recommendation",
+      "condition": "加大对中等信号的重视，重新评估高信号的有效性",
+      "action": "定期复盘中低信号的成功案例，寻找改善空间",
+      "performance": {
+        "priority": "medium",
+        "expected_impact": "增强信号的使用有效性，避免过热陷阱"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-20T03:02:25.393710",
+      "type": "ai_strategy_recommendation",
+      "condition": "继续优化持仓时间管理，鼓励长时间持仓 醞获得更高胜率",
+      "action": "增强对持仓时间的监测，鼓励奖励持仓时间超12小时的交易",
+      "performance": {
+        "priority": "high",
+        "expected_impact": "提升整体策略收益，同时降低短期波动风险"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-20T03:02:25.408130",
+      "type": "ai_strategy_recommendation",
+      "condition": "重新评估高信号质量过滤，避免高评分信号失效",
+      "action": "测试80-89分信号的后续表现，进行必要的参数调整",
+      "performance": {
+        "priority": "medium",
+        "expected_impact": "避免失去潜在胜算，提升整体信号利用率"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-20T03:02:25.412454",
+      "type": "ai_strategy_recommendation",
+      "condition": "对易亏损币种进行严控，减小其在组合中的占比",
+      "action": "分析重复亏损币种，考虑降低持仓比重或临时剔除",
+      "performance": {
+        "priority": "high",
+        "expected_impact": "降低整体亏损风险，提升资金利用效率"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-23T03:04:26.594196",
+      "type": "ai_strategy_recommendation",
+      "condition": "提高持仓时间，以加强交易模式的稳定性",
+      "action": "调整自动平仓策略，延长有效持仓时间",
+      "performance": {
+        "priority": "high",
+        "expected_impact": "提升整体胜率与利润"
+      },
+      "active": true,
+      "hit_count": 0
+    },
+    {
+      "timestamp": "2026-03-23T03:04:26.611195",
+      "type": "ai_strategy_recommendation",
+      "condition": "加强对重复亏损币种的监控与限制",
+      "action": "建立非交易通知，记录重复亏损币种表现",
+      "performance": {
+        "priority": "medium",
+        "expected_impact": "减少连亏与提高组合表现"
+      },
+      "active": true,
+      "hit_count": 0
+    }
+  ],
+  "performance_snapshots": [
+    {
+      "timestamp": "2026-03-17T07:05:43.297097",
+      "equity": 0,
+      "total_trades": 97,
+      "win_rate": 30.9,
+      "sharpe": 0,
+      "max_drawdown": 0,
+      "open_positions": 0,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-17T07:42:58.475139",
+      "equity": 99967.50402536336,
+      "total_trades": 100,
+      "win_rate": 33.0,
+      "sharpe": 0,
+      "max_drawdown": 1.2218,
+      "open_positions": 6,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-17T08:04:33.304618",
+      "equity": 0,
+      "total_trades": 103,
+      "win_rate": 35.0,
+      "sharpe": 0,
+      "max_drawdown": 0,
+      "open_positions": 0,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-17T08:13:22.416309",
+      "equity": 99945.4878207838,
+      "total_trades": 105,
+      "win_rate": 36.2,
+      "sharpe": 0,
+      "max_drawdown": 1.2218,
+      "open_positions": 4,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-17T09:04:20.002557",
+      "equity": 0,
+      "total_trades": 110,
+      "win_rate": 39.1,
+      "sharpe": 0,
+      "max_drawdown": 0,
+      "open_positions": 0,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-17T10:04:49.269696",
+      "equity": 0,
+      "total_trades": 112,
+      "win_rate": 40.2,
+      "sharpe": 0,
+      "max_drawdown": 0,
+      "open_positions": 0,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-17T11:01:07.497171",
+      "equity": 99851.90272003839,
+      "total_trades": 112,
+      "win_rate": 40.2,
+      "sharpe": 0,
+      "max_drawdown": 1.2218,
+      "open_positions": 5,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-17T11:04:01.569237",
+      "equity": 0,
+      "total_trades": 112,
+      "win_rate": 40.2,
+      "sharpe": 0,
+      "max_drawdown": 0,
+      "open_positions": 0,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-17T12:04:39.267541",
+      "equity": 0,
+      "total_trades": 115,
+      "win_rate": 41.7,
+      "sharpe": 0,
+      "max_drawdown": 0,
+      "open_positions": 0,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-17T12:24:38.006803",
+      "equity": 99836.3558066061,
+      "total_trades": 115,
+      "win_rate": 41.7,
+      "sharpe": 0,
+      "max_drawdown": 1.2218,
+      "open_positions": 5,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-17T12:54:26.378617",
+      "equity": 99807.54192367203,
+      "total_trades": 116,
+      "win_rate": 41.4,
+      "sharpe": 0,
+      "max_drawdown": 1.2218,
+      "open_positions": 4,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-17T13:01:56.699913",
+      "equity": 0,
+      "total_trades": 116,
+      "win_rate": 41.4,
+      "sharpe": 0,
+      "max_drawdown": 0,
+      "open_positions": 0,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-17T17:01:45.956369",
+      "equity": 0,
+      "total_trades": 120,
+      "win_rate": 43.3,
+      "sharpe": 0,
+      "max_drawdown": 0,
+      "open_positions": 0,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-17T17:04:20.557268",
+      "equity": 100096.53908147448,
+      "total_trades": 120,
+      "win_rate": 43.3,
+      "sharpe": 0,
+      "max_drawdown": 1.2218,
+      "open_positions": 4,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-17T17:29:01.417891",
+      "equity": 100095.42908147447,
+      "total_trades": 120,
+      "win_rate": 43.3,
+      "sharpe": 0,
+      "max_drawdown": 1.2218,
+      "open_positions": 4,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-17T17:53:27.914893",
+      "equity": 100095.98908147449,
+      "total_trades": 120,
+      "win_rate": 43.3,
+      "sharpe": 0,
+      "max_drawdown": 1.2218,
+      "open_positions": 4,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-18T01:02:54.991428",
+      "equity": 0,
+      "total_trades": 121,
+      "win_rate": 43.8,
+      "sharpe": 0,
+      "max_drawdown": 0,
+      "open_positions": 0,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-18T01:12:31.142345",
+      "equity": 100065.35811047826,
+      "total_trades": 121,
+      "win_rate": 43.8,
+      "sharpe": 0,
+      "max_drawdown": 1.2218,
+      "open_positions": 3,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-18T01:36:30.152257",
+      "equity": 99816.0673577546,
+      "total_trades": 122,
+      "win_rate": 44.3,
+      "sharpe": 0,
+      "max_drawdown": 1.2218,
+      "open_positions": 3,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-18T02:01:59.787068",
+      "equity": 99815.5073577546,
+      "total_trades": 122,
+      "win_rate": 44.3,
+      "sharpe": 0,
+      "max_drawdown": 1.2218,
+      "open_positions": 3,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-18T02:04:46.476384",
+      "equity": 0,
+      "total_trades": 122,
+      "win_rate": 44.3,
+      "sharpe": 0,
+      "max_drawdown": 0,
+      "open_positions": 0,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-18T02:28:10.297454",
+      "equity": 99817.5873577546,
+      "total_trades": 122,
+      "win_rate": 44.3,
+      "sharpe": 0,
+      "max_drawdown": 1.2218,
+      "open_positions": 3,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-18T02:53:03.851593",
+      "equity": 99818.6973577546,
+      "total_trades": 122,
+      "win_rate": 44.3,
+      "sharpe": 0,
+      "max_drawdown": 1.2218,
+      "open_positions": 3,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-18T03:02:32.611652",
+      "equity": 0,
+      "total_trades": 122,
+      "win_rate": 44.3,
+      "sharpe": 0,
+      "max_drawdown": 0,
+      "open_positions": 0,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-18T03:17:36.457838",
+      "equity": 99818.13735775459,
+      "total_trades": 122,
+      "win_rate": 44.3,
+      "sharpe": 0,
+      "max_drawdown": 1.2218,
+      "open_positions": 3,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-18T15:04:02.712130",
+      "equity": 0,
+      "total_trades": 125,
+      "win_rate": 44.0,
+      "sharpe": 0,
+      "max_drawdown": 0,
+      "open_positions": 0,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-18T15:23:05.157776",
+      "equity": 99787.68870989686,
+      "total_trades": 125,
+      "win_rate": 44.0,
+      "sharpe": 0,
+      "max_drawdown": 1.2218,
+      "open_positions": 4,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-18T15:50:29.385430",
+      "equity": 99794.82315892456,
+      "total_trades": 126,
+      "win_rate": 44.4,
+      "sharpe": 0,
+      "max_drawdown": 1.2218,
+      "open_positions": 3,
+      "regime": "trending"
+    },
+    {
+      "timestamp": "2026-03-20T03:02:25.373891",
+      "equity": 0,
+      "total_trades": 126,
+      "win_rate": 44.4,
+      "sharpe": 0,
+      "max_drawdown": 0,
+      "open_positions": 0,
+      "regime": "volatile"
+    },
+    {
+      "timestamp": "2026-03-23T03:04:26.575829",
+      "equity": 0,
+      "total_trades": 129,
+      "win_rate": 44.2,
+      "sharpe": 0,
+      "max_drawdown": 0,
+      "open_positions": 0,
+      "regime": "volatile"
+    },
+    {
+      "timestamp": "2026-03-23T03:12:16.846585",
+      "equity": 99786.0953757774,
+      "total_trades": 129,
+      "win_rate": 44.2,
+      "sharpe": 0,
+      "max_drawdown": 1.2218,
+      "open_positions": 0,
+      "regime": "volatile"
+    },
+    {
+      "timestamp": "2026-03-26T09:36:25.157857",
+      "equity": 99781.7153757774,
+      "total_trades": 129,
+      "win_rate": 44.2,
+      "sharpe": 0,
+      "max_drawdown": 1.2218,
+      "open_positions": 0,
+      "regime": "volatile"
+    }
+  ],
+  "market_events": [
+    {
+      "timestamp": "2026-03-17T07:05:43.324198",
+      "event_type": "risk_warning",
+      "description": "短期持仓交易的频繁导致的整体连败风险需警惕，过度交易可能影响复盘学习的质量。",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-17T07:05:43.327419",
+      "event_type": "risk_warning",
+      "description": "当前市场环境偏向上涨趋势，但空头策略可能获得更高胜率，应保持策略灵活调整。",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-17T08:04:33.323609",
+      "event_type": "risk_warning",
+      "description": "高评分信号的反转风险提示，投资者需谨慎进入",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-17T08:04:33.325768",
+      "event_type": "risk_warning",
+      "description": "持仓时间未可能造成被过早止损的现象，需预测行情变动",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-17T09:04:20.120289",
+      "event_type": "risk_warning",
+      "description": "频繁短线交易导致资金利用低效",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-17T09:04:20.145566",
+      "event_type": "risk_warning",
+      "description": "多头交易过于集中可能在市场反转时加大损失",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-17T09:04:20.160682",
+      "event_type": "risk_warning",
+      "description": "信号质量不适当可能导致亏损的高概率交易",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-17T10:04:49.387040",
+      "event_type": "risk_warning",
+      "description": "持续亏损的币种可能影响到整体收益，应定期评估",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-17T10:04:49.403568",
+      "event_type": "risk_warning",
+      "description": "短期持仓表现差需谨慎操作，以尽量减少损失",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-17T11:04:01.679442",
+      "event_type": "risk_warning",
+      "description": "重复亏损的币种可能导致系统风险集中，需警惕整体风险管理。",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-17T11:04:01.695521",
+      "event_type": "risk_warning",
+      "description": "若继续在当前低胜率情况下交易，将导致资金持续流失。",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-17T12:04:39.522035",
+      "event_type": "risk_warning",
+      "description": "市场条件变化可能导致现有策略失效，需持续观察市场动向。",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-17T12:04:39.536765",
+      "event_type": "risk_warning",
+      "description": "重组亏损币种可能引发更大的资金压力，需特别关注。",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-17T13:01:56.827362",
+      "event_type": "risk_warning",
+      "description": "存在高置信度信号下的亏损，需要分析潜在误判",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-17T13:01:56.830761",
+      "event_type": "risk_warning",
+      "description": "短期持仓交易风险较高，建议减少此类交易",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-17T13:01:56.844743",
+      "event_type": "risk_warning",
+      "description": "高得分信号后续可能导致追高陷阱，需审慎处理",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-17T17:01:46.204291",
+      "event_type": "risk_warning",
+      "description": "高信号质量区间(≥90)造成亏损风险",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-17T17:01:46.218333",
+      "event_type": "risk_warning",
+      "description": "短期交易的频繁亏损模式警示需重新评估短期策略",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-18T01:02:55.080403",
+      "event_type": "risk_warning",
+      "description": "在当前市场环境中，趋势向上，仅关注高胜率信号以避免低效率交易。",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-18T01:02:55.092831",
+      "event_type": "risk_warning",
+      "description": "持续亏损的品种应进行重点监控，避免产生历史亏损趋势的扩大。",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-18T01:02:55.105184",
+      "event_type": "risk_warning",
+      "description": "短期交易的高频风险需要重点注意，及时调节策略以降低总体风险水平。",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-18T02:04:46.576144",
+      "event_type": "risk_warning",
+      "description": "高信号评分未达到预期表现，需重新审视信号生成逻辑。",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-18T02:04:46.588553",
+      "event_type": "risk_warning",
+      "description": "某些币种连续亏损，需加强监控与管理，防止系统性风险。",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-18T03:02:32.706112",
+      "event_type": "risk_warning",
+      "description": "市场波动加剧可能导致连亏风险升高，需谨慎选择交易时机",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-18T03:02:32.710509",
+      "event_type": "risk_warning",
+      "description": "极端高分信号可能导致获利回吐，需要设定限度",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-18T03:02:32.722532",
+      "event_type": "risk_warning",
+      "description": "重复亏损的币种需纳入重点监控，避免资金集中于高风险资产",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-18T15:04:02.972909",
+      "event_type": "risk_warning",
+      "description": "短期持仓高风险，需谨慎对待低胜率策略",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-18T15:04:02.977050",
+      "event_type": "risk_warning",
+      "description": "高信号质量(90-100)时风险过大，避免追涨",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "trending"
+      }
+    },
+    {
+      "timestamp": "2026-03-20T03:02:25.416201",
+      "event_type": "risk_warning",
+      "description": "短期持仓频繁亏损可能加剧资金流失，需谨慎控制操作频率",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "volatile"
+      }
+    },
+    {
+      "timestamp": "2026-03-20T03:02:25.428414",
+      "event_type": "risk_warning",
+      "description": "部分币种连续亏损，组合风险增加，建议视情况降低投资比例",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "volatile"
+      }
+    },
+    {
+      "timestamp": "2026-03-23T03:04:26.615139",
+      "event_type": "risk_warning",
+      "description": "重复亏损币种的风险需关注，以避免系统性风险",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "volatile"
+      }
+    },
+    {
+      "timestamp": "2026-03-23T03:04:26.627682",
+      "event_type": "risk_warning",
+      "description": "高频短期交易可能增加风险暴露，建议限制相关操作",
+      "impact": -1,
+      "data": {
+        "source": "deep_evolution_ai",
+        "regime": "volatile"
+      }
+    }
+  ]
+}

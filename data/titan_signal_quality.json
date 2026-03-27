@@ -1,0 +1,576 @@
+{
+  "condition_stats": {
+    "macd_bullish": {
+      "wins": 6247,
+      "losses": 12807,
+      "total_pnl": 13548.49,
+      "count": 19054
+    },
+    "adx_moderate": {
+      "wins": 878,
+      "losses": 2465,
+      "total_pnl": 10127.88,
+      "count": 3343
+    },
+    "vol_surge": {
+      "wins": 558,
+      "losses": 2879,
+      "total_pnl": -3195.29,
+      "count": 3437
+    },
+    "adx_weak": {
+      "wins": 6129,
+      "losses": 10427,
+      "total_pnl": 5752.6,
+      "count": 16556
+    },
+    "rsi_neutral": {
+      "wins": 1361,
+      "losses": 2763,
+      "total_pnl": 2345.43,
+      "count": 4124
+    },
+    "adx_strong": {
+      "wins": 0,
+      "losses": 644,
+      "total_pnl": -19.32,
+      "count": 644
+    },
+    "vol_above_avg": {
+      "wins": 3150,
+      "losses": 5420,
+      "total_pnl": 10311.74,
+      "count": 8570
+    },
+    "macd_bearish": {
+      "wins": 760,
+      "losses": 729,
+      "total_pnl": 2312.67,
+      "count": 1489
+    },
+    "strategy": {
+      "wins": 53,
+      "losses": 38,
+      "total_pnl": 162.54,
+      "count": 91
+    }
+  },
+  "asset_stats": {
+    "BLUAI": {
+      "wins": 0,
+      "losses": 644,
+      "total_pnl": -940.24,
+      "count": 644
+    },
+    "POWER": {
+      "wins": 0,
+      "losses": 629,
+      "total_pnl": -4740.58,
+      "count": 629
+    },
+    "USD1": {
+      "wins": 0,
+      "losses": 322,
+      "total_pnl": 0.0,
+      "count": 322
+    },
+    "XAUT": {
+      "wins": 0,
+      "losses": 938,
+      "total_pnl": -190.4,
+      "count": 938
+    },
+    "PIPPIN": {
+      "wins": 829,
+      "losses": 294,
+      "total_pnl": 4467.27,
+      "count": 1123
+    },
+    "PAXG": {
+      "wins": 0,
+      "losses": 322,
+      "total_pnl": -3.22,
+      "count": 322
+    },
+    "COINON": {
+      "wins": 0,
+      "losses": 322,
+      "total_pnl": -186.76,
+      "count": 322
+    },
+    "GPUAI": {
+      "wins": 0,
+      "losses": 312,
+      "total_pnl": -4655.04,
+      "count": 312
+    },
+    "ZEC": {
+      "wins": 623,
+      "losses": 0,
+      "total_pnl": 5865.62,
+      "count": 623
+    },
+    "FF": {
+      "wins": 616,
+      "losses": 0,
+      "total_pnl": 1131.74,
+      "count": 616
+    },
+    "MON": {
+      "wins": 0,
+      "losses": 581,
+      "total_pnl": -1547.89,
+      "count": 581
+    },
+    "ASTER": {
+      "wins": 0,
+      "losses": 306,
+      "total_pnl": -749.7,
+      "count": 306
+    },
+    "BEAT": {
+      "wins": 3,
+      "losses": 306,
+      "total_pnl": -1846.71,
+      "count": 309
+    },
+    "BCH": {
+      "wins": 0,
+      "losses": 304,
+      "total_pnl": -519.84,
+      "count": 304
+    },
+    "HYPE": {
+      "wins": 45,
+      "losses": 304,
+      "total_pnl": -714.98,
+      "count": 349
+    },
+    "COAI": {
+      "wins": 0,
+      "losses": 303,
+      "total_pnl": -3233.01,
+      "count": 303
+    },
+    "OM": {
+      "wins": 0,
+      "losses": 303,
+      "total_pnl": -1384.71,
+      "count": 303
+    },
+    "PYTH": {
+      "wins": 0,
+      "losses": 303,
+      "total_pnl": -115.14,
+      "count": 303
+    },
+    "XPL": {
+      "wins": 0,
+      "losses": 303,
+      "total_pnl": -87.87,
+      "count": 303
+    },
+    "USELESS": {
+      "wins": 299,
+      "losses": 0,
+      "total_pnl": 750.49,
+      "count": 299
+    },
+    "STABLE": {
+      "wins": 1347,
+      "losses": 554,
+      "total_pnl": 16434.1,
+      "count": 1901
+    },
+    "我踏马来了": {
+      "wins": 0,
+      "losses": 298,
+      "total_pnl": -879.1,
+      "count": 298
+    },
+    "ZAMA": {
+      "wins": 0,
+      "losses": 298,
+      "total_pnl": -640.7,
+      "count": 298
+    },
+    "H": {
+      "wins": 295,
+      "losses": 0,
+      "total_pnl": 2035.5,
+      "count": 295
+    },
+    "KITE": {
+      "wins": 260,
+      "losses": 1003,
+      "total_pnl": 11.94,
+      "count": 1263
+    },
+    "AAVE": {
+      "wins": 291,
+      "losses": 0,
+      "total_pnl": 282.27,
+      "count": 291
+    },
+    "AVAX": {
+      "wins": 0,
+      "losses": 307,
+      "total_pnl": -194.09,
+      "count": 307
+    },
+    "HNT": {
+      "wins": 0,
+      "losses": 428,
+      "total_pnl": -831.2,
+      "count": 428
+    },
+    "AR": {
+      "wins": 0,
+      "losses": 290,
+      "total_pnl": -327.7,
+      "count": 290
+    },
+    "JASMY": {
+      "wins": 0,
+      "losses": 290,
+      "total_pnl": -194.3,
+      "count": 290
+    },
+    "IMX": {
+      "wins": 41,
+      "losses": 290,
+      "total_pnl": -216.5,
+      "count": 331
+    },
+    "CRV": {
+      "wins": 0,
+      "losses": 290,
+      "total_pnl": -240.7,
+      "count": 290
+    },
+    "FIL": {
+      "wins": 0,
+      "losses": 290,
+      "total_pnl": -403.1,
+      "count": 290
+    },
+    "ATOM": {
+      "wins": 579,
+      "losses": 0,
+      "total_pnl": 1865.27,
+      "count": 579
+    },
+    "HBAR": {
+      "wins": 0,
+      "losses": 447,
+      "total_pnl": -593.85,
+      "count": 447
+    },
+    "WLFI": {
+      "wins": 0,
+      "losses": 162,
+      "total_pnl": -145.8,
+      "count": 162
+    },
+    "ADA": {
+      "wins": 0,
+      "losses": 178,
+      "total_pnl": -143.57,
+      "count": 178
+    },
+    "WIF": {
+      "wins": 0,
+      "losses": 161,
+      "total_pnl": -114.31,
+      "count": 161
+    },
+    "POL": {
+      "wins": 281,
+      "losses": 0,
+      "total_pnl": 705.5,
+      "count": 281
+    },
+    "ONDO": {
+      "wins": 0,
+      "losses": 161,
+      "total_pnl": -106.26,
+      "count": 161
+    },
+    "ARC": {
+      "wins": 377,
+      "losses": 152,
+      "total_pnl": 1983.91,
+      "count": 529
+    },
+    "CYBER": {
+      "wins": 0,
+      "losses": 153,
+      "total_pnl": -477.36,
+      "count": 153
+    },
+    "RAVE": {
+      "wins": 0,
+      "losses": 300,
+      "total_pnl": -838.12,
+      "count": 300
+    },
+    "ENSO": {
+      "wins": 318,
+      "losses": 145,
+      "total_pnl": 3207.94,
+      "count": 463
+    },
+    "MY": {
+      "wins": 0,
+      "losses": 134,
+      "total_pnl": -1302.48,
+      "count": 134
+    },
+    "SIREN": {
+      "wins": 279,
+      "losses": 0,
+      "total_pnl": 3961.52,
+      "count": 279
+    },
+    "WLD": {
+      "wins": 303,
+      "losses": 0,
+      "total_pnl": 1998.42,
+      "count": 303
+    },
+    "CAKE": {
+      "wins": 0,
+      "losses": 129,
+      "total_pnl": -108.36,
+      "count": 129
+    },
+    "MNT": {
+      "wins": 0,
+      "losses": 129,
+      "total_pnl": -96.75,
+      "count": 129
+    },
+    "DEGO": {
+      "wins": 49,
+      "losses": 17,
+      "total_pnl": 18.85,
+      "count": 66
+    },
+    "BNB": {
+      "wins": 0,
+      "losses": 21,
+      "total_pnl": -22.45,
+      "count": 21
+    },
+    "AKT": {
+      "wins": 95,
+      "losses": 33,
+      "total_pnl": 151.58,
+      "count": 128
+    },
+    "NEAR": {
+      "wins": 0,
+      "losses": 34,
+      "total_pnl": -34.68,
+      "count": 34
+    },
+    "DASH": {
+      "wins": 17,
+      "losses": 17,
+      "total_pnl": -28.9,
+      "count": 34
+    },
+    "ARB": {
+      "wins": 0,
+      "losses": 17,
+      "total_pnl": -11.05,
+      "count": 17
+    },
+    "PENGU": {
+      "wins": 0,
+      "losses": 17,
+      "total_pnl": -60.35,
+      "count": 17
+    },
+    "STRK": {
+      "wins": 13,
+      "losses": 29,
+      "total_pnl": -52.27,
+      "count": 42
+    },
+    "CFG": {
+      "wins": 14,
+      "losses": 0,
+      "total_pnl": 57.96,
+      "count": 14
+    },
+    "FET": {
+      "wins": 28,
+      "losses": 0,
+      "total_pnl": 63.98,
+      "count": 28
+    },
+    "TRX": {
+      "wins": 58,
+      "losses": 0,
+      "total_pnl": 30.52,
+      "count": 58
+    },
+    "IP": {
+      "wins": 0,
+      "losses": 2,
+      "total_pnl": -15.54,
+      "count": 2
+    },
+    "TAO": {
+      "wins": 0,
+      "losses": 2,
+      "total_pnl": -5.1,
+      "count": 2
+    }
+  },
+  "combo_stats": {
+    "adx_moderate|macd_bullish|vol_surge": {
+      "wins": 0,
+      "losses": 1554,
+      "count": 1554
+    },
+    "adx_weak|macd_bullish|rsi_neutral|vol_surge": {
+      "wins": 17,
+      "losses": 281,
+      "count": 298
+    },
+    "adx_moderate|macd_bullish|rsi_neutral": {
+      "wins": 0,
+      "losses": 281,
+      "count": 281
+    },
+    "adx_weak|macd_bullish|vol_surge": {
+      "wins": 541,
+      "losses": 637,
+      "count": 1178
+    },
+    "adx_strong|macd_bullish|rsi_neutral|vol_above_avg": {
+      "wins": 0,
+      "losses": 562,
+      "count": 562
+    },
+    "adx_weak|macd_bearish": {
+      "wins": 469,
+      "losses": 322,
+      "count": 791
+    },
+    "adx_weak|macd_bullish": {
+      "wins": 2170,
+      "losses": 3768,
+      "count": 5938
+    },
+    "adx_weak|macd_bullish|rsi_neutral": {
+      "wins": 660,
+      "losses": 825,
+      "count": 1485
+    },
+    "adx_weak|macd_bullish|vol_above_avg": {
+      "wins": 1297,
+      "losses": 3626,
+      "count": 4923
+    },
+    "adx_weak|macd_bullish|rsi_neutral|vol_above_avg": {
+      "wins": 684,
+      "losses": 561,
+      "count": 1245
+    },
+    "adx_moderate|macd_bullish|vol_above_avg": {
+      "wins": 878,
+      "losses": 336,
+      "count": 1214
+    },
+    "adx_moderate|macd_bullish|rsi_neutral|vol_above_avg": {
+      "wins": 0,
+      "losses": 253,
+      "count": 253
+    },
+    "adx_weak|macd_bearish|vol_above_avg": {
+      "wins": 291,
+      "losses": 0,
+      "count": 291
+    },
+    "adx_weak|macd_bearish|vol_surge": {
+      "wins": 0,
+      "losses": 407,
+      "count": 407
+    },
+    "adx_strong|macd_bullish|vol_above_avg": {
+      "wins": 0,
+      "losses": 82,
+      "count": 82
+    },
+    "adx_moderate|macd_bullish": {
+      "wins": 0,
+      "losses": 41,
+      "count": 41
+    }
+  },
+  "calibration_table": {
+    "macd_bullish": {
+      "win_rate": 0.328,
+      "avg_pnl": 0.7111,
+      "samples": 19054,
+      "reliability": 1.0
+    },
+    "vol_surge": {
+      "win_rate": 0.162,
+      "avg_pnl": -0.9297,
+      "samples": 3437,
+      "reliability": 1.0
+    },
+    "adx_moderate": {
+      "win_rate": 0.263,
+      "avg_pnl": 3.0296,
+      "samples": 3343,
+      "reliability": 1.0
+    },
+    "rsi_neutral": {
+      "win_rate": 0.33,
+      "avg_pnl": 0.5687,
+      "samples": 4124,
+      "reliability": 1.0
+    },
+    "adx_weak": {
+      "win_rate": 0.37,
+      "avg_pnl": 0.3475,
+      "samples": 16556,
+      "reliability": 1.0
+    },
+    "adx_strong": {
+      "win_rate": 0.0,
+      "avg_pnl": -0.03,
+      "samples": 644,
+      "reliability": 1.0
+    },
+    "vol_above_avg": {
+      "win_rate": 0.368,
+      "avg_pnl": 1.2032,
+      "samples": 8570,
+      "reliability": 1.0
+    },
+    "macd_bearish": {
+      "win_rate": 0.51,
+      "avg_pnl": 1.5532,
+      "samples": 1489,
+      "reliability": 1.0
+    },
+    "strategy": {
+      "win_rate": 0.582,
+      "avg_pnl": 1.7862,
+      "samples": 91,
+      "reliability": 1.0
+    }
+  },
+  "stats": {
+    "total_evaluated": 20634,
+    "avg_quality": 0.5,
+    "last_update": "2026-03-23 03:04:19"
+  },
+  "saved_at": "2026-03-27 07:00:51"
+}

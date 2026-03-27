@@ -1,0 +1,16 @@
+{
+  "status": "installed",
+  "last_training": "2026-03-07 09:17:28",
+  "last_success": "2026-03-07 09:28:30",
+  "call_id": "fc-01KK3SCT30HGYXDSQBVNM4M53S",
+  "error": null,
+  "last_install": "2026-03-10 12:00:00",
+  "result": {
+    "accuracy": 79.1,
+    "f1": 78.5,
+    "samples": 42768,
+    "elapsed": 659.3,
+    "assets": 66,
+    "ensemble": "RF+LGBM+XGB"
+  }
+}

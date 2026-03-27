@@ -1,0 +1,827 @@
+{
+  "reviews": [
+    {
+      "time": "2026-02-14 17:58:37",
+      "type": "batch_review",
+      "trade_count": 5,
+      "ai_analysis": {
+        "verdict": "良好",
+        "score": 64,
+        "insights": [
+          "胜率20%偏低，需检查信号质量阈值",
+          "总PnL为正(+2.90%)，盈亏比健康"
+        ],
+        "patterns_found": [],
+        "risk_warnings": [],
+        "parameter_suggestions": [],
+        "strategy_feedback": {},
+        "next_actions": [
+          "继续积累交易数据",
+          "等待更多样本以发现模式"
+        ]
+      },
+      "source": "rule_based"
+    },
+    {
+      "time": "2026-02-24 02:14:10",
+      "type": "batch_review",
+      "trade_count": 3,
+      "trades_summary": [
+        {
+          "symbol": "MON",
+          "pnl_pct": -0.97,
+          "strategy": "trend"
+        },
+        {
+          "symbol": "HNT",
+          "pnl_pct": -1.4,
+          "strategy": "trend"
+        },
+        {
+          "symbol": "KITE",
+          "pnl_pct": -2.96,
+          "strategy": "grid"
+        }
+      ],
+      "ai_analysis": {
+        "verdict": "危险",
+        "score": 20,
+        "insights": [
+          "所有交易均为亏损，当前策略执行效果极差。",
+          "趋势策略表现不善，无法把握市场方向。"
+        ],
+        "patterns_found": [],
+        "risk_warnings": [
+          "胜率为0%，需立即审查交易信号生成和策略执行。",
+          "亏损比例较高，整体风险控制需加强。"
+        ],
+        "parameter_suggestions": [
+          {
+            "param": "信号质量阈值",
+            "current": 65,
+            "suggested": 75,
+            "reason": "信号质量阈值过低可能导致低效交易，适当提高可过滤掉低质量信号。"
+          },
+          {
+            "param": "趋势策略信号门槛",
+            "current": 70,
+            "suggested": 80,
+            "reason": "当前趋势策略未能识别正确机会，需提高信号确认门槛。"
+          }
+        ],
+        "strategy_feedback": {
+          "trend": "策略表现较差，需重大调整以提升胜率。",
+          "range": "未执行，存在总策略失效风险。",
+          "grid": "仅一次交易且失败，需分析原因。"
+        },
+        "next_actions": [
+          "对趋势策略进行全面审查，评估信号生成逻辑。",
+          "分析市场环境与交易时机的适配性，结合当前市场动态调整策略。",
+          "考虑是否调整资本配置及风险控制参数。"
+        ]
+      },
+      "source": "llm"
+    },
+    {
+      "time": "2026-02-26 02:47:40",
+      "type": "batch_review",
+      "trade_count": 3,
+      "trades_summary": [
+        {
+          "symbol": "MNT",
+          "pnl_pct": -0.75,
+          "strategy": "trend"
+        },
+        {
+          "symbol": "CAKE",
+          "pnl_pct": -0.84,
+          "strategy": "trend"
+        },
+        {
+          "symbol": "WLD",
+          "pnl_pct": 3.87,
+          "strategy": "trend"
+        }
+      ],
+      "ai_analysis": {
+        "verdict": "需改进",
+        "score": 45,
+        "insights": [
+          "整体胜率偏低，仅33%，需要分析信号生成及执行流程的问题。",
+          "尽管总PnL为正，但大部分收益来源于单一交易，存在较高的不稳定性。"
+        ],
+        "patterns_found": [
+          "趋势策略在连续交易中的表现较差，可能影响信号产生和市场环境判断的准确性。",
+          "高仓位的小额亏损导致心理压力积聚，可能影响未来决策。"
+        ],
+        "risk_warnings": [
+          "胜率低于40%需要改进。",
+          "连续亏损的情绪可能导致后续操作不理性。"
+        ],
+        "parameter_suggestions": [
+          {
+            "param": "signal_quality_threshold",
+            "current": 65,
+            "suggested": 70,
+            "reason": "提高信号质量门槛可过滤低质量信号，提升整体交易胜率。"
+          }
+        ],
+        "strategy_feedback": {
+          "trend": "趋势策略在本次交易中表现不佳，需重新评估信号生成的准确性和环境判断的合理性。",
+          "range": "无相关交易，未能尝试震荡策略，建议在适合的市场环境中引入震荡策略。",
+          "grid": "无相关交易，未能进行网格交易，建议在高波动市场尝试网格策略以分散风险。"
+        },
+        "next_actions": [
+          "重新评估趋势策略的信号生成，优化技术指标参数。",
+          "分析当前市场环境，评估是否适合趋势策略，考虑引入其他策略。"
+        ]
+      },
+      "source": "llm"
+    },
+    {
+      "time": "2026-02-26 02:47:40",
+      "type": "batch_review",
+      "trade_count": 3,
+      "ai_analysis": {
+        "verdict": "良好",
+        "score": 61,
+        "insights": [
+          "胜率33%偏低，需检查信号质量阈值",
+          "总PnL为正(+2.28%)，盈亏比健康"
+        ],
+        "patterns_found": [],
+        "risk_warnings": [],
+        "parameter_suggestions": [],
+        "strategy_feedback": {},
+        "next_actions": [
+          "继续积累交易数据",
+          "等待更多样本以发现模式"
+        ]
+      },
+      "source": "rule_based"
+    },
+    {
+      "time": "2026-02-28 02:00:58",
+      "type": "batch_review",
+      "trade_count": 3,
+      "trades_summary": [
+        {
+          "symbol": "WLD",
+          "pnl_pct": 7.05,
+          "strategy": "trend"
+        },
+        {
+          "symbol": "WLD",
+          "pnl_pct": 8.72,
+          "strategy": "trend"
+        },
+        {
+          "symbol": "ENSO",
+          "pnl_pct": 10.16,
+          "strategy": "trend"
+        }
+      ],
+      "ai_analysis": {
+        "verdict": "优秀",
+        "score": 92,
+        "insights": [
+          "当前交易胜率100%且PnL表现良好，表明修复后的信号质量有所提升。",
+          "趋势策略在本次交易中表现稳定，建议继续观察不同环境下的信号响应。"
+        ],
+        "patterns_found": [
+          "当前市场条件下趋势策略表现优异，胜率达100%"
+        ],
+        "risk_warnings": [],
+        "parameter_suggestions": [],
+        "strategy_feedback": {
+          "trend": "表现优秀，信号质量高，继续维持监控。",
+          "range": "无交易数据，无法评估。",
+          "grid": "无交易数据，无法评估。"
+        },
+        "next_actions": [
+          "持续观察当前系统表现，评估长期稳定性。",
+          "记录不同环境下交易信号与结果，以优化未来决策。"
+        ]
+      },
+      "source": "llm"
+    },
+    {
+      "time": "2026-02-28 02:00:58",
+      "type": "batch_review",
+      "trade_count": 3,
+      "ai_analysis": {
+        "verdict": "良好",
+        "score": 100,
+        "insights": [
+          "胜率100%优秀，当前策略配置有效",
+          "总PnL为正(+25.93%)，盈亏比健康"
+        ],
+        "patterns_found": [],
+        "risk_warnings": [],
+        "parameter_suggestions": [],
+        "strategy_feedback": {},
+        "next_actions": [
+          "继续积累交易数据",
+          "等待更多样本以发现模式"
+        ]
+      },
+      "source": "rule_based"
+    },
+    {
+      "time": "2026-03-03 02:23:20",
+      "type": "batch_review",
+      "trade_count": 3,
+      "trades_summary": [
+        {
+          "symbol": "ENSO",
+          "pnl_pct": 15.3,
+          "strategy": "trend"
+        },
+        {
+          "symbol": "SIREN",
+          "pnl_pct": 16.66,
+          "strategy": "trend"
+        },
+        {
+          "symbol": "ENSO",
+          "pnl_pct": 8.82,
+          "strategy": "trend"
+        }
+      ],
+      "ai_analysis": {
+        "verdict": "优秀",
+        "score": 95,
+        "insights": [
+          "系统在阶段零表现出色，胜率100%且平均PnL为正，表明信号产生和执行质量强劲。",
+          "SL变宽的修复成功提升了TP命中率，而止盈设置经过优化后表现良好。"
+        ],
+        "patterns_found": [
+          "趋势策略在当前环境下明显有效，适合继续观察。"
+        ],
+        "risk_warnings": [],
+        "parameter_suggestions": [],
+        "strategy_feedback": {
+          "trend": "表现优秀，胜率100%，应继续监控此策略的信号生成质量。",
+          "range": "暂未激活，无法评估。",
+          "grid": "暂未激活，无法评估。"
+        },
+        "next_actions": [
+          "继续观察当前阶段零表现，确保信号质量维持在高水平。",
+          "记录每笔交易的执行细节，为未来的Phase 1准备数据基础。"
+        ]
+      },
+      "source": "llm"
+    },
+    {
+      "time": "2026-03-03 02:23:20",
+      "type": "batch_review",
+      "trade_count": 3,
+      "ai_analysis": {
+        "verdict": "良好",
+        "score": 100,
+        "insights": [
+          "胜率100%优秀，当前策略配置有效",
+          "总PnL为正(+40.78%)，盈亏比健康"
+        ],
+        "patterns_found": [],
+        "risk_warnings": [],
+        "parameter_suggestions": [],
+        "strategy_feedback": {},
+        "next_actions": [
+          "继续积累交易数据",
+          "等待更多样本以发现模式"
+        ]
+      },
+      "source": "rule_based"
+    },
+    {
+      "time": "2026-03-05 02:03:13",
+      "type": "batch_review",
+      "trade_count": 3,
+      "trades_summary": [
+        {
+          "symbol": "SIREN",
+          "pnl_pct": 14.9,
+          "strategy": "trend"
+        },
+        {
+          "symbol": "MY",
+          "pnl_pct": -9.72,
+          "strategy": "trend"
+        },
+        {
+          "symbol": "KITE",
+          "pnl_pct": -0.89,
+          "strategy": "grid"
+        }
+      ],
+      "ai_analysis": {
+        "verdict": "需改进",
+        "score": 60,
+        "insights": [
+          "趋势策略下表现良好，但整体胜率低于预期，尤其是网格策略表现不佳。",
+          "平均盈亏比未达到风险控制标准，需关注单笔亏损问题。"
+        ],
+        "patterns_found": [
+          "趋势策略胜率对比：在特定行情下表现明显优于网格策略。",
+          "单笔亏损往往集中在网格策略，需评估此策略的有效性。"
+        ],
+        "risk_warnings": [
+          "网格策略在当前环境下的表现持续不佳，可能需要重新评估其适用性。"
+        ],
+        "parameter_suggestions": [],
+        "strategy_feedback": {
+          "trend": "表现相对稳健，建议关注市场环境变化以调整策略。",
+          "range": "表现不佳，需深入分析信号生成及环境适应性。",
+          "grid": "当前胜率为0%，需考虑停用或重构此策略。"
+        },
+        "next_actions": [
+          "建议继续观察当前策略表现，特别是网格策略。",
+          "记录并分析网格策略的各类市场指标，以便后续改进。"
+        ]
+      },
+      "source": "llm"
+    },
+    {
+      "time": "2026-03-05 02:03:13",
+      "type": "batch_review",
+      "trade_count": 3,
+      "ai_analysis": {
+        "verdict": "良好",
+        "score": 71,
+        "insights": [
+          "胜率33%偏低，需检查信号质量阈值",
+          "总PnL为正(+4.29%)，盈亏比健康"
+        ],
+        "patterns_found": [],
+        "risk_warnings": [],
+        "parameter_suggestions": [],
+        "strategy_feedback": {},
+        "next_actions": [
+          "继续积累交易数据",
+          "等待更多样本以发现模式"
+        ]
+      },
+      "source": "rule_based"
+    },
+    {
+      "time": "2026-03-10 02:10:38",
+      "type": "batch_review",
+      "trade_count": 3,
+      "trades_summary": [
+        {
+          "symbol": "MON",
+          "pnl_pct": -1.64,
+          "strategy": "trend"
+        },
+        {
+          "symbol": "PIPPIN",
+          "pnl_pct": 5.65,
+          "strategy": "trend"
+        },
+        {
+          "symbol": "KITE",
+          "pnl_pct": -1.99,
+          "strategy": "grid"
+        }
+      ],
+      "ai_analysis": {
+        "verdict": "良好",
+        "score": 75,
+        "insights": [
+          "趋势策略整体表现良好，胜率为50%。",
+          "Grid策略在当前市场环境下失利，需重新评估其有效性。"
+        ],
+        "patterns_found": [
+          "趋势策略在市场条件较好时表现优于Grid策略。",
+          "持仓时间段在2-6小时的策略未被充分利用，根据持仓时间Alpha应考虑长持。"
+        ],
+        "risk_warnings": [
+          "Grid策略失败率较高，可能导致账户风险增加。"
+        ],
+        "parameter_suggestions": [],
+        "strategy_feedback": {
+          "trend": "表现良好，胜率达50%。",
+          "range": "在当前环境下表现不佳，需重点考量是否继续使用。",
+          "grid": "当前市场环境下不适用，推荐观察并制作相应数据收集。"
+        },
+        "next_actions": [
+          "观察Grid策略在不同环境下的具体表现。",
+          "推荐在趋势策略中增加持仓时间以提高胜率。"
+        ]
+      },
+      "source": "llm"
+    },
+    {
+      "time": "2026-03-10 02:10:38",
+      "type": "batch_review",
+      "trade_count": 3,
+      "ai_analysis": {
+        "verdict": "良好",
+        "score": 60,
+        "insights": [
+          "胜率33%偏低，需检查信号质量阈值",
+          "总PnL为正(+2.02%)，盈亏比健康"
+        ],
+        "patterns_found": [],
+        "risk_warnings": [],
+        "parameter_suggestions": [],
+        "strategy_feedback": {},
+        "next_actions": [
+          "继续积累交易数据",
+          "等待更多样本以发现模式"
+        ]
+      },
+      "source": "rule_based"
+    },
+    {
+      "time": "2026-03-12 02:38:33",
+      "type": "batch_review",
+      "trade_count": 3,
+      "trades_summary": [
+        {
+          "symbol": "KITE",
+          "pnl_pct": -0.86,
+          "strategy": "grid"
+        },
+        {
+          "symbol": "PIPPIN",
+          "pnl_pct": 9.69,
+          "strategy": "trend"
+        },
+        {
+          "symbol": "ENSO",
+          "pnl_pct": -2.56,
+          "strategy": "trend"
+        }
+      ],
+      "ai_analysis": {
+        "verdict": "一般",
+        "score": 65,
+        "insights": [
+          "趋势策略的胜率表现良好，但网格策略的表现不佳。",
+          "整体胜率未能达到45%的观察期标准。"
+        ],
+        "patterns_found": [
+          "趋势策略在持仓时间较长时表现较好。",
+          "网格策略在当前环境下未能产生预期效果。"
+        ],
+        "risk_warnings": [
+          "网格策略胜率为0%，需评估是否暂停该策略。"
+        ],
+        "parameter_suggestions": [],
+        "strategy_feedback": {
+          "trend": "整体表现较好，胜率50%。",
+          "range": "当前表现不佳，胜率0%。",
+          "grid": "需重新评估或暂停。"
+        },
+        "next_actions": [
+          "继续观察趋势策略，适当增加持仓时间。",
+          "针对网格策略进行深入分析，考虑是否暂停该策略。",
+          "提升对市场环境的判断能力，看看当前环境是否适合网格交易。"
+        ]
+      },
+      "source": "llm"
+    },
+    {
+      "time": "2026-03-12 02:38:33",
+      "type": "batch_review",
+      "trade_count": 3,
+      "ai_analysis": {
+        "verdict": "良好",
+        "score": 81,
+        "insights": [
+          "胜率33%偏低，需检查信号质量阈值",
+          "总PnL为正(+6.27%)，盈亏比健康"
+        ],
+        "patterns_found": [],
+        "risk_warnings": [],
+        "parameter_suggestions": [],
+        "strategy_feedback": {},
+        "next_actions": [
+          "继续积累交易数据",
+          "等待更多样本以发现模式"
+        ]
+      },
+      "source": "rule_based"
+    },
+    {
+      "time": "2026-03-14 02:54:59",
+      "type": "batch_review",
+      "trade_count": 3,
+      "trades_summary": [
+        {
+          "symbol": "KITE",
+          "pnl_pct": -1.97,
+          "strategy": "grid"
+        },
+        {
+          "symbol": "RAVE",
+          "pnl_pct": -2.23,
+          "strategy": "trend"
+        },
+        {
+          "symbol": "RAVE",
+          "pnl_pct": -3.35,
+          "strategy": "trend"
+        }
+      ],
+      "ai_analysis": {
+        "verdict": "需改进",
+        "score": 35,
+        "insights": [
+          "当前阶段胜率为0%，表明信号质量或执行存在重大问题。",
+          "趋势策略的两笔交易均为亏损，说明在当前市场环境下未能有效识别信号。"
+        ],
+        "patterns_found": [
+          "在grid策略下，一笔交易表现不佳，需进一步分析仓位配置和信号质量。",
+          "两笔trend策略下的损失表明此策略在现行市场状态下作用有限。"
+        ],
+        "risk_warnings": [
+          "当前胜率为0%，需对信号筛选和决策流程进行深入检讨。"
+        ],
+        "parameter_suggestions": [],
+        "strategy_feedback": {
+          "trend": "信号质量严重不足，在当前市场环境下未能捕捉有效趋势。",
+          "range": "未能有效执行，需确认信号输入和执行逻辑。",
+          "grid": "表现不佳，需分析信号生成过程和市场适应性。"
+        },
+        "next_actions": [
+          "建议开展信号评分回溯分析，确认亏损交易时的信号接收与执行情况。",
+          "应重点观察市场环境变化及FNG指数，探寻未来信号的适应性。"
+        ]
+      },
+      "source": "llm"
+    },
+    {
+      "time": "2026-03-14 02:54:59",
+      "type": "batch_review",
+      "trade_count": 3,
+      "ai_analysis": {
+        "verdict": "需改进",
+        "score": 12,
+        "insights": [
+          "胜率0%偏低，需检查信号质量阈值",
+          "总PnL为负(-7.55%)，亏损交易的幅度过大"
+        ],
+        "patterns_found": [],
+        "risk_warnings": [],
+        "parameter_suggestions": [],
+        "strategy_feedback": {},
+        "next_actions": [
+          "继续积累交易数据",
+          "等待更多样本以发现模式"
+        ]
+      },
+      "source": "rule_based"
+    },
+    {
+      "time": "2026-03-14 18:25:27",
+      "type": "batch_review",
+      "trade_count": 5,
+      "trades_summary": [
+        {
+          "symbol": "MNT",
+          "pnl_pct": -0.75,
+          "strategy": "trend"
+        },
+        {
+          "symbol": "CAKE",
+          "pnl_pct": -0.84,
+          "strategy": "trend"
+        },
+        {
+          "symbol": "WLD",
+          "pnl_pct": 7.05,
+          "strategy": "trend"
+        },
+        {
+          "symbol": "ENSO",
+          "pnl_pct": 10.16,
+          "strategy": "trend"
+        },
+        {
+          "symbol": "MON",
+          "pnl_pct": -1.64,
+          "strategy": "trend"
+        }
+      ],
+      "ai_analysis": {
+        "verdict": "一般",
+        "score": 65,
+        "insights": [
+          "最近的交易结果显示胜率略低于预期 (40%)，需要进一步分析信号质量。",
+          "持仓时间的影响仍在观察阶段，建议关注持仓时间与盈亏的相关性。"
+        ],
+        "patterns_found": [
+          "趋势策略在波动环境下表现出一定的盈利能力，但胜率仍低于正常水平。",
+          "连续亏损的交易频率可能影响整体信心，谨慎管理资金使用。"
+        ],
+        "risk_warnings": [
+          "在波动环境下，持续亏损的情况需要引起重视，需关注信号过滤和执行质量。",
+          "信号质量仍需提升，当前73分的门槛依然有未达预期的风险。"
+        ],
+        "parameter_suggestions": [
+          {
+            "param": "signal_quality_threshold",
+            "current": 73,
+            "suggested": 75,
+            "reason": "提升信号门槛可以排除低质量信号，增强交易成功率。"
+          }
+        ],
+        "strategy_feedback": {
+          "trend": "总体表现尚可，但需关注信号质量与交易效果之间的关系。",
+          "range": "当前无有效数据，因此需要继续观察并记录。",
+          "grid": "当前无有效数据，因此需要继续观察并记录。"
+        },
+        "next_actions": [
+          "强化信号质量评估，关注收集数据中的成功与失败案例。",
+          "继续监测持仓时间与胜率的关系，以便后续进行优化。",
+          "建议记录每次交易的细节，包括市场反应及持仓时的FNG情况。"
+        ]
+      },
+      "source": "llm"
+    },
+    {
+      "time": "2026-03-14 18:25:27",
+      "type": "batch_review",
+      "trade_count": 5,
+      "ai_analysis": {
+        "verdict": "良好",
+        "score": 100,
+        "insights": [
+          "总PnL为正(+13.98%)，盈亏比健康"
+        ],
+        "patterns_found": [],
+        "risk_warnings": [],
+        "parameter_suggestions": [],
+        "strategy_feedback": {},
+        "next_actions": [
+          "继续积累交易数据",
+          "等待更多样本以发现模式"
+        ]
+      },
+      "source": "rule_based"
+    },
+    {
+      "time": "2026-03-14 18:36:09",
+      "type": "batch_review",
+      "trade_count": 5,
+      "trades_summary": [
+        {
+          "symbol": "MNT",
+          "pnl_pct": -0.75,
+          "strategy": "trend"
+        },
+        {
+          "symbol": "CAKE",
+          "pnl_pct": -0.84,
+          "strategy": "trend"
+        },
+        {
+          "symbol": "WLD",
+          "pnl_pct": 7.05,
+          "strategy": "trend"
+        },
+        {
+          "symbol": "ENSO",
+          "pnl_pct": 10.16,
+          "strategy": "trend"
+        },
+        {
+          "symbol": "MON",
+          "pnl_pct": -1.64,
+          "strategy": "trend"
+        }
+      ],
+      "ai_analysis": {
+        "verdict": "一般",
+        "score": 65,
+        "insights": [
+          "整体胜率未达到45%的观察期目标，需保持观望以确认系统能力。",
+          "趋势策略表现不佳，需要分析信号质量和入场时机。"
+        ],
+        "patterns_found": [
+          "持仓时间与胜率存在正相关，特别是在12小时以上的持仓。",
+          "在volatile环境下，策略表现受到影响，胜率不足。"
+        ],
+        "risk_warnings": [
+          "当前胜率40%低于设定标准，需关注信号过滤和策略调整。"
+        ],
+        "parameter_suggestions": [],
+        "strategy_feedback": {
+          "trend": "当前胜率40%需改进，特别是在volatile环境中。",
+          "range": "未使用，无评估。",
+          "grid": "未使用，无评估。"
+        },
+        "next_actions": [
+          "继续观察系统数据，等待更多交易样本。",
+          "分析趋势策略中出现的问题，尤其是信号质量与入场时机。"
+        ]
+      },
+      "source": "llm",
+      "forced_ai": false
+    },
+    {
+      "time": "2026-03-14 18:36:09",
+      "type": "batch_review",
+      "trade_count": 5,
+      "ai_analysis": {
+        "verdict": "良好",
+        "score": 100,
+        "insights": [
+          "总PnL为正(+13.98%)，盈亏比健康"
+        ],
+        "patterns_found": [],
+        "risk_warnings": [],
+        "parameter_suggestions": [],
+        "strategy_feedback": {},
+        "next_actions": [
+          "继续积累交易数据",
+          "等待更多样本以发现模式"
+        ]
+      },
+      "source": "rule_based"
+    },
+    {
+      "time": "2026-03-17 02:08:25",
+      "type": "batch_review",
+      "trade_count": 3,
+      "trades_summary": [
+        {
+          "symbol": "DEGO",
+          "pnl_pct": 7.66,
+          "strategy": "trend"
+        },
+        {
+          "symbol": "ARC",
+          "pnl_pct": -5.06,
+          "strategy": "trend"
+        },
+        {
+          "symbol": "CYBER",
+          "pnl_pct": -3.12,
+          "strategy": "trend"
+        }
+      ],
+      "ai_analysis": {
+        "verdict": "需改进",
+        "score": 55,
+        "insights": [
+          "对趋势策略的表现需要进一步评估，近期多头行动未能稳定盈利。",
+          "持仓时间较短是造成较低胜率的主要原因。"
+        ],
+        "patterns_found": [
+          "在当前volatile regime中，短期交易不具备优势。",
+          "需要避免持仓时间过短导致的损失。"
+        ],
+        "risk_warnings": [
+          "若保持当前胜率，可能会触发亏损保护，需关注。"
+        ],
+        "parameter_suggestions": [],
+        "strategy_feedback": {
+          "trend": "表现在当前环境中相对弱，需要加强信号选择和持仓管理。",
+          "range": "无相关交易数据。",
+          "grid": "无相关交易数据。"
+        },
+        "next_actions": [
+          "观察下一个阶段锁定持仓时间较长的成功率。",
+          "记录持仓时间与胜率的相互关系，调整交易策略以避免短期持仓。"
+        ]
+      },
+      "source": "llm",
+      "forced_ai": true
+    },
+    {
+      "time": "2026-03-17 02:08:25",
+      "type": "batch_review",
+      "trade_count": 3,
+      "ai_analysis": {
+        "verdict": "需改进",
+        "score": 47,
+        "insights": [
+          "胜率33%偏低，需检查信号质量阈值",
+          "总PnL为负(-0.52%)，亏损交易的幅度过大"
+        ],
+        "patterns_found": [],
+        "risk_warnings": [],
+        "parameter_suggestions": [],
+        "strategy_feedback": {},
+        "next_actions": [
+          "继续积累交易数据",
+          "等待更多样本以发现模式"
+        ]
+      },
+      "source": "rule_based"
+    }
+  ],
+  "validated_patterns": [],
+  "stats": {
+    "total_reviews": 22,
+    "total_insights": 22,
+    "validated_patterns": 0,
+    "last_review": "",
+    "last_batch_review": "2026-03-17 02:08:25"
+  },
+  "saved_at": "2026-03-17 02:08:25"
+}

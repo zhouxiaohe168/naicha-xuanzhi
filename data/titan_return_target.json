@@ -1,0 +1,2020 @@
+{
+  "start_date": "2026-02-14",
+  "initial_equity": 100000,
+  "current_equity": 99768.6153757774,
+  "annualized_return": -0.020599,
+  "aggression_multiplier": 1.2,
+  "threshold_delta": -4,
+  "history": [
+    {
+      "time": "2026-03-01 17:39",
+      "equity": 99869.5,
+      "annualized": -3.18,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 15,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-01 18:09",
+      "equity": 99870.98,
+      "annualized": -3.14,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 15,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-01 18:35",
+      "equity": 99869.75,
+      "annualized": -3.17,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 15,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-01 19:02",
+      "equity": 99868.76,
+      "annualized": -3.19,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 15,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-01 19:33",
+      "equity": 99866.55,
+      "annualized": -3.25,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 15,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-01 20:04",
+      "equity": 99865.81,
+      "annualized": -3.27,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 15,
+      "drawdown_pct": 1.03,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-01 20:33",
+      "equity": 99862.85,
+      "annualized": -3.34,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 15,
+      "drawdown_pct": 1.03,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-01 21:02",
+      "equity": 99862.6,
+      "annualized": -3.34,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 15,
+      "drawdown_pct": 1.03,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-01 21:30",
+      "equity": 99865.81,
+      "annualized": -3.27,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 15,
+      "drawdown_pct": 1.03,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-01 21:58",
+      "equity": 99865.81,
+      "annualized": -3.27,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 15,
+      "drawdown_pct": 1.03,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-01 22:25",
+      "equity": 99867.29,
+      "annualized": -3.23,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 15,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-01 22:51",
+      "equity": 99863.83,
+      "annualized": -3.31,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 15,
+      "drawdown_pct": 1.03,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-01 23:19",
+      "equity": 99865.31,
+      "annualized": -3.28,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 15,
+      "drawdown_pct": 1.03,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-01 23:45",
+      "equity": 99864.82,
+      "annualized": -3.29,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 15,
+      "drawdown_pct": 1.03,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 00:14",
+      "equity": 99866.79,
+      "annualized": -3.04,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 00:39",
+      "equity": 99867.53,
+      "annualized": -3.02,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 01:04",
+      "equity": 99869.01,
+      "annualized": -2.99,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 01:28",
+      "equity": 99868.27,
+      "annualized": -3.0,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 01:53",
+      "equity": 99869.26,
+      "annualized": -2.98,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 02:18",
+      "equity": 99866.55,
+      "annualized": -3.04,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 02:42",
+      "equity": 99867.78,
+      "annualized": -3.02,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 03:08",
+      "equity": 99868.27,
+      "annualized": -3.0,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 03:31",
+      "equity": 99870.24,
+      "annualized": -2.96,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 03:55",
+      "equity": 99870.74,
+      "annualized": -2.95,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 04:21",
+      "equity": 99869.75,
+      "annualized": -2.97,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 04:46",
+      "equity": 99869.5,
+      "annualized": -2.98,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 05:10",
+      "equity": 99867.29,
+      "annualized": -3.03,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 05:35",
+      "equity": 99868.03,
+      "annualized": -3.01,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 06:00",
+      "equity": 99867.78,
+      "annualized": -3.02,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 06:23",
+      "equity": 99862.67,
+      "annualized": -3.13,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.03,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 06:48",
+      "equity": 99865.22,
+      "annualized": -3.07,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.03,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 07:14",
+      "equity": 99859.04,
+      "annualized": -3.22,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.03,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 07:42",
+      "equity": 99862.87,
+      "annualized": -3.13,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.03,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 08:18",
+      "equity": 99859.67,
+      "annualized": -3.2,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.03,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 08:46",
+      "equity": 99862.86,
+      "annualized": -3.13,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.03,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 09:14",
+      "equity": 99869.45,
+      "annualized": -2.98,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 09:39",
+      "equity": 99866.89,
+      "annualized": -3.04,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 10:03",
+      "equity": 99866.64,
+      "annualized": -3.04,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 10:28",
+      "equity": 99866.14,
+      "annualized": -3.05,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 10:52",
+      "equity": 99864.26,
+      "annualized": -3.1,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.03,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 11:16",
+      "equity": 99866.67,
+      "annualized": -3.04,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 11:41",
+      "equity": 99867.85,
+      "annualized": -3.01,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 14:55",
+      "equity": 99877.8,
+      "annualized": -2.79,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.01,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 15:24",
+      "equity": 99893.04,
+      "annualized": -2.44,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.0,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 15:54",
+      "equity": 99889.49,
+      "annualized": -2.52,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.0,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 16:28",
+      "equity": 99892.98,
+      "annualized": -2.44,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.0,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 16:54",
+      "equity": 99893.41,
+      "annualized": -2.43,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.0,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 17:22",
+      "equity": 99891.56,
+      "annualized": -2.47,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.0,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-02 17:48",
+      "equity": 99887.26,
+      "annualized": -2.57,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 16,
+      "drawdown_pct": 1.0,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-03 02:44",
+      "equity": 99886.0,
+      "annualized": -2.45,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 17,
+      "drawdown_pct": 1.01,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-03 03:14",
+      "equity": 99884.35,
+      "annualized": -2.48,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 17,
+      "drawdown_pct": 1.01,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-03 03:40",
+      "equity": 99885.21,
+      "annualized": -2.46,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 17,
+      "drawdown_pct": 1.01,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-03 04:08",
+      "equity": 99884.19,
+      "annualized": -2.49,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 17,
+      "drawdown_pct": 1.01,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-03 04:37",
+      "equity": 99884.28,
+      "annualized": -2.48,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 17,
+      "drawdown_pct": 1.01,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-03 05:02",
+      "equity": 99882.35,
+      "annualized": -2.53,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 17,
+      "drawdown_pct": 1.01,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-03 05:28",
+      "equity": 99885.79,
+      "annualized": -2.45,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 17,
+      "drawdown_pct": 1.01,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-03 05:53",
+      "equity": 99880.83,
+      "annualized": -2.56,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 17,
+      "drawdown_pct": 1.01,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-03 06:21",
+      "equity": 99880.7,
+      "annualized": -2.56,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 17,
+      "drawdown_pct": 1.01,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-03 06:47",
+      "equity": 99881.44,
+      "annualized": -2.55,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 17,
+      "drawdown_pct": 1.01,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-03 07:13",
+      "equity": 99881.7,
+      "annualized": -2.54,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 17,
+      "drawdown_pct": 1.01,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-03 10:45",
+      "equity": 99876.9,
+      "annualized": -2.64,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 17,
+      "drawdown_pct": 1.01,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-03 11:14",
+      "equity": 99878.33,
+      "annualized": -2.61,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 17,
+      "drawdown_pct": 1.01,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-03 11:42",
+      "equity": 99877.42,
+      "annualized": -2.63,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 17,
+      "drawdown_pct": 1.01,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-03 12:10",
+      "equity": 99880.09,
+      "annualized": -2.57,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 17,
+      "drawdown_pct": 1.01,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-03 12:36",
+      "equity": 99879.81,
+      "annualized": -2.58,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 17,
+      "drawdown_pct": 1.01,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-03 13:03",
+      "equity": 99879.1,
+      "annualized": -2.6,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 17,
+      "drawdown_pct": 1.01,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-03 13:31",
+      "equity": 99876.21,
+      "annualized": -2.66,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 17,
+      "drawdown_pct": 1.01,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-05 02:23",
+      "equity": 99847.74,
+      "annualized": -2.92,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 19,
+      "drawdown_pct": 1.04,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-05 03:04",
+      "equity": 99846.23,
+      "annualized": -2.95,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 19,
+      "drawdown_pct": 1.04,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-05 03:29",
+      "equity": 99844.49,
+      "annualized": -2.99,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 19,
+      "drawdown_pct": 1.05,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-05 03:56",
+      "equity": 99845.95,
+      "annualized": -2.96,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 19,
+      "drawdown_pct": 1.04,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-05 04:24",
+      "equity": 99848.14,
+      "annualized": -2.92,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 19,
+      "drawdown_pct": 1.04,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-05 04:50",
+      "equity": 99850.13,
+      "annualized": -2.88,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 19,
+      "drawdown_pct": 1.04,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-05 05:16",
+      "equity": 99849.32,
+      "annualized": -2.89,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 19,
+      "drawdown_pct": 1.04,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-05 05:41",
+      "equity": 99841.77,
+      "annualized": -3.04,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 19,
+      "drawdown_pct": 1.05,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-05 06:04",
+      "equity": 99841.92,
+      "annualized": -3.04,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 19,
+      "drawdown_pct": 1.05,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-05 06:30",
+      "equity": 99845.05,
+      "annualized": -2.98,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 19,
+      "drawdown_pct": 1.05,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-05 06:54",
+      "equity": 99849.71,
+      "annualized": -2.89,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 19,
+      "drawdown_pct": 1.04,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-05 07:19",
+      "equity": 99850.58,
+      "annualized": -2.87,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 19,
+      "drawdown_pct": 1.04,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-06 04:01",
+      "equity": 99812.64,
+      "annualized": -3.42,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 20,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-06 04:29",
+      "equity": 99808.41,
+      "annualized": -3.5,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 20,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-06 04:54",
+      "equity": 99802.02,
+      "annualized": -3.61,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 20,
+      "drawdown_pct": 1.09,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-06 05:20",
+      "equity": 99810.13,
+      "annualized": -3.47,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 20,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-06 05:47",
+      "equity": 99797.64,
+      "annualized": -3.69,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 20,
+      "drawdown_pct": 1.09,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-06 06:14",
+      "equity": 99806.34,
+      "annualized": -3.53,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 20,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-06 06:39",
+      "equity": 99806.98,
+      "annualized": -3.52,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 20,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-06 07:05",
+      "equity": 99810.04,
+      "annualized": -3.47,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 20,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-06 07:31",
+      "equity": 99823.4,
+      "annualized": -3.22,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 20,
+      "drawdown_pct": 1.07,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-06 07:58",
+      "equity": 99822.98,
+      "annualized": -3.23,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 20,
+      "drawdown_pct": 1.07,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-06 08:25",
+      "equity": 99813.42,
+      "annualized": -3.4,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 20,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-06 08:50",
+      "equity": 99805.15,
+      "annualized": -3.56,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 20,
+      "drawdown_pct": 1.09,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-06 09:17",
+      "equity": 99791.95,
+      "annualized": -3.8,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 20,
+      "drawdown_pct": 1.1,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-06 09:45",
+      "equity": 99791.74,
+      "annualized": -3.8,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 20,
+      "drawdown_pct": 1.1,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-06 10:13",
+      "equity": 99811.69,
+      "annualized": -3.44,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 20,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-06 10:40",
+      "equity": 99810.34,
+      "annualized": -3.46,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 20,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-06 11:10",
+      "equity": 99798.95,
+      "annualized": -3.67,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 20,
+      "drawdown_pct": 1.09,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-06 11:38",
+      "equity": 99799.95,
+      "annualized": -3.65,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 20,
+      "drawdown_pct": 1.09,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-06 12:10",
+      "equity": 99771.59,
+      "annualized": -4.17,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 20,
+      "drawdown_pct": 1.12,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-07 08:44",
+      "equity": 99737.66,
+      "annualized": -4.56,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 21,
+      "drawdown_pct": 1.15,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-07 09:20",
+      "equity": 99777.07,
+      "annualized": -3.87,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 21,
+      "drawdown_pct": 1.11,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-07 09:59",
+      "equity": 99775.98,
+      "annualized": -3.89,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 21,
+      "drawdown_pct": 1.11,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-07 10:31",
+      "equity": 99773.69,
+      "annualized": -3.93,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 21,
+      "drawdown_pct": 1.12,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-07 11:09",
+      "equity": 99776.09,
+      "annualized": -3.89,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 21,
+      "drawdown_pct": 1.11,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-07 13:12",
+      "equity": 99763.1,
+      "annualized": -4.12,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 21,
+      "drawdown_pct": 1.13,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-07 13:41",
+      "equity": 99772.97,
+      "annualized": -3.95,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 21,
+      "drawdown_pct": 1.12,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-07 14:10",
+      "equity": 99804.84,
+      "annualized": -3.39,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 21,
+      "drawdown_pct": 1.09,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-08 10:32",
+      "equity": 99785.3,
+      "annualized": -3.56,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 22,
+      "drawdown_pct": 1.11,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-08 11:01",
+      "equity": 99782.48,
+      "annualized": -3.61,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 22,
+      "drawdown_pct": 1.11,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-08 11:42",
+      "equity": 99829.17,
+      "annualized": -2.83,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 22,
+      "drawdown_pct": 1.06,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-08 12:17",
+      "equity": 99829.17,
+      "annualized": -2.83,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 22,
+      "drawdown_pct": 1.06,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-08 12:45",
+      "equity": 99829.17,
+      "annualized": -2.83,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 22,
+      "drawdown_pct": 1.06,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-08 13:15",
+      "equity": 99829.17,
+      "annualized": -2.83,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 22,
+      "drawdown_pct": 1.06,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-09 15:07",
+      "equity": 99829.17,
+      "annualized": -2.71,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 23,
+      "drawdown_pct": 1.06,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-10 01:37",
+      "equity": 99829.17,
+      "annualized": -2.6,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 24,
+      "drawdown_pct": 1.06,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-10 02:12",
+      "equity": 99829.17,
+      "annualized": -2.6,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 24,
+      "drawdown_pct": 1.06,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-10 15:05",
+      "equity": 99829.17,
+      "annualized": -2.6,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 24,
+      "drawdown_pct": 1.06,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-10 15:45",
+      "equity": 99829.17,
+      "annualized": -2.6,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 24,
+      "drawdown_pct": 1.06,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-11 02:25",
+      "equity": 99829.2,
+      "annualized": -2.49,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 25,
+      "drawdown_pct": 1.06,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-11 02:54",
+      "equity": 99828.66,
+      "annualized": -2.5,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 25,
+      "drawdown_pct": 1.06,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-11 03:35",
+      "equity": 99829.03,
+      "annualized": -2.5,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 25,
+      "drawdown_pct": 1.06,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-11 17:49",
+      "equity": 99838.73,
+      "annualized": -2.35,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 25,
+      "drawdown_pct": 1.05,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-11 18:30",
+      "equity": 99839.89,
+      "annualized": -2.34,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 25,
+      "drawdown_pct": 1.05,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 02:52",
+      "equity": 99838.3,
+      "annualized": -2.27,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.05,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 03:31",
+      "equity": 99838.54,
+      "annualized": -2.27,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.05,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 04:05",
+      "equity": 99838.72,
+      "annualized": -2.26,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.05,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 04:35",
+      "equity": 99837.64,
+      "annualized": -2.28,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.05,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 05:02",
+      "equity": 99838.43,
+      "annualized": -2.27,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.05,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 05:31",
+      "equity": 99837.01,
+      "annualized": -2.29,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.05,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 05:59",
+      "equity": 99838.05,
+      "annualized": -2.27,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.05,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 06:28",
+      "equity": 99838.54,
+      "annualized": -2.27,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.05,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 06:56",
+      "equity": 99839.45,
+      "annualized": -2.25,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.05,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 07:26",
+      "equity": 99839.83,
+      "annualized": -2.25,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.05,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 07:56",
+      "equity": 99841.8,
+      "annualized": -2.22,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.05,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 08:28",
+      "equity": 99842.13,
+      "annualized": -2.22,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.05,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 08:58",
+      "equity": 99842.66,
+      "annualized": -2.21,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.05,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 09:27",
+      "equity": 99840.71,
+      "annualized": -2.24,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.05,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 09:58",
+      "equity": 99843.77,
+      "annualized": -2.19,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.05,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 10:28",
+      "equity": 99846.37,
+      "annualized": -2.16,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.04,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 11:00",
+      "equity": 99846.97,
+      "annualized": -2.15,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.04,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 11:31",
+      "equity": 99847.31,
+      "annualized": -2.14,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.04,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 12:04",
+      "equity": 99846.65,
+      "annualized": -2.15,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.04,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 12:36",
+      "equity": 99848.94,
+      "annualized": -2.12,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.04,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 13:11",
+      "equity": 99850.78,
+      "annualized": -2.09,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.04,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 13:43",
+      "equity": 99849.04,
+      "annualized": -2.12,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.04,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 14:16",
+      "equity": 99850.24,
+      "annualized": -2.1,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.04,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 14:48",
+      "equity": 99840.45,
+      "annualized": -2.24,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.05,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 15:22",
+      "equity": 99841.1,
+      "annualized": -2.23,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.05,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-12 15:59",
+      "equity": 99846.26,
+      "annualized": -2.16,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 26,
+      "drawdown_pct": 1.04,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-13 13:12",
+      "equity": 99867.51,
+      "annualized": -1.79,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 27,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-13 16:29",
+      "equity": 99816.29,
+      "annualized": -2.48,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 27,
+      "drawdown_pct": 1.07,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-14 18:21",
+      "equity": 99814.93,
+      "annualized": -2.41,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 28,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-14 19:21",
+      "equity": 99814.97,
+      "annualized": -2.41,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 28,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-14 19:55",
+      "equity": 99814.96,
+      "annualized": -2.41,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 28,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-14 20:31",
+      "equity": 99814.95,
+      "annualized": -2.41,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 28,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-14 21:01",
+      "equity": 99814.98,
+      "annualized": -2.41,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 28,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-14 21:31",
+      "equity": 99814.97,
+      "annualized": -2.41,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 28,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-14 22:02",
+      "equity": 99815.03,
+      "annualized": -2.41,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 28,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-14 22:33",
+      "equity": 99815.05,
+      "annualized": -2.41,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 28,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-14 23:03",
+      "equity": 99815.15,
+      "annualized": -2.41,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 28,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-14 23:32",
+      "equity": 99815.19,
+      "annualized": -2.41,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 28,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-15 00:02",
+      "equity": 99815.18,
+      "annualized": -2.33,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 29,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-15 00:29",
+      "equity": 99815.19,
+      "annualized": -2.33,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 29,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-15 00:57",
+      "equity": 99815.14,
+      "annualized": -2.33,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 29,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-15 01:25",
+      "equity": 99815.16,
+      "annualized": -2.33,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 29,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-15 01:51",
+      "equity": 99815.14,
+      "annualized": -2.33,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 29,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-15 02:21",
+      "equity": 99815.25,
+      "annualized": -2.33,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 29,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-15 09:13",
+      "equity": 99815.38,
+      "annualized": -2.32,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 29,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-16 02:16",
+      "equity": 99816.11,
+      "annualized": -2.24,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 30,
+      "drawdown_pct": 1.07,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-16 02:50",
+      "equity": 99816.03,
+      "annualized": -2.24,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 30,
+      "drawdown_pct": 1.07,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-17 01:27",
+      "equity": 99813.39,
+      "annualized": -2.2,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 31,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-17 02:19",
+      "equity": 99881.07,
+      "annualized": -1.4,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 31,
+      "drawdown_pct": 1.01,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-17 02:58",
+      "equity": 99882.42,
+      "annualized": -1.38,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 31,
+      "drawdown_pct": 1.01,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-17 05:18",
+      "equity": 99864.63,
+      "annualized": -1.59,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 31,
+      "drawdown_pct": 1.03,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-17 05:55",
+      "equity": 99875.76,
+      "annualized": -1.46,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 31,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-17 06:30",
+      "equity": 99884.16,
+      "annualized": -1.36,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 31,
+      "drawdown_pct": 1.01,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-17 07:05",
+      "equity": 99917.81,
+      "annualized": -0.97,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 31,
+      "drawdown_pct": 0.97,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-17 07:40",
+      "equity": 99981.24,
+      "annualized": -0.22,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 31,
+      "drawdown_pct": 0.91,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-17 08:10",
+      "equity": 99952.89,
+      "annualized": -0.55,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 31,
+      "drawdown_pct": 0.94,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-17 08:56",
+      "equity": 99819.36,
+      "annualized": -2.13,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 31,
+      "drawdown_pct": 1.07,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-17 10:07",
+      "equity": 99856.07,
+      "annualized": -1.69,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 31,
+      "drawdown_pct": 1.03,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-17 11:01",
+      "equity": 99864.87,
+      "annualized": -1.59,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 31,
+      "drawdown_pct": 1.03,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-17 12:04",
+      "equity": 99835.17,
+      "annualized": -1.94,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 31,
+      "drawdown_pct": 1.06,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-17 12:32",
+      "equity": 99823.97,
+      "annualized": -2.07,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 31,
+      "drawdown_pct": 1.07,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-17 13:01",
+      "equity": 99785.81,
+      "annualized": -2.52,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 31,
+      "drawdown_pct": 1.1,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-17 16:56",
+      "equity": 99973.05,
+      "annualized": -0.32,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 31,
+      "drawdown_pct": 0.92,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-17 17:21",
+      "equity": 100073.95,
+      "annualized": 0.87,
+      "aggression": 1.15,
+      "threshold_delta": -3,
+      "days": 31,
+      "drawdown_pct": 0.82,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-17 17:45",
+      "equity": 100078.0,
+      "annualized": 0.92,
+      "aggression": 1.15,
+      "threshold_delta": -3,
+      "days": 31,
+      "drawdown_pct": 0.82,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-18 01:05",
+      "equity": 100059.29,
+      "annualized": 0.68,
+      "aggression": 1.15,
+      "threshold_delta": -3,
+      "days": 32,
+      "drawdown_pct": 0.83,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-18 01:29",
+      "equity": 99802.39,
+      "annualized": -2.25,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 32,
+      "drawdown_pct": 1.09,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-18 01:53",
+      "equity": 99829.81,
+      "annualized": -1.94,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 32,
+      "drawdown_pct": 1.06,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-18 02:20",
+      "equity": 99816.25,
+      "annualized": -2.1,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 32,
+      "drawdown_pct": 1.07,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-18 02:45",
+      "equity": 99811.55,
+      "annualized": -2.15,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 32,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-18 03:09",
+      "equity": 99815.27,
+      "annualized": -2.11,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 32,
+      "drawdown_pct": 1.08,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-18 07:20",
+      "equity": 99869.66,
+      "annualized": -1.49,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 32,
+      "drawdown_pct": 1.02,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-18 15:15",
+      "equity": 99783.08,
+      "annualized": -2.47,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 32,
+      "drawdown_pct": 1.11,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-18 15:42",
+      "equity": 99783.31,
+      "annualized": -2.47,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 32,
+      "drawdown_pct": 1.11,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-20 02:56",
+      "equity": 99792.39,
+      "annualized": -2.23,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 34,
+      "drawdown_pct": 1.1,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-23 02:50",
+      "equity": 99785.81,
+      "annualized": -2.11,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 37,
+      "drawdown_pct": 1.1,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-26 09:06",
+      "equity": 99785.97,
+      "annualized": -1.95,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 40,
+      "drawdown_pct": 1.1,
+      "mode": "catch_up"
+    },
+    {
+      "time": "2026-03-27 06:56",
+      "equity": 99769.6,
+      "annualized": -2.05,
+      "aggression": 1.2,
+      "threshold_delta": -4,
+      "days": 41,
+      "drawdown_pct": 1.12,
+      "mode": "catch_up"
+    }
+  ],
+  "stats": {
+    "total_updates": 6181,
+    "days_running": 41,
+    "peak_equity": 100887.88520691695,
+    "max_annualized": 0.568498,
+    "min_annualized": -0.317445,
+    "time_below_target": 6060,
+    "time_above_target": 121
+  },
+  "saved_at": "2026-03-27 07:00:51"
+}

@@ -1,0 +1,164 @@
+{
+  "version": "1.1",
+  "created_at": "2026-03-07",
+  "updated_at": "2026-03-08",
+  "ml_enabled": true,
+  "ml_accuracy": 0.791,
+  "ml_threshold": 50,
+  "ml_label_ratio": "2.5:1",
+  "ml_score_adj": 0,
+  "ml_design_v2": {
+    "strategy": "defensive_only",
+    "rationale": "实战数据70+置信度胜率23.8%(反向), 50-54置信度胜率45.5%",
+    "rules": {
+      "ml_bearish_conf_65plus": -8,
+      "ml_bullish_conf_70plus": 0,
+      "ml_neutral": 0
+    },
+    "status": "pending_phase1",
+    "evidence": "77笔交易, ML高置信做多=追涨信号, 趋势末段"
+  },
+  "min_signal_score": 73,
+  "overheat_penalty": {
+    "enabled": true,
+    "threshold_score": 85,
+    "gain_15pct_cap": 78,
+    "gain_8pct_cap": 82,
+    "rationale": "85+分7笔0胜, 极高分=过度追涨陷阱"
+  },
+  "asia_session_bonus": 0,
+  "europe_session_bonus": 0,
+  "us_session_bonus": 0,
+  "fng_extreme_penalty": -10,
+  "hold_time_protection_enabled": false,
+  "hold_time_alpha": {
+    "evidence": "<2h胜率13.3%(n=30), 12-24h胜率50%(n=10), 两次验证一致",
+    "planned_action": "前2小时SL扩大1.5倍",
+    "execution_date": "2026-03-26",
+    "status": "code_ready_switch_off"
+  },
+  "scan_interval_seconds": 900,
+  "evolution_backups": {
+    "asia_session_bonus": {
+      "original": 0,
+      "changed_at": "2026-03-07T10:45:43.150264"
+    },
+    "hold_time_protection_enabled": {
+      "original": "true",
+      "changed_at": "2026-03-26T08:59:09.257417"
+    }
+  },
+  "last_evolution_update": "2026-03-26T08:59:09.257430",
+  "darwin_constraints": {
+    "min_tp_sl_ratio": 2.0,
+    "min_sl_pct": 0.015,
+    "max_tp_sl_ratio": 3.5
+  },
+  "notes": "由系统自动管理，进化执行器写入",
+  "capital_sizer_hardcap": {
+    "hard_max_position_usd": 200,
+    "hard_max_position_pct": 0.1,
+    "overheat_score_threshold": 82,
+    "overheat_size_factor": 0.5,
+    "rationale": "大仓(>00) 50笔24%胜率亏67, 最大043完全失控. score>82=过热减半",
+    "status": "active",
+    "applied_date": "2026-03-08"
+  },
+  "consecutive_loss_threshold": {
+    "unified_value": 3,
+    "locations": [
+      "api.py:can_auto_trade",
+      "autopilot:_check_trades",
+      "autopilot:_make_decisions",
+      "trade_judge:judge",
+      "constitution:CONSECUTIVE_LOSS_TRIGGER"
+    ],
+    "rationale": "原阈值不统一(3/5混用), 7连亏出现2次. 统一为3笔",
+    "status": "active",
+    "applied_date": "2026-03-08"
+  },
+  "phase1_todo": {
+    "P1-15": {
+      "title": "SignalGate_score重新校准",
+      "problem": "被拒信号均涨+3.97%(反向过滤), 276/845涨超3%",
+      "plan": "用100+笔数据重新确定门槛",
+      "priority": "high"
+    },
+    "P1-16": {
+      "title": "Synapse模块评估",
+      "problem": "规则数=0, 完全空壳",
+      "plan": "评估是否需要重建或废弃",
+      "priority": "medium"
+    },
+    "P1-17": {
+      "title": "volatile regime减仓",
+      "problem": "volatile时胜率22.2%最差, 亏6",
+      "plan": "volatile regime时仓位×0.7",
+      "priority": "medium"
+    },
+    "P1-18": {
+      "title": "PositionAdvisor数据写入",
+      "problem": "advisor建议从未写入trades(77/77 NULL)",
+      "plan": "PaperTrader.close_position()写入advisor_suggestion和advisor_followed",
+      "priority": "medium"
+    },
+    "P1-19": {
+      "title": "position_events持仓事件记录",
+      "problem": "止盈/止损/调整事件0条记录",
+      "plan": "PaperTrader各事件写入position_events表",
+      "priority": "medium"
+    },
+    "P1-20": {
+      "title": "counterfactuals触发验证",
+      "problem": "反事实分析0条记录",
+      "plan": "Phase 1有新交易后验证触发",
+      "priority": "low"
+    },
+    "P1-21": {
+      "title": "strategy_weights动态学习",
+      "problem": "策略权重表0条记录",
+      "plan": "StrategyBrain从Shadow转正式",
+      "priority": "medium"
+    }
+  },
+  "min_sl_distance": 0.03,
+  "min_sl_distance_note": "3%最低SL距离,基于实战数据:SL<3%胜率仅11%,SL6-10%胜率91%",
+  "signal_gate_4h_filter": true,
+  "signal_gate_4h_filter_note": "4H方向过滤:4H=down禁做多(14笔0%胜率),4H=up禁做空",
+  "critic_bans": [
+    {
+      "rule": "critic_ban_环境=volatile且方向=long时禁止做多",
+      "confidence": 0.85,
+      "notes": "Critic AI建议: 环境=volatile且方向=long时禁止做多。原因: 在volatile市场环境下做多导致亏损",
+      "adopted_at": "2026-03-17T06:37:29.949380",
+      "proposal_id": 153
+    },
+    {
+      "rule": "critic_ban_rsi<55且环境=volatile时禁止做多",
+      "confidence": 0.8,
+      "notes": "Critic AI建议: RSI<55且环境=volatile时禁止做多。原因: 信号质量低，适合调整策略",
+      "adopted_at": "2026-03-17T06:37:30.006442",
+      "proposal_id": 154
+    }
+  ],
+  "symbol_score_bonus": {
+    "TAO/USDT": -5,
+    "AKT/USDT": -5,
+    "BEAT/USDT": -5,
+    "DEGO/USDT": -5,
+    "HYPE/USDT": -3
+  },
+  "symbol_score_bonus_note": "被拒分析验证：这些标的上涨率87-100%，门槛降低释放机会",
+  "session_score_bonus": {
+    "best": 3,
+    "good": 3,
+    "morning": 2,
+    "note": "基于43187条被拒信号验证"
+  },
+  "grid_geometric_priority": {
+    "enabled": true,
+    "win_rate": 0.71,
+    "avg_hold_hours": 20.0,
+    "note": "实战验证71%胜率，最佳策略"
+  }
+}

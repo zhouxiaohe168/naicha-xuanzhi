@@ -1,0 +1,230 @@
+[
+  {
+    "timestamp": "2026-02-17 06:35:01",
+    "best_fitness": 91.57,
+    "best_params": {
+      "rsi_entry": 35,
+      "tp_atr": 2.64,
+      "sl_atr": 1.58,
+      "adx_threshold": 21,
+      "ma_period": 52,
+      "kelly_fraction": 0.581,
+      "max_risk_per_trade": 0.0376,
+      "max_position_pct": 0.398
+    },
+    "gen_stats_summary": {
+      "first_gen_avg": -35.72,
+      "last_gen_avg": 77.2,
+      "improvement": 112.92
+    }
+  },
+  {
+    "timestamp": "2026-02-17 06:38:11",
+    "best_fitness": 20.99,
+    "best_params": {
+      "rsi_entry": 35,
+      "tp_atr": 2.0,
+      "sl_atr": 2.26,
+      "adx_threshold": 33,
+      "ma_period": 48,
+      "kelly_fraction": 0.786,
+      "max_risk_per_trade": 0.0415,
+      "max_position_pct": 0.24
+    },
+    "gen_stats_summary": {
+      "first_gen_avg": -59.2,
+      "last_gen_avg": 14.15,
+      "improvement": 73.35
+    }
+  },
+  {
+    "timestamp": "2026-02-17 06:39:48",
+    "best_fitness": 80.05,
+    "best_params": {
+      "rsi_entry": 36,
+      "tp_atr": 2.45,
+      "sl_atr": 1.57,
+      "adx_threshold": 33,
+      "ma_period": 46,
+      "kelly_fraction": 0.392,
+      "max_risk_per_trade": 0.0424,
+      "max_position_pct": 0.136
+    },
+    "gen_stats_summary": {
+      "first_gen_avg": -68.63,
+      "last_gen_avg": 43.95,
+      "improvement": 112.58
+    }
+  },
+  {
+    "timestamp": "2026-02-17 06:41:56",
+    "best_fitness": 67.1,
+    "best_params": {
+      "rsi_entry": 30,
+      "tp_atr": 2.37,
+      "sl_atr": 1.51,
+      "adx_threshold": 32,
+      "ma_period": 50,
+      "kelly_fraction": 0.433,
+      "max_risk_per_trade": 0.0251,
+      "max_position_pct": 0.1
+    },
+    "gen_stats_summary": {
+      "first_gen_avg": -64.8,
+      "last_gen_avg": 36.26,
+      "improvement": 101.06
+    }
+  },
+  {
+    "timestamp": "2026-02-17 06:46:56",
+    "best_fitness": 27.98,
+    "best_params": {
+      "rsi_entry": 32,
+      "tp_atr": 3.31,
+      "sl_atr": 1.42,
+      "adx_threshold": 21,
+      "ma_period": 53,
+      "kelly_fraction": 0.623,
+      "max_risk_per_trade": 0.0306,
+      "max_position_pct": 0.123
+    },
+    "gen_stats_summary": {
+      "first_gen_avg": -72.34,
+      "last_gen_avg": 24.26,
+      "improvement": 96.6
+    }
+  },
+  {
+    "timestamp": "2026-02-17 06:51:07",
+    "best_fitness": 64.33,
+    "best_params": {
+      "rsi_entry": 34,
+      "tp_atr": 3.78,
+      "sl_atr": 1.52,
+      "adx_threshold": 31,
+      "ma_period": 15,
+      "kelly_fraction": 0.681,
+      "max_risk_per_trade": 0.0392,
+      "max_position_pct": 0.328
+    },
+    "gen_stats_summary": {
+      "first_gen_avg": -66.47,
+      "last_gen_avg": 56.94,
+      "improvement": 123.41
+    }
+  },
+  {
+    "timestamp": "2026-02-17 06:55:24",
+    "best_fitness": 37.56,
+    "best_params": {
+      "rsi_entry": 35,
+      "tp_atr": 4.54,
+      "sl_atr": 2.51,
+      "adx_threshold": 16,
+      "ma_period": 39,
+      "kelly_fraction": 0.586,
+      "max_risk_per_trade": 0.0161,
+      "max_position_pct": 0.313
+    },
+    "gen_stats_summary": {
+      "first_gen_avg": -80.68,
+      "last_gen_avg": 31.99,
+      "improvement": 112.67
+    }
+  },
+  {
+    "timestamp": "2026-02-17 06:59:04",
+    "best_fitness": 77.6,
+    "best_params": {
+      "rsi_entry": 34,
+      "tp_atr": 2.82,
+      "sl_atr": 1.74,
+      "adx_threshold": 34,
+      "ma_period": 60,
+      "kelly_fraction": 0.404,
+      "max_risk_per_trade": 0.0205,
+      "max_position_pct": 0.352
+    },
+    "gen_stats_summary": {
+      "first_gen_avg": -70.83,
+      "last_gen_avg": 62.66,
+      "improvement": 133.49
+    }
+  },
+  {
+    "timestamp": "2026-02-17 19:03:16",
+    "best_fitness": 27.92,
+    "best_params": {
+      "rsi_entry": 43,
+      "tp_atr": 3.18,
+      "sl_atr": 1.91,
+      "adx_threshold": 18,
+      "ma_period": 23,
+      "kelly_fraction": 0.3,
+      "max_risk_per_trade": 0.05,
+      "max_position_pct": 0.275
+    },
+    "gen_stats_summary": {
+      "first_gen_avg": -112.53,
+      "last_gen_avg": -9.2,
+      "improvement": 103.33
+    }
+  },
+  {
+    "timestamp": "2026-02-18 19:04:01",
+    "best_fitness": 28.44,
+    "best_params": {
+      "rsi_entry": 33,
+      "tp_atr": 2.3,
+      "sl_atr": 1.5,
+      "adx_threshold": 29,
+      "ma_period": 41,
+      "kelly_fraction": 0.844,
+      "max_risk_per_trade": 0.0425,
+      "max_position_pct": 0.16
+    },
+    "gen_stats_summary": {
+      "first_gen_avg": -106.71,
+      "last_gen_avg": 9.36,
+      "improvement": 116.07
+    }
+  },
+  {
+    "timestamp": "2026-02-20 19:04:00",
+    "best_fitness": -24.89,
+    "best_params": {
+      "rsi_entry": 40,
+      "tp_atr": 5.27,
+      "sl_atr": 1.0,
+      "adx_threshold": 28,
+      "ma_period": 16,
+      "kelly_fraction": 0.544,
+      "max_risk_per_trade": 0.0285,
+      "max_position_pct": 0.227
+    },
+    "gen_stats_summary": {
+      "first_gen_avg": -101.02,
+      "last_gen_avg": -25.98,
+      "improvement": 75.04
+    }
+  },
+  {
+    "timestamp": "2026-03-01 19:03:15",
+    "best_fitness": 27.88,
+    "best_params": {
+      "rsi_entry": 36,
+      "tp_atr": 2.0,
+      "sl_atr": 1.31,
+      "adx_threshold": 35,
+      "ma_period": 12,
+      "kelly_fraction": 0.809,
+      "max_risk_per_trade": 0.0134,
+      "max_position_pct": 0.282
+    },
+    "gen_stats_summary": {
+      "first_gen_avg": -76.4,
+      "last_gen_avg": -19.16,
+      "improvement": 57.24
+    }
+  }
+]

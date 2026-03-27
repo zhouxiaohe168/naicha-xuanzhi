@@ -1,0 +1,117 @@
+{
+  "stats": {
+    "openai": {
+      "calls": 180838,
+      "successes": 180838,
+      "failures": 0,
+      "total_latency": 156967.53707432747,
+      "fallbacks_from_modal": 0
+    },
+    "modal": {
+      "calls": 0,
+      "successes": 0,
+      "failures": 0,
+      "total_latency": 0
+    }
+  },
+  "module_stats": {
+    "scoring_engine": {
+      "openai": 102170,
+      "modal": 0,
+      "total_calls": 102170,
+      "avg_latency": 1.05,
+      "total_latency": 107683.1693816185
+    },
+    "analyst": {
+      "openai": 77319,
+      "modal": 0,
+      "total_calls": 77319,
+      "avg_latency": 0.57,
+      "total_latency": 43692.81735062599
+    },
+    "return_rate_agent": {
+      "openai": 298,
+      "modal": 0,
+      "total_calls": 298,
+      "avg_latency": 2.86,
+      "total_latency": 852.7971513271332
+    },
+    "deep_evolution": {
+      "openai": 158,
+      "modal": 0,
+      "total_calls": 158,
+      "avg_latency": 8.17,
+      "total_latency": 1290.54647397995
+    },
+    "ai_diagnostic": {
+      "openai": 113,
+      "modal": 0,
+      "total_calls": 113,
+      "avg_latency": 10.73,
+      "total_latency": 1212.1260821819305
+    },
+    "self_inspector": {
+      "openai": 12,
+      "modal": 0,
+      "total_calls": 12,
+      "avg_latency": 2.46,
+      "total_latency": 29.557459115982056
+    },
+    "cto_briefings": {
+      "openai": 20,
+      "modal": 0,
+      "total_calls": 20,
+      "avg_latency": 5.3,
+      "total_latency": 106.06932353973389
+    },
+    "position_advisor": {
+      "openai": 603,
+      "modal": 0,
+      "total_calls": 603,
+      "avg_latency": 2.84,
+      "total_latency": 1713.9171681404114
+    },
+    "cto_report": {
+      "openai": 16,
+      "modal": 0,
+      "total_calls": 16,
+      "avg_latency": 3.61,
+      "total_latency": 57.80366277694702
+    },
+    "agi_reflection": {
+      "openai": 28,
+      "modal": 0,
+      "total_calls": 28,
+      "avg_latency": 3.33,
+      "total_latency": 93.12951564788818
+    },
+    "ai_reviewer": {
+      "openai": 11,
+      "modal": 0,
+      "total_calls": 11,
+      "avg_latency": 3.16,
+      "total_latency": 34.79956364631653
+    },
+    "ml_engine": {
+      "openai": 3,
+      "modal": 0,
+      "total_calls": 3,
+      "avg_latency": 3.17,
+      "total_latency": 9.51095986366272
+    },
+    "regime_transition": {
+      "openai": 29,
+      "modal": 0,
+      "total_calls": 29,
+      "avg_latency": 1.57,
+      "total_latency": 45.604350090026855
+    },
+    "portfolio_correlation": {
+      "openai": 58,
+      "modal": 0,
+      "total_calls": 58,
+      "avg_latency": 2.51,
+      "total_latency": 145.688631772995
+    }
+  }
+}

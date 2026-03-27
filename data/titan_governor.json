@@ -1,0 +1,470 @@
+{
+  "config": {
+    "daily_profit_target_pct": 3.0,
+    "daily_loss_limit_pct": -5.0,
+    "weekly_profit_target_pct": 10.0,
+    "weekly_loss_limit_pct": -8.0,
+    "max_drawdown_pause_pct": 15.0,
+    "consecutive_loss_pause": 5,
+    "score_threshold_normal": 78,
+    "score_threshold_cautious": 85,
+    "score_threshold_aggressive": 72,
+    "max_positions": 10,
+    "max_positions_cautious": 7
+  },
+  "state": {
+    "mode": "normal",
+    "daily_pnl_pct": 0.0,
+    "weekly_pnl_pct": 0.0,
+    "consecutive_losses": 1,
+    "peak_equity": 10000,
+    "current_equity": 10000,
+    "drawdown_pct": 0.0,
+    "paused": false,
+    "pause_reason": "",
+    "last_mode_change": "2026-03-23 03:04"
+  },
+  "action_chains": [
+    {
+      "trigger": "consecutive_losses",
+      "time": "2026-03-20 03:02",
+      "actions": [
+        {
+          "action": "reduce_position_size",
+          "factor": 0.7,
+          "desc": "仓位减30%"
+        },
+        {
+          "action": "raise_score_threshold",
+          "value": 85,
+          "desc": "提高信号门槛到85"
+        },
+        {
+          "action": "skip_low_adx",
+          "threshold": 22,
+          "desc": "跳过ADX<22的信号"
+        }
+      ],
+      "status": "triggered"
+    },
+    {
+      "trigger": "consecutive_losses",
+      "time": "2026-03-23 03:04",
+      "actions": [
+        {
+          "action": "reduce_position_size",
+          "factor": 0.7,
+          "desc": "仓位减30%"
+        },
+        {
+          "action": "raise_score_threshold",
+          "value": 85,
+          "desc": "提高信号门槛到85"
+        },
+        {
+          "action": "skip_low_adx",
+          "threshold": 22,
+          "desc": "跳过ADX<22的信号"
+        }
+      ],
+      "status": "triggered"
+    },
+    {
+      "trigger": "consecutive_losses",
+      "time": "2026-03-23 03:04",
+      "actions": [
+        {
+          "action": "reduce_position_size",
+          "factor": 0.7,
+          "desc": "仓位减30%"
+        },
+        {
+          "action": "raise_score_threshold",
+          "value": 85,
+          "desc": "提高信号门槛到85"
+        },
+        {
+          "action": "skip_low_adx",
+          "threshold": 22,
+          "desc": "跳过ADX<22的信号"
+        }
+      ],
+      "status": "triggered"
+    },
+    {
+      "trigger": "consecutive_losses",
+      "time": "2026-03-23 03:04",
+      "actions": [
+        {
+          "action": "reduce_position_size",
+          "factor": 0.7,
+          "desc": "仓位减30%"
+        },
+        {
+          "action": "raise_score_threshold",
+          "value": 85,
+          "desc": "提高信号门槛到85"
+        },
+        {
+          "action": "skip_low_adx",
+          "threshold": 22,
+          "desc": "跳过ADX<22的信号"
+        }
+      ],
+      "status": "triggered"
+    },
+    {
+      "trigger": "consecutive_losses",
+      "time": "2026-03-23 03:04",
+      "actions": [
+        {
+          "action": "reduce_position_size",
+          "factor": 0.7,
+          "desc": "仓位减30%"
+        },
+        {
+          "action": "raise_score_threshold",
+          "value": 85,
+          "desc": "提高信号门槛到85"
+        },
+        {
+          "action": "skip_low_adx",
+          "threshold": 22,
+          "desc": "跳过ADX<22的信号"
+        }
+      ],
+      "status": "triggered"
+    },
+    {
+      "trigger": "consecutive_losses",
+      "time": "2026-03-23 03:04",
+      "actions": [
+        {
+          "action": "reduce_position_size",
+          "factor": 0.7,
+          "desc": "仓位减30%"
+        },
+        {
+          "action": "raise_score_threshold",
+          "value": 85,
+          "desc": "提高信号门槛到85"
+        },
+        {
+          "action": "skip_low_adx",
+          "threshold": 22,
+          "desc": "跳过ADX<22的信号"
+        }
+      ],
+      "status": "triggered"
+    },
+    {
+      "trigger": "consecutive_losses",
+      "time": "2026-03-23 03:04",
+      "actions": [
+        {
+          "action": "reduce_position_size",
+          "factor": 0.7,
+          "desc": "仓位减30%"
+        },
+        {
+          "action": "raise_score_threshold",
+          "value": 85,
+          "desc": "提高信号门槛到85"
+        },
+        {
+          "action": "skip_low_adx",
+          "threshold": 22,
+          "desc": "跳过ADX<22的信号"
+        }
+      ],
+      "status": "triggered"
+    },
+    {
+      "trigger": "consecutive_losses",
+      "time": "2026-03-23 03:04",
+      "actions": [
+        {
+          "action": "reduce_position_size",
+          "factor": 0.7,
+          "desc": "仓位减30%"
+        },
+        {
+          "action": "raise_score_threshold",
+          "value": 85,
+          "desc": "提高信号门槛到85"
+        },
+        {
+          "action": "skip_low_adx",
+          "threshold": 22,
+          "desc": "跳过ADX<22的信号"
+        }
+      ],
+      "status": "triggered"
+    },
+    {
+      "trigger": "consecutive_losses",
+      "time": "2026-03-23 03:04",
+      "actions": [
+        {
+          "action": "reduce_position_size",
+          "factor": 0.7,
+          "desc": "仓位减30%"
+        },
+        {
+          "action": "raise_score_threshold",
+          "value": 85,
+          "desc": "提高信号门槛到85"
+        },
+        {
+          "action": "skip_low_adx",
+          "threshold": 22,
+          "desc": "跳过ADX<22的信号"
+        }
+      ],
+      "status": "triggered"
+    },
+    {
+      "trigger": "consecutive_losses",
+      "time": "2026-03-23 03:04",
+      "actions": [
+        {
+          "action": "reduce_position_size",
+          "factor": 0.7,
+          "desc": "仓位减30%"
+        },
+        {
+          "action": "raise_score_threshold",
+          "value": 85,
+          "desc": "提高信号门槛到85"
+        },
+        {
+          "action": "skip_low_adx",
+          "threshold": 22,
+          "desc": "跳过ADX<22的信号"
+        }
+      ],
+      "status": "triggered"
+    },
+    {
+      "trigger": "consecutive_losses",
+      "time": "2026-03-23 03:04",
+      "actions": [
+        {
+          "action": "reduce_position_size",
+          "factor": 0.7,
+          "desc": "仓位减30%"
+        },
+        {
+          "action": "raise_score_threshold",
+          "value": 85,
+          "desc": "提高信号门槛到85"
+        },
+        {
+          "action": "skip_low_adx",
+          "threshold": 22,
+          "desc": "跳过ADX<22的信号"
+        }
+      ],
+      "status": "triggered"
+    },
+    {
+      "trigger": "consecutive_losses",
+      "time": "2026-03-23 03:04",
+      "actions": [
+        {
+          "action": "reduce_position_size",
+          "factor": 0.7,
+          "desc": "仓位减30%"
+        },
+        {
+          "action": "raise_score_threshold",
+          "value": 85,
+          "desc": "提高信号门槛到85"
+        },
+        {
+          "action": "skip_low_adx",
+          "threshold": 22,
+          "desc": "跳过ADX<22的信号"
+        }
+      ],
+      "status": "triggered"
+    },
+    {
+      "trigger": "consecutive_losses",
+      "time": "2026-03-23 03:04",
+      "actions": [
+        {
+          "action": "reduce_position_size",
+          "factor": 0.7,
+          "desc": "仓位减30%"
+        },
+        {
+          "action": "raise_score_threshold",
+          "value": 85,
+          "desc": "提高信号门槛到85"
+        },
+        {
+          "action": "skip_low_adx",
+          "threshold": 22,
+          "desc": "跳过ADX<22的信号"
+        }
+      ],
+      "status": "triggered"
+    },
+    {
+      "trigger": "consecutive_losses",
+      "time": "2026-03-23 03:04",
+      "actions": [
+        {
+          "action": "reduce_position_size",
+          "factor": 0.7,
+          "desc": "仓位减30%"
+        },
+        {
+          "action": "raise_score_threshold",
+          "value": 85,
+          "desc": "提高信号门槛到85"
+        },
+        {
+          "action": "skip_low_adx",
+          "threshold": 22,
+          "desc": "跳过ADX<22的信号"
+        }
+      ],
+      "status": "triggered"
+    },
+    {
+      "trigger": "consecutive_losses",
+      "time": "2026-03-23 03:04",
+      "actions": [
+        {
+          "action": "reduce_position_size",
+          "factor": 0.7,
+          "desc": "仓位减30%"
+        },
+        {
+          "action": "raise_score_threshold",
+          "value": 85,
+          "desc": "提高信号门槛到85"
+        },
+        {
+          "action": "skip_low_adx",
+          "threshold": 22,
+          "desc": "跳过ADX<22的信号"
+        }
+      ],
+      "status": "triggered"
+    },
+    {
+      "trigger": "consecutive_losses",
+      "time": "2026-03-23 03:04",
+      "actions": [
+        {
+          "action": "reduce_position_size",
+          "factor": 0.7,
+          "desc": "仓位减30%"
+        },
+        {
+          "action": "raise_score_threshold",
+          "value": 85,
+          "desc": "提高信号门槛到85"
+        },
+        {
+          "action": "skip_low_adx",
+          "threshold": 22,
+          "desc": "跳过ADX<22的信号"
+        }
+      ],
+      "status": "triggered"
+    },
+    {
+      "trigger": "consecutive_losses",
+      "time": "2026-03-23 03:04",
+      "actions": [
+        {
+          "action": "reduce_position_size",
+          "factor": 0.7,
+          "desc": "仓位减30%"
+        },
+        {
+          "action": "raise_score_threshold",
+          "value": 85,
+          "desc": "提高信号门槛到85"
+        },
+        {
+          "action": "skip_low_adx",
+          "threshold": 22,
+          "desc": "跳过ADX<22的信号"
+        }
+      ],
+      "status": "triggered"
+    },
+    {
+      "trigger": "consecutive_losses",
+      "time": "2026-03-23 03:04",
+      "actions": [
+        {
+          "action": "reduce_position_size",
+          "factor": 0.7,
+          "desc": "仓位减30%"
+        },
+        {
+          "action": "raise_score_threshold",
+          "value": 85,
+          "desc": "提高信号门槛到85"
+        },
+        {
+          "action": "skip_low_adx",
+          "threshold": 22,
+          "desc": "跳过ADX<22的信号"
+        }
+      ],
+      "status": "triggered"
+    },
+    {
+      "trigger": "consecutive_losses",
+      "time": "2026-03-23 03:04",
+      "actions": [
+        {
+          "action": "reduce_position_size",
+          "factor": 0.7,
+          "desc": "仓位减30%"
+        },
+        {
+          "action": "raise_score_threshold",
+          "value": 85,
+          "desc": "提高信号门槛到85"
+        },
+        {
+          "action": "skip_low_adx",
+          "threshold": 22,
+          "desc": "跳过ADX<22的信号"
+        }
+      ],
+      "status": "triggered"
+    },
+    {
+      "trigger": "consecutive_losses",
+      "time": "2026-03-23 03:04",
+      "actions": [
+        {
+          "action": "reduce_position_size",
+          "factor": 0.7,
+          "desc": "仓位减30%"
+        },
+        {
+          "action": "raise_score_threshold",
+          "value": 85,
+          "desc": "提高信号门槛到85"
+        },
+        {
+          "action": "skip_low_adx",
+          "threshold": 22,
+          "desc": "跳过ADX<22的信号"
+        }
+      ],
+      "status": "triggered"
+    }
+  ],
+  "last_saved": "2026-03-27 07:00:51"
+}
