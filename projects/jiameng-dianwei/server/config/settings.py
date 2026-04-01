@@ -18,8 +18,10 @@ ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24 * 7  # 7天
 # 高德地图API
 AMAP_KEY = os.getenv("AMAP_KEY", "")
 
-# Claude API（AI研判用）
-ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
+# OpenRouter API（AI研判用）
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
+# 使用的模型，可按需更换
+OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL", "anthropic/claude-3-haiku")
 
 # 短信服务（阿里云）
 SMS_ACCESS_KEY_ID = os.getenv("SMS_ACCESS_KEY_ID", "")
