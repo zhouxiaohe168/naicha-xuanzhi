@@ -5,7 +5,7 @@ const BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api'
 
 const api = axios.create({
   baseURL: BASE_URL,
-  timeout: 15000,
+  timeout: 30000,
 })
 
 // 请求拦截器：自动带 token + 确保URL末尾有斜杠（避免Railway 307重定向）

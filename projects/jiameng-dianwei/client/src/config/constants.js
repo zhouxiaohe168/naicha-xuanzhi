@@ -1,100 +1,86 @@
 // 项目配置常量
 export const APP_NAME = '奶茶选址通'
-export const APP_SLOGAN = '奶茶咖啡选址，AI帮你做决定'
-export const APP_DESC = '不用实地考察，9.9元看清商圈竞品'
-
-// 价格
 export const PRICE_BASIC = 9.9
-export const PRICE_AI = 59.9
-export const PRICE_UPGRADE = 50 // 基础报告升级AI的补差价
+export const PRICE_AI    = 59.9
+export const PRICE_UPGRADE = 50
 
-// 范围选择选项（米）
-export const RANGE_OPTIONS = [
+// 查询半径选项
+export const RADIUS_OPTIONS = [
   { label: '500m', value: 500 },
-  { label: '1km', value: 1000 },
-  { label: '2km', value: 2000 },
-  { label: '3km', value: 3000 },
+  { label: '1km',  value: 1000 },
+  { label: '1.5km',value: 1500 },
 ]
-export const DEFAULT_RANGE = 1000
+export const DEFAULT_RADIUS = 1000
 
-// MVP城市
-export const MVP_CITY = '金华市'
-
-// 品牌配色（标签用）
-export const BRAND_COLORS = {
-  '蜜雪冰城': { bg: '#FEE2E2', text: '#DC2626' },
-  '瑞幸咖啡': { bg: '#DBEAFE', text: '#2563EB' },
-  '喜茶': { bg: '#D1FAE5', text: '#059669' },
-  '库迪咖啡': { bg: '#E0E7FF', text: '#4F46E5' },
-  '沪上阿姨': { bg: '#FCE7F3', text: '#DB2777' },
-  '书亦烧仙草': { bg: '#FEF3C7', text: '#D97706' },
-  default: { bg: '#F3F4F6', text: '#6B7280' },
-}
-
-// ── 加盟商选址：目标品牌 ──────────────────────────────
+// ── 目标品牌（用户要开的品牌）──────────────────────────
 export const TARGET_BRANDS = [
-  { name: '蜜雪冰城', icon: '🧋', category: 'tea',  desc: '低价高频，学生工人首选' },
-  { name: '古茗',    icon: '🍵', category: 'tea',  desc: '中价奶茶，年轻白领客群' },
-  { name: '正新鸡排', icon: '🍗', category: 'food', desc: '平价炸鸡，人流密集区' },
-  { name: '华莱士',  icon: '🍔', category: 'food', desc: '平价快餐，下沉市场强' },
-  { name: '瑞幸咖啡', icon: '☕', category: 'coffee', desc: '平价咖啡，白领上班族' },
-  { name: '其他品牌', icon: '🏪', category: 'other', desc: '自定义品牌，通用选址' },
+  { name: '蜜雪冰城', icon: '🧋', desc: '低价高频，学生工人首选' },
+  { name: '古茗',    icon: '🍵', desc: '中价奶茶，年轻白领客群' },
+  { name: '正新鸡排', icon: '🍗', desc: '平价炸鸡，人流密集区' },
+  { name: '华莱士',  icon: '🍔', desc: '平价快餐，下沉市场强' },
+  { name: '瑞幸咖啡', icon: '☕', desc: '平价咖啡，白领上班族' },
+  { name: '其他品牌', icon: '🏪', desc: '自定义品牌，通用选址' },
 ]
 
-// 锚点品牌（选定目标品牌后，系统默认推荐的参考锚点）
-export const ANCHOR_BRANDS = [
-  { name: '古茗',    icon: '🍵' },
-  { name: '瑞幸咖啡', icon: '☕' },
-  { name: '麦当劳',  icon: '🍟' },
-  { name: '肯德基',  icon: '🍗' },
-  { name: '大润发',  icon: '🛒' },
-  { name: '正新鸡排', icon: '🍗' },
-  { name: '霸王茶姬', icon: '👑' },
-  { name: '绝味鸭脖', icon: '🦆' },
+// ── 锚点品牌（按品类分组，基于高德真实数据）────────────
+export const ANCHOR_CATEGORIES = [
+  {
+    id: 'tea',
+    label: '奶茶',
+    brands: ['古茗','茶百道','霸王茶姬','喜茶','一点点','沪上阿姨','蜜雪冰城','奈雪的茶','柠季','书亦烧仙草'],
+  },
+  {
+    id: 'food',
+    label: '快餐炸鸡',
+    brands: ['肯德基','麦当劳','华莱士','正新鸡排','老乡鸡','德克士'],
+  },
+  {
+    id: 'supermarket',
+    label: '超市',
+    brands: ['华润万家','永辉超市','沃尔玛','大润发'],
+  },
+  {
+    id: 'other',
+    label: '其他',
+    brands: ['杨国福麻辣烫','张亮麻辣烫','绝味鸭脖','星巴克','瑞幸咖啡'],
+  },
 ]
 
-// 品牌 → 系统默认推荐的锚点（加盟商不用自己想，系统帮他选）
+// 每个目标品牌的默认推荐锚点
 export const DEFAULT_ANCHORS = {
-  '蜜雪冰城': ['古茗', '瑞幸咖啡', '正新鸡排', '大润发'],
-  '古茗':     ['瑞幸咖啡', '蜜雪冰城', '麦当劳', '肯德基'],
-  '正新鸡排': ['麦当劳', '肯德基', '蜜雪冰城', '绝味鸭脖'],
-  '华莱士':   ['麦当劳', '肯德基', '正新鸡排', '蜜雪冰城'],
-  '瑞幸咖啡': ['麦当劳', '肯德基', '古茗', '霸王茶姬'],
-  '其他品牌': ['古茗', '瑞幸咖啡', '麦当劳'],
+  '蜜雪冰城': ['古茗','霸王茶姬','茶百道','肯德基'],
+  '古茗':     ['霸王茶姬','茶百道','蜜雪冰城','肯德基'],
+  '正新鸡排': ['肯德基','麦当劳','蜜雪冰城','华莱士'],
+  '华莱士':   ['麦当劳','肯德基','正新鸡排','蜜雪冰城'],
+  '瑞幸咖啡': ['星巴克','麦当劳','古茗','霸王茶姬'],
+  '其他品牌': ['古茗','肯德基','麦当劳'],
 }
 
-// 商圈-品牌适配评分（基于真实高德POI数据分析）
-// score: 满分10分 | level: high/medium/low | anchors_found: 真实存在的锚点品牌
-export const BRAND_SCORES = {
-  '蜜雪冰城': {
-    '金东区多湖商圈':  { score: 8.5, level: 'high',   anchors_found: ['古茗', '瑞幸咖啡', '库迪咖啡'], reason: '新区蓝海，0家竞品，古茗+瑞幸验证需求' },
-    '义乌国际商贸城':  { score: 8.2, level: 'high',   anchors_found: ['喜茶', '霸王茶姬', '肯德基'],   reason: '全球最高密度流量，低价需求旺盛' },
-    '义乌商城大道':   { score: 7.9, level: 'high',   anchors_found: ['古茗', '麦当劳'],              reason: '批发商客群，外来人口价格敏感' },
-    '金华步行街':     { score: 7.8, level: 'high',   anchors_found: ['古茗', '喜茶', '霸王茶姬'],    reason: '核心步行街，市场体量大，已有蜜雪2家' },
-    '金华火车站商圈':  { score: 7.5, level: 'high',   anchors_found: ['霸王茶姬', '喜茶', '茉酸奶'],  reason: '旅客高频需求，出站口是黄金位置' },
-    '兰溪市区商圈':   { score: 7.3, level: 'medium', anchors_found: ['古茗', '正新鸡排'],            reason: '工人客群，价格极敏感，竞争压力低' },
-    '宾虹路商业区':   { score: 7.1, level: 'medium', anchors_found: ['古茗', '大润发'],              reason: '社区型门店，稳定复购，租金低' },
-    '浦江县城商圈':   { score: 6.8, level: 'medium', anchors_found: ['古茗'],                       reason: '县城下沉市场，低成本快回本' },
-    '万达广场商圈':   { score: 6.5, level: 'medium', anchors_found: ['瑞幸咖啡', '古茗', '奈雪的茶'], reason: '外街可开，商场内客群偏高端' },
-    '东阳市商圈':    { score: 6.5, level: 'medium', anchors_found: ['古茗', '霸王茶姬'],            reason: '消费力偏高，市区可开，景区不建议' },
+// ── 金华市三级地址数据 ──────────────────────────────
+export const JINHUA_LOCATIONS = {
+  '金华市': {
+    '婺城区': ['西关街道','秋滨街道','城北街道','城南街道','白龙桥镇','琅琊镇','安地镇','雅畈镇','罗埠镇','汤溪镇'],
+    '金东区': ['多湖街道','东孝街道','江东镇','孝顺镇','傅村镇','澧浦镇','曹宅镇','岭下镇'],
   },
-  '正新鸡排': {
-    '义乌国际商贸城':  { score: 8.4, level: 'high',   anchors_found: ['麦当劳', '肯德基', '蜜雪冰城'], reason: '超高流量，快消需求旺，低价快餐天堂' },
-    '金华火车站商圈':  { score: 8.0, level: 'high',   anchors_found: ['肯德基', '麦当劳'],            reason: '旅客快餐需求强，客单价契合' },
-    '金华步行街':     { score: 7.8, level: 'high',   anchors_found: ['麦当劳', '蜜雪冰城'],          reason: '步行街逛吃场景，正餐替代需求大' },
-    '金东区多湖商圈':  { score: 7.5, level: 'high',   anchors_found: ['蜜雪冰城', '肯德基'],          reason: '新区快餐缺口大，率先入驻优势明显' },
-    '兰溪市区商圈':   { score: 7.3, level: 'medium', anchors_found: ['绝味鸭脖', '蜜雪冰城'],        reason: '工人区快消需求强，竞争少' },
-    '宾虹路商业区':   { score: 6.8, level: 'medium', anchors_found: ['蜜雪冰城'],                   reason: '社区店，固定客流，竞争低' },
-    '万达广场商圈':   { score: 6.5, level: 'medium', anchors_found: ['肯德基', '麦当劳'],            reason: '外街可开，内场竞争激烈' },
-    '义乌商城大道':   { score: 6.5, level: 'medium', anchors_found: ['蜜雪冰城'],                   reason: '商贸城延伸区，可配套布局' },
-    '浦江县城商圈':   { score: 6.2, level: 'medium', anchors_found: [],                            reason: '县城体量有限，谨慎评估' },
-    '东阳市商圈':    { score: 5.8, level: 'low',    anchors_found: [],                            reason: '消费力偏高，快餐档次不匹配' },
+  '义乌市': {
+    '义乌市': ['稠城街道','江东街道','城西街道','后宅街道','北苑街道','稠江街道','廿三里街道','义亭镇','赤岸镇','上溪镇','苏溪镇'],
   },
-}
-
-// 评分等级配置
-export const SCORE_LEVEL = {
-  high:   { label: '强烈推荐', color: 'text-green-700',  bg: 'bg-green-50',  border: 'border-green-200', dot: 'bg-green-500' },
-  medium: { label: '可以考虑',  color: 'text-yellow-700', bg: 'bg-yellow-50', border: 'border-yellow-200', dot: 'bg-yellow-500' },
-  low:    { label: '谨慎评估', color: 'text-red-600',    bg: 'bg-red-50',    border: 'border-red-200',    dot: 'bg-red-400' },
+  '东阳市': {
+    '东阳市': ['吴宁街道','白云街道','江北街道','六石街道','南马镇','歌山镇','虎鹿镇','横店镇'],
+  },
+  '兰溪市': {
+    '兰溪市': ['兰江街道','云山街道','永昌街道','游埠镇','马涧镇','香溪镇'],
+  },
+  '永康市': {
+    '永康市': ['西城街道','东城街道','芝英镇','古山镇','象珠镇','龙山镇','江南街道'],
+  },
+  '浦江县': {
+    '浦江县': ['浦阳街道','仙华街道','黄宅镇','郑家坞镇','白马镇','花桥乡'],
+  },
+  '武义县': {
+    '武义县': ['壶山街道','白洋街道','泉溪镇','熟溪街道','桐琴镇','王宅镇'],
+  },
+  '磐安县': {
+    '磐安县': ['安文镇','玉山镇','新渥镇','深泽乡','冷水镇'],
+  },
 }
