@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import Navbar from '../components/common/Navbar'
 import { APP_NAME } from '../config/constants'
+import api from '../config/api'
 
 export default function Login() {
   const navigate = useNavigate()
@@ -9,39 +10,44 @@ export default function Login() {
   const [code, setCode] = useState('')
   const [codeSent, setCodeSent] = useState(false)
   const [countdown, setCountdown] = useState(0)
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState('')
 
-  // 发送验证码
   const sendCode = async () => {
     if (!phone || phone.length !== 11) {
-      alert('请输入正确的手机号')
+      setError('请输入正确的手机号')
       return
     }
-    // TODO: 调用后端发送短信验证码接口
-    setCodeSent(true)
-    setCountdown(60)
-    const timer = setInterval(() => {
-      setCountdown((prev) => {
-        if (prev <= 1) {
-          clearInterval(timer)
-          return 0
-        }
-        return prev - 1
-      })
-    }, 1000)
+    setError('')
+    try {
+      await api.post('/auth/send-code', { phone })
+      setCodeSent(true)
+      setCountdown(60)
+      const timer = setInterval(() => {
+        setCountdown((prev) => {
+          if (prev <= 1) { clearInterval(timer); return 0 }
+          return prev - 1
+        })
+      }, 1000)
+    } catch {
+      setError('发送失败，请稍后重试')
+    }
   }
 
-  // 登录/注册
   const handleLogin = async (e) => {
     e.preventDefault()
-    if (!phone || !code) {
-      alert('请填写手机号和验证码')
-      return
+    if (!phone || !code) { setError('请填写手机号和验证码'); return }
+    setLoading(true)
+    setError('')
+    try {
+      const res = await api.post('/auth/login', { phone, code })
+      localStorage.setItem('token', res.token)
+      navigate('/districts')
+    } catch (err) {
+      setError(err.response?.data?.detail || '登录失败，请检查验证码')
+    } finally {
+      setLoading(false)
     }
-    // TODO: 调用后端登录接口
-    // const res = await api.post('/auth/login', { phone, code })
-    // localStorage.setItem('token', res.token)
-    localStorage.setItem('token', 'demo-token') // 临时mock
-    navigate('/districts')
   }
 
   return (
@@ -54,8 +60,13 @@ export default function Login() {
             手机号登录，新用户自动注册
           </p>
 
+          {error && (
+            <div className="mb-4 px-4 py-2 bg-red-50 text-red-500 text-sm rounded-btn">
+              {error}
+            </div>
+          )}
+
           <form onSubmit={handleLogin}>
-            {/* 手机号 */}
             <div className="mb-4">
               <input
                 type="tel"
@@ -67,7 +78,6 @@ export default function Login() {
               />
             </div>
 
-            {/* 验证码 */}
             <div className="flex gap-2 mb-6">
               <input
                 type="text"
@@ -91,16 +101,15 @@ export default function Login() {
               </button>
             </div>
 
-            {/* 登录按钮 */}
             <button
               type="submit"
-              className="w-full bg-primary text-white py-3 rounded-btn text-lg font-medium hover:bg-primary-dark"
+              disabled={loading}
+              className="w-full bg-primary text-white py-3 rounded-btn text-lg font-medium hover:bg-primary-dark disabled:opacity-60"
             >
-              登录
+              {loading ? '登录中...' : '登录'}
             </button>
           </form>
 
-          {/* 微信登录 */}
           <div className="mt-6 text-center">
             <div className="text-sm text-text-sub mb-3">—— 或 ——</div>
             <button

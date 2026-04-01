@@ -3,29 +3,22 @@ import Navbar from '../components/common/Navbar'
 import Footer from '../components/common/Footer'
 import DistrictCard from '../components/custom/DistrictCard'
 import { MVP_CITY } from '../config/constants'
-
-// 临时mock数据，后端接好后替换
-const MOCK_DISTRICTS = [
-  { id: 1, name: '万达商圈', foot_traffic_level: 'high', updated_at: '2026-03-31' },
-  { id: 2, name: '义乌小商品城商圈', foot_traffic_level: 'high', updated_at: '2026-03-31' },
-  { id: 3, name: '江南商圈', foot_traffic_level: 'medium', updated_at: '2026-03-31' },
-  { id: 4, name: '火车站商圈', foot_traffic_level: 'high', updated_at: '2026-03-31' },
-  { id: 5, name: '金华学院周边', foot_traffic_level: 'medium', updated_at: '2026-03-31' },
-  { id: 6, name: '秋滨工业区', foot_traffic_level: 'low', updated_at: '2026-03-31' },
-]
+import api from '../config/api'
 
 export default function DistrictList() {
   const [districts, setDistricts] = useState([])
   const [search, setSearch] = useState('')
-  const [filter, setFilter] = useState('all') // all / high / medium / low
+  const [filter, setFilter] = useState('all')
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState('')
 
   useEffect(() => {
-    // TODO: 替换为真实API调用
-    // const data = await api.get('/districts', { params: { city: MVP_CITY } })
-    setDistricts(MOCK_DISTRICTS)
+    api.get('/districts', { params: { city: MVP_CITY } })
+      .then((data) => setDistricts(data))
+      .catch(() => setError('加载失败，请刷新重试'))
+      .finally(() => setLoading(false))
   }, [])
 
-  // 搜索和筛选
   const filtered = districts.filter((d) => {
     const matchSearch = d.name.includes(search)
     const matchFilter = filter === 'all' || d.foot_traffic_level === filter
@@ -36,10 +29,8 @@ export default function DistrictList() {
     <div>
       <Navbar />
       <div className="max-w-6xl mx-auto px-4 py-6">
-        {/* 城市标题 */}
         <h1 className="text-2xl font-bold mb-4">📍 {MVP_CITY} · 商圈列表</h1>
 
-        {/* 搜索框 */}
         <div className="mb-4">
           <input
             type="text"
@@ -50,7 +41,6 @@ export default function DistrictList() {
           />
         </div>
 
-        {/* 筛选标签 */}
         <div className="flex gap-2 mb-6">
           {[
             { key: 'all', label: '全部' },
@@ -72,18 +62,24 @@ export default function DistrictList() {
           ))}
         </div>
 
-        {/* 商圈卡片列表 */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filtered.map((district) => (
-            <DistrictCard key={district.id} district={district} />
-          ))}
-        </div>
+        {loading && (
+          <div className="text-center py-12 text-text-sub">加载中...</div>
+        )}
 
-        {/* 空状态 */}
-        {filtered.length === 0 && (
-          <div className="text-center py-12 text-text-sub">
-            没有找到匹配的商圈
+        {error && (
+          <div className="text-center py-12 text-red-500">{error}</div>
+        )}
+
+        {!loading && !error && (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {filtered.map((district) => (
+              <DistrictCard key={district.id} district={district} />
+            ))}
           </div>
+        )}
+
+        {!loading && !error && filtered.length === 0 && (
+          <div className="text-center py-12 text-text-sub">没有找到匹配的商圈</div>
         )}
       </div>
       <Footer />
