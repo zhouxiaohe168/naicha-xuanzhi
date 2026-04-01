@@ -14,9 +14,12 @@ api.interceptors.request.use((config) => {
   if (token) {
     config.headers.Authorization = `Bearer ${token}`
   }
-  // 生产直连后端时确保路径末尾有斜杠（Railway Nginx 要求）
-  if (BASE_URL.startsWith('http') && config.url && !config.url.endsWith('/') && !config.url.includes('?')) {
-    config.url = config.url + '/'
+  // 生产直连后端：末尾不是数字ID的路径加斜杠（FastAPI 要求），带ID的路径不加
+  if (BASE_URL.startsWith('http') && config.url) {
+    const [path, query] = config.url.split('?')
+    if (!path.endsWith('/') && !/\/\d+$/.test(path)) {
+      config.url = path + '/' + (query ? '?' + query : '')
+    }
   }
   return config
 })
