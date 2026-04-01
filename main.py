@@ -49,12 +49,19 @@ async def lifespan(app: FastAPI):
 
 
 # 初始化应用
-app = FastAPI(title=PROJECT_NAME, version=VERSION, lifespan=lifespan)
+app = FastAPI(title=PROJECT_NAME, version=VERSION, lifespan=lifespan, redirect_slashes=False)
 
 # 跨域配置
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=[
+        "http://localhost:3000",
+        "http://localhost:5173",
+        "https://naichaxuanzhi.com",
+        "https://www.naichaxuanzhi.com",
+        "https://client-five-flame-97.vercel.app",
+        "https://*.vercel.app",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
