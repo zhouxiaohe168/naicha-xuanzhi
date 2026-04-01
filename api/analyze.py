@@ -4,10 +4,13 @@
 """
 import asyncio
 import httpx
+import logging
 from fastapi import APIRouter
 from pydantic import BaseModel
 from typing import List
 from config.settings import AMAP_KEY
+
+logger = logging.getLogger(__name__)
 
 router = APIRouter()
 
@@ -34,33 +37,34 @@ async def geocode(client: httpx.AsyncClient, address: str, city: str) -> tuple[f
             "city": city,
         }, timeout=10)
         data = r.json()
+        logger.info(f"[GEOCODE] address={address} city={city} status={data.get('status')} info={data.get('info')} count={data.get('count')}")
         if data.get("status") == "1" and data.get("geocodes"):
             loc = data["geocodes"][0]["location"]
             lng, lat = loc.split(",")
             return float(lng), float(lat)
-    except Exception:
-        pass
+    except Exception as e:
+        logger.error(f"[GEOCODE ERROR] address={address} error={e}")
     return None
 
 
 async def count_brand(client: httpx.AsyncClient, brand: str, location: str, radius: int, city: str) -> int:
     """查询某品牌在 location 周边 radius 米内的门店数"""
-    # 先尝试周边搜索（精确）
     try:
         r = await client.get(AMAP_AROUND_URL, params={
             "key": AMAP_KEY,
             "keywords": brand,
             "location": location,
             "radius": radius,
-            "offset": 1,      # 只需 count，取1条省流量
+            "offset": 1,
             "page": 1,
             "extensions": "base",
         }, timeout=10)
         data = r.json()
+        logger.info(f"[AROUND] brand={brand} status={data.get('status')} info={data.get('info')} count={data.get('count')}")
         if data.get("status") == "1":
             return int(data.get("count", 0))
-    except Exception:
-        pass
+    except Exception as e:
+        logger.error(f"[AROUND ERROR] brand={brand} error={e}")
     return 0
 
 
@@ -77,10 +81,11 @@ async def count_brand_text(client: httpx.AsyncClient, brand: str, city: str, dis
             "page": 1,
         }, timeout=10)
         data = r.json()
+        logger.info(f"[TEXT] brand={brand} city={city} status={data.get('status')} info={data.get('info')} count={data.get('count')}")
         if data.get("status") == "1":
             return int(data.get("count", 0))
-    except Exception:
-        pass
+    except Exception as e:
+        logger.error(f"[TEXT ERROR] brand={brand} error={e}")
     return 0
 
 
