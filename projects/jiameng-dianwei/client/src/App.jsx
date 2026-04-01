@@ -19,8 +19,8 @@ function App() {
         <Route path="/districts" element={<DistrictList />} />
         {/* 商圈详情 */}
         <Route path="/districts/:id" element={<DistrictDetail />} />
-        {/* AI研判报告 */}
-        <Route path="/reports/:id/ai" element={<AIReport />} />
+        {/* AI研判报告（按商圈ID生成/查看） */}
+        <Route path="/districts/:districtId/ai-report" element={<AIReport />} />
         {/* 我的报告 */}
         <Route path="/my-reports" element={<MyReports />} />
         {/* 个人中心 */}
