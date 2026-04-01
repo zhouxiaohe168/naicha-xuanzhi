@@ -8,6 +8,7 @@ from api.auth import router as auth_router
 from api.districts import router as districts_router
 from api.orders import router as orders_router
 from api.reports import router as reports_router, create_ai_report
+from api.payment import router as payment_router
 from data_collector.seeder import seed_districts
 from data_collector.analyzer import run_full_collection
 
@@ -65,6 +66,7 @@ app.include_router(districts_router, prefix="/api/districts", tags=["商圈"])
 app.include_router(orders_router, prefix="/api/orders", tags=["订单"])
 app.include_router(reports_router, prefix="/api/reports", tags=["报告"])
 app.add_api_route("/api/districts/{district_id}/ai-report", create_ai_report, methods=["POST"], tags=["报告"])
+app.include_router(payment_router, prefix="/api/payment", tags=["支付"])
 
 
 @app.get("/api/health")

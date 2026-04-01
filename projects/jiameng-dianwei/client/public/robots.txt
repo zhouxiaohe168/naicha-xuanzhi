@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /login
+Disallow: /my-reports
+Disallow: /profile
+Disallow: /api/
+
+Sitemap: https://naichaxuanzhi.com/sitemap.xml
