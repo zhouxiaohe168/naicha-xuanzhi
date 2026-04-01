@@ -6,11 +6,15 @@ const api = axios.create({
   timeout: 10000,
 })
 
-// 请求拦截器：自动带上登录token
+// 请求拦截器：自动带 token + 确保URL末尾有斜杠（避免Railway 307重定向）
 api.interceptors.request.use((config) => {
   const token = localStorage.getItem('token')
   if (token) {
     config.headers.Authorization = `Bearer ${token}`
+  }
+  // 确保路径末尾有斜杠（防止代理307重定向）
+  if (config.url && !config.url.endsWith('/') && !config.url.includes('?')) {
+    config.url = config.url + '/'
   }
   return config
 })
