@@ -58,6 +58,8 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",
         "http://localhost:5173",
+        "https://tanpuai.com",
+        "https://www.tanpuai.com",
         "https://naichaxuanzhi.com",
         "https://www.naichaxuanzhi.com",
         "https://client-five-flame-97.vercel.app",
