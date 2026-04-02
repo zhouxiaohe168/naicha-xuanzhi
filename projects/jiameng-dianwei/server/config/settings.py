@@ -42,3 +42,6 @@ PRICE_OPPORTUNITY = 59900  # ¥599 机会解锁
 
 # 前端域名（用于支付回调跳转）
 FRONTEND_URL = os.getenv("FRONTEND_URL", "https://your-frontend.vercel.app")
+
+# MVP城市
+MVP_CITY = os.getenv("MVP_CITY", "杭州")
