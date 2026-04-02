@@ -28,6 +28,10 @@ SMS_ACCESS_KEY_SECRET = os.getenv("SMS_ACCESS_KEY_SECRET", "")
 SMS_SIGN_NAME = os.getenv("SMS_SIGN_NAME", "探铺")
 SMS_TEMPLATE_CODE = os.getenv("SMS_TEMPLATE_CODE", "")
 
+# 微信支付
+WECHAT_MCH_ID = os.getenv("WECHAT_MCH_ID", "")
+WECHAT_API_KEY = os.getenv("WECHAT_API_KEY", "")
+
 # 支付宝（H5支付）
 ALIPAY_APP_ID = os.getenv("ALIPAY_APP_ID", "")
 ALIPAY_PRIVATE_KEY = os.getenv("ALIPAY_PRIVATE_KEY", "")
