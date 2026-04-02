@@ -37,13 +37,13 @@ async def geocode(client: httpx.AsyncClient, address: str, city: str) -> tuple[f
             "city": city,
         }, timeout=10)
         data = r.json()
-        logger.info(f"[GEOCODE] address={address} city={city} status={data.get('status')} info={data.get('info')} count={data.get('count')}")
+        print(f"[GEOCODE] address={address} city={city} status={data.get('status')} info={data.get('info')} count={data.get('count')}", flush=True)
         if data.get("status") == "1" and data.get("geocodes"):
             loc = data["geocodes"][0]["location"]
             lng, lat = loc.split(",")
             return float(lng), float(lat)
     except Exception as e:
-        logger.error(f"[GEOCODE ERROR] address={address} error={e}")
+        print(f"[GEOCODE ERROR] address={address} error={e}", flush=True)
     return None
 
 
@@ -60,11 +60,11 @@ async def count_brand(client: httpx.AsyncClient, brand: str, location: str, radi
             "extensions": "base",
         }, timeout=10)
         data = r.json()
-        logger.info(f"[AROUND] brand={brand} status={data.get('status')} info={data.get('info')} count={data.get('count')}")
+        print(f"[AROUND] brand={brand} status={data.get('status')} info={data.get('info')} count={data.get('count')}", flush=True)
         if data.get("status") == "1":
             return int(data.get("count", 0))
     except Exception as e:
-        logger.error(f"[AROUND ERROR] brand={brand} error={e}")
+        print(f"[AROUND ERROR] brand={brand} error={e}", flush=True)
     return 0
 
 
@@ -81,11 +81,11 @@ async def count_brand_text(client: httpx.AsyncClient, brand: str, city: str, dis
             "page": 1,
         }, timeout=10)
         data = r.json()
-        logger.info(f"[TEXT] brand={brand} city={city} status={data.get('status')} info={data.get('info')} count={data.get('count')}")
+        print(f"[TEXT] brand={brand} city={city} status={data.get('status')} info={data.get('info')} count={data.get('count')}", flush=True)
         if data.get("status") == "1":
             return int(data.get("count", 0))
     except Exception as e:
-        logger.error(f"[TEXT ERROR] brand={brand} error={e}")
+        print(f"[TEXT ERROR] brand={brand} error={e}", flush=True)
     return 0
 
 
