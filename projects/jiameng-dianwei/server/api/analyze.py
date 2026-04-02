@@ -92,32 +92,20 @@ async def count_brand_text(client: httpx.AsyncClient, brand: str, city: str, dis
 @router.post("/")
 async def analyze(req: AnalyzeRequest):
     """
-    查询锚点品牌 + 目标品牌在街道周边的密度
+    查询锚点品牌 + 目标品牌在指定街道行政区域内的门店总数
+    使用文本搜索覆盖整个街道，而非半径圆圈
     """
     async with httpx.AsyncClient() as client:
-        # 1. 地理编码：街道 + 城市
-        address = f"{req.street}"
-        coord = await geocode(client, address, req.city)
+        # 1. 并发文本搜索：按街道行政区域统计（数据最完整）
+        all_brands = req.anchors + [req.brand]
+        tasks = [
+            count_brand_text(client, brand, req.city, req.street)
+            for brand in all_brands
+        ]
+        counts = await asyncio.gather(*tasks)
 
-        if coord:
-            lng, lat = coord
-            location = f"{lng},{lat}"
-
-            # 2. 并发查询所有品牌
-            all_brands = req.anchors + [req.brand]
-            tasks = [
-                count_brand(client, brand, location, req.radius, req.city)
-                for brand in all_brands
-            ]
-            counts = await asyncio.gather(*tasks)
-        else:
-            # geocode 失败 → 改用文本搜索（只能按城市+区）
-            all_brands = req.anchors + [req.brand]
-            tasks = [
-                count_brand_text(client, brand, req.city, req.district)
-                for brand in all_brands
-            ]
-            counts = await asyncio.gather(*tasks)
+        # 2. 地理编码：仅用于前端地图定位展示
+        coord = await geocode(client, req.street, req.city)
 
     # 3. 整理结果
     anchor_results = [
@@ -127,17 +115,36 @@ async def analyze(req: AnalyzeRequest):
     target_count = counts[len(req.anchors)] if len(counts) > len(req.anchors) else 0
 
     total_anchors = sum(r["count"] for r in anchor_results)
-    # 空白分：锚点总数高、目标少 → 分数高
-    anchor_score = min(total_anchors / max(len(req.anchors), 1) * 2, 10)  # 均值*2，max 10
-    gap_bonus    = 3 if target_count == 0 else max(0, 3 - target_count)
-    gap_score    = round(min(anchor_score + gap_bonus, 10), 1)
+
+    # 空白机会评分（0-10）：锚点多说明客流旺，目标品牌少说明空白大
+    anchor_avg = total_anchors / max(len(req.anchors), 1)
+    if anchor_avg == 0:
+        anchor_score = 0.0
+    elif anchor_avg <= 3:
+        anchor_score = 3.0
+    elif anchor_avg <= 8:
+        anchor_score = 5.0
+    elif anchor_avg <= 15:
+        anchor_score = 7.0
+    else:
+        anchor_score = 9.0
+
+    if target_count == 0:
+        gap_bonus = 1.0
+    elif target_count <= 2:
+        gap_bonus = 0.5
+    elif target_count <= 5:
+        gap_bonus = 0.0
+    else:
+        gap_bonus = -1.0
+
+    gap_score = round(min(max(anchor_score + gap_bonus, 0), 10), 1)
 
     return {
         "location": {
             "city": req.city,
             "district": req.district,
             "street": req.street,
-            "radius": req.radius,
             "geocoded": coord is not None,
         },
         "brand": req.brand,
