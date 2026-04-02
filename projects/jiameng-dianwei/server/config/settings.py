@@ -4,8 +4,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # 项目信息
-PROJECT_NAME = "奶茶选址通"
-VERSION = "1.0.0"
+PROJECT_NAME = "探铺"
+VERSION = "2.0.0"
 
 # 数据库
 DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://postgres:postgres@localhost:5432/naicha_xuanzhi")
@@ -20,26 +20,25 @@ AMAP_KEY = os.getenv("AMAP_KEY", "")
 
 # OpenRouter API（AI研判用）
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
-# 使用的模型，可按需更换
 OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL", "anthropic/claude-3-haiku")
 
 # 短信服务（阿里云）
 SMS_ACCESS_KEY_ID = os.getenv("SMS_ACCESS_KEY_ID", "")
 SMS_ACCESS_KEY_SECRET = os.getenv("SMS_ACCESS_KEY_SECRET", "")
-SMS_SIGN_NAME = os.getenv("SMS_SIGN_NAME", "奶茶选址通")
+SMS_SIGN_NAME = os.getenv("SMS_SIGN_NAME", "探铺")
 SMS_TEMPLATE_CODE = os.getenv("SMS_TEMPLATE_CODE", "")
 
-# 微信支付
-WECHAT_MCH_ID = os.getenv("WECHAT_MCH_ID", "")
-WECHAT_API_KEY = os.getenv("WECHAT_API_KEY", "")
-
-# 支付宝
+# 支付宝（H5支付）
 ALIPAY_APP_ID = os.getenv("ALIPAY_APP_ID", "")
 ALIPAY_PRIVATE_KEY = os.getenv("ALIPAY_PRIVATE_KEY", "")
+ALIPAY_PUBLIC_KEY = os.getenv("ALIPAY_PUBLIC_KEY", "")
+ALIPAY_NOTIFY_URL = os.getenv("ALIPAY_NOTIFY_URL", "https://your-backend.railway.app/api/payment/alipay/notify")
+ALIPAY_RETURN_URL = os.getenv("ALIPAY_RETURN_URL", "https://your-frontend.vercel.app/report")
 
-# 定价
-PRICE_BASIC = 9.9
-PRICE_AI = 59.9
+# 探铺定价（分为单位，对应人民币元×100）
+PRICE_BASIC = 5900       # ¥59 位置信息包
+PRICE_AI = 29900         # ¥299 AI深度报告
+PRICE_OPPORTUNITY = 59900  # ¥599 机会解锁
 
-# MVP城市
-MVP_CITY = "金华市"
+# 前端域名（用于支付回调跳转）
+FRONTEND_URL = os.getenv("FRONTEND_URL", "https://your-frontend.vercel.app")
