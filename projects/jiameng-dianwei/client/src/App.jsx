@@ -1,19 +1,23 @@
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
-import Login from './pages/Login'
-import Results from './pages/Results'
-import MyReports from './pages/MyReports'
-import Profile from './pages/Profile'
+import Wizard from './pages/Wizard'
+import Report from './pages/Report'
+import Market from './pages/Market'
+import Opportunity from './pages/Opportunity'
+import SampleReport from './pages/SampleReport'
+import Checkout from './pages/Checkout'
 
 function App() {
   return (
-    <div className="min-h-screen bg-bg-warm">
+    <div className="min-h-screen bg-navy">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/results" element={<Results />} />
-        <Route path="/my-reports" element={<MyReports />} />
-        <Route path="/profile" element={<Profile />} />
+        <Route path="/wizard" element={<Wizard />} />
+        <Route path="/report" element={<Report />} />
+        <Route path="/market" element={<Market />} />
+        <Route path="/opportunity/:id" element={<Opportunity />} />
+        <Route path="/sample" element={<SampleReport />} />
+        <Route path="/checkout" element={<Checkout />} />
       </Routes>
     </div>
   )

@@ -2,14 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 全局基础样式 */
 body {
   font-family: 'PingFang SC', 'Microsoft YaHei', -apple-system, sans-serif;
-  background-color: #FFF8F0;
-  color: #1A1A1A;
+  background-color: #0a0f1e;
+  color: #f1f5f9;
 }
 
-/* 价格数字专用字体 */
-.font-price {
-  font-family: 'DIN Alternate', 'Roboto', 'PingFang SC', sans-serif;
+/* 卡片通用 */
+.card {
+  background: #111827;
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+}
+
+/* 按钮通用 */
+.btn-primary {
+  background: #6366f1;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.btn-primary:hover {
+  background: #4f46e5;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #1e293b;
+  color: #f1f5f9;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: border-color 0.2s;
+}
+.btn-outline:hover {
+  border-color: #6366f1;
 }
