@@ -26,13 +26,55 @@ LOW_END_ANCHOR = "蜜雪冰城"
 
 
 class WizardRequest(BaseModel):
-    brand: str      # 目标品牌，如 "蜜雪冰城"
-    city: str       # 城市，如 "杭州"
+    brand: str                  # 目标品牌，如 "蜜雪冰城"
+    city: str                   # 城市，如 "杭州"
+    location: str = ""          # 可选：镇/街道/具体地点，如 "泉溪镇"、"市政府附近"
     report_type: str = "basic"  # basic | ai
+
+# 镇级分析搜索半径（米）
+TOWN_RADIUS = 3000
+
+
+async def geocode_location(client: httpx.AsyncClient, city: str, location: str) -> str | None:
+    """将「城市 + 地点」转为高德坐标，用于镇级周边搜索"""
+    address = f"{city}{location}"
+    try:
+        r = await client.get(AMAP_GEO_URL, params={
+            "key": AMAP_KEY,
+            "address": address,
+            "city": city,
+        }, timeout=10)
+        data = r.json()
+        if data.get("status") == "1" and data.get("geocodes"):
+            loc = data["geocodes"][0]["location"]
+            print(f"[WIZARD] geocode '{address}' → {loc}")
+            return loc
+    except Exception as e:
+        print(f"[WIZARD] geocode error '{address}': {e}")
+    return None
+
+
+async def search_brand_around(client: httpx.AsyncClient, brand: str, location: str, radius: int) -> dict:
+    """高德周边搜索：以坐标为中心、指定半径内搜索品牌门店数"""
+    try:
+        r = await client.get(AMAP_AROUND_URL, params={
+            "key": AMAP_KEY,
+            "keywords": brand,
+            "location": location,
+            "radius": radius,
+            "offset": 1,
+            "page": 1,
+        }, timeout=10)
+        data = r.json()
+        count = int(data.get("count", 0)) if data.get("status") == "1" else 0
+        return {"brand": brand, "count": count}
+    except Exception as e:
+        print(f"[WIZARD] around search error brand={brand}: {e}")
+        return {"brand": brand, "count": 0}
 
 
 async def search_brand_in_city(client: httpx.AsyncClient, brand: str, city: str) -> dict:
-    """高德文本搜索，返回品牌在该城市的门店数量"""
+    """高德文本搜索，返回品牌在该城市的门店数量（城市级）"""
     try:
         r = await client.get(AMAP_TEXT_URL, params={
             "key": AMAP_KEY,
@@ -123,23 +165,27 @@ def calc_score(brand_count: int, competitor_total: int, high_end: int, low_end: 
 
 async def generate_ai_analysis(brand: str, city: str, score: int, grade: str,
                                 brand_count: int, competitor_total: int,
-                                consumption_idx: int, ecosystem: list) -> str:
+                                consumption_idx: int, ecosystem: list,
+                                location: str = "") -> str:
     """调用OpenRouter生成AI研判文字"""
+    scope = f"{city}{location}" if location else city
     if not OPENROUTER_API_KEY:
-        return f"AI研判：{city}市场对{brand}的综合评估为{grade}级（{score}分）。当前{brand}已有{brand_count}家门店，总体竞争环境{competitor_total}家竞品，市场格局{'较为成熟' if brand_count > 20 else '仍有空间'}。建议重点关注竞品较少的新兴商圈和高人流区域。"
+        return f"AI研判：{scope}市场对{brand}的综合评估为{grade}级（{score}分）。当前{scope}范围内{brand}已有{brand_count}家门店，竞品{competitor_total}家，市场格局{'较为成熟' if brand_count > 20 else '仍有空间'}。建议重点关注竞品较少的新兴商圈和高人流区域。"
+
+    location_context = f"分析范围：{city}{location}（镇/街道级精准分析，半径3公里）" if location else f"分析范围：{city}全市"
 
     prompt = f"""你是一名专业的奶茶加盟选址分析师。请根据以下数据，为投资者生成一段简洁、专业的选址研判意见（200字以内，中文）：
 
 品牌：{brand}
-城市：{city}
+{location_context}
 综合评级：{grade}（{score}/100分）
-{brand}在该城市门店数：{brand_count}家
+{brand}在该范围门店数：{brand_count}家
 主要竞品总数：{competitor_total}家
 消费力指数：{consumption_idx}/100
 活跃伴生品牌：{', '.join(ecosystem[:4]) if ecosystem else '暂无数据'}
 
 要求：
-1. 指出该城市对该品牌的整体机会大小
+1. 指出该范围对该品牌的整体机会大小
 2. 提示主要风险点
 3. 给出1个最重要的选址建议
 4. 结尾加上免责提醒（一句话）
@@ -168,16 +214,31 @@ async def generate_ai_analysis(brand: str, city: str, score: int, grade: str,
 async def wizard_report(req: WizardRequest):
     """
     品牌研判主接口
+    - 有 location：先地理编码，再用周边搜索（镇级精度，3km半径）
+    - 无 location：城市级文本搜索（原有逻辑）
     - basic: 高德数据 + 评分
     - ai: 额外调用OpenRouter生成研判文字
     """
-    async with httpx.AsyncClient() as client:
-        # 并发查询：目标品牌 + 高端锚点 + 低端锚点 + 部分伴生品牌
-        ecosystem_to_check = [b for b in ECOSYSTEM_BRANDS if b != req.brand][:5]
-        brands_to_search = [req.brand, HIGH_END_ANCHOR, LOW_END_ANCHOR] + ecosystem_to_check
+    ecosystem_to_check = [b for b in ECOSYSTEM_BRANDS if b != req.brand][:5]
+    brands_to_search = [req.brand, HIGH_END_ANCHOR, LOW_END_ANCHOR] + ecosystem_to_check
 
-        tasks = [search_brand_in_city(client, brand, req.city) for brand in brands_to_search]
-        results = await asyncio.gather(*tasks)
+    async with httpx.AsyncClient() as client:
+        if req.location.strip():
+            # 镇级精准模式：地理编码 → 周边搜索
+            center = await geocode_location(client, req.city, req.location)
+            if center:
+                tasks = [search_brand_around(client, brand, center, TOWN_RADIUS) for brand in brands_to_search]
+                results = await asyncio.gather(*tasks)
+                print(f"[WIZARD] 镇级模式: {req.city}{req.location} center={center}")
+            else:
+                # 编码失败，降级为城市级
+                print(f"[WIZARD] 地理编码失败，降级为城市级查询")
+                tasks = [search_brand_in_city(client, brand, req.city) for brand in brands_to_search]
+                results = await asyncio.gather(*tasks)
+        else:
+            # 城市级模式：原有逻辑
+            tasks = [search_brand_in_city(client, brand, req.city) for brand in brands_to_search]
+            results = await asyncio.gather(*tasks)
 
     # 解析结果
     brand_data = {r["brand"]: r["count"] for r in results}
@@ -218,6 +279,8 @@ async def wizard_report(req: WizardRequest):
     report = {
         "brand": req.brand,
         "city": req.city,
+        "location": req.location or None,
+        "analysis_scope": f"{req.city}{req.location}" if req.location else req.city,
         "report_type": req.report_type,
         "grade": grade,
         "score": score,
@@ -237,7 +300,8 @@ async def wizard_report(req: WizardRequest):
     if req.report_type == "ai":
         ai_text = await generate_ai_analysis(
             req.brand, req.city, score, grade,
-            brand_count, competitor_total, consumption_idx, ecosystem_present
+            brand_count, competitor_total, consumption_idx, ecosystem_present,
+            location=req.location
         )
         report["ai_analysis"] = ai_text
 
