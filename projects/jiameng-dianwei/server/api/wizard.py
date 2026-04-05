@@ -32,11 +32,21 @@ class WizardRequest(BaseModel):
     report_type: str = "basic"  # basic | ai
 
 # 镇级分析搜索半径（米）
-TOWN_RADIUS = 3000
+TOWN_RADIUS = 5000
 
 
-async def geocode_location(client: httpx.AsyncClient, city: str, location: str) -> str | None:
-    """将「城市 + 地点」转为高德坐标，用于镇级周边搜索"""
+def haversine_distance(lng1: float, lat1: float, lng2: float, lat2: float) -> float:
+    """计算两点间距离（米），Haversine公式"""
+    R = 6371000
+    phi1, phi2 = math.radians(lat1), math.radians(lat2)
+    dphi = math.radians(lat2 - lat1)
+    dlambda = math.radians(lng2 - lng1)
+    a = math.sin(dphi / 2) ** 2 + math.cos(phi1) * math.cos(phi2) * math.sin(dlambda / 2) ** 2
+    return 2 * R * math.asin(math.sqrt(a))
+
+
+async def geocode_location(client: httpx.AsyncClient, city: str, location: str) -> tuple[float, float] | None:
+    """将「城市 + 地点」转为 (lng, lat)，返回 None 表示失败"""
     address = f"{city}{location}"
     try:
         r = await client.get(AMAP_GEO_URL, params={
@@ -47,29 +57,54 @@ async def geocode_location(client: httpx.AsyncClient, city: str, location: str) 
         data = r.json()
         if data.get("status") == "1" and data.get("geocodes"):
             loc = data["geocodes"][0]["location"]
-            print(f"[WIZARD] geocode '{address}' → {loc}")
-            return loc
+            lng, lat = map(float, loc.split(","))
+            print(f"[WIZARD] geocode '{address}' → {lng},{lat}")
+            return lng, lat
     except Exception as e:
         print(f"[WIZARD] geocode error '{address}': {e}")
     return None
 
 
-async def search_brand_around(client: httpx.AsyncClient, brand: str, location: str, radius: int) -> dict:
-    """高德周边搜索：以坐标为中心、指定半径内搜索品牌门店数"""
+async def search_brand_in_location(
+    client: httpx.AsyncClient,
+    brand: str,
+    city: str,
+    center_lng: float,
+    center_lat: float,
+    radius_m: int,
+) -> dict:
+    """
+    文本搜索全城门店 + 本地 Haversine 距离过滤（镇级精准模式）。
+    避免 place/around API 在部分服务器环境下不稳定的问题。
+    适用于单品牌门店数 ≤ 25 的中小城市/县城。
+    """
     try:
-        r = await client.get(AMAP_AROUND_URL, params={
+        r = await client.get(AMAP_TEXT_URL, params={
             "key": AMAP_KEY,
             "keywords": brand,
-            "location": location,
-            "radius": radius,
-            "offset": 1,
+            "city": city,
+            "citylimit": "true",
+            "offset": 25,
             "page": 1,
         }, timeout=10)
         data = r.json()
-        count = int(data.get("count", 0)) if data.get("status") == "1" else 0
+        if data.get("status") != "1":
+            return {"brand": brand, "count": 0}
+
+        count = 0
+        for poi in data.get("pois", []):
+            loc_str = poi.get("location", "")
+            if not loc_str:
+                continue
+            try:
+                lng, lat = map(float, loc_str.split(","))
+                if haversine_distance(center_lng, center_lat, lng, lat) <= radius_m:
+                    count += 1
+            except Exception:
+                pass
         return {"brand": brand, "count": count}
     except Exception as e:
-        print(f"[WIZARD] around search error brand={brand}: {e}")
+        print(f"[WIZARD] location search error brand={brand}: {e}")
         return {"brand": brand, "count": 0}
 
 
@@ -224,12 +259,16 @@ async def wizard_report(req: WizardRequest):
 
     async with httpx.AsyncClient() as client:
         if req.location.strip():
-            # 镇级精准模式：地理编码 → 周边搜索
-            center = await geocode_location(client, req.city, req.location)
-            if center:
-                tasks = [search_brand_around(client, brand, center, TOWN_RADIUS) for brand in brands_to_search]
+            # 镇级精准模式：地理编码 → 文本搜索全城 + 本地距离过滤
+            coords = await geocode_location(client, req.city, req.location)
+            if coords:
+                center_lng, center_lat = coords
+                print(f"[WIZARD] 镇级模式: {req.city}{req.location} → {center_lng},{center_lat} 半径{TOWN_RADIUS}m")
+                tasks = [
+                    search_brand_in_location(client, brand, req.city, center_lng, center_lat, TOWN_RADIUS)
+                    for brand in brands_to_search
+                ]
                 results = await asyncio.gather(*tasks)
-                print(f"[WIZARD] 镇级模式: {req.city}{req.location} center={center}")
             else:
                 # 编码失败，降级为城市级
                 print(f"[WIZARD] 地理编码失败，降级为城市级查询")
